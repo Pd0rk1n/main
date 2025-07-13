@@ -1,0 +1,22 @@
+2025/04/28-20:36:39.621 2f88f Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/28-20:36:39.621 2f88f Recovering log #4
+2025/04/28-20:36:39.628 2f88f Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/000004.log 
+2025/04/28-20:37:04.573 2f890 Level-0 table #8: started
+2025/04/28-20:37:04.591 2f890 Level-0 table #8: 3330681 bytes OK
+2025/04/28-20:37:04.593 2f890 Delete type=0 #4
+2025/04/28-20:37:15.179 2f88f Compacting 1@1 + 1@2 files
+2025/04/28-20:37:15.195 2f88f Generated table #9@1: 37 keys, 56947 bytes
+2025/04/28-20:37:15.195 2f88f Compacted 1@1 + 1@2 files => 56947 bytes
+2025/04/28-20:37:15.197 2f88f compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/28-20:37:15.197 2f88f Delete type=2 #8
+2025/04/28-20:37:15.197 2f88f Delete type=2 #5
+2025/04/28-20:37:26.307 2f890 Level-0 table #11: started
+2025/04/28-20:37:26.365 2f890 Level-0 table #11: 2966374 bytes OK
+2025/04/28-20:37:26.433 2f890 Delete type=0 #7
+2025/04/28-20:37:54.384 2f891 Level-0 table #13: started
+2025/04/28-20:37:54.400 2f891 Level-0 table #13: 3985782 bytes OK
+2025/04/28-20:37:54.403 2f891 Delete type=0 #10
+2025/04/28-20:38:44.298 2f890 Compacting 1@0 + 1@1 files
+2025/04/28-20:38:44.309 2f890 Generated table #14@0: 394 keys, 125130 bytes
+2025/04/28-20:38:44.309 2f890 Compacted 1@0 + 1@1 files => 125130 bytes
+2025/04/28-20:38:44.310 2f890 compacted to: files[ 0 1 1 0 0 0 0 ]

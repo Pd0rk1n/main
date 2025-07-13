@@ -1,0 +1,5 @@
+2025/04/28-20:35:10.632 2f890 Creating DB /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb since it was missing.
+2025/04/28-20:35:10.636 2f890 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/28-20:35:59.681 2f890 Level-0 table #5: started
+2025/04/28-20:35:59.707 2f890 Level-0 table #5: 2935252 bytes OK
+2025/04/28-20:35:59.709 2f890 Delete type=0 #3

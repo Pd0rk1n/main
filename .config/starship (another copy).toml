@@ -1,0 +1,92 @@
+# ~/.config/starship.toml
+# Dracula-themed Starship Prompt for Fish with cursor below the prompt line
+
+add_newline = true  # Adds a blank line between commands
+
+format = """
+[](#282a36)\
+$os\
+$username\
+[](bg:#44475a fg:#282a36)\
+$hostname\
+[](fg:#44475a bg:#6272a4)\
+$directory\
+[](fg:#6272a4 bg:#8be9fd)\
+$git_branch\
+$git_status\
+[](fg:#8be9fd bg:#50fa7b)\
+$nodejs\
+$python\
+$rust\
+[](fg:#50fa7b bg:#bd93f9)\
+$cmd_duration\
+[](fg:#bd93f9)\
+$character
+"""
+
+# OS Icon
+[os]
+format = "[ ](bg:#282a36 fg:#bd93f9)"
+disabled = false
+
+# Username
+[username]
+style_user = "bg:#282a36 fg:#f8f8f2"
+style_root = "bg:#282a36 fg:#ff5555"
+format = "[ $user ]($style)"
+show_always = true
+
+# Hostname
+[hostname]
+ssh_only = false
+format = "[ $hostname ]($style)"
+style = "bg:#44475a fg:#f8f8f2"
+
+# Directory
+[directory]
+style = "bg:#6272a4 fg:#f8f8f2"
+read_only = " "
+read_only_style = "fg:#ff5555"
+format = "[ $path ]($style)"
+
+# Git Branch
+[git_branch]
+symbol = ""
+format = "[ $symbol $branch ]($style)"
+style = "bg:#8be9fd fg:#282a36"
+
+# Git Status
+[git_status]
+style = "bg:#8be9fd fg:#282a36"
+format = "[ $all_status$ahead_behind ]($style)"
+
+# Node.js
+[nodejs]
+symbol = ""
+style = "bg:#50fa7b fg:#282a36"
+format = "[ $symbol $version ]($style)"
+
+# Python
+[python]
+symbol = ""
+style = "bg:#50fa7b fg:#282a36"
+format = "[ $symbol $version ]($style)"
+
+# Rust
+[rust]
+symbol = ""
+style = "bg:#50fa7b fg:#282a36"
+format = "[ $symbol $version ]($style)"
+
+# Command Duration
+[cmd_duration]
+min_time = 500
+style = "bg:#bd93f9 fg:#282a36"
+format = "[  $duration ]($style)"
+
+# Prompt Character (appears on next line)
+[character]
+success_symbol = "[\\n❯](fg:#50fa7b)"
+error_symbol = "[\\n❯](fg:#ff5555)"
+vicmd_symbol = "[\\n❮](fg:#f1fa8c)"
+

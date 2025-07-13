@@ -1,0 +1,19 @@
+[Unit]
+Description=Restart tray apps on resume
+After=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash -c '
+killall nm-applet volumeicon blueman-applet pamac-tray ulauncher variety 2>/dev/null || true
+sleep 2
+nm-applet &
+volumeicon &
+blueman-applet &
+pamac-tray &
+ulauncher --no-window &
+variety &
+'
+
+[Install]
+WantedBy=suspend.target

@@ -1,0 +1,13 @@
+2024/08/02-20:34:26.425 388b Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/MANIFEST-000001
+2024/08/02-20:34:26.425 388b Recovering log #361
+2024/08/02-20:34:26.458 388b Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bgnkhhnnamicmpeenaelnjfhikgbkllg/000361.log 
+2024/08/02-20:34:31.209 3887 Level-0 table #368: started
+2024/08/02-20:34:31.236 3887 Level-0 table #368: 1704285 bytes OK
+2024/08/02-20:34:31.238 3887 Delete type=0 #361
+2024/08/02-20:34:31.411 3887 Level-0 table #370: started
+2024/08/02-20:34:31.421 3886 Current memtable full; waiting...
+2024/08/02-20:34:31.439 3887 Level-0 table #370: 2564598 bytes OK
+2024/08/02-20:34:31.441 3887 Delete type=0 #367
+2024/08/02-20:34:31.442 3887 Level-0 table #372: started
+2024/08/02-20:34:31.469 3887 Level-0 table #372: 2576536 bytes OK
+2024/08/02-20:34:31.472 3887 Delete type=0 #369

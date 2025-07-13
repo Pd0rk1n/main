@@ -1,0 +1,42 @@
+2025/07/12-13:12:47.431 3e3b1 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2025/07/12-13:12:47.438 3e3b1 Recovering log #2353
+2025/07/12-13:12:47.449 3e3b1 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002353.log 
+2025/07/12-13:36:13.323 3e3a4 Level-0 table #2358: started
+2025/07/12-13:36:13.333 3e3a4 Level-0 table #2358: 504462 bytes OK
+2025/07/12-13:36:13.336 3e3a4 Delete type=0 #2353
+2025/07/12-13:48:48.541 3e3a4 Compacting 1@1 + 1@2 files
+2025/07/12-13:48:48.548 3e3a4 Generated table #2359@1: 14 keys, 130303 bytes
+2025/07/12-13:48:48.548 3e3a4 Compacted 1@1 + 1@2 files => 130303 bytes
+2025/07/12-13:48:48.550 3e3a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/12-13:48:48.550 3e3a4 Delete type=2 #2358
+2025/07/12-13:48:48.550 3e3a4 Delete type=2 #2355
+2025/07/12-13:49:18.546 3e3a4 Level-0 table #2361: started
+2025/07/12-13:49:18.556 3e3a4 Level-0 table #2361: 495807 bytes OK
+2025/07/12-13:49:18.558 3e3a4 Delete type=0 #2357
+2025/07/12-14:03:49.418 3e3a4 Compacting 1@1 + 1@2 files
+2025/07/12-14:03:49.425 3e3a4 Generated table #2362@1: 17 keys, 132879 bytes
+2025/07/12-14:03:49.425 3e3a4 Compacted 1@1 + 1@2 files => 132879 bytes
+2025/07/12-14:03:49.427 3e3a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/12-14:03:49.428 3e3a4 Delete type=2 #2361
+2025/07/12-14:03:49.428 3e3a4 Delete type=2 #2359
+2025/07/12-14:33:50.206 3e3a3 Level-0 table #2364: started
+2025/07/12-14:33:50.218 3e3a3 Level-0 table #2364: 491576 bytes OK
+2025/07/12-14:33:50.221 3e3a3 Delete type=0 #2360
+2025/07/12-14:39:50.303 3e3a4 Level-0 table #2366: started
+2025/07/12-14:39:50.313 3e3a4 Level-0 table #2366: 487562 bytes OK
+2025/07/12-14:39:50.315 3e3a4 Delete type=0 #2363
+2025/07/12-14:48:50.439 3e3a4 Compacting 1@0 + 1@1 files
+2025/07/12-14:48:50.447 3e3a4 Generated table #2367@0: 17 keys, 128834 bytes
+2025/07/12-14:48:50.447 3e3a4 Compacted 1@0 + 1@1 files => 128834 bytes
+2025/07/12-14:48:50.449 3e3a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/12-14:48:50.449 3e3a4 Delete type=2 #2364
+2025/07/12-14:48:50.449 3e3a4 Delete type=2 #2366
+2025/07/12-15:02:50.820 3e3a3 Level-0 table #2369: started
+2025/07/12-15:02:50.830 3e3a3 Level-0 table #2369: 490964 bytes OK
+2025/07/12-15:02:50.832 3e3a3 Delete type=0 #2365
+2025/07/12-15:21:50.991 3e3a4 Compacting 1@0 + 1@1 files
+2025/07/12-15:21:51.001 3e3a4 Generated table #2370@0: 20 keys, 129110 bytes
+2025/07/12-15:21:51.001 3e3a4 Compacted 1@0 + 1@1 files => 129110 bytes
+2025/07/12-15:21:51.003 3e3a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/12-15:21:51.004 3e3a4 Delete type=2 #2369
+2025/07/12-15:21:51.004 3e3a4 Delete type=2 #2367

@@ -1,0 +1,1022 @@
+{
+   "checksum": "ae55fb801204a017e1abb990580a6778",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13396815269340817",
+            "date_last_used": "13396815304617609",
+            "guid": "183bfd2d-a6c1-46bc-be3e-bede6763ce97",
+            "id": "174",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Amazon.ca: Low Prices – Fast Shipping – Millions of Items",
+            "type": "url",
+            "url": "https://www.amazon.ca/?ref_=nav_custrec_signin"
+         }, {
+            "date_added": "13315300304935255",
+            "date_last_used": "13392273876792188",
+            "guid": "f48a3d55-2ad0-4513-b4ab-c56bc243d79a",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13292981030609810",
+            "date_last_used": "13396790270304854",
+            "guid": "e4e95a5f-2f4a-4db3-b38e-a957872b64a3",
+            "id": "6",
+            "name": "The Official Home of YIFY Movies Torrent Download - YTS",
+            "type": "url",
+            "url": "https://yts.mx/"
+         }, {
+            "date_added": "13387814750857887",
+            "date_last_used": "13393736267457631",
+            "guid": "9da55c8a-1b68-4b2e-a879-3fce14caf905",
+            "id": "111",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YTS TV - The Official Home of YIFY Movies - YTSTV",
+            "type": "url",
+            "url": "https://ytstv-official.site/"
+         }, {
+            "date_added": "13292981071763218",
+            "date_last_used": "13396447397723998",
+            "guid": "862cadd8-4919-4972-8e97-f825044af560",
+            "id": "7",
+            "name": "Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site",
+            "type": "url",
+            "url": "https://thepiratebay.org/index.html"
+         }, {
+            "date_added": "13336931360701629",
+            "date_last_used": "13387814606084056",
+            "guid": "a93e07b4-513b-4de8-9b20-d34d93b08363",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "torlock - Torrents Download | torlock.com Official",
+            "type": "url",
+            "url": "https://ww1.torlock.live/"
+         }, {
+            "date_added": "13302567170741359",
+            "date_last_used": "13380222347818428",
+            "guid": "13d75289-f2c8-4e6e-8dad-b1e6d5f21b37",
+            "id": "9",
+            "name": "Watch Movies Online Free Streaming | TV Show Online HD",
+            "type": "url",
+            "url": "https://www1.freemoviesfull.com/"
+         }, {
+            "date_added": "13392618852484482",
+            "date_last_used": "13396756702174465",
+            "guid": "9644c4b5-c880-4885-a54e-02c2a7772b5f",
+            "id": "145",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Plex",
+            "type": "url",
+            "url": "http://10.0.0.19:32400/web/index.html#!/"
+         }, {
+            "date_added": "13391646116510758",
+            "date_last_used": "13396813970839833",
+            "guid": "6a73ba11-d95b-4233-8167-7117f40da740",
+            "id": "138",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
+         }, {
+            "date_added": "13396702364290060",
+            "date_last_used": "13396702394546684",
+            "guid": "fb12bf8e-e50e-4914-acc0-2a1fefc8bae4",
+            "id": "172",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
+            "type": "url",
+            "url": "https://ca.finance.yahoo.com/?guccounter=1"
+         }, {
+            "date_added": "13391323116135761",
+            "date_last_used": "13396462305217305",
+            "guid": "8c83336d-d531-42dc-93db-c3b4d539b36b",
+            "id": "132",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pd0rk1n",
+            "type": "url",
+            "url": "https://github.com/Pd0rk1n"
+         }, {
+            "date_added": "13389694670419360",
+            "date_last_used": "13396298839628465",
+            "guid": "11a7beba-a78b-4de8-b43b-89e550ece412",
+            "id": "121",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "erikdubois (Erik Dubois) · GitHub",
+            "type": "url",
+            "url": "https://github.com/erikdubois"
+         }, {
+            "date_added": "13394671771412971",
+            "date_last_used": "13395713937232959",
+            "guid": "4a39ac86-88e0-4259-abb2-dc4235294035",
+            "id": "158",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "kirodubes · GitHub",
+            "type": "url",
+            "url": "https://github.com/kirodubes"
+         }, {
+            "date_added": "13377885030084600",
+            "date_last_used": "13396789795018051",
+            "guid": "a5642c4e-3fde-48ab-8fae-e4919f0b5f13",
+            "id": "55",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Install Plex Media Server on Linux Mint 22, 21 or 20 - LinuxCapable",
+            "type": "url",
+            "url": "https://linuxcapable.com/how-to-install-plex-media-server-on-linux-mint/"
+         }, {
+            "date_added": "13393711564440561",
+            "date_last_used": "13393736235892236",
+            "guid": "13adfd6e-493d-4890-afe2-b99bd93d0bed",
+            "id": "156",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Derek Taylor · GitLab",
+            "type": "url",
+            "url": "https://gitlab.com/dwt1"
+         }, {
+            "date_added": "13388833012164511",
+            "date_last_used": "13388833038734693",
+            "guid": "bccd2910-0755-47a6-9072-4b05948e4ab5",
+            "id": "115",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "A comprehensive guide to iso building | ArcoLinuxIso",
+            "type": "url",
+            "url": "https://www.arcolinuxiso.com/a-comprehensive-guide-to-iso-building/"
+         }, {
+            "date_added": "13380369657768622",
+            "date_last_used": "13382352733913642",
+            "guid": "054a9f7f-1e9b-4a9a-bd82-10ae9a0e5649",
+            "id": "83",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "BYOI | ArcoLinuxB",
+            "type": "url",
+            "url": "https://arcolinuxb.com/byoi/"
+         }, {
+            "date_added": "13300521005492276",
+            "date_last_used": "13377237848347256",
+            "guid": "dcf5b0d1-a668-43c0-81aa-497c4346e24b",
+            "id": "10",
+            "name": "Privacy Tools: Fight Mass Surveillance with Encryption",
+            "type": "url",
+            "url": "https://www.privacytools.io/"
+         }, {
+            "date_added": "13305396078512295",
+            "date_last_used": "13364270759464423",
+            "guid": "5dd01a4b-7f44-4e03-9464-78ac9b580d85",
+            "id": "11",
+            "name": "Log in to Wealthsimple",
+            "type": "url",
+            "url": "https://my.wealthsimple.com/app/login?locale=en-ca"
+         }, {
+            "date_added": "13362940402519413",
+            "date_last_used": "13381469156260527",
+            "guid": "17adc6ac-970a-4a64-821a-84f8722283f3",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Zen or LTS: Switch Kernels in Arch Linux",
+            "type": "url",
+            "url": "https://itsfoss.com/switch-kernels-arch-linux/"
+         }, {
+            "date_added": "13364315606073534",
+            "date_last_used": "0",
+            "guid": "34e4ae58-66ba-4f73-8bda-c7db5a698ba6",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Enable Automatic Login In Ubuntu Desktop And Server - OSTechNix",
+            "type": "url",
+            "url": "https://ostechnix.com/ubuntu-automatic-login/"
+         }, {
+            "date_added": "13365814834145637",
+            "date_last_used": "0",
+            "guid": "f7ee77f4-318d-4515-b513-75f7c0f216f7",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Install Docker on Ubuntu 24.04 LTS: A Step-by-Step Guide",
+            "type": "url",
+            "url": "https://linuxiac.com/how-to-install-docker-on-ubuntu-24-04-lts/"
+         }, {
+            "date_added": "13365814841819369",
+            "date_last_used": "0",
+            "guid": "a0983382-3643-424b-8512-1733ae341010",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Docker Docs",
+            "type": "url",
+            "url": "https://docs.docker.com/"
+         }, {
+            "date_added": "13365818169552815",
+            "date_last_used": "0",
+            "guid": "236f1fa4-53f6-4dd4-9db4-1f21bda00594",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Get Docker Desktop | Docker Docs",
+            "type": "url",
+            "url": "https://docs.docker.com/guides/getting-started/get-docker-desktop/"
+         }, {
+            "date_added": "13367270022279586",
+            "date_last_used": "0",
+            "guid": "db633cc8-37a3-4e13-be2f-3f0f0fbbb499",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pacman for newbies | Aditya Thebe",
+            "type": "url",
+            "url": "https://www.adityathebe.com/pacman-for-newbies/"
+         }, {
+            "date_added": "13367295163310413",
+            "date_last_used": "0",
+            "guid": "104f241e-b69f-4389-9b77-1f9c930a7d50",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Install and Configure SSH Server on Arch Linux",
+            "type": "url",
+            "url": "https://linuxhint.com/install_ssh_server_on_arch_linux/"
+         }, {
+            "date_added": "13376816707296318",
+            "date_last_used": "13377237780099302",
+            "guid": "dc127b7f-bcf7-4c61-a269-3d1f3d57fbc7",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TeamViewer Management Console",
+            "type": "url",
+            "url": "https://login.teamviewer.com/nav/home"
+         }, {
+            "date_added": "13377657244942968",
+            "date_last_used": "0",
+            "guid": "58e5d4c5-66d8-4ec0-9c94-8d36e0b1ae6b",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How To Install Plex Media Server on Ubuntu 24.04 LTS - idroot",
+            "type": "url",
+            "url": "https://idroot.us/install-plex-media-server-ubuntu-24-04/"
+         }, {
+            "date_added": "13377661646164025",
+            "date_last_used": "13379651035258468",
+            "guid": "3fec7329-7816-4d18-8d35-e762d84642fe",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to mount drive in fstab - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+mount+drive+in+fstab&source=desktop&summary=1&conversation=c6ae00d38cf868ac572711"
+         }, {
+            "date_added": "13377664857518057",
+            "date_last_used": "0",
+            "guid": "091f1c75-72b9-4656-b084-07fd956140a7",
+            "id": "43",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to install fish shell on ubuntu command line - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+install+fish+shell+on+ubuntu+command+line&source=web&summary=1&conversation=73b47323644932ca6f1661"
+         }, {
+            "date_added": "13377751110586567",
+            "date_last_used": "0",
+            "guid": "46c2a8ad-15cf-4d76-9ea1-8c86aa3f052d",
+            "id": "45",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "systemd - Arch Linux 91 seconds userspace loading time - Unix & Linux Stack Exchange",
+            "type": "url",
+            "url": "https://unix.stackexchange.com/questions/578226/arch-linux-91-seconds-userspace-loading-time"
+         }, {
+            "date_added": "13377751115877728",
+            "date_last_used": "0",
+            "guid": "ee153cd1-a5d5-4f81-ac17-6385d90f1e5b",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to remove smb.service archlinux - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+remove+smb.service+archlinux&source=web&summary=1&conversation=0a3b636628bcd19d16b017"
+         }, {
+            "date_added": "13377751591227270",
+            "date_last_used": "13378677236962555",
+            "guid": "cf6c5800-76fe-4971-a0d6-628309cc16fb",
+            "id": "48",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to Edit your mkinitcpio.conf file to use lz4 compression (level -9) for faster decompression during boot - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to++Edit+your+mkinitcpio.conf+file+to+use+lz4+compression+%28level+-9%29+for+faster+decompression+during+boot&source=web&summary=1&conversation=ed2af867adbc463dc8939c"
+         }, {
+            "date_added": "13377752020689017",
+            "date_last_used": "0",
+            "guid": "299161f7-227a-470f-807d-a9ae87d4fe8e",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to fix ERROR: Invalid option -g -- '/boot/initramfs-linux.img' must be writable - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+fix+ERROR%3A+Invalid+option+-g+--+%27%2Fboot%2Finitramfs-linux.img%27+must+be+writable&source=desktop&summary=1&conversation=e268457f9acddc9d822ccc"
+         }, {
+            "date_added": "13377752488953903",
+            "date_last_used": "0",
+            "guid": "a0cf5b2c-401b-4f33-b042-f4f25908c32a",
+            "id": "51",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to make /boot/initramfs-linux.img writable - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+make+%2Fboot%2Finitramfs-linux.img+writable&source=desktop&summary=1&conversation=7444ee56b06640acf54b7b"
+         }, {
+            "date_added": "13377848178988383",
+            "date_last_used": "0",
+            "guid": "9eca91e8-5738-47c4-84b8-3e9019671ccf",
+            "id": "53",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Disable Suspend and Hibernation Modes In Linux",
+            "type": "url",
+            "url": "https://www.tecmint.com/disable-suspend-and-hibernation-in-linux/"
+         }, {
+            "date_added": "13378073527135594",
+            "date_last_used": "13391323287497299",
+            "guid": "fcde8ee3-b83b-4c81-819c-5598bfb00d23",
+            "id": "57",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Install Debian Server",
+            "type": "url",
+            "url": "https://prowse.tech/debian10-server/"
+         }, {
+            "date_added": "13378073942904848",
+            "date_last_used": "0",
+            "guid": "99901eb3-9946-4c02-ab25-644b6272252f",
+            "id": "58",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Install Plex Media Server on Debian 12/11/10 | ComputingForGeeks",
+            "type": "url",
+            "url": "https://computingforgeeks.com/install-and-configure-plex-media-server-on-debian/"
+         }, {
+            "date_added": "13378167802653818",
+            "date_last_used": "0",
+            "guid": "803ee4ad-99f3-49b9-be52-bf68d3878cfa",
+            "id": "60",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to check disk health status in Linux",
+            "type": "url",
+            "url": "https://www.simplified.guide/linux/disk-health-check"
+         }, {
+            "date_added": "13378202115552305",
+            "date_last_used": "13379651656068815",
+            "guid": "32ce1744-a66d-448d-95e2-68419852e90c",
+            "id": "62",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "/dev/sda1 /mnt/sda1 ntfs nosuid,nodev,nofail,x-gvfs-show 0 0 - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=%2Fdev%2Fsda1+%2Fmnt%2Fsda1+ntfs+nosuid%2Cnodev%2Cnofail%2Cx-gvfs-show+0+0&source=web&summary=1&conversation=154799a3a30947c50f55b1"
+         }, {
+            "date_added": "13378651844827084",
+            "date_last_used": "13378674821492752",
+            "guid": "1c7742ed-5dcc-43d2-a52d-f317e94e430c",
+            "id": "65",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Install plexmediaserver on Ubuntu using the Snap Store | Snapcraft",
+            "type": "url",
+            "url": "https://snapcraft.io/install/plexmediaserver/ubuntu"
+         }, {
+            "date_added": "13378202643339996",
+            "date_last_used": "13379860691833496",
+            "guid": "9c4e6112-0dfb-4e8f-b8b8-df9ae1190121",
+            "id": "63",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to mount a external drive in fstab - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+mount+a+external+drive+in+fstab&source=desktop&summary=1&conversation=7b937505373a4e8930938b"
+         }, {
+            "date_added": "13378677225600421",
+            "date_last_used": "0",
+            "guid": "b57fcef9-77ad-486d-94b7-0d2eb2caccc4",
+            "id": "67",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to set linux mint to restart automaticlly every 24 hours - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+set+linux+mint+to+restart+automaticlly+every+24+hours&source=web&summary=1&conversation=4b070f6fb9314672f74ae7"
+         }, {
+            "date_added": "13379644148728358",
+            "date_last_used": "13379651478259262",
+            "guid": "9c138cde-07f9-450f-9a65-e04b0239b3b7",
+            "id": "69",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to add disks to ubuntu server - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+add+disks+to+ubuntu+server&source=desktop&summary=1&conversation=fca23de8416c694268e04d"
+         }, {
+            "date_added": "13379649071422804",
+            "date_last_used": "0",
+            "guid": "60dba008-5429-4f8c-b3d3-fb20d7ff7580",
+            "id": "70",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Auto Mount Drive in Ubuntu Server 22.04 at Startup",
+            "type": "url",
+            "url": "https://developerinsider.co/auto-mount-drive-in-ubuntu-server-22-04-at-startup/"
+         }, {
+            "date_added": "13379693066153740",
+            "date_last_used": "0",
+            "guid": "81d10a8a-c502-4b11-8b1b-97e1273da733",
+            "id": "72",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to change permissions on a drive ubuntu server - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+change+permissions+on+a++drive+ubuntu+server&source=web&summary=1&conversation=a2ed4a230492cf6769b5c1"
+         }, {
+            "date_added": "13379773292756956",
+            "date_last_used": "0",
+            "guid": "727db3d1-1c77-4d96-a329-5a84bc2ea9c3",
+            "id": "74",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to format a hdd in terminal linux - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+format+a+hdd+in+terminal+linux&source=desktop&summary=1&conversation=0e460e15149032b2df9798"
+         }, {
+            "date_added": "13379821961966315",
+            "date_last_used": "0",
+            "guid": "3424894b-c047-416e-b6a0-7709453155d9",
+            "id": "75",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how long can a non-destructive read-write test take on 2tb hdd - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+long+can+a+non-destructive+read-write+test+take+on+2tb+hdd&source=web&summary=1&conversation=d563fb650f9a4f9207d448"
+         }, {
+            "date_added": "13379867837943234",
+            "date_last_used": "0",
+            "guid": "8822c8d8-8d15-4057-af85-ca51813bd156",
+            "id": "76",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to change permissions on a hdd linux - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+change+permissions+on+a+hdd+linux&source=web&summary=1&conversation=38b6b68557e3dcb9b751a8"
+         }, {
+            "date_added": "13379879042826745",
+            "date_last_used": "0",
+            "guid": "29040466-2ad2-4f05-9eb9-040546295457",
+            "id": "78",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to fix SG_IO: bad/missing sense data, sb[] - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+fix+SG_IO%3A+bad%2Fmissing+sense+data%2C+sb%5B%5D&source=web&summary=1&conversation=31052eb5b226958c7a78cf"
+         }, {
+            "date_added": "13380139761595942",
+            "date_last_used": "0",
+            "guid": "6ac2b4a3-6d13-41c9-902a-e108ffb33a6b",
+            "id": "80",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to update the bios of the lenovo m700 sff in linux - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+update+the+bios+of+the+lenovo+m700+sff+in+linux&source=desktop&summary=1&conversation=01e442259ef0770c14e51e"
+         }, {
+            "date_added": "13380139771039334",
+            "date_last_used": "13391323419003486",
+            "guid": "68382c5d-5c74-4968-88e7-3952ec504974",
+            "id": "81",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to install fwupdmgr in ubuntu server - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+install+fwupdmgr+in+ubuntu+server&source=web&summary=1&conversation=cdb06eee2ca18b1e7b3260"
+         }, {
+            "date_added": "13380517697955867",
+            "date_last_used": "0",
+            "guid": "1316bc45-fb82-48e1-aa97-1402e7cb583e",
+            "id": "85",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Install a Desktop (GUI) on an Ubuntu Server",
+            "type": "url",
+            "url": "https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu"
+         }, {
+            "date_added": "13381898731696787",
+            "date_last_used": "0",
+            "guid": "6e5c7b39-13f2-4d2f-bec6-18c6a2d213b2",
+            "id": "87",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "where would i put such a script in bspwm #!/bin/bash xset dpms 0 0 0 xset s off - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=where+would+i+put+such+a+script+in+bspwm+%23%21%2Fbin%2Fbash+xset+dpms+0+0+0+xset+s+off&source=web&summary=1&conversation=a3691b11f4197a90874e42"
+         }, {
+            "date_added": "13382154490617063",
+            "date_last_used": "0",
+            "guid": "3a181bf3-93f1-413e-9242-2f7e83398d08",
+            "id": "89",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to allow plex fire stick app through gufw - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+allow+plex+fire+stick+app+through+gufw&source=web&summary=1&conversation=a487b72941f756c8e154b5"
+         }, {
+            "date_added": "13382166011238498",
+            "date_last_used": "13382197523185598",
+            "guid": "a33c62e8-5038-4300-9475-5996853908b5",
+            "id": "91",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Intel Core i7 2720QM SR014 2.2GHz 6MB Quad Core FCPGA988 Notebook Processor | eBay",
+            "type": "url",
+            "url": "https://www.ebay.ca/itm/185607287734?_skw=i7-2720QM&epid=131594025&itmmeta=01JJB80D5YKRZMPD54P5HWNKN4&hash=item2b370e73b6:g:quIAAOSwL-Rj56a-&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKl1O%2FKGONghASAF7ebYvXxADwfrqZT0v2LppQqc049QoVV%2BAZiyd6bJxIBmZOJRE94ZY%2BqcHRDl9mp1RN2Ay6L4xZdXcjRkGhZfG%2FdTi6OOaEJpwsAOnh4S5lbI44Jl3fFci8GJpyL0ItrhsnBLjEMrzHmFaWZEoPCrTqzVsE%2FBEz%2FMK%2BO7pX%2B2DGzgTneNSVQh4Aw7rcETOAOPE0GikOkeW1AUqFCvusf9QHJYXRBR1bDLI2tr4yvhVndQh6Kexn2n1BMP5bmM3SqS25%2Fg9ljr%7Ctkp%3ABFBMnNOB6JJl"
+         }, {
+            "date_added": "13382375009341042",
+            "date_last_used": "0",
+            "guid": "8fe23a19-a408-41b4-86f3-4e659e584207",
+            "id": "93",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Star Trek: Section 31 (2025) [2160p] [YTS.MX] - WebTorrent",
+            "type": "url",
+            "url": "magnet:?xt=urn:btih:3F17DA8A2808DB6FDD6620DB531DDFD052920004&dn=Star+Trek%3A+Section+31+%282025%29+%5B2160p%5D+%5BYTS.MX%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce"
+         }, {
+            "date_added": "13382377544471529",
+            "date_last_used": "13382377602065921",
+            "guid": "67526cde-bb4a-46cf-9fd3-872364aba4de",
+            "id": "95",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to install virtualbox on arch - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+install+virtualbox+on+arch&source=desktop&summary=1&conversation=7ae521d1fafcf61e0f9ea6"
+         }, {
+            "date_added": "13382378042073705",
+            "date_last_used": "0",
+            "guid": "28088623-1dbe-4bc1-9004-2b576fbf45cf",
+            "id": "97",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to fix Failed to enable unit: Unit vboxweb-service.service does not exist on arch - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+fix+Failed+to+enable+unit%3A+Unit+vboxweb-service.service+does+not+exist+on+arch&source=web&summary=1&conversation=290a453dd624dcfdb37e4e"
+         }, {
+            "date_added": "13382848380934573",
+            "date_last_used": "0",
+            "guid": "e3fafdbd-2e7f-4bcf-8e3f-ff28ad542ae1",
+            "id": "99",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Arch Linux - Pacman Mirrorlist Generator",
+            "type": "url",
+            "url": "https://archlinux.org/mirrorlist/"
+         }, {
+            "date_added": "13383278367653267",
+            "date_last_used": "0",
+            "guid": "16830008-4a62-49d5-9709-ee71b587c732",
+            "id": "101",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Docker Hub Container Image Library | App Containerization",
+            "type": "url",
+            "url": "https://hub.docker.com/"
+         }, {
+            "date_added": "13386214542985919",
+            "date_last_used": "0",
+            "guid": "461da990-7052-4f35-b64a-3d066b7c6072",
+            "id": "103",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "UFW Essentials: Common Firewall Rules and Commands | DigitalOcean",
+            "type": "url",
+            "url": "https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands"
+         }, {
+            "date_added": "13387689487842705",
+            "date_last_used": "0",
+            "guid": "a678b1c0-3c14-4c65-ab36-da9dc7eb1cea",
+            "id": "107",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "guide to install cachyos kernel to arcolinux - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=guide+to+install+cachyos+kernel+to+arcolinux&spellcheck=0&source=alteredQueryOriginal&summary=1&conversation=d33ed706aaea417ffa246a"
+         }, {
+            "date_added": "13387690039223702",
+            "date_last_used": "0",
+            "guid": "985dcd59-3291-44e2-8511-16d4e3867fbf",
+            "id": "109",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to set default kernel in systemd boot - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+set+default+kernel+in+systemd+boot&source=desktop&summary=1&conversation=6652f7652b4c1e615e246e"
+         }, {
+            "date_added": "13388832343193954",
+            "date_last_used": "13391323457596658",
+            "guid": "c2d90464-36bd-4af5-900c-f87fa04ab9e0",
+            "id": "113",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Make your own Arch Linux Distro with Archiso",
+            "type": "url",
+            "url": "https://sweeblogs.wordpress.com/2024/03/09/make-your-own-arch-linux-distro-with-archiso/"
+         }, {
+            "date_added": "13389501604064251",
+            "date_last_used": "0",
+            "guid": "4bd52ab3-fe98-4ced-a44c-4cb285b465ec",
+            "id": "117",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "authentcation failed error pamac - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=authentcation+failed+error+pamac&source=desktop&summary=1&conversation=7e3ed143bfccdacd5979ed"
+         }, {
+            "date_added": "13389693112097061",
+            "date_last_used": "0",
+            "guid": "907bcef5-24ac-47bb-972d-fad38ed5749f",
+            "id": "119",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "install paulse audio on arch - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=install+paulse+audio+on+arch&source=desktop&summary=1&conversation=ea4798c09ef5e2be9c9223"
+         }, {
+            "date_added": "13390011768180696",
+            "date_last_used": "13391323084302309",
+            "guid": "32fba3cc-eadb-417b-93b0-864c8ce8f3d9",
+            "id": "123",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ERiK DuBoiS | Learn how to create icons and icon themes",
+            "type": "url",
+            "url": "https://www.erikdubois.be/"
+         }, {
+            "date_added": "13391274443044099",
+            "date_last_used": "0",
+            "guid": "fcce5461-7f09-47b3-8d45-55d376cc7567",
+            "id": "125",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "fix E: Archives directory /var/cache/apt/archives/partial is missing - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=fix+E%3A+Archives+directory+%2Fvar%2Fcache%2Fapt%2Farchives%2Fpartial+is+missing&source=desktop&summary=1&conversation=ba4317e7b8ab859da0fd8e"
+         }, {
+            "date_added": "13391274852355368",
+            "date_last_used": "0",
+            "guid": "2ec77d49-1684-4088-b9c5-4f8fc8f50114",
+            "id": "126",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "fix mkdir: cannot create directory ‘/var/cache/apt/archives/partial’: No space left on device - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=fix+mkdir%3A+cannot+create+directory+%E2%80%98%2Fvar%2Fcache%2Fapt%2Farchives%2Fpartial%E2%80%99%3A+No+space+left+on+device&source=desktop&summary=1&conversation=6ece6a4ea32ee76e5ad1cc"
+         }, {
+            "date_added": "13391274888491946",
+            "date_last_used": "0",
+            "guid": "4cc983ec-caa2-44e3-9cef-7f3042fe6b4e",
+            "id": "127",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to remove a dir in cli arch - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+remove+a+dir+in+cli+arch&source=desktop&summary=1&conversation=6f9ad7913a845c9904b37d"
+         }, {
+            "date_added": "13391322038722126",
+            "date_last_used": "0",
+            "guid": "1e85e8ec-fb44-47b2-98a7-00baa741a588",
+            "id": "129",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to trasfer tmp files to another drive ubuntu - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+trasfer+tmp+files+to+another+drive+ubuntu&source=web&summary=1&conversation=c441400b3e422f3857e745"
+         }, {
+            "date_added": "13391323026862286",
+            "date_last_used": "0",
+            "guid": "676751b1-0b99-4bbd-ad08-d48217fc33c3",
+            "id": "130",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to install taskel on ubuntu - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+install+taskel+on+ubuntu&source=desktop&summary=1&conversation=d1be6a7f70d7e12c0b0b78"
+         }, {
+            "date_added": "13391533039637841",
+            "date_last_used": "13391533435619279",
+            "guid": "52464efc-2954-4d5d-b972-aaf01b8f6bfe",
+            "id": "134",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Home - PROSOFTKEYS",
+            "type": "url",
+            "url": "https://prosoftkeys.com/"
+         }, {
+            "date_added": "13391533998344659",
+            "date_last_used": "0",
+            "guid": "d9940d9d-4ac9-4001-8d49-fb648a34f7ce",
+            "id": "136",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Step-by-Step Guide to Convert Windows 11 IoT Enterprise LTSC 2024 Evaluation to a Full Version - PROSOFTKEYS",
+            "type": "url",
+            "url": "https://prosoftkeys.com/convert-windows-11-iot-enterprise-ltsc-evaluation-to-version/"
+         }, {
+            "date_added": "13391730482057872",
+            "date_last_used": "0",
+            "guid": "e1c02a7e-c6dd-4281-a597-88811ade8346",
+            "id": "140",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "how to ssh by host name in arch - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=how+to+ssh+by+host+name+in+arch&source=web&summary=1&conversation=ee396c89feb73142baff52"
+         }, {
+            "date_added": "13391791101183168",
+            "date_last_used": "0",
+            "guid": "e6c2f62b-8efd-4dfe-b4d0-7d1058a7098d",
+            "id": "142",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Create a Home Server Using CasaOS for Plex and Video Downloads Using an Old Computer and Free or Open Source Applications",
+            "type": "url",
+            "url": "https://doe-it-yourself.com/how-to-create-a-home-server-using-casaos-for-plex-and-video-downloads-using-an-old-computer-and-free-or-open-source-applications/"
+         }, {
+            "date_added": "13392618290735899",
+            "date_last_used": "0",
+            "guid": "01d9f371-06a8-41c6-9645-3c3569f0cb6e",
+            "id": "144",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ubuntu Mirror Error Fix",
+            "type": "url",
+            "url": "https://chatgpt.com/c/68328561-afb0-8011-840a-676af7770a01"
+         }, {
+            "date_added": "13393359617730560",
+            "date_last_used": "0",
+            "guid": "cf2ff461-a3d2-4542-92d8-af3fb7a53043",
+            "id": "147",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Building arconet with extra packages from the ArcoLinux repos and the Chaotic-aur repo and use the personal folder | ArcoLinuxB",
+            "type": "url",
+            "url": "https://arcolinuxb.com/building-arconet-with-extra-packages-from-the-arcolinux-repos-and-the-chaotic-aur-repo-and-use-the-personal-folder/"
+         }, {
+            "date_added": "13393360397009792",
+            "date_last_used": "0",
+            "guid": "9d2461ab-5c1a-4e82-8ba0-5190e33c863c",
+            "id": "149",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "arconetpro/arconet-iso",
+            "type": "url",
+            "url": "https://github.com/arconetpro/arconet-iso"
+         }, {
+            "date_added": "13393361359517913",
+            "date_last_used": "0",
+            "guid": "fff4a14c-4b05-4cb0-908a-801c687ee198",
+            "id": "150",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "archlinux/archinstall: Arch Linux installer - guided, templates etc.",
+            "type": "url",
+            "url": "https://github.com/archlinux/archinstall"
+         }, {
+            "date_added": "13393523337120085",
+            "date_last_used": "0",
+            "guid": "b9f0106c-3426-4ba9-8131-abc70eb55818",
+            "id": "152",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Everything you need to know about Qtile — Qtile 0.1.dev50+g8666bfc documentation",
+            "type": "url",
+            "url": "https://docs.qtile.org/en/stable/"
+         }, {
+            "date_added": "13393646235547514",
+            "date_last_used": "13393696314617230",
+            "guid": "e32dbfbb-c887-4bdb-8a68-69fbff8ca673",
+            "id": "154",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Welcome To Distro.Tube",
+            "type": "url",
+            "url": "https://distro.tube/"
+         }, {
+            "date_added": "13395632162230415",
+            "date_last_used": "0",
+            "guid": "2e951e2e-08c9-490a-acb4-f64d9f676168",
+            "id": "160",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Package List Sorting",
+            "type": "url",
+            "url": "https://chatgpt.com/c/6860894e-c810-8011-8db5-7f4ffe1d6483"
+         }, {
+            "date_added": "13395716195222633",
+            "date_last_used": "0",
+            "guid": "55a07245-b517-4d64-81c3-acf89c75d3bf",
+            "id": "162",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Personal Repo in Kiro-ISO",
+            "type": "url",
+            "url": "https://chatgpt.com/c/6861d4fe-cc68-8011-b65f-20f81e36b5bf"
+         }, {
+            "date_added": "13396367598264081",
+            "date_last_used": "0",
+            "guid": "ff812607-7ff3-4148-bc86-01e949a77ef7",
+            "id": "164",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Signs of Narcissism",
+            "type": "url",
+            "url": "https://chatgpt.com/c/686bb5e9-d434-8011-a88e-f4e67ee79223"
+         }, {
+            "date_added": "13396454378932120",
+            "date_last_used": "0",
+            "guid": "3c6e1995-d2a0-4456-a339-10f8018d7b42",
+            "id": "166",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Employer ROE Submission Deadline",
+            "type": "url",
+            "url": "https://chatgpt.com/c/686c9c3b-ab80-8011-801f-d4e0897fffb3"
+         }, {
+            "date_added": "13396456385843535",
+            "date_last_used": "0",
+            "guid": "a75099a6-1775-4407-99b0-019a865d8cab",
+            "id": "167",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Replace Dyson V10 Dust Cup Sealing Ring - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=di1g_F_9mBA"
+         }, {
+            "date_added": "13396594484275861",
+            "date_last_used": "13396617780748417",
+            "guid": "203366b4-e9fd-4fb4-bc03-91698b8a3243",
+            "id": "169",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "8168 McLeod Rd - Google Maps",
+            "type": "url",
+            "url": "https://www.google.com/maps/@43.0699577,-79.1334422,3a,75y,3.21h,90t/data=!3m7!1e1!3m5!1sDqcWo5hg4YqcZNvGcKTFjg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DDqcWo5hg4YqcZNvGcKTFjg%26yaw%3D3.2082815!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D"
+         }, {
+            "date_added": "13396702259572792",
+            "date_last_used": "0",
+            "guid": "48925394-569a-4bcf-93ac-81651532d5fd",
+            "id": "171",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
+            "type": "url",
+            "url": "https://ca.finance.yahoo.com/"
+         }, {
+            "date_added": "13396817111994546",
+            "date_last_used": "0",
+            "guid": "92c32e7e-3060-440e-b320-b12ea068f0c4",
+            "id": "175",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Best Bang for GPU",
+            "type": "url",
+            "url": "https://chatgpt.com/c/68729cfa-2520-8011-8cbc-58f2d9817e91"
+         } ],
+         "date_added": "13361210410425129",
+         "date_last_used": "0",
+         "date_modified": "13396817111994546",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13361210410425130",
+         "date_last_used": "0",
+         "date_modified": "13364976430919183",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13361210410425132",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

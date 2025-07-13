@@ -1,0 +1,6 @@
+2025/05/09-22:30:35.045 c56bc Creating DB /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb since it was missing.
+2025/05/09-22:30:35.048 c56bc Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/09-22:31:46.820 c56bc Level-0 table #5: started
+2025/05/09-22:31:46.822 c56bc Level-0 table #5: 13889 bytes OK
+2025/05/09-22:31:46.825 c56bc Delete type=0 #3
+2025/05/09-22:31:46.826 c56bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

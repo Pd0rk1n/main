@@ -1,0 +1,1 @@
+const runtime="undefined"!==typeof browser?browser.runtime:chrome.runtime;runtime.sendMessage("redirectToVaultOnCreateAccountSuccess");
