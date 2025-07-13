@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+echo "Setting Nemo default terminal to xfce4-terminal..."
+gsettings set org.cinnamon.desktop.default-applications.terminal exec "xfce4-terminal"
+gsettings set org.cinnamon.desktop.default-applications.terminal exec-arg "-e"
+echo "Settings applied successfully."

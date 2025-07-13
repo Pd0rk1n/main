@@ -1,0 +1,1256 @@
+2025-06-29 18:59:13,975 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:13,998 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:14,002 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:14,007 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:14,034 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 18:59:14,034 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 18:59:14,034 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,035 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,036 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 18:59:14,037 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 18:59:14,038 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 18:59:14,897 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:14,897 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:14,898 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:14,898 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 18:59:15,397 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 18:59:37,780 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 18:59:37,787 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 18:59:37,787 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 18:59:47,268 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: sublime_text
+2025-06-29 18:59:56,193 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 18:59:56,193 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 18:59:56,193 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:00:01,592 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:00:01,594 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:00:01,600 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:00:12,998 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:00:12,999 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:00:13,006 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:00:19,940 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:00:19,940 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:00:19,940 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:00:24,057 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:00:24,058 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:00:24,061 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:02:55,350 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:02:56,699 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:02:56,721 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:02:56,721 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:02:56,726 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:02:56,758 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:02:56,758 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:02:56,758 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,758 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,758 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,758 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,759 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,760 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:02:56,761 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:02:56,816 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:02:56,816 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:02:56,819 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:02:56,836 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:02:56,836 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:02:56,839 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:04:12,654 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:04:13,986 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:04:14,009 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:04:14,012 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:04:14,017 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:04:14,043 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:04:14,043 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,044 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,045 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:04:14,046 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:04:14,047 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:04:14,047 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:04:14,101 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:04:14,101 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:04:14,113 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:04:14,127 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:04:14,127 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:04:14,130 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:05:03,929 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 19:05:03,931 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:05:03,936 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 19:09:26,864 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:09:28,266 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:09:28,289 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:09:28,293 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:09:28,298 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,325 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,326 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,327 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:09:28,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:09:28,383 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:09:28,384 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:09:28,391 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:09:28,409 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:09:28,409 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:09:28,420 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:09:28,459 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 19:09:28,459 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:09:28,464 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 19:10:43,178 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:10:44,534 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:10:44,557 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:10:44,561 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:10:44,561 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:10:44,592 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:10:44,592 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:10:44,592 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,592 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,593 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,594 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:10:44,595 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:10:44,653 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:10:44,653 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:10:44,658 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:10:44,675 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:10:44,676 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:10:44,678 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:10:44,709 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 19:10:44,709 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:10:44,713 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 19:11:13,449 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:11:13,451 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:11:13,455 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:11:17,137 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:11:17,138 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:11:17,138 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:11:20,228 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:11:20,228 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:11:20,228 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:11:57,410 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 19:11:57,411 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:11:57,433 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 19:12:47,620 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:12:48,996 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:12:49,017 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:12:49,018 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:12:49,023 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:12:49,053 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:12:49,053 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:12:49,053 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,053 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,054 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,055 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:12:49,056 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:12:49,112 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:12:49,112 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:12:49,120 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:12:49,136 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:12:49,136 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:12:49,139 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:12:49,176 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 19:12:49,176 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:12:49,180 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 19:12:49,244 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:12:49,244 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:12:49,248 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:13:04,474 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:13:10,010 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:13:13,974 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 19:13:17,069 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:13:53,230 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:13:53,236 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:13:53,237 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:15:40,284 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:15:47,144 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 19:15:49,846 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:16:23,908 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:16:31,928 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:16:37,785 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 19:16:40,277 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:16:52,595 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:16:52,600 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:16:52,600 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:18:18,306 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:18:21,147 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:18:25,679 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 19:18:28,319 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:19:18,760 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: pamac-manager
+2025-06-29 19:19:56,097 ERROR libqtile manager.py:process_key_event():L485 KB command error kill: No object window in path 'window'
+2025-06-29 19:19:58,281 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: archlinux-logout.py
+2025-06-29 19:20:00,340 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-29 19:20:19,867 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:19,890 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:19,893 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:19,897 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,924 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,925 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,926 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:20:19,927 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:20:20,785 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:20,786 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:20,792 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:20,793 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:20:21,292 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:21:22,542 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:21:22,548 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:21:22,548 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:21:47,199 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:21:47,200 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:21:47,207 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:23:26,205 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:23:26,207 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:23:26,210 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:24:25,887 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-29 19:24:58,400 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:58,433 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:58,439 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:58,439 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:58,477 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:24:58,477 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,478 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,479 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:24:58,480 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:24:58,481 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:24:58,481 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:24:59,357 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:59,359 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:59,359 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:24:59,360 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:25:00,114 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:25:35,833 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:25:35,839 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:25:35,839 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:25:42,853 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:25:42,854 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:25:42,860 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:29:47,103 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:29:48,460 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:29:48,483 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:29:48,488 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:29:48,491 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,516 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,517 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,518 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:29:48,519 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:29:48,575 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:29:48,575 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:29:48,583 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:29:48,601 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:29:48,601 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:29:48,604 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:29:53,438 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:29:53,439 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:29:53,443 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:29:58,347 WARNING libqtile core.py:_xpoll():L363 Shutting down due to disconnection from X server
+2025-06-29 19:29:58,347 WARNING libqtile core.py:graceful_shutdown():L910 Server disconnected, couldn't close windows gracefully.
+2025-06-29 19:29:58,354 ERROR libqtile loop.py:_handle_exception():L62 Exception in event loop:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/libqtile/core/manager.py", line 990, in f
+    func(*args)
+    ~~~~^^^^^^^
+  File "/usr/lib/python3.13/site-packages/libqtile/bar.py", line 670, in _actual_draw
+    i.draw()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/libqtile/widget/groupbox.py", line 412, in draw
+    self.drawer.draw(offsetx=self.offset, offsety=self.offsety, width=self.width)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/libqtile/backend/base/drawer.py", line 206, in draw
+    self._draw(
+    ~~~~~~~~~~^
+        offsetx=offsetx,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        src_y=src_y,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/libqtile/backend/x11/drawer.py", line 188, in _draw
+    self.qtile.core.conn.conn.core.CopyArea(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._pixmap,
+        ^^^^^^^^^^^^^
+    ...<7 lines>...
+        self.height if height is None else height,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/xcffib/xproto.py", line 3152, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/xcffib/__init__.py", line 389, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.13/site-packages/xcffib/__init__.py", line 577, in wrapper
+    self.invalid()
+    ~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/xcffib/__init__.py", line 567, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2025-06-29 19:29:58,364 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-29 19:30:26,595 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:26,629 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:26,636 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:26,636 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,675 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,676 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,677 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:30:26,678 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:30:27,562 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:27,563 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:27,564 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:27,564 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:30:28,381 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:30:38,955 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 19:30:47,335 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: lxrandr
+2025-06-29 19:31:01,019 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: variety
+2025-06-29 19:31:29,941 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:31:29,946 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:31:29,946 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:31:37,100 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:31:37,102 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:31:37,108 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:34:15,447 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:34:16,789 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:34:16,812 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-29 19:34:16,815 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:34:16,816 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:34:16,844 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,845 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,846 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,847 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,848 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,848 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,848 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:34:16,848 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:34:16,848 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:34:16,848 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:34:16,903 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:34:16,903 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:34:16,906 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:34:16,928 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:34:16,929 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:34:16,931 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:36:13,269 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2025-06-29 19:36:14,630 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:36:14,653 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-29 19:36:14,657 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:36:14,657 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 19:36:14,688 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 19:36:14,688 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 19:36:14,688 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,688 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,689 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,690 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 19:36:14,691 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 19:36:14,747 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:36:14,747 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:36:14,750 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:36:14,767 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:36:14,767 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:36:14,785 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:36:30,330 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:36:30,331 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:36:30,340 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:36:36,550 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: vlc
+2025-06-29 19:36:36,551 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:36:36,556 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved vlc to group 6 and switched to it
+2025-06-29 19:36:44,631 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:36:44,633 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:36:44,638 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:37:19,334 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:37:19,334 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:37:19,334 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:38:48,463 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: gcr-prompter
+2025-06-29 19:38:51,315 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 19:38:51,317 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:38:51,322 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 19:39:17,155 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 19:39:17,156 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:39:17,163 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 19:49:41,028 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:49:41,029 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:49:41,039 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:50:03,634 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:50:03,635 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:50:03,638 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:50:53,432 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:50:53,433 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:50:53,439 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:51:27,764 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 19:52:15,686 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:52:15,686 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:52:15,686 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:52:18,623 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:52:18,625 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:52:18,628 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:53:47,378 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-29 19:57:11,369 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-29 19:57:25,682 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_properties
+2025-06-29 19:57:57,630 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_properties
+2025-06-29 19:58:02,066 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:58:02,066 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:58:02,066 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 19:58:52,834 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:58:52,836 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:58:52,844 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:58:59,786 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:58:59,787 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:58:59,794 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:59:08,629 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 19:59:08,630 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:59:08,636 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 19:59:57,532 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 19:59:57,532 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 19:59:57,532 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 20:00:33,997 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 20:00:33,997 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:00:33,997 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 20:00:35,799 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 20:00:35,800 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:00:35,803 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 20:01:05,858 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 20:01:05,859 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:01:05,863 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 20:01:19,605 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 20:01:19,607 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:01:19,613 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 20:01:26,609 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-29 20:01:26,609 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:01:26,609 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-29 20:03:03,077 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 20:03:03,078 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:03:03,086 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 20:16:14,263 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 20:16:14,266 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:16:14,266 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 20:22:55,391 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 20:22:55,392 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:22:55,397 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 20:23:13,059 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 20:23:13,060 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:23:13,067 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 20:55:11,503 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 20:55:11,504 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 20:55:11,510 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:05:31,161 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:05:31,163 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:05:31,169 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:07:42,302 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:07:42,307 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:07:42,307 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:14:35,372 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-29 21:14:57,378 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:14:57,378 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:14:57,379 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:15:07,817 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 21:15:11,550 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:15:11,563 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:15:11,563 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:15:22,583 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:15:22,583 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:15:22,583 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:15:24,432 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-29 21:15:53,604 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:15:53,604 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:15:53,604 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:16:12,340 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:16:12,342 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:16:12,348 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:18:51,097 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:18:51,098 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:18:51,105 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:26:35,953 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:26:35,953 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:26:35,953 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:26:37,032 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:26:37,032 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:26:37,032 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:26:44,407 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:26:44,407 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:26:44,407 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:26:56,453 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 21:26:59,842 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:26:59,848 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:26:59,848 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:27:04,807 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:27:04,807 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:27:04,807 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:27:14,752 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:27:14,752 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:27:14,752 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:27:22,518 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:27:22,520 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:27:22,525 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:30:41,872 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:30:41,878 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:30:41,878 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:32:48,866 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:32:48,868 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:32:48,874 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:38:22,436 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:38:22,437 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:38:22,445 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:52:46,813 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-29 21:52:46,814 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:52:46,814 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-29 21:53:06,368 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-29 21:54:57,367 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-29 21:55:19,404 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 21:55:19,405 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 21:55:19,413 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 21:55:25,910 WARNING libqtile core.py:graceful_shutdown():L910 Server disconnected, couldn't close windows gracefully.
+2025-06-29 21:55:25,977 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-29 22:12:37,475 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 22:12:37,509 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-29 22:12:37,516 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 22:12:37,521 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 22:12:37,554 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-29 22:12:37,554 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-29 22:12:37,554 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,554 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,555 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,556 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-29 22:12:37,557 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-29 22:12:38,443 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 22:12:38,444 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-29 22:12:38,445 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 22:12:38,446 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-29 22:12:39,266 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 22:12:50,099 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 22:12:56,198 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-29 22:12:59,894 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: gpartedbin
+2025-06-29 22:13:11,313 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: gpartedbin
+2025-06-29 22:13:12,564 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: gpartedbin
+2025-06-29 22:13:22,045 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-29 22:13:22,046 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 22:13:22,051 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-29 22:15:58,728 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: gcr-prompter
+2025-06-29 22:16:01,503 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-29 22:16:01,511 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-29 22:16:01,511 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-29 22:18:53,916 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-29 22:18:57,385 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: missioncenter
+2025-06-30 02:13:00,382 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-notifyd
+2025-06-30 03:20:42,128 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 03:20:42,136 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:20:42,136 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 03:23:05,286 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-30 03:23:05,291 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:23:05,299 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-30 03:28:01,259 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-30 03:28:01,267 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:28:01,268 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-30 03:30:31,032 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:30:31,033 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:30:31,046 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:30:32,345 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:30:32,355 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:30:32,355 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:30:33,281 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:30:33,285 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:30:33,285 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:30:34,163 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:30:34,167 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:30:34,168 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:30:35,635 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:30:35,643 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:30:35,643 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:32:36,175 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_properties
+2025-06-30 03:32:39,342 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:32:39,342 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:32:39,342 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:51:45,844 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-30 03:51:49,092 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:51:49,105 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:51:49,105 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 03:52:12,049 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_properties
+2025-06-30 03:54:52,698 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 03:54:52,706 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 03:54:52,706 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 04:03:42,794 WARNING libqtile core.py:graceful_shutdown():L910 Server disconnected, couldn't close windows gracefully.
+2025-06-30 04:03:42,799 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-30 04:04:13,489 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:04:13,524 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:04:13,530 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:04:13,535 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-30 04:04:13,569 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-30 04:04:13,569 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-30 04:04:13,569 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,570 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,571 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:04:13,572 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:04:13,573 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:04:14,446 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:04:14,448 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:04:14,449 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:04:14,449 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-30 04:04:15,267 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-30 04:04:20,772 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 04:04:20,776 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:04:20,776 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 04:04:46,868 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: gcr-prompter
+2025-06-30 04:04:52,252 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-30 04:04:52,259 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:04:52,259 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-30 04:08:08,830 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 04:08:08,836 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:08:08,836 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 04:15:32,610 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:15:32,612 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:15:32,618 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:19:18,154 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:19:18,156 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:19:18,163 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:19:28,511 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:19:28,511 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:19:28,511 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:25:55,276 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: sublime_text
+2025-06-30 04:26:07,648 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 04:26:07,648 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:26:07,648 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 04:26:12,009 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:26:12,010 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:26:12,017 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:27:01,445 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:27:01,447 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:27:01,455 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:29:17,226 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: polkit-gnome-authentication-agent-1
+2025-06-30 04:29:24,038 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: archlinux-tweak-tool.py
+2025-06-30 04:29:35,465 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-notifyd
+2025-06-30 04:30:16,445 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: archlinux-logout.py
+2025-06-30 04:30:18,008 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-30 04:30:26,021 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-30 04:30:26,042 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:30:26,047 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:30:26,052 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:30:26,078 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-30 04:30:26,078 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,079 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,080 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,081 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,082 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:30:26,082 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:30:26,082 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:30:26,082 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:30:26,829 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-30 04:30:26,830 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:30:26,830 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:30:26,830 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:30:27,413 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-30 04:30:33,535 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 04:30:33,536 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:30:33,543 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 04:30:59,834 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-30 04:30:59,844 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:30:59,845 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-30 04:31:01,135 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-notifyd
+2025-06-30 04:36:05,735 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 04:36:05,738 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:36:05,738 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 04:36:08,564 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:36:08,565 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:36:08,575 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:39:59,096 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:39:59,096 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:39:59,096 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:45:25,787 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 04:45:25,796 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:45:25,796 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 04:57:28,918 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:57:28,920 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:57:28,928 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:57:52,798 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 04:57:52,798 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:57:52,798 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 04:58:08,127 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:58:08,130 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:58:08,136 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:58:16,115 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 04:58:16,116 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 04:58:16,116 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 04:59:42,653 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: archlinux-logout.py
+2025-06-30 04:59:44,700 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2025-06-30 04:59:51,271 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:59:51,294 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:59:51,298 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-30 04:59:51,301 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:59:51,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Right)>
+2025-06-30 04:59:51,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Left)>
+2025-06-30 04:59:51,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,328 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,329 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,330 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod4', 'shift'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1'], Tab)>
+2025-06-30 04:59:51,331 WARNING libqtile manager.py:grab_key():L514 Key spec duplicated, overriding previous: <Key (['mod1', 'shift'], Tab)>
+2025-06-30 04:59:52,107 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:59:52,108 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:59:52,108 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application " " (None) switch to text mode
+2025-06-30 04:59:52,109 WARNING libqtile launchbar.py:setup_images():L142 No icon found for application "" (None) switch to text mode
+2025-06-30 04:59:52,722 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: ulauncher
+2025-06-30 05:00:18,554 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: brave-browser
+2025-06-30 05:00:18,555 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:00:18,562 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved brave-browser to group 3 and switched to it
+2025-06-30 05:01:53,222 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 05:01:53,223 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:01:53,229 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 05:16:12,551 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:16:12,557 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:16:12,557 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:16:35,968 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 05:16:35,974 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:16:35,974 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 05:18:39,053 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:18:39,054 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:18:39,060 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:20:21,053 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:20:21,053 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:20:21,053 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:20:49,557 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:20:49,557 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:20:49,557 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:21:10,453 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xfce4-terminal
+2025-06-30 05:21:10,454 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:21:10,466 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xfce4-terminal to group 5 and switched to it
+2025-06-30 05:21:48,350 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:21:48,351 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:21:48,355 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:24:41,150 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:24:41,151 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:24:41,159 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:25:03,783 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:25:03,784 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:25:03,784 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:25:33,346 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:25:33,346 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:25:33,346 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:25:44,350 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:25:44,350 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:25:44,350 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:26:44,858 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_properties
+2025-06-30 05:27:15,091 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:27:15,091 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:27:15,091 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:27:30,414 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:27:30,415 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:27:30,423 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:30:31,505 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: xed
+2025-06-30 05:30:31,506 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:30:31,512 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved xed to group 2 and switched to it
+2025-06-30 05:35:30,353 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:35:30,353 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:35:30,353 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:35:36,968 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-30 05:35:45,474 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:35:45,474 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:35:45,474 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:35:49,272 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:35:49,272 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:35:49,272 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:36:18,480 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:36:18,480 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:36:18,480 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:36:24,960 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: file_progress
+2025-06-30 05:36:26,149 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:36:26,149 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:36:26,149 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it
+2025-06-30 05:36:29,424 WARNING libqtile config.py:assign_app_group():L562 [Assign Hook] App started: nemo
+2025-06-30 05:36:29,424 WARNING libqtile base.py:__getattr__():L273 Deprecation Warning: commands exposed via IPC no longer use the 'cmd_' prefix. Please replace 'cmd_toscreen' with 'toscreen' in your code.
+2025-06-30 05:36:29,424 WARNING libqtile config.py:assign_app_group():L567 [Assign Hook] Moved nemo to group 1 and switched to it

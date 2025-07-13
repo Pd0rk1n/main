@@ -1,0 +1,7 @@
+[user]
+	email = patrick.dorkin@hotmail.com
+	name = Pd0rk1n
+[pull]
+	rebase = false
+[push]
+	default = simple
