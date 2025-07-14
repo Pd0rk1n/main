@@ -1,5 +1,5 @@
 {
-   "checksum": "ae55fb801204a017e1abb990580a6778",
+   "checksum": "2ea9722622d2a9802697b02605f387d6",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -13,6 +13,17 @@
             "name": "Amazon.ca: Low Prices – Fast Shipping – Millions of Items",
             "type": "url",
             "url": "https://www.amazon.ca/?ref_=nav_custrec_signin"
+         }, {
+            "date_added": "13396927188048415",
+            "date_last_used": "13396927397939727",
+            "guid": "75dc851c-6364-4a21-b5f5-01945deb5646",
+            "id": "179",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Stock Portfolio Management & Tracker - Yahoo Finance",
+            "type": "url",
+            "url": "https://ca.finance.yahoo.com/portfolios"
          }, {
             "date_added": "13315300304935255",
             "date_last_used": "13392273876792188",
@@ -45,7 +56,7 @@
             "url": "https://ytstv-official.site/"
          }, {
             "date_added": "13292981071763218",
-            "date_last_used": "13396823581832915",
+            "date_last_used": "13396907310949686",
             "guid": "862cadd8-4919-4972-8e97-f825044af560",
             "id": "7",
             "name": "Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site",
@@ -72,7 +83,7 @@
             "url": "https://www1.freemoviesfull.com/"
          }, {
             "date_added": "13392618852484482",
-            "date_last_used": "13396832250660644",
+            "date_last_used": "13396909410096128",
             "guid": "9644c4b5-c880-4885-a54e-02c2a7772b5f",
             "id": "145",
             "meta_info": {
@@ -83,7 +94,7 @@
             "url": "http://10.0.0.19:32400/web/index.html#!/"
          }, {
             "date_added": "13391646116510758",
-            "date_last_used": "13396832304835968",
+            "date_last_used": "13396929847610589",
             "guid": "6a73ba11-d95b-4233-8167-7117f40da740",
             "id": "138",
             "meta_info": {
@@ -93,19 +104,8 @@
             "type": "url",
             "url": "https://chatgpt.com/"
          }, {
-            "date_added": "13396702364290060",
-            "date_last_used": "13396702394546684",
-            "guid": "fb12bf8e-e50e-4914-acc0-2a1fefc8bae4",
-            "id": "172",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
-            "type": "url",
-            "url": "https://ca.finance.yahoo.com/?guccounter=1"
-         }, {
             "date_added": "13391323116135761",
-            "date_last_used": "13396835924590399",
+            "date_last_used": "13396932475712890",
             "guid": "8c83336d-d531-42dc-93db-c3b4d539b36b",
             "id": "132",
             "meta_info": {
@@ -116,7 +116,7 @@
             "url": "https://github.com/Pd0rk1n"
          }, {
             "date_added": "13389694670419360",
-            "date_last_used": "13396298839628465",
+            "date_last_used": "13396844630753915",
             "guid": "11a7beba-a78b-4de8-b43b-89e550ece412",
             "id": "121",
             "meta_info": {
@@ -136,6 +136,28 @@
             "name": "kirodubes · GitHub",
             "type": "url",
             "url": "https://github.com/kirodubes"
+         }, {
+            "date_added": "13396702364290060",
+            "date_last_used": "13396927205385094",
+            "guid": "fb12bf8e-e50e-4914-acc0-2a1fefc8bae4",
+            "id": "172",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
+            "type": "url",
+            "url": "https://ca.finance.yahoo.com/?guccounter=1"
+         }, {
+            "date_added": "13396926269983551",
+            "date_last_used": "13396927164934498",
+            "guid": "081d2540-4b21-45d5-ac04-08fb4869a9d0",
+            "id": "178",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Back on Track - Stock Portfolio Management & Tracker - Yahoo Finance",
+            "type": "url",
+            "url": "https://ca.finance.yahoo.com/portfolio/p_2/view/v1"
          }, {
             "date_added": "13377885030084600",
             "date_last_used": "13396789795018051",
@@ -991,7 +1013,7 @@
          } ],
          "date_added": "13361210410425129",
          "date_last_used": "0",
-         "date_modified": "13396817111994546",
+         "date_modified": "13396927224003319",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",

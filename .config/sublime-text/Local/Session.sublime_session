@@ -1,7 +1,40 @@
 {
 	"file_history":
 	[
+		"/home/pd0rk1n/.config/xfce4-dict/xfce4-dict.rc",
+		"/home/pd0rk1n/.config/Kvantum/kvantum.kvconfig",
+		"/home/pd0rk1n/.config/fontconfig/fonts.conf",
+		"/home/pd0rk1n/.config/gtk-3.0/settings.ini",
+		"/home/pd0rk1n/.config/gtk-3.0/bookmarks",
+		"/home/pd0rk1n/DATA/main/.config/gtk-3.0/bookmarks",
+		"/home/pd0rk1n/DATA/main/.config/gtk-3.0/settings.ini",
+		"/home/pd0rk1n/DATA/main/.config/xfce4/helpers.rc",
+		"/home/pd0rk1n/.config/qtile/sxhkd/sxhkdrc",
+		"/home/pd0rk1n/.config/qtile/config.py",
+		"/home/pd0rk1n/DATA/main/.config/qtile/sxhkd/sxhkdrc",
+		"/home/pd0rk1n/.config/qtile/scripts/restart-Qbar.sh",
+		"/home/pd0rk1n/.config/qtile/scripts/autostart (copy 1).sh",
+		"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+		"/home/pd0rk1n/DATA/take-control/arch/when-on-Arch/pacman.conf",
+		"/home/pd0rk1n/DATA/take-control/pacman.conf",
+		"/home/pd0rk1n/.local/bin/lockscreen",
+		"/home/pd0rk1n/.config/sublime-text/Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+		"/home/pd0rk1n/.config/sublime-text/Packages/User/Mariana.sublime-color-scheme",
+		"/home/pd0rk1n/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/pd0rk1n/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/pd0rk1n/.config/sublime-text/Packages/User/Perl.sublime-settings",
+		"/home/pd0rk1n/DATA/main/arch/when-on-Arch/pacman.conf",
+		"/home/pd0rk1n/DATA/choices/arch/when-on-Arch/pacman.conf",
+		"/home/pd0rk1n/.config/sublime-text/Packages/Theme - Default/Default.sublime-theme",
+		"/home/pd0rk1n/.config/sublime-text/Packages/User/Default.sublime-theme",
+		"/boot/grub/grub.cfg",
+		"/etc/default/grub",
+		"/home/pd0rk1n/.config/archlinux-betterlockscreen/settings.conf",
 		"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+		"/home/pd0rk1n/take-control/setup-git-v5.sh",
+		"/home/pd0rk1n/choices/run-first/work on/packages.conf",
+		"/home/pd0rk1n/take-control/up.sh",
+		"/home/pd0rk1n/.config/rclone/rclone.conf",
 		"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
 		"/home/pd0rk1n/fix-mdns.sh",
 		"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
@@ -9,7 +42,6 @@
 		"/home/pd0rk1n/choices/main/.local/state/btop.log",
 		"/home/pd0rk1n/choices/main/install_config.sh",
 		"/home/pd0rk1n/choices/main/main.sh",
-		"/home/pd0rk1n/.local/bin/lockscreen",
 		"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
 		"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
 		"/etc/nanorc",
@@ -27,9 +59,7 @@
 		"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
 		"/home/pd0rk1n/.config/awesome/rc.lua",
 		"/home/pd0rk1n/.config/awesome/autostart.sh",
-		"/home/pd0rk1n/.config/qtile/config.py",
 		"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
-		"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
 		"/home/pd0rk1n/.config/fish/config.fish",
 		"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
 		"/home/pd0rk1n/.config/fastfetch/config.jsonc",
@@ -44,7 +74,6 @@
 		"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
 		"/home/pd0rk1n/backups/backup-20250602.log",
 		"/home/pd0rk1n/Projects/archinstall/renovate.json",
-		"/home/pd0rk1n/.config/fontconfig/fonts.conf",
 		"/home/pd0rk1n/.icons/default/index.theme",
 		"/home/pd0rk1n/wrapper.cpp",
 		"/home/pd0rk1n/win_script_wrapper.exe",
@@ -64,9 +93,9 @@
 	[
 	],
 	"last_version": 4200,
-	"last_window_id": 1,
+	"last_window_id": 5,
 	"log_indexing": false,
-	"next_update_check": 1752404959,
+	"next_update_check": 1752491359,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -95,6 +124,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"ui",
+						"UI: Customize Theme"
+					]
 				],
 				"width": 0.0
 			},
@@ -116,7 +149,33 @@
 			},
 			"file_history":
 			[
+				"/home/pd0rk1n/.config/xfce4-dict/xfce4-dict.rc",
+				"/home/pd0rk1n/.config/Kvantum/kvantum.kvconfig",
+				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
+				"/home/pd0rk1n/.config/gtk-3.0/settings.ini",
+				"/home/pd0rk1n/.config/gtk-3.0/bookmarks",
+				"/home/pd0rk1n/DATA/main/.config/gtk-3.0/bookmarks",
+				"/home/pd0rk1n/DATA/main/.config/gtk-3.0/settings.ini",
+				"/home/pd0rk1n/DATA/main/.config/xfce4/helpers.rc",
+				"/home/pd0rk1n/.config/qtile/sxhkd/sxhkdrc",
+				"/home/pd0rk1n/.config/qtile/config.py",
+				"/home/pd0rk1n/DATA/main/.config/qtile/sxhkd/sxhkdrc",
+				"/home/pd0rk1n/.config/qtile/scripts/restart-Qbar.sh",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart (copy 1).sh",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/DATA/take-control/arch/when-on-Arch/pacman.conf",
+				"/home/pd0rk1n/DATA/take-control/pacman.conf",
+				"/home/pd0rk1n/.local/bin/lockscreen",
+				"/home/pd0rk1n/DATA/main/arch/when-on-Arch/pacman.conf",
+				"/home/pd0rk1n/DATA/choices/arch/when-on-Arch/pacman.conf",
+				"/boot/grub/grub.cfg",
+				"/etc/default/grub",
+				"/home/pd0rk1n/.config/archlinux-betterlockscreen/settings.conf",
 				"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/take-control/setup-git-v5.sh",
+				"/home/pd0rk1n/choices/run-first/work on/packages.conf",
+				"/home/pd0rk1n/take-control/up.sh",
+				"/home/pd0rk1n/.config/rclone/rclone.conf",
 				"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
 				"/home/pd0rk1n/fix-mdns.sh",
 				"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
@@ -124,7 +183,6 @@
 				"/home/pd0rk1n/choices/main/.local/state/btop.log",
 				"/home/pd0rk1n/choices/main/install_config.sh",
 				"/home/pd0rk1n/choices/main/main.sh",
-				"/home/pd0rk1n/.local/bin/lockscreen",
 				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
 				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
 				"/etc/nanorc",
@@ -142,9 +200,7 @@
 				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
 				"/home/pd0rk1n/.config/awesome/rc.lua",
 				"/home/pd0rk1n/.config/awesome/autostart.sh",
-				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
-				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
 				"/home/pd0rk1n/.config/fish/config.fish",
 				"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
 				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
@@ -159,7 +215,6 @@
 				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
 				"/home/pd0rk1n/backups/backup-20250602.log",
 				"/home/pd0rk1n/Projects/archinstall/renovate.json",
-				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
 				"/home/pd0rk1n/.icons/default/index.theme",
 				"/home/pd0rk1n/wrapper.cpp",
 				"/home/pd0rk1n/win_script_wrapper.exe",
@@ -224,7 +279,7 @@
 				[
 				]
 			},
-			"pinned_build_system": "",
+			"pinned_build_system": "Packages/Perl/Perl.sublime-build",
 			"replace":
 			{
 				"height": 60.0
@@ -292,6 +347,10 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"ui",
+						"UI: Customize Theme"
+					]
 				],
 				"width": 0.0
 			},
@@ -313,7 +372,33 @@
 			},
 			"file_history":
 			[
+				"/home/pd0rk1n/.config/xfce4-dict/xfce4-dict.rc",
+				"/home/pd0rk1n/.config/Kvantum/kvantum.kvconfig",
+				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
+				"/home/pd0rk1n/.config/gtk-3.0/settings.ini",
+				"/home/pd0rk1n/.config/gtk-3.0/bookmarks",
+				"/home/pd0rk1n/DATA/main/.config/gtk-3.0/bookmarks",
+				"/home/pd0rk1n/DATA/main/.config/gtk-3.0/settings.ini",
+				"/home/pd0rk1n/DATA/main/.config/xfce4/helpers.rc",
+				"/home/pd0rk1n/.config/qtile/sxhkd/sxhkdrc",
+				"/home/pd0rk1n/.config/qtile/config.py",
+				"/home/pd0rk1n/DATA/main/.config/qtile/sxhkd/sxhkdrc",
+				"/home/pd0rk1n/.config/qtile/scripts/restart-Qbar.sh",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart (copy 1).sh",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/DATA/take-control/arch/when-on-Arch/pacman.conf",
+				"/home/pd0rk1n/DATA/take-control/pacman.conf",
+				"/home/pd0rk1n/.local/bin/lockscreen",
+				"/home/pd0rk1n/DATA/main/arch/when-on-Arch/pacman.conf",
+				"/home/pd0rk1n/DATA/choices/arch/when-on-Arch/pacman.conf",
+				"/boot/grub/grub.cfg",
+				"/etc/default/grub",
+				"/home/pd0rk1n/.config/archlinux-betterlockscreen/settings.conf",
 				"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/take-control/setup-git-v5.sh",
+				"/home/pd0rk1n/choices/run-first/work on/packages.conf",
+				"/home/pd0rk1n/take-control/up.sh",
+				"/home/pd0rk1n/.config/rclone/rclone.conf",
 				"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
 				"/home/pd0rk1n/fix-mdns.sh",
 				"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
@@ -321,7 +406,6 @@
 				"/home/pd0rk1n/choices/main/.local/state/btop.log",
 				"/home/pd0rk1n/choices/main/install_config.sh",
 				"/home/pd0rk1n/choices/main/main.sh",
-				"/home/pd0rk1n/.local/bin/lockscreen",
 				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
 				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
 				"/etc/nanorc",
@@ -339,9 +423,7 @@
 				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
 				"/home/pd0rk1n/.config/awesome/rc.lua",
 				"/home/pd0rk1n/.config/awesome/autostart.sh",
-				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
-				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
 				"/home/pd0rk1n/.config/fish/config.fish",
 				"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
 				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
@@ -356,7 +438,6 @@
 				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
 				"/home/pd0rk1n/backups/backup-20250602.log",
 				"/home/pd0rk1n/Projects/archinstall/renovate.json",
-				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
 				"/home/pd0rk1n/.icons/default/index.theme",
 				"/home/pd0rk1n/wrapper.cpp",
 				"/home/pd0rk1n/win_script_wrapper.exe",
@@ -451,7 +532,7 @@
 				[
 				]
 			},
-			"pinned_build_system": "",
+			"pinned_build_system": "Packages/Perl/Perl.sublime-build",
 			"position": "0,0,0,0,0,5,31,1905,1065,1920,1080,1",
 			"project": "",
 			"replace":
