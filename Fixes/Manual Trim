@@ -1,0 +1,22 @@
+How to execute TRIM manually
+7. You can execute TRIM manually as well. You can use a single terminal command that will execute TRIM on all mounted partitions that support it:
+
+Launch a terminal window.
+(You can launch a terminal window like this: *Click*)
+
+Type (use copy/paste):
+
+sudo fstrim -av
+
+Press Enter. Type your password when prompted. In Ubuntu this remains entirely invisible, not even dots will show when you type it, that's normal. In Mint this has changed: you'll see asterisks when you type. Press Enter again.
+
+This operation may last for minutes; it then looks as if the terminal has frozen. That's not true, however; simply wait patiently....
+
+Note (1): it's possible that manually executing fstrim with -av doesn't work. In that case, use this command:
+
+sudo fstrim -v /
+
+Note (2): on a few SSD models (specifically two models from Crucial), executing a manual fstrim command when there's high disk activity (I/O activity), might cause problems. So only apply it when there's not much activity going on. Preferably with all other applications closed.
+
+Now proceed to the next item.
+

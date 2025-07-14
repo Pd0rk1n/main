@@ -1,0 +1,5 @@
+      
+
+
+
+      rm ~/.config/BraveSoftware/Brave-Browser/SingletonLock

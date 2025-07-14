@@ -1,0 +1,50 @@
+
+### Pacman Commands
+
+
+
+
+Home
+Weekly JournalUsesPortfolioAboutNowLinks
+Jan 19, 2023
+#Linux
+Pacman for newbies
+Who this post is for
+Users who are new to pacman
+Someone who wants to see what other pacman users regularly use
+What this post isn't
+Principle of pacman design
+Detail explanation of the commands
+Replacement of the documentation (duh!)
+Everything in this post can of course be found easily using pacman --help. But that's a documentation. It has a lot more than you'd ever need. This post will help you filter out the few good stuff (read: regularly used) from the vast documentation.
+
+Here's a list of commands I personally use. I never had the need to use anything more than what's listed here.
+
+The Basics
+Upgrade local packages
+sudo pacman -Syu
+This command is probably the most used pacman command by quite some distance. It does 2 things
+
+downloads a fresh package list.
+upgrades all the installed pacakges that are out of date.
+Pacman keeps a local copy of the package list in the system, so it doesn't have to download the list every time you run a command. The -y flag forces pacman to download a fresh copy of the package list from the repositories.
+
+Install packages
+sudo pacman -S <package-name>
+Search for packages
+sudo pacman -Ss <package-name>
+Remove packages
+sudo pacman -Rns <package-name>
+Clean cache
+sudo pacman -Sc
+
+Still basics but rarely used
+These are a list of commands that you probably wouldn't use on a daily basis.
+
+List all packages that are no longer required
+pacman -Qdt
+Remove all packages that are no longer required
+sudo pacman -Rns $(pacman -Qdtq)
+Info of a package
+pacman -Qi <package-name>
+

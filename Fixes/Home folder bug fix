@@ -1,0 +1,36 @@
+#####home folder bug fix
+
+
+#shutdown or reboot
+alias ssn="sudo shutdown now"
+alias sr="reboot"
+alias srfs='sudo systemctl reboot --firmware-setup'
+
+
+sudo chown -Rc $USER:$USER $HOME
+
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+YAY github
+
+git clone https://aur.archlinux.org/yay.git
+
+xfce4-panel --quit ; pkill xfconfd ; rm -rf ~/.config/xfce4/panel ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml ; xfce4-panel;
+
+
+
+##### For backgrounds for sddm   ######
+
+
+       /usr/share/sddm/themes/arcolinux-simplicity/images
+
+
+
+NoExtract = usr/lib/xorg/modules/drivers/intel_drv.so
+
+
+
+
+     yay -S dracula-gtk-theme dracula-icons-git dracula-cursors-git
+

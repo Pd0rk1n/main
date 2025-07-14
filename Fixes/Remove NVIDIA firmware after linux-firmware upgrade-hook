@@ -1,0 +1,17 @@
+
+##### Remove NVIDIA firmware after linux-firmware upgrade  ########
+
+######## Pacman hook  ##############
+
+sudo tee /etc/pacman.d/hooks/remove-nvidia-fw.hook > /dev/null << 'EOF'
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = linux-firmware
+
+[Action]
+Description = Remove NVIDIA firmware after linux-firmware upgrade
+When = PostTransaction
+Exec = /usr/local/bin/remove-nvidia-fw.sh
+EOF
+

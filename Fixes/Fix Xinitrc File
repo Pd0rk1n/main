@@ -1,0 +1,6 @@
+## Fix Xinitrc File
+
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+
+
+

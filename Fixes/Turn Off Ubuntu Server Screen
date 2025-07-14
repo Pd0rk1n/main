@@ -1,0 +1,36 @@
+
+
+############## For turning off the screen via SSH, you can use the vbetool command: #######################
+
+
+sudo vbetool dpms off
+
+
+########### To turn the screen back on, you can use: #################
+
+
+
+sudo vbetool dpms on
+
+
+
+
+
+######   If you have multiple monitors, you can turn off a specific monitor using xrandr:   ####################
+
+
+
+xrandr --output <monitor_name> --off
+
+
+
+
+##########################  To regain control of the console on pressing Enter key, I suggest  ###################
+
+
+
+sudo sh -c 'vbetool dpms off; read ans; vbetool dpms on'
+
+
+
+

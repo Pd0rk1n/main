@@ -1,0 +1,17 @@
+pkgname=xf86-video-intel
+pkgver=9999.9999.9999
+pkgrel=1
+epoch=999
+pkgdesc="BLOCKER: Fake high-version dummy to prevent xf86-video-intel installs"
+arch=('any')
+provides=('xf86-video-intel')
+conflicts=('xf86-video-intel')
+replaces=('xf86-video-intel')
+license=('custom')
+source=()
+md5sums=()
+
+package() {
+  # nothing needed
+  return 0
+}

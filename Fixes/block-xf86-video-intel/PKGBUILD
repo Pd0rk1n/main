@@ -1,0 +1,16 @@
+pkgname=xf86-video-intel
+epoch=999
+pkgver=9999.9999.9999
+pkgrel=1
+pkgdesc="⚠️ BLOCKER for xf86-video-intel – DO NOT INSTALL"
+arch=('any')
+provides=('xf86-video-intel')
+conflicts=('xf86-video-intel')
+replaces=('xf86-video-intel')
+license=('custom')
+source=()
+md5sums=()
+
+package() {
+  return 0
+}

@@ -1,0 +1,16 @@
+##
+#### Reflector Mirrors########
+
+
+
+
+
+   sudo reflector --verbose --sort rate -l 25 -c Canada -c US --save /etc/pacman.d/mirrorlist
+
+
+##### Check Once a Week ######
+
+sudo systemctl enable reflector.timer
+sudo systemctl start reflector.timer
+sudo systemctl start reflector.service
+
