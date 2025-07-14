@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "f9a3e987-6a38-48bd-80db-5c829ad4e017",
+      "logo": {
+        "imageUrl": "b6f1661d-5ec6-49d9-83a6-306afaa9fe61/c9aff315-09aa-4cdb-ac22-baffb5dbacad.png",
+        "destinationUrl": "https://brave.com/podcast/e76/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+        "alt": "The role of biometric data collection in US Army missions and the Global War on Terror",
+        "companyName": "The Brave Technologist Podcast: Episode 76"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "b6f1661d-5ec6-49d9-83a6-306afaa9fe61/daa6b655-2f12-4271-b14c-e734c93f12b8.jpg",
+          "creativeInstanceId": "b278e5ec-4b2f-4837-b551-75f457e8db0b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "c5699569-248a-4ff2-acf9-49d7c2ad531b/55f541d3-9607-44a5-8c02-104c8a453241.jpg",
+          "creativeInstanceId": "dd3995de-3fae-40bd-95c8-6f50e7bfdcbf",
+          "focalPoint": {
+            "x": 1421,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "c5699569-248a-4ff2-acf9-49d7c2ad531b/c9aff315-09aa-4cdb-ac22-baffb5dbacad.png",
+            "destinationUrl": "https://brave.com/podcast/e76/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+            "alt": "The role of biometric data collection in US Army missions and the Global War on Terror",
+            "companyName": "The Brave Technologist Podcast: Episode 76"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "f9a3e987-6a38-48bd-80db-5c829ad4e017",
+      "logo": {
+        "imageUrl": "b6f1661d-5ec6-49d9-83a6-306afaa9fe61/c9aff315-09aa-4cdb-ac22-baffb5dbacad.png",
+        "destinationUrl": "https://brave.com/podcast/e76/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+        "alt": "The role of biometric data collection in US Army missions and the Global War on Terror",
+        "companyName": "The Brave Technologist Podcast: Episode 76"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "b6f1661d-5ec6-49d9-83a6-306afaa9fe61/daa6b655-2f12-4271-b14c-e734c93f12b8.jpg",
+          "creativeInstanceId": "b278e5ec-4b2f-4837-b551-75f457e8db0b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "c5699569-248a-4ff2-acf9-49d7c2ad531b/55f541d3-9607-44a5-8c02-104c8a453241.jpg",
+          "creativeInstanceId": "dd3995de-3fae-40bd-95c8-6f50e7bfdcbf",
+          "focalPoint": {
+            "x": 1421,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "c5699569-248a-4ff2-acf9-49d7c2ad531b/c9aff315-09aa-4cdb-ac22-baffb5dbacad.png",
+            "destinationUrl": "https://brave.com/podcast/e76/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+            "alt": "The role of biometric data collection in US Army missions and the Global War on Terror",
+            "companyName": "The Brave Technologist Podcast: Episode 76"
+          }
+        }
+      ]
+    }
+  ]
+}

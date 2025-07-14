@@ -1,0 +1,6 @@
+2024/10/26-20:35:13.712 1d35 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/26-20:35:13.713 1d35 Recovering log #3
+2024/10/26-20:35:13.765 1d35 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 
+2024/10/26-20:36:33.782 1d37 Level-0 table #5: started
+2024/10/26-20:36:33.810 1d37 Level-0 table #5: 2136312 bytes OK
+2024/10/26-20:36:33.819 1d37 Delete type=0 #3

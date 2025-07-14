@@ -1,0 +1,6 @@
+2024/12/28-08:53:29.777 53c7 Creating DB /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.maketecheasier.com_0.indexeddb.leveldb since it was missing.
+2024/12/28-08:53:29.782 53c7 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.maketecheasier.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/28-08:53:33.789 53c8 Level-0 table #5: started
+2024/12/28-08:53:33.792 53c8 Level-0 table #5: 76770 bytes OK
+2024/12/28-08:53:33.795 53c8 Delete type=0 #3
+2024/12/28-08:53:33.795 53c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,1002 @@
+{
+   "Add": {
+      "description": "",
+      "message": "Lisää"
+   },
+   "Add_accesskey": {
+      "description": "",
+      "message": "A"
+   },
+   "AdditionalPermissions": {
+      "description": "",
+      "message": "Lisäkäyttöoikeuksia luotetuille sivustoille"
+   },
+   "AdditionalRestrictions": {
+      "description": "",
+      "message": "Lisärajoituksia epäluotettaville sivustoille"
+   },
+   "Allow": {
+      "description": "",
+      "message": "Salli"
+   },
+   "AllowBookmarks": {
+      "description": "",
+      "message": "Salli kirjanmerkkien kautta avatut sivustot"
+   },
+   "AllowClipboard": {
+      "description": "",
+      "message": "Salli muotoillun tekstin kopioiminen ulkoiselle leikepöydälle ja sieltä liittäminen"
+   },
+   "AllowLocalLinks": {
+      "description": "",
+      "message": "Salli paikalliset linkit"
+   },
+   "AllowPage": {
+      "description": "",
+      "message": "Salli kaikki tällä sivulla"
+   },
+   "AllowPage_accesskey": {
+      "description": "",
+      "message": "A"
+   },
+   "AllowPing": {
+      "description": "",
+      "message": "Salli \u003CA PING…>"
+   },
+   "AllowViaBookmarks": {
+      "description": "",
+      "message": "Salli kirjanmerkkien kautta avatut sivustot"
+   },
+   "Allow_accesskey": {
+      "description": "",
+      "message": "l"
+   },
+   "AlwaysBlockUntrustedContent": {
+      "description": "",
+      "message": "Estä jokainen epäluotettavaksi merkityltä sivustolta lähtöisin oleva objekti"
+   },
+   "AutoAllowTopLevel": {
+      "description": "",
+      "message": "Aseta ylätason sivustojen tilaksi tilapäisesti LUOTETTU"
+   },
+   "AutoReload": {
+      "description": "",
+      "message": "Lataa vaikutuksen alaiset sivut automaattisesti uudelleen käyttöoikeuksien muuttuessa"
+   },
+   "AutoReload_currentTab": {
+      "description": "",
+      "message": "Lataa uudelleen vain nykyinen välilehti"
+   },
+   "BaseDom": {
+      "description": "",
+      "message": "2. tason perusverkkotunnukset (noscript.net)"
+   },
+   "BlockedItems": {
+      "description": "",
+      "message": "Estettiin $1/$2 kohdetta."
+   },
+   "BlockedObjects": {
+      "description": "",
+      "message": "NoScript esti objektia"
+   },
+   "BookmarkSync": {
+      "description": "",
+      "message": "Varmuuskopioi NoScript-asetukset kirjanmerkiksi helppoa synkronointia varten"
+   },
+   "Cancel": {
+      "description": "",
+      "message": "Peru"
+   },
+   "CascadePermissions": {
+      "description": "",
+      "message": "Ryhmitä ylätason tiedostojen käyttöoikeudet ulkopuolisille skripteille"
+   },
+   "CascadeRestrictions": {
+      "description": "",
+      "message": "Kaikki ylätason tiedostossa estetyt toiminnot on estettävä myös sen alitiedostoissa"
+   },
+   "ClearClickDescription": {
+      "description": "",
+      "message": "NoScript katkaisi hiiren/näppäimistön ja osittain piilotetun elementin välisen vuorovaikutuksen. Vaihda estetyn ja selkeän version välillä painamalla alla olevaa kuvaa."
+   },
+   "ClearClickHeader": {
+      "description": "",
+      "message": "Mahdollinen klikkikaappaus/käyttöliittymän muokkausyritys!"
+   },
+   "ClearClickOpt": {
+      "description": "",
+      "message": "ClearClick-suojaus sivuilla…"
+   },
+   "ClearClickReport": {
+      "description": "",
+      "message": "Raportoi"
+   },
+   "ClearClickReportId": {
+      "description": "",
+      "message": "Raportin tunnus:"
+   },
+   "ClearClickReport_accesskey": {
+      "description": "",
+      "message": "R"
+   },
+   "ClearClickTitle": {
+      "description": "",
+      "message": "ClearClick-varoitus"
+   },
+   "Close": {
+      "description": "",
+      "message": "Sulje"
+   },
+   "CollapseBlockedObjects": {
+      "description": "",
+      "message": "Tiivistä estetyt objektit"
+   },
+   "ConfirmUnblock": {
+      "description": "",
+      "message": "Pyydä vahvistus ennen objektin eston tilapäistä poistoa"
+   },
+   "CtxMenu": {
+      "description": "",
+      "message": "Sisältövalikko"
+   },
+   "Custom": {
+      "description": "",
+      "message": "Mukautettu"
+   },
+   "CustomizePresets": {
+      "description": "",
+      "message": "Esiasetusten mukauttaminen (kaikille esiasetuksen jakaville sivustoille)"
+   },
+   "Default": {
+      "description": "",
+      "message": "Oletus"
+   },
+   "DefaultPolicies": {
+      "description": "",
+      "message": "Oletuskäytännöt"
+   },
+   "Description": {
+      "description": "",
+      "message": "Vahvin suojaus selaimellesi: NoScript sallii aktiivisen sisällön vain luotetuiksi määrittämillesi verkkotunnuksille hyväksikäytön estämiseksi."
+   },
+   "Donate": {
+      "description": "",
+      "message": "Lahjoita"
+   },
+   "DonateLong": {
+      "description": "",
+      "message": "NoScript on ilmainen ohjelmisto, eikä se selviä ilman käyttäjien tukea. Lahjoita nyt, kiitos!"
+   },
+   "DonateShort": {
+      "description": "",
+      "message": "Lahjoita"
+   },
+   "Donate_accesskey": {
+      "description": "",
+      "message": "o"
+   },
+   "Embeddings": {
+      "description": "",
+      "message": "Upotukset"
+   },
+   "Enforce": {
+      "description": "",
+      "message": "Ota rajoitukset käyttöön täysin"
+   },
+   "EnforceForTab": {
+      "description": "",
+      "message": "Ota rajoitukset käyttöön tällä välilehdellä"
+   },
+   "EnforceOnRestart": {
+      "description": "",
+      "message": "Palauta rajoitukset selaimen käynnistyessä uudelleen"
+   },
+   "Exceptions": {
+      "description": "",
+      "message": "Poikkeukset…"
+   },
+   "Export": {
+      "description": "",
+      "message": "Vie"
+   },
+   "Export_accesskey": {
+      "description": "",
+      "message": "E"
+   },
+   "FixLinks": {
+      "description": "",
+      "message": "Pyri korjaamaan JavaScript-linkit"
+   },
+   "Hider": {
+      "description": "",
+      "message": "Piilota pudottamalla tähän."
+   },
+   "HighContrast": {
+      "description": "",
+      "message": "Korkea kontrasti"
+   },
+   "Https": {
+      "description": "",
+      "message": "HTTPS"
+   },
+   "HttpsFaq": {
+      "description": "",
+      "message": "HTTPS-protokollan UKK..."
+   },
+   "HttpsFaq_accesskey": {
+      "description": "",
+      "message": "Q"
+   },
+   "HttpsForced": {
+      "description": "",
+      "message": "Pakota seuraavat sivustot käyttämään suojattuja HTTPS-yhteyksiä:"
+   },
+   "HttpsForcedExceptions": {
+      "description": "",
+      "message": "Älä koskaan pakota suojattuja HTTPS-yhteyksiä seuraaville sivustoille:"
+   },
+   "Https_always": {
+      "description": "",
+      "message": "Aina"
+   },
+   "Https_behavior": {
+      "description": "",
+      "message": "Käyttäytyminen"
+   },
+   "Https_cookies": {
+      "description": "",
+      "message": "Evästeet"
+   },
+   "Https_description": {
+      "description": "",
+      "message": "Kiellä aktiivinen verkkosisältö, jollei se tule suojatun HTTPS-yhteyden välityksellä:"
+   },
+   "Https_never": {
+      "description": "",
+      "message": "Ei koskaan"
+   },
+   "Https_proxy": {
+      "description": "",
+      "message": "Käytettäessä välityspalvelinta (suositellaan Torin kanssa)"
+   },
+   "Import": {
+      "description": "",
+      "message": "Tuo"
+   },
+   "Import_accesskey": {
+      "description": "",
+      "message": "I"
+   },
+   "KeepLocked": {
+      "description": "",
+      "message": "Pidä tämä elementti lukittuna (suositus)"
+   },
+   "MatchSample": {
+      "description": "",
+      "message": "Mallia vastaava lauseke:"
+   },
+   "ModernRed": {
+      "description": "",
+      "message": "Moderni punainen"
+   },
+   "Next": {
+      "description": "",
+      "message": "Seuraava"
+   },
+   "NoEnforcement": {
+      "description": "",
+      "message": "Poista rajoitukset käytöstä täysin (vaarallinen)"
+   },
+   "NoEnforcementForTab": {
+      "description": "",
+      "message": "Poista rajoitukset käytöstä tällä välilehdellä"
+   },
+   "NoUntrustedPlaceholder": {
+      "description": "",
+      "message": "Ei paikkamerkkejä epäluotettavaksi merkityltä sivustolta lähtöisin oleville objekteille"
+   },
+   "NotEnforced": {
+      "description": "",
+      "message": "Rajoitukset on poistettu käytöstä käyttäjän asetuksilla: NoScript ei estä tällä sivulla mitään!"
+   },
+   "Notifications": {
+      "description": "",
+      "message": "Ilmoitukset"
+   },
+   "Notify": {
+      "description": "",
+      "message": "Näytä viesti estetyistä skripteistä"
+   },
+   "NotifyMeta": {
+      "description": "",
+      "message": "Näytä viesti estetyistä META-ohjauksista"
+   },
+   "NotifyMeta_accesskey": {
+      "description": "",
+      "message": "R"
+   },
+   "Notify_bottom": {
+      "description": "",
+      "message": "Sijoita viesti alareunaan"
+   },
+   "NselForce": {
+      "description": "",
+      "message": "Näytä elementti \u003CNOSCRIPT>, joka seuraa estettyä objektia \u003CSCRIPT>"
+   },
+   "NselNever": {
+      "description": "",
+      "message": "Piilota \u003CNOSCRIPT> elementtiä"
+   },
+   "OK": {
+      "description": "",
+      "message": "OK"
+   },
+   "OptAmnesticUpdates": {
+      "description": "",
+      "message": "Mitätöi tiläpäiset NoScript-päivitysten käyttöoikeudet, vaikkei selainta käynnistettäisi uudelleen"
+   },
+   "OptBlockCssScanners": {
+      "description": "",
+      "message": "Estä CSS-pohjaiset skannerit"
+   },
+   "OptFilterXGet": {
+      "description": "",
+      "message": "Puhdista epäilyttävät sivustojen väliset pyynnöt"
+   },
+   "OptFilterXPost": {
+      "description": "",
+      "message": "Muuta sivustojen väliset POST-pyynnöt tiedottomiksi GET-pyynnöiksi"
+   },
+   "OptIncognitoPerm": {
+      "description": "",
+      "message": "Käytä pysyvien käyttöoikeuksien määritystä incognito-/yksityisillä välilehdillä.\nVAROITUS: Tämä voi vuotaa sivustojen tietoja!"
+   },
+   "OptOverrideTorBrowserPolicy": {
+      "description": "",
+      "message": "Ohita Tor-selaimen suojaustason esiasetus"
+   },
+   "Options": {
+      "description": "",
+      "message": "Asetukset..."
+   },
+   "OptionsLong": {
+      "description": "",
+      "message": "NoScript-asetukset"
+   },
+   "OptionsWidth": {
+      "description": "",
+      "message": "40em"
+   },
+   "Options_accesskey": {
+      "description": "",
+      "message": "O"
+   },
+   "PermanentInPrivate": {
+      "description": "",
+      "message": "Pysyvät \"Salli\"-komennot yksityisissä ikkunoissa"
+   },
+   "PermissionsText": {
+      "description": "",
+      "message": "Voit määrittää, mitkä verkkosivustot saavat suorittaa skriptejä. Syötä sallittavan sivuston URL-osoite tai verkkotunnus (esim. \"https://www.sivusto.fi\" tai \"sivusto.fi\") ja paina sitten \"Salli\"."
+   },
+   "Plugins": {
+      "description": "",
+      "message": "Lisäosat"
+   },
+   "Policies": {
+      "description": "",
+      "message": "Käytännöt"
+   },
+   "Preset": {
+      "description": "",
+      "message": "Suojaustaso"
+   },
+   "Prev": {
+      "description": "",
+      "message": "Edellinen"
+   },
+   "RecentBlocked": {
+      "description": "",
+      "message": "Viimeksi estetyt sivustot"
+   },
+   "Refresh": {
+      "description": "",
+      "message": "Päivitä"
+   },
+   "Reload": {
+      "description": "",
+      "message": "Lataa uudelleen"
+   },
+   "ReloadWarn": {
+      "description": "",
+      "message": "Nämä asetukset tulevat voimaan uusilla tai (manuaalisesti) uudelleenladatuilla sivuilla"
+   },
+   "RemoveSelected": {
+      "description": "",
+      "message": "Poista valitut sivustot"
+   },
+   "Reset": {
+      "description": "",
+      "message": "Palauta oletukset"
+   },
+   "ResetDef": {
+      "description": "",
+      "message": "Palauta oletukset"
+   },
+   "ResetDef_accesskey": {
+      "description": "",
+      "message": "D"
+   },
+   "Reset_accesskey": {
+      "description": "",
+      "message": "s"
+   },
+   "Reveal": {
+      "description": "",
+      "message": "Hae puuttuvat painikkeet painamalla tästä…"
+   },
+   "RevokeTemp": {
+      "description": "",
+      "message": "Mitätöi tilapäiset käyttöoikeudet"
+   },
+   "RevokeTemp_accesskey": {
+      "description": "",
+      "message": "R"
+   },
+   "SectionAdvanced": {
+      "description": "",
+      "message": "Lisäasetukset"
+   },
+   "SectionAppearance": {
+      "description": "",
+      "message": "Ulkoasu"
+   },
+   "SectionGeneral": {
+      "description": "",
+      "message": "Yleiset"
+   },
+   "SectionSitePermissions": {
+      "description": "",
+      "message": "Sivustokohtaiset käyttöoikeudet"
+   },
+   "SecureCookies": {
+      "description": "",
+      "message": "Käytä automaattista suojattua evästeiden hallintaa"
+   },
+   "SecureCookiesExceptions": {
+      "description": "",
+      "message": "Älä huomioi seuraavien sivustojen HTTPS-yhteyden välityksellä asetettuja vaarallisia evästeitä:"
+   },
+   "SecureCookiesForced": {
+      "description": "",
+      "message": "Pakota seuraavien sivustojen HTTPS-yhteyden välityksellä asetettujen vaarallisten evästeiden salaus:"
+   },
+   "SecurityManager": {
+      "description": "",
+      "message": "Suojaushallinta"
+   },
+   "Show": {
+      "description": "",
+      "message": "Näytä..."
+   },
+   "ShowConsole": {
+      "description": "",
+      "message": "Näytä konsoli..."
+   },
+   "ShowConsole_accesskey": {
+      "description": "",
+      "message": "S"
+   },
+   "ShowCountBadge": {
+      "description": "",
+      "message": "Näytä estettyjen kohteiden määrä työkalupalkin painikkeessa"
+   },
+   "ShowCtxMenuItem": {
+      "description": "",
+      "message": "Näytä NoScript selaimen sisältövalikossa"
+   },
+   "ShowFullAddresses": {
+      "description": "",
+      "message": "Listaa käyttöoikeusponnahduksessa täydelliset osoitteet (https://www.noscript.net)"
+   },
+   "ShowPlaceholder": {
+      "description": "",
+      "message": "Näytä paikkamerkin kuvake"
+   },
+   "ShowReleaseNotes": {
+      "description": "",
+      "message": "Näytä julkaisutiedot päivitysten yhteydessä"
+   },
+   "SitePermissions": {
+      "description": "",
+      "message": "Sivuston käyttöoikeudet"
+   },
+   "SitePermissions_accessKey": {
+      "description": "",
+      "message": "S"
+   },
+   "SitePolicies": {
+      "description": "",
+      "message": "Sivustokohtaiset käytännöt"
+   },
+   "TabGuard_forget": {
+      "description": "",
+      "message": "Unohda päätökset"
+   },
+   "TabGuard_label": {
+      "description": "",
+      "message": "Suojaus välilehtien väliseltä identiteettivuodoilta"
+   },
+   "TabGuard_message": {
+      "description": "",
+      "message": "Olet lataamassa sivua osoitteesta $1.\nJos olet sivuston $1 kirjautunut käyttäjä, $2 saattaa saada tietoja identiteettistäsi."
+   },
+   "TabGuard_optAllow": {
+      "description": "",
+      "message": "Lataa normaalisti"
+   },
+   "TabGuard_optAnonymize": {
+      "description": "",
+      "message": "Lataa anonyymisti"
+   },
+   "TabGuard_optDisabled": {
+      "description": "",
+      "message": "Ei käytössä"
+   },
+   "TabGuard_optEnabled": {
+      "description": "",
+      "message": "Käytössä kaikkialla"
+   },
+   "TabGuard_optIncognito": {
+      "description": "",
+      "message": "Käytössä vain yksityisessä selauksessa"
+   },
+   "TabGuard_optPromptAlways": {
+      "description": "",
+      "message": "Vahvista kaikkien pyyntöjen anonymisointi"
+   },
+   "TabGuard_optPromptNever": {
+      "description": "",
+      "message": "Älä vahvista anonymisointia koskaan"
+   },
+   "TabGuard_optPromptPost": {
+      "description": "",
+      "message": "Vahvista POST-lähetysten anonymisointi"
+   },
+   "TabGuard_title": {
+      "description": "",
+      "message": "Mahdollinen identiteettivuoto"
+   },
+   "TempToPerm": {
+      "description": "",
+      "message": "Tee sivun käyttöoikeuksista pysyviä"
+   },
+   "TempToPerm_accesskey": {
+      "description": "",
+      "message": "M"
+   },
+   "TempTrustPage": {
+      "description": "",
+      "message": "Aseta kaikki tällä sivulla tilaan Tilapäisesti LUOTETTU"
+   },
+   "TempTrustPage_accesskey": {
+      "description": "",
+      "message": "T"
+   },
+   "Trust": {
+      "description": "",
+      "message": "Merkitse luotetuksi"
+   },
+   "Trust_accesskey": {
+      "description": "",
+      "message": "T"
+   },
+   "Trusted": {
+      "description": "",
+      "message": "Luotettu"
+   },
+   "TrustedPagesAdj": {
+      "description": "",
+      "message": "luotettu"
+   },
+   "Trusted_permanent": {
+      "description": "",
+      "message": "LUOTETTU"
+   },
+   "Trusted_temporary": {
+      "description": "",
+      "message": "Tilap. LUOTETTU"
+   },
+   "Uninstall": {
+      "description": "",
+      "message": "Poista asennus"
+   },
+   "Unknown": {
+      "description": "",
+      "message": "Tuntematon"
+   },
+   "UnsafeReload": {
+      "description": "",
+      "message": "Vaarallinen uudelleenlataus"
+   },
+   "UnsafeReload_accesskey": {
+      "description": "",
+      "message": "R"
+   },
+   "Untrust": {
+      "description": "",
+      "message": "Merkitse Epäluotettavaksi"
+   },
+   "Untrust_accesskey": {
+      "description": "",
+      "message": "U"
+   },
+   "Untrusted": {
+      "description": "",
+      "message": "Epäluotettava"
+   },
+   "UntrustedPagesAdj": {
+      "description": "",
+      "message": "epäluotettava"
+   },
+   "VintageBlue": {
+      "description": "",
+      "message": "Perinteinen sininen"
+   },
+   "WebAddress": {
+      "description": "",
+      "message": "Etsi tai lisää verkkosivusto:"
+   },
+   "WebAddress_accesskey": {
+      "description": "",
+      "message": "w"
+   },
+   "XSS_clearUserChoices": {
+      "description": "",
+      "message": "Tyhjennä XSS-valinnat"
+   },
+   "XSS_notify": {
+      "description": "",
+      "message": "Näytä XSS-ilmoitukset"
+   },
+   "XSS_optAllow": {
+      "description": "",
+      "message": "Salli tämä pyyntö"
+   },
+   "XSS_optAlwaysAllow": {
+      "description": "",
+      "message": "Salli tiedostopyynnöt osoitteesta $1 osoitteeseen $2 aina"
+   },
+   "XSS_optAlwaysBlock": {
+      "description": "",
+      "message": "Estä tiedostopyynnöt osoitteesta $1 osoitteeseen $2 aina"
+   },
+   "XSS_optBlock": {
+      "description": "",
+      "message": "Estä tämä pyyntö"
+   },
+   "XSS_optSanitize": {
+      "description": "",
+      "message": "Puhdista tämä pyyntö"
+   },
+   "XSS_promptMessage": {
+      "description": "",
+      "message": "NoScript havaitsi mahdollisen sivustojen välisen Cross-site scripting -hyökkäyksen osoitteesta $1 osoitteeseen $2.\nEpäilyttävät tiedot:\n$3"
+   },
+   "XSS_promptTitle": {
+      "description": "",
+      "message": "NoScriptin XSS-varoitus"
+   },
+   "Xss": {
+      "description": "",
+      "message": "XSS"
+   },
+   "XssExceptions": {
+      "description": "",
+      "message": "XSS-torjuntasuojauksen poikkeukset"
+   },
+   "XssExceptions_description": {
+      "description": "",
+      "message": "Näitä säännöllisiä lausekkeita vastaavia kohteita EI suojata XSS:ltä."
+   },
+   "XssFaq": {
+      "description": "",
+      "message": "XSS-haavoittuvuuden UKK..."
+   },
+   "XssFaq_accesskey": {
+      "description": "",
+      "message": "Q"
+   },
+   "Xss_accesskey": {
+      "description": "",
+      "message": "X"
+   },
+   "about": {
+      "description": "",
+      "message": "Tietoja $1ista"
+   },
+   "allowFrom": {
+      "description": "",
+      "message": "Salli kaikki osoitteesta $1"
+   },
+   "allowGlobal": {
+      "description": "",
+      "message": "Poista kaikki käyttöoikeustarkastukset käytöstä (vaarallinen)"
+   },
+   "allowLocal": {
+      "description": "",
+      "message": "Salli $1"
+   },
+   "allowTemp": {
+      "description": "",
+      "message": "Salli $1 tilapäisesti"
+   },
+   "allowTempFrom": {
+      "description": "",
+      "message": "Salli kaikki osoitteesta $1 tilapäisesti"
+   },
+   "allowed_no": {
+      "description": "",
+      "message": "Skriptit estetään tällä hetkellä"
+   },
+   "allowed_prt": {
+      "description": "",
+      "message": "Skriptit sallitaan osittain"
+   },
+   "allowed_yes": {
+      "description": "",
+      "message": "Skriptit sallitaan tällä hetkellä"
+   },
+   "alwaysAsk": {
+      "description": "",
+      "message": "Pyydä aina vahvistus"
+   },
+   "anySite": {
+      "description": "",
+      "message": "Mikä tahansa sivusto"
+   },
+   "audio_samples": {
+      "description": "",
+      "message": "Ääninäytteet"
+   },
+   "bookmarkSync_confirm": {
+      "description": "",
+      "message": "NoScript on löytänyt näennäisesti $1illa tallennetun asetuskirjanmerkin.\nHaluatko varmasti korvata paikalliset NoScript-asetukset tämän kirjanmerkin asetuksilla?"
+   },
+   "bookmarkSync_message": {
+      "description": "",
+      "message": "Tätä kirjanmerkkiä EI ole tarkoitettu avattavaksi, vaan synkronoitavaksi Weave- tai XMarks-laajennusten kaltaisilla palveluilla."
+   },
+   "bookmarkSync_title": {
+      "description": "",
+      "message": "NoScript-asetuskirjanmerkki"
+   },
+   "cap_fetch": {
+      "description": "",
+      "message": "fetch"
+   },
+   "cap_font": {
+      "description": "",
+      "message": "fontti"
+   },
+   "cap_frame": {
+      "description": "",
+      "message": "kehys"
+   },
+   "cap_lan": {
+      "description": "",
+      "message": "LAN"
+   },
+   "cap_media": {
+      "description": "",
+      "message": "media"
+   },
+   "cap_noscript": {
+      "description": "",
+      "message": "noscript"
+   },
+   "cap_object": {
+      "description": "",
+      "message": "objekti"
+   },
+   "cap_other": {
+      "description": "",
+      "message": "muu"
+   },
+   "cap_ping": {
+      "description": "",
+      "message": "ping"
+   },
+   "cap_script": {
+      "description": "",
+      "message": "skripti"
+   },
+   "cap_unchecked_css": {
+      "description": "",
+      "message": "rajoittamaton CSS"
+   },
+   "cap_webgl": {
+      "description": "",
+      "message": "webgl"
+   },
+   "caps": {
+      "description": "",
+      "message": "Käytä näitä ominaisuuksia"
+   },
+   "capsContext": {
+      "description": "",
+      "message": "Käytä näitä ominaisuuksia, kun ylätason sivu vastaa"
+   },
+   "changelog": {
+      "description": "",
+      "message": "Muutosloki"
+   },
+   "changelog_tip": {
+      "description": "",
+      "message": "Näytä muutosloki"
+   },
+   "confirm": {
+      "description": "",
+      "message": "Oletko varma?"
+   },
+   "disable": {
+      "description": "",
+      "message": "Poista $1 käytöstä"
+   },
+   "disable_accessKey": {
+      "description": "",
+      "message": "D"
+   },
+   "distrust": {
+      "description": "",
+      "message": "Merkitse $1 epäluotettavaksi"
+   },
+   "extensionContributors": {
+      "description": "",
+      "message": "Osallistujat:"
+   },
+   "extensionContributors_tip": {
+      "description": "",
+      "message": "Henkilöt, joita sinun on tästä laajennuksesta kiittäminen"
+   },
+   "extensionCreatorLabel": {
+      "description": "",
+      "message": "Kehittäjä"
+   },
+   "extensionCreator_tip": {
+      "description": "",
+      "message": "Avaa kehittäjän sivusto"
+   },
+   "extensionHomepage_tip": {
+      "description": "",
+      "message": "Avaa laajennuksen sivusto"
+   },
+   "forbidGlobal": {
+      "description": "",
+      "message": "Estä skripitit kaikkialla (suositus)"
+   },
+   "forbidLocal": {
+      "description": "",
+      "message": "Estä $1"
+   },
+   "freshInstallReload": {
+      "description": "",
+      "message": "NoScriptin on ladattava välilehti uudelleen sen käyttämiseksi. Jatketaanko?"
+   },
+   "httpsOnly": {
+      "description": "",
+      "message": "Vastaa vain HTTPS-sisältöä"
+   },
+   "incompatibleOptions": {
+      "description": "",
+      "message": "\"$1\"\nei ole yhteensopiva \"$2\" -laajennuksen kanssa.\nHaluatko ottaa sen käyttöön ja poistaa toisen käytöstä?"
+   },
+   "incompatibleOptions_title": {
+      "description": "",
+      "message": "Varoitus yhteensopimattomista asetuksista"
+   },
+   "informaction_tip": {
+      "description": "",
+      "message": "Avaa InformActionin sivusto"
+   },
+   "license": {
+      "description": "",
+      "message": "Lisenssi"
+   },
+   "license_tip": {
+      "description": "",
+      "message": "Lue loppukäyttäjän lisenssi"
+   },
+   "logo_tip": {
+      "description": "",
+      "message": "Avaa laajennuksen sivusto"
+   },
+   "metaRefresh_notify": {
+      "description": "",
+      "message": "NoScript esti \"\u003CMETA>\" -ohjauksen elementissä \"\u003CNOSCRIPT>\": $1 $2 sekunnissa."
+   },
+   "pagePermissionsUI": {
+      "description": "",
+      "message": "Määritä nykyisen sivun käyttöoikeudet"
+   },
+   "privilegedPage": {
+      "description": "",
+      "message": "Tämä on etuoikeutettu sivu, jonka käyttöoikeuksia ei voida määrittää."
+   },
+   "removal_message": {
+      "description": "",
+      "message": "Poistamalla NoScriptin käytöstä tai poistamalla asennuksen luovut KAIKISTA sen tarjoamista suojauksista.\n\nJos olet vain kyllästynyt käsittelemään skriptien käyttöoikeuksia sivustokohtaisesti, on olemassa turvallisempi vaihtoehto.\n\nNoScript voi lopettaa skripitien estämisen epäluotettavaksi merkitsemiäsi lukuun ottamatta, mutta silti suojella sinua edistyneillä suojaustoiminnoilla XSS-, Clickjacking-, CSRF- ja muilta verkkouhkilta.\n\nHaluatko varmasti poistaa KAIKKI NoScript-suojaukset?"
+   },
+   "removal_no": {
+      "description": "",
+      "message": "En, lopeta vain skriptien estäminen"
+   },
+   "removal_title": {
+      "description": "",
+      "message": "Varoitus suojauksen alentumisesta"
+   },
+   "removal_yes": {
+      "description": "",
+      "message": "Kyllä, poista KAIKKI suojaukset"
+   },
+   "reset_title": {
+      "description": "",
+      "message": "NoScriptin oletusten palautus"
+   },
+   "reset_warning": {
+      "description": "",
+      "message": "KAIKKI NoScript-asetukset ja sivustojen käyttöoikeudet palautetaan välittömästi oletusarvoihin.\nToimintoa ei ole mahdollista perua.\nHaluatko jatkaa?"
+   },
+   "settingsThemeLabel": {
+      "description": "",
+      "message": "Teema"
+   },
+   "siteInfo_confirm": {
+      "description": "",
+      "message": "Olet pyytämässä tietoja sivustosta \"$1\"\nlähettämällä kyselyn osoitteeseen $2.\nHaluatko jatkaa?"
+   },
+   "siteInfo_tooltip": {
+      "description": "",
+      "message": "Näytä sivuston tiedot klikkaamalla keskipainikkeella tai Shift-näppäin pohjassa."
+   },
+   "sponsor_tip": {
+      "description": "",
+      "message": "Avaa sponsorin sivusto"
+   },
+   "themeAuto": {
+      "description": "",
+      "message": "Automaattinen"
+   },
+   "themeDark": {
+      "description": "",
+      "message": "Tumma"
+   },
+   "themeLight": {
+      "description": "",
+      "message": "Vaalea"
+   },
+   "toVintageBlue": {
+      "description": "",
+      "message": "Vaihda teemaan Perinteinen sininen"
+   },
+   "toggleEnforcementForTab": {
+      "description": "",
+      "message": "Kytke rajoitusten pakotus nykyisellä välilehdellä"
+   },
+   "unsafeReload_warning": {
+      "description": "",
+      "message": "TURVATON epäilyttävän kohteen uudelleenlataus\n\n$1 [$2]\nLÄHTEESTÄ [$3]\n\nNoScript EI suojaa tätä pyyntöä!\n"
+   },
+   "untrustedOrigin": {
+      "description": "",
+      "message": "epäluotettava alkuperä"
+   },
+   "version": {
+      "description": "",
+      "message": "Versio $1"
+   },
+   "versionShort": {
+      "description": "",
+      "message": "v$1"
+   }
+}

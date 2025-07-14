@@ -1,0 +1,563 @@
+{
+	"file_history":
+	[
+		"/home/pd0rk1n/take-control/setup-git-v5.sh",
+		"/home/pd0rk1n/choices/run-first/work on/packages.conf",
+		"/home/pd0rk1n/take-control/up.sh",
+		"/home/pd0rk1n/.config/rclone/rclone.conf",
+		"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+		"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
+		"/home/pd0rk1n/fix-mdns.sh",
+		"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
+		"/home/pd0rk1n/choices/main/install_pd0rk1n_user_files.sh",
+		"/home/pd0rk1n/choices/main/.local/state/btop.log",
+		"/home/pd0rk1n/choices/main/install_config.sh",
+		"/home/pd0rk1n/choices/main/main.sh",
+		"/home/pd0rk1n/.local/bin/lockscreen",
+		"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
+		"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
+		"/etc/nanorc",
+		"/home/pd0rk1n/choices/Fixes/BraveUnlock.txt",
+		"/home/pd0rk1n/.nanorc",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys-linux.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe-linux.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_head.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/loopback.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/grub.cfg",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/loader.conf",
+		"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
+		"/home/pd0rk1n/.config/awesome/rc.lua",
+		"/home/pd0rk1n/.config/awesome/autostart.sh",
+		"/home/pd0rk1n/.config/qtile/config.py",
+		"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
+		"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+		"/home/pd0rk1n/.config/fish/config.fish",
+		"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
+		"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+		"/home/pd0rk1n/.config/Thunar/accels.scm",
+		"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
+		"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
+		"/home/pd0rk1n/.config/rofi/files/launchers/type-2/style-2.rasi",
+		"/home/pd0rk1n/.config/qtile/rofi/colors.rasi",
+		"/home/pd0rk1n/.config/rofi/files/colors/dracula.rasi",
+		"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CONTRIBUTING.md",
+		"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CMakeLists.txt",
+		"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
+		"/home/pd0rk1n/backups/backup-20250602.log",
+		"/home/pd0rk1n/Projects/archinstall/renovate.json",
+		"/home/pd0rk1n/.config/fontconfig/fonts.conf",
+		"/home/pd0rk1n/.icons/default/index.theme",
+		"/home/pd0rk1n/wrapper.cpp",
+		"/home/pd0rk1n/win_script_wrapper.exe",
+		"/run/user/1000/gvfs/sftp:host=10.0.0.19/usr/lib/apt/apt.systemd.daily",
+		"/home/pd0rk1n/.ssh/id_ed25519.pub",
+		"/home/pd0rk1n/.ssh/id_rsa.pub",
+		"/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb/usr_src/linux-headers-6.8.0-60-generic/.config",
+		"/home/pd0rk1n/.config/qt5ct/qt5ct.conf",
+		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/user-dirs.locale",
+		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/i3/etc/environment",
+		"/home/pd0rk1n/github/arcolinux-nemesis/120-install-core-software.sh",
+		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/Fixes/BraveUnlock.txt",
+		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/mimeapps.list",
+		"/home/pd0rk1n/github/arcolinux-nemesis/110-install-nemesis-software.sh"
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4200,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"next_update_check": 1752404959,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1034.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			10.0,
+			65.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pd0rk1n/.config/archlinux-betterlockscreen/settings.conf",
+				"/home/pd0rk1n/take-control/setup-git-v5.sh",
+				"/home/pd0rk1n/choices/run-first/work on/packages.conf",
+				"/home/pd0rk1n/take-control/up.sh",
+				"/home/pd0rk1n/.config/rclone/rclone.conf",
+				"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/fix-mdns.sh",
+				"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
+				"/home/pd0rk1n/choices/main/install_pd0rk1n_user_files.sh",
+				"/home/pd0rk1n/choices/main/.local/state/btop.log",
+				"/home/pd0rk1n/choices/main/install_config.sh",
+				"/home/pd0rk1n/choices/main/main.sh",
+				"/home/pd0rk1n/.local/bin/lockscreen",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
+				"/etc/nanorc",
+				"/home/pd0rk1n/choices/Fixes/BraveUnlock.txt",
+				"/home/pd0rk1n/.nanorc",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_head.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/loopback.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/grub.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/loader.conf",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
+				"/home/pd0rk1n/.config/awesome/rc.lua",
+				"/home/pd0rk1n/.config/awesome/autostart.sh",
+				"/home/pd0rk1n/.config/qtile/config.py",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/.config/fish/config.fish",
+				"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
+				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+				"/home/pd0rk1n/.config/Thunar/accels.scm",
+				"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
+				"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
+				"/home/pd0rk1n/.config/rofi/files/launchers/type-2/style-2.rasi",
+				"/home/pd0rk1n/.config/qtile/rofi/colors.rasi",
+				"/home/pd0rk1n/.config/rofi/files/colors/dracula.rasi",
+				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CONTRIBUTING.md",
+				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CMakeLists.txt",
+				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
+				"/home/pd0rk1n/backups/backup-20250602.log",
+				"/home/pd0rk1n/Projects/archinstall/renovate.json",
+				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
+				"/home/pd0rk1n/.icons/default/index.theme",
+				"/home/pd0rk1n/wrapper.cpp",
+				"/home/pd0rk1n/win_script_wrapper.exe",
+				"/run/user/1000/gvfs/sftp:host=10.0.0.19/usr/lib/apt/apt.systemd.daily",
+				"/home/pd0rk1n/.ssh/id_ed25519.pub",
+				"/home/pd0rk1n/.ssh/id_rsa.pub",
+				"/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb/usr_src/linux-headers-6.8.0-60-generic/.config",
+				"/home/pd0rk1n/.config/qt5ct/qt5ct.conf",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/user-dirs.locale",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/i3/etc/environment",
+				"/home/pd0rk1n/github/arcolinux-nemesis/120-install-core-software.sh",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/Fixes/BraveUnlock.txt",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/mimeapps.list",
+				"/home/pd0rk1n/github/arcolinux-nemesis/110-install-nemesis-software.sh"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"xed"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1900.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/pd0rk1n/.config/archlinux-betterlockscreen/settings.conf",
+					"settings":
+					{
+						"buffer_size": 38,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/pd0rk1n/take-control/setup-git-v5.sh",
+				"/home/pd0rk1n/choices/run-first/work on/packages.conf",
+				"/home/pd0rk1n/take-control/up.sh",
+				"/home/pd0rk1n/.config/rclone/rclone.conf",
+				"/home/pd0rk1n/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/choices/main/.config/archlinux-logout/archlinux-logout.conf",
+				"/home/pd0rk1n/fix-mdns.sh",
+				"/home/pd0rk1n/.pki/nssdb/pkcs11.txt",
+				"/home/pd0rk1n/choices/main/install_pd0rk1n_user_files.sh",
+				"/home/pd0rk1n/choices/main/.local/state/btop.log",
+				"/home/pd0rk1n/choices/main/install_config.sh",
+				"/home/pd0rk1n/choices/main/main.sh",
+				"/home/pd0rk1n/.local/bin/lockscreen",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/readme.txt",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB/How to Train Your Dragon 2025 1080p TS EN FR-RGB.mkv.nfo",
+				"/etc/nanorc",
+				"/home/pd0rk1n/choices/Fixes/BraveUnlock.txt",
+				"/home/pd0rk1n/.nanorc",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_sys.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe-linux.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_pxe.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/syslinux/archiso_head.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/loopback.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/grub/grub.cfg",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/loader.conf",
+				"/home/pd0rk1n/Desktop/kiro-iso/archiso/efiboot/loader/entries/01-archiso-x86_64-linux.conf",
+				"/home/pd0rk1n/.config/awesome/rc.lua",
+				"/home/pd0rk1n/.config/awesome/autostart.sh",
+				"/home/pd0rk1n/.config/qtile/config.py",
+				"/home/pd0rk1n/Videos/www.UIndex.org    -    Jurassic World Rebirth 2025 1080p TS ENG-RGB/Jurassic World Rebirth 2025 1080p TS ENG-RGB.mkv.nfo",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/.config/fish/config.fish",
+				"/home/pd0rk1n/Downloads/edu-shells/etc/skel/.config/fish/config.fish",
+				"/home/pd0rk1n/.config/fastfetch/config.jsonc",
+				"/home/pd0rk1n/.config/Thunar/accels.scm",
+				"/home/pd0rk1n/Desktop/iso/archiso/airootfs/etc/sudoers.d/g_wheel",
+				"/home/pd0rk1n/.config/qtile/rofi/launcher2.rasi",
+				"/home/pd0rk1n/.config/rofi/files/launchers/type-2/style-2.rasi",
+				"/home/pd0rk1n/.config/qtile/rofi/colors.rasi",
+				"/home/pd0rk1n/.config/rofi/files/colors/dracula.rasi",
+				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CONTRIBUTING.md",
+				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/CMakeLists.txt",
+				"/home/pd0rk1n/Downloads/calamares-3.3.15-06/README.md",
+				"/home/pd0rk1n/backups/backup-20250602.log",
+				"/home/pd0rk1n/Projects/archinstall/renovate.json",
+				"/home/pd0rk1n/.config/fontconfig/fonts.conf",
+				"/home/pd0rk1n/.icons/default/index.theme",
+				"/home/pd0rk1n/wrapper.cpp",
+				"/home/pd0rk1n/win_script_wrapper.exe",
+				"/run/user/1000/gvfs/sftp:host=10.0.0.19/usr/lib/apt/apt.systemd.daily",
+				"/home/pd0rk1n/.ssh/id_ed25519.pub",
+				"/home/pd0rk1n/.ssh/id_rsa.pub",
+				"/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb/usr_src/linux-headers-6.8.0-60-generic/.config",
+				"/home/pd0rk1n/.config/qt5ct/qt5ct.conf",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/user-dirs.locale",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/i3/etc/environment",
+				"/home/pd0rk1n/github/arcolinux-nemesis/120-install-core-software.sh",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/Fixes/BraveUnlock.txt",
+				"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/mimeapps.list",
+				"/home/pd0rk1n/github/arcolinux-nemesis/110-install-nemesis-software.sh"
+			],
+			"find":
+			{
+				"height": 32.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"xed"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/pd0rk1n/.config/archlinux-betterlockscreen/settings.conf",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 38,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 32.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,5,31,1905,1065,1920,1080,1",
+			"project": "",
+			"replace":
+			{
+				"height": 60.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

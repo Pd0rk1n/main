@@ -1,0 +1,5 @@
+2025/07/06-17:20:24.553 19557b Creating DB /home/pd0rk1n/.config/chromium/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb since it was missing.
+2025/07/06-17:20:24.557 19557b Reusing MANIFEST /home/pd0rk1n/.config/chromium/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/06-17:20:42.064 19557c Level-0 table #5: started
+2025/07/06-17:20:42.082 19557c Level-0 table #5: 1056305 bytes OK
+2025/07/06-17:20:42.085 19557c Delete type=0 #3

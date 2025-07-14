@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Run betterlockscreen
+betterlockscreen -l dim
+
+# When it exits (after unlock), restart Qtile to force redraw of the bar
+qtile cmd-obj -o cmd -f restart

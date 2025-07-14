@@ -1,0 +1,14 @@
+[Unit]
+Description=Mount Google Drive via rclone (no daemon)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount gdrive: %h/gdrive --config=%h/.config/rclone/rclone.conf --vfs-cache-mode=writes --vfs-cache-max-size=100M --vfs-cache-max-age=1h --dir-cache-time=72h --poll-interval=15s --umask=002 --allow-other
+ExecStop=/usr/bin/fusermount -u %h/gdrive
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

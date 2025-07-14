@@ -1,0 +1,417 @@
+warning: output HDMI1 not found; ignoring
+/home/pd0rk1n/.config/qtile/scripts/autostart.sh: line 42: conky: command not found
+/home/pd0rk1n/.config/qtile/scripts/autostart.sh: line 6: pasystray: command not found
+Fontconfig warning: using without calling FcInit()
+Fontconfig warning: using without calling FcInit()
+
+(pamac-tray:141727): Gdk-CRITICAL **: 04:59:52.418: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Fontconfig warning: using without calling FcInit()
+Fontconfig warning: using without calling FcInit()
+WARNING: 2025-06-30 04:59:52,704: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(ulauncher:141728): Gdk-CRITICAL **: 04:59:52.831: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(variety:141725): Gdk-CRITICAL **: 04:59:52.882: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+** Message: 05:00:22.943: updates_checker.vala:59: check updates
+[151551:151551:0630/050026.752453:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0903602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfce4-terminal:153855): xfce4-terminal-WARNING **: 05:01:53.085: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+Fontconfig warning: using without calling FcInit()
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151513:151513:0630/051120.537434:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/root-hkt0of2c.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051120.537498:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/root-hkt0of2c.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051120.537663:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/conversation-small-n8k4gs48.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051120.537706:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/conversation-small-n8k4gs48.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151513:151513:0630/051320.514792:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/root-hkt0of2c.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051320.514876:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/root-hkt0of2c.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051320.514984:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/conversation-small-n8k4gs48.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051320.515011:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/conversation-small-n8k4gs48.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+** Message: 05:15:51.898: updates_checker.vala:59: check updates
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(nemo:185183): Nemo-WARNING **: 05:16:12.044: Current gtk theme is not known to have nemo support (Dracula) - checking...
+Fontconfig warning: using without calling FcInit()
+
+(nemo:185183): Nemo-WARNING **: 05:16:12.364: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+Nemo-Share-Message: 05:16:12.580: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(xfce4-terminal:185456): xfce4-terminal-WARNING **: 05:16:35.839: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+Fontconfig warning: using without calling FcInit()
+Nemo-Share-Message: 05:16:46.357: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+[151551:151551:0630/051700.254905:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0303602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151513:151513:0630/051720.631811:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/root-hkt0of2c.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051720.631870:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/root-hkt0of2c.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051720.632121:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/conversation-small-n8k4gs48.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151513:151513:0630/051720.632160:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.oaistatic.com/assets/conversation-small-n8k4gs48.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[151551:151551:0630/051756.342818:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0903602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xed:189563): libpeas-WARNING **: 05:18:38.876: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:189563): libpeas-WARNING **: 05:18:38.876: Could not load plugin loader 'python3'
+
+** (xed:189563): WARNING **: 05:18:38.876: Failed to load builtin plugin: Text Size
+
+** (xed:189563): WARNING **: 05:18:38.876: Failed to load builtin plugin: Join Lines
+
+** (xed:189563): WARNING **: 05:18:38.876: Failed to load builtin plugin: Open URI
+Fontconfig warning: using without calling FcInit()
+
+(xed:189563): libenchant-WARNING **: 05:18:39.071: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.072: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.072: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.072: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.072: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.072: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.073: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.073: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.073: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:189563): libenchant-WARNING **: 05:18:39.073: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/051923.435357:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0303602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(nemo:185183): Nemo-WARNING **: 05:20:21.021: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:185183): Nemo-WARNING **: 05:20:49.533: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xed:197582): libpeas-WARNING **: 05:21:48.175: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:197582): libpeas-WARNING **: 05:21:48.175: Could not load plugin loader 'python3'
+
+** (xed:197582): WARNING **: 05:21:48.175: Failed to load builtin plugin: Text Size
+
+** (xed:197582): WARNING **: 05:21:48.175: Failed to load builtin plugin: Join Lines
+
+** (xed:197582): WARNING **: 05:21:48.175: Failed to load builtin plugin: Open URI
+Fontconfig warning: using without calling FcInit()
+
+(xed:197582): libenchant-WARNING **: 05:21:48.369: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.369: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.369: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.369: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.370: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.370: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.370: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.370: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.370: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:197582): libenchant-WARNING **: 05:21:48.370: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+** Message: 05:22:20.509: updates_checker.vala:59: check updates
+[151551:151551:0630/052251.195284:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0903602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/052352.377633:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0903602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xed:203492): libpeas-WARNING **: 05:24:40.979: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:203492): libpeas-WARNING **: 05:24:40.979: Could not load plugin loader 'python3'
+
+** (xed:203492): WARNING **: 05:24:40.979: Failed to load builtin plugin: Text Size
+
+** (xed:203492): WARNING **: 05:24:40.979: Failed to load builtin plugin: Join Lines
+
+** (xed:203492): WARNING **: 05:24:40.979: Failed to load builtin plugin: Open URI
+Fontconfig warning: using without calling FcInit()
+
+(xed:203492): libenchant-WARNING **: 05:24:41.170: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.170: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.170: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.170: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.170: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.170: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.171: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.171: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.171: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:41.171: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:47.591: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:47.591: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:47.592: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:47.592: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:24:47.592: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(nemo:185183): Nemo-WARNING **: 05:25:33.317: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+Nemo-Share-Message: 05:26:59.780: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+Nemo-Share-Message: 05:27:12.513: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:185183): Nemo-WARNING **: 05:27:15.071: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(xed:203492): libenchant-WARNING **: 05:27:30.413: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:27:30.413: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:27:30.414: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:27:30.414: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:203492): libenchant-WARNING **: 05:27:30.414: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/052851.271338:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0303602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/052931.771191:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0603602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xed:217236): libpeas-WARNING **: 05:30:31.331: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:217236): libpeas-WARNING **: 05:30:31.331: Could not load plugin loader 'python3'
+
+** (xed:217236): WARNING **: 05:30:31.332: Failed to load builtin plugin: Text Size
+
+** (xed:217236): WARNING **: 05:30:31.332: Failed to load builtin plugin: Join Lines
+
+** (xed:217236): WARNING **: 05:30:31.332: Failed to load builtin plugin: Open URI
+Fontconfig warning: using without calling FcInit()
+
+(xed:217236): libenchant-WARNING **: 05:30:31.525: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.525: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.525: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.525: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.525: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.526: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.526: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.526: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.526: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:217236): libenchant-WARNING **: 05:30:31.526: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/053125.510252:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0303602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/053205.451096:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0903602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[151551:151551:0630/053323.175933:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0303602042D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+Nemo-Share-Message: 05:34:42.931: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(nemo:185183): Nemo-WARNING **: 05:35:30.329: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:185183): Nemo-WARNING **: 05:35:34.885: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+Nemo-Share-Message: 05:36:02.056: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:185183): Nemo-WARNING **: 05:36:18.457: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:185183): Nemo-WARNING **: 05:36:22.510: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist

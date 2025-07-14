@@ -1,0 +1,37 @@
+2025/07/13-21:24:03.974 ae34 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2025/07/13-21:24:03.975 ae34 Recovering log #2406
+2025/07/13-21:24:03.985 ae34 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002406.log 
+2025/07/13-21:29:05.233 ae33 Level-0 table #2411: started
+2025/07/13-21:29:05.244 ae33 Level-0 table #2411: 496021 bytes OK
+2025/07/13-21:29:05.247 ae33 Delete type=0 #2406
+2025/07/13-21:33:05.314 ae34 Level-0 table #2413: started
+2025/07/13-21:33:05.324 ae34 Level-0 table #2413: 492101 bytes OK
+2025/07/13-21:33:05.327 ae34 Delete type=0 #2410
+2025/07/13-21:39:05.431 ae33 Level-0 table #2415: started
+2025/07/13-21:39:05.441 ae33 Level-0 table #2415: 491555 bytes OK
+2025/07/13-21:39:05.444 ae33 Delete type=0 #2412
+2025/07/13-21:43:05.508 ae33 Level-0 table #2417: started
+2025/07/13-21:43:05.520 ae33 Level-0 table #2417: 493236 bytes OK
+2025/07/13-21:43:05.522 ae33 Delete type=0 #2414
+2025/07/13-21:43:05.523 ae33 Compacting 4@0 + 1@1 files
+2025/07/13-21:43:05.547 ae33 Generated table #2418@0: 57 keys, 130815 bytes
+2025/07/13-21:43:05.547 ae33 Compacted 4@0 + 1@1 files => 130815 bytes
+2025/07/13-21:43:05.550 ae33 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/13-21:43:05.550 ae33 Delete type=2 #2413
+2025/07/13-21:43:05.550 ae33 Delete type=2 #2411
+2025/07/13-21:43:05.550 ae33 Delete type=2 #2408
+2025/07/13-21:43:05.550 ae33 Delete type=2 #2415
+2025/07/13-21:43:05.550 ae33 Delete type=2 #2417
+2025/07/13-21:48:06.377 ae33 Level-0 table #2420: started
+2025/07/13-21:48:06.388 ae33 Level-0 table #2420: 494934 bytes OK
+2025/07/13-21:48:06.391 ae33 Delete type=0 #2416
+2025/07/13-21:53:06.864 ae34 Level-0 table #2422: started
+2025/07/13-21:53:06.877 ae34 Level-0 table #2422: 492786 bytes OK
+2025/07/13-21:53:06.879 ae34 Delete type=0 #2419
+2025/07/13-22:01:06.982 ae34 Compacting 2@0 + 1@1 files
+2025/07/13-22:01:06.990 ae34 Generated table #2423@0: 58 keys, 128901 bytes
+2025/07/13-22:01:06.990 ae34 Compacted 2@0 + 1@1 files => 128901 bytes
+2025/07/13-22:01:06.991 ae34 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/13-22:01:06.992 ae34 Delete type=2 #2422
+2025/07/13-22:01:06.992 ae34 Delete type=2 #2418
+2025/07/13-22:01:06.992 ae34 Delete type=2 #2420

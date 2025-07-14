@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="parole" version="1.0">
+  <property name="subtitles" type="empty">
+    <property name="font" type="string" value="Sans Bold 20"/>
+  </property>
+  <property name="folders" type="empty">
+    <property name="last-used-media" type="string" value="/home/pd0rk1n/Videos/www.UIndex.org    -    How to Train Your Dragon 2025 1080p TS EN FR-RGB"/>
+  </property>
+  <property name="window" type="empty">
+    <property name="maximized" type="bool" value="false"/>
+    <property name="width" type="int" value="940"/>
+    <property name="height" type="int" value="1034"/>
+  </property>
+  <property name="audio" type="empty">
+    <property name="volume" type="int" value="50"/>
+  </property>
+</channel>

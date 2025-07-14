@@ -1,0 +1,9 @@
+[Preferred Applications]
+TerminalEmulator=xfce4-terminal
+
+FileManager=custom-FileManager
+
+MailReader=Thunderbird
+
+WebBrowser=brave-browser
+

@@ -1,0 +1,1115 @@
+warning: output HDMI1 not found; ignoring
+** Message: 20:20:35.109: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 20:20:35.109: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 20:20:35.109: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 20:20:35.110: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+xfce4-session-Message: 20:20:35.121: GNOME compatibility is enabled and gnome-keyring-daemon is found on the system. Skipping gpg/ssh-agent startup.
+env: ‘kdeinit4’: No such file or directory
+env: ‘qdbus’: No such file or directory
+gnome-keyring-daemon: no process capabilities, insecure memory might get used
+discover_other_daemon: 1** Message: 20:20:35.959: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+Fontconfig warning: using without calling FcInit()
+
+** (wrapper-2.0:741): WARNING **: 20:20:37.660: Binding 'XF86AudioPlay' failed!
+
+** (wrapper-2.0:741): WARNING **: 20:20:37.661: Binding 'XF86AudioStop' failed!
+
+** (wrapper-2.0:741): WARNING **: 20:20:37.661: Binding 'XF86AudioPrev' failed!
+
+** (wrapper-2.0:741): WARNING **: 20:20:37.662: Binding 'XF86AudioNext' failed!
+
+(wrapper-2.0:741): xfce4-pulseaudio-plugin-WARNING **: 20:20:37.662: Could not have grabbed multimedia control keys.
+Fontconfig warning: using without calling FcInit()
+Fontconfig warning: using without calling FcInit()
+
+(xfce4-session:631): xfce4-session-WARNING **: 20:20:37.844: Unable to launch "flameshot" (specified by autostart/Flameshot.desktop): Failed to execute child process “flameshot” (No such file or directory)
+Fontconfig warning: using without calling FcInit()
+Fontconfig warning: using without calling FcInit()
+WARNING: 2025-06-28 20:20:58,648: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+Fontconfig warning: using without calling FcInit()
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:00.284: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:21:00.284: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:21:00.284: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:00.284: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:00.284: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:00.284: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:05.577: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:21:05.577: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:21:05.577: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:05.577: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:05.577: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:21:05.577: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Fontconfig warning: using without calling FcInit()
+Fontconfig warning: using without calling FcInit()
+Fontconfig warning: using without calling FcInit()
+2025-06-28 20:23:53:INFO > Exporting packages
+2025-06-28 20:23:53:INFO > Synchronizing package databases
+2025-06-28 20:23:54:INFO > Synchronising package databases completed
+2025-06-28 20:23:54:INFO > Export option selected = export_explicit
+2025-06-28 20:23:54:INFO > Running pacman -Qqen
+Fontconfig warning: using without calling FcInit()
+
+(nemo:5401): Nemo-WARNING **: 20:24:20.992: Current gtk theme is not known to have nemo support (Dracula) - checking...
+Fontconfig warning: using without calling FcInit()
+
+(nemo:5401): Nemo-WARNING **: 20:24:21.325: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+Nemo-Share-Message: 20:24:21.676: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5401): Gtk-CRITICAL **: 20:24:55.804: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(xfce4-session:631): GLib-WARNING **: 20:24:55.817: ../glib/glib/gmain.c:5933: waitid(pid:5401, pidfd=32) failed: No child processes (10). See documentation of g_child_watch_source_new() for possible causes.
+
+(nemo:5754): Nemo-WARNING **: 20:24:57.990: Current gtk theme is not known to have nemo support (Dracula) - checking...
+Fontconfig warning: using without calling FcInit()
+
+(nemo:5754): Nemo-WARNING **: 20:24:58.310: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+Nemo-Share-Message: 20:24:58.658: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(xed:6104): libpeas-WARNING **: 20:25:02.973: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:6104): libpeas-WARNING **: 20:25:02.973: Could not load plugin loader 'python3'
+
+** (xed:6104): WARNING **: 20:25:02.973: Failed to load builtin plugin: Open URI
+
+** (xed:6104): WARNING **: 20:25:02.973: Failed to load builtin plugin: Join Lines
+
+** (xed:6104): WARNING **: 20:25:02.973: Failed to load builtin plugin: Text Size
+Fontconfig warning: using without calling FcInit()
+
+(xed:6104): libenchant-WARNING **: 20:25:03.227: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.228: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.229: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.230: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.231: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.231: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.231: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.231: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.232: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:6104): libenchant-WARNING **: 20:25:03.232: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+Nemo-Share-Message: 20:25:28.880: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(xed:6519): libpeas-WARNING **: 20:26:49.807: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:6519): libpeas-WARNING **: 20:26:49.807: Could not load plugin loader 'python3'
+
+** (xed:6519): WARNING **: 20:26:49.807: Failed to load builtin plugin: Open URI
+
+** (xed:6519): WARNING **: 20:26:49.807: Failed to load builtin plugin: Join Lines
+
+** (xed:6519): WARNING **: 20:26:49.807: Failed to load builtin plugin: Text Size
+Fontconfig warning: using without calling FcInit()
+
+(xed:6519): libenchant-WARNING **: 20:26:50.033: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.033: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.033: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.034: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.034: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.034: broker.vala:155: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.034: broker.vala:155: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.035: broker.vala:155: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.035: broker.vala:155: Error loading plugin: libaspell.so.15: cannot open shared object file: No such file or directory
+
+(xed:6519): libenchant-WARNING **: 20:26:50.035: broker.vala:155: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:31:09.857: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:31:09.857: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:31:09.857: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:31:09.857: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:31:09.857: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:31:09.857: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[6567:6567:0628/203118.875294:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A03016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/203224.218838:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A03016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/203319.597573:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A06016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/203422.339135:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A03016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/203643.315419:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A09016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+Fontconfig warning: using without calling FcInit()
+[6567:6567:0628/203803.800749:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A03016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/203838.643157:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A0C072009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:41:13.824: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:41:13.824: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:41:13.824: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:41:13.824: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:41:13.824: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:41:13.824: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[6567:6567:0628/204335.239846:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A03016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6606:0628/204841.402695:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:497] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[6567:6606:0628/204841.402932:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:497] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[6567:6606:0628/204841.404575:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:497] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[6567:6606:0628/204841.404687:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:497] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[6567:6606:0628/204841.404749:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:497] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[6567:6567:0628/205009.395805:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A09016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:51:17.679: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:51:17.679: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 20:51:17.679: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:51:17.679: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:51:17.679: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 20:51:17.679: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[6567:6567:0628/205247.187603:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A03016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/205250.261697:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A06016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/205258.899478:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A06016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[6567:6567:0628/205509.049172:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1095] [GroupMarkerNotSet(crbug.com/242999)!:A06016009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:01:21.254: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 21:01:21.254: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 21:01:21.254: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:01:21.254: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:01:21.254: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:01:21.254: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR: 2025-06-28 21:01:22,453: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dy51x.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dy51x.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,453: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p9jylj.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p9jylj.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,454: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-x6dv9l.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-x6dv9l.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,454: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g8jxe7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g8jxe7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,454: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg3vql.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg3vql.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,455: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p8x6mm.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p8x6mm.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,455: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lm73rl.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lm73rl.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,456: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wemdqr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wemdqr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,456: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-72mzpy.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-72mzpy.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,457: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5d7k7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5d7k7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,457: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6k2qd7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6k2qd7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,457: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48dep2.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48dep2.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,458: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-49zok0.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-49zok0.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,458: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmrmdo.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmrmdo.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,458: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q213e5.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-q213e5.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-gpgyw3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-gpgyw3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmo1lj.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmo1lj.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dpxmk3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dpxmk3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,459: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8596q2.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8596q2.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,460: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85yld.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85yld.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,460: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m3oq1k.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m3oq1k.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,461: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-13zzg9.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-13zzg9.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,461: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymgkyl.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymgkyl.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,461: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qz782q.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qz782q.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85wll2.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85wll2.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-odkjol.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-odkjol.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dp7xwj.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dp7xwj.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,462: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nrk8wq.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nrk8wq.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,463: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-r2lgyj.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-r2lgyj.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,463: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg8ozg.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-dg8ozg.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,464: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jx2w75.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jx2w75.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,464: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-kwvx6d.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-kwvx6d.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,464: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8581xo.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8581xo.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,465: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v95lq3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v95lq3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,465: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxyq5l.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxyq5l.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,465: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-exel8o.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-exel8o.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,466: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v9zlxp.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-v9zlxp.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,466: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymjvyg.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-ymjvyg.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,466: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5wz5r7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5wz5r7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,467: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wyv5vr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-wyv5vr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,467: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1p22m9.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1p22m9.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,467: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxgx6l.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxgx6l.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,468: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dlyyl.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6dlyyl.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,468: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48kr3j.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-48kr3j.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,469: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzgkzd.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzgkzd.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,469: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5ygll.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o5ygll.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,469: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-2eo5xy.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-2eo5xy.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,470: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-vqow68.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-vqow68.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,470: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6ovpvw.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6ovpvw.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,470: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5762p1.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5762p1.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,471: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y8ov2k.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y8ov2k.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,471: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4o1235.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4o1235.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,472: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxzmog.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yxzmog.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,472: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85xx7.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-y85xx7.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,472: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzq7dr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-qzq7dr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,473: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dkeqd.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dkeqd.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,473: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlym7d.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlym7d.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,473: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6oeexx.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6oeexx.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,474: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8oyg6j.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8oyg6j.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,474: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nr1jj0.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-nr1jj0.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,474: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l82x2l.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l82x2l.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,475: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3ld95v.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3ld95v.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,475: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g5re3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g5re3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,475: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-w8jdkr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-w8jdkr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,476: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o31j7l.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-o31j7l.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,476: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dgzp8.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9dgzp8.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,477: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9mxpx1.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-9mxpx1.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,477: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1pd22w.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-1pd22w.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,478: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85gkj1.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-85gkj1.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,478: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g57w1.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-5g57w1.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,478: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-p87j69.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,479: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmw6rg.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmw6rg.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,479: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-57zjo7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-57zjo7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,480: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lq8zr2.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-lq8zr2.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,481: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4yqem7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4yqem7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,481: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6owrgl.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-6owrgl.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,481: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmdpjy.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmdpjy.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,482: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jxyopy.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-jxyopy.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,482: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8owpe1.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-8owpe1.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,483: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pml7v.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pml7v.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,483: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pg6zv.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-7pg6zv.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,483: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlp9gv.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-xlp9gv.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,484: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l3ymrr.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-l3ymrr.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,484: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-g82vvq.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,485: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yx2v3g.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-yx2v3g.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,485: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-pk8qme.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-pk8qme.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,486: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m32v7m.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-m32v7m.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,486: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3l5m1d.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-3l5m1d.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,487: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-1k9y6g.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-1k9y6g.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,487: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-x1pqdz.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-x1pqdz.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,488: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-m321gm.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-m321gm.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,488: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3wvk5.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3wvk5.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,488: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kp5d.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kp5d.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,489: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-0jepq4.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-0jepq4.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,489: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-4339dd.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-4339dd.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,490: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-138xmv.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-138xmv.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,490: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g89eqe.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g89eqe.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,491: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-qzo6j7.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-qzo6j7.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,491: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-3zmpy3.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-3zmpy3.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,492: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-83lq62.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-83lq62.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,492: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g8qw1d.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-g8qw1d.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,492: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3ljd5.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-j3ljd5.png.metadata.json'
+ERROR: 2025-06-28 21:01:22,493: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-9568vx.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-9568vx.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,494: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-49dpmd.jpg.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-49dpmd.jpg.metadata.json'
+ERROR: 2025-06-28 21:01:22,494: safe_unlink() 'Could not delete /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kryl.png.metadata.json, ignoring'
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/site-packages/variety/Util.py", line 910, in safe_unlink
+    os.unlink(filepath)
+    ~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-y8kryl.png.metadata.json'
+[6531:6531:0628/210339.178452:ERROR:CONSOLE:0] "Refused to load the font 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/inter-latin-wght-normal.C2S99t-D.woff2' because it violates the following Content Security Policy directive: "font-src 'self' data:".
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178516:ERROR:CONSOLE:0] "Refused to load the font 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/inter-latin-wght-normal.C2S99t-D.woff2' because it violates the following Content Security Policy directive: "font-src 'self' data:".
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178657:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/app.Bj9XmOG-.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178741:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/app.Bj9XmOG-.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178853:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/entry/start.B5vfi9gC.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178899:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/entry/start.B5vfi9gC.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178928:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CqU97Xu9.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.178967:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CqU97Xu9.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179049:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/On0lNzR_.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179114:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/On0lNzR_.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179201:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/D3SSVhNX.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179276:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/D3SSVhNX.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179366:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/entry/app.BHh-IM59.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179434:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/entry/app.BHh-IM59.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179512:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/Dp1pzeXC.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179589:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/Dp1pzeXC.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179694:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/n3P3rXoQ.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179755:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/n3P3rXoQ.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179860:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BZDOvAoO.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.179930:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BZDOvAoO.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180015:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CkR_45go.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180085:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CkR_45go.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180170:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BTENASuI.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180243:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BTENASuI.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180328:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BQhWHT73.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180398:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BQhWHT73.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180481:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/nodes/0.DF1Dfjpg.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180552:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/nodes/0.DF1Dfjpg.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180642:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/B2b5VW5n.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180713:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/B2b5VW5n.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180793:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/Dsn2nlqz.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180872:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/Dsn2nlqz.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.180971:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BljuNsFs.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181038:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BljuNsFs.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181132:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/LwBq_O9s.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181202:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/LwBq_O9s.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181286:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/hrLPliBs.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181365:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/hrLPliBs.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181450:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/i7sLZDms.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181524:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/i7sLZDms.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181608:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/D9oA_gUB.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181686:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/D9oA_gUB.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181773:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/6DUy87bb.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181852:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/6DUy87bb.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.181944:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/D9nMVkV8.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182015:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/D9nMVkV8.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182101:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/C4kroluq.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182171:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/C4kroluq.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182259:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/B3It-qJI.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182328:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/B3It-qJI.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182408:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/vSyxXq2o.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182473:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/vSyxXq2o.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182554:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CC73IyTN.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182627:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CC73IyTN.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182714:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/JrPQZko2.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182784:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/JrPQZko2.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182871:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/Bje2uV5E.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.182948:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/Bje2uV5E.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183035:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CzBtkOzS.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183104:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CzBtkOzS.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183196:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BrAqaONk.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183268:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BrAqaONk.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183353:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/rOi8H425.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183435:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/rOi8H425.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183514:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/lU8CfpIw.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183581:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/lU8CfpIw.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183697:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CLVGJ_rD.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183778:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CLVGJ_rD.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183870:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DosZGlRX.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.183940:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DosZGlRX.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184023:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DgIDu6HF.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184093:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DgIDu6HF.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184173:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DlzXIk3r.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184246:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DlzXIk3r.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184339:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BJ4sezE1.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184410:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/BJ4sezE1.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184491:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/C2UjJ9sG.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184561:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/C2UjJ9sG.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184645:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DrSAcfP_.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184722:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DrSAcfP_.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184808:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/B4LgpGRd.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184883:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/B4LgpGRd.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.184966:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DN8018vH.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185035:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/DN8018vH.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185126:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CFJU1MKF.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185196:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CFJU1MKF.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185284:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CP7ojrBs.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185350:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/CP7ojrBs.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185434:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/a-EPkNDI.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185503:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/a-EPkNDI.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185597:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/bR6y-J_D.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185668:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/bR6y-J_D.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185756:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/n5Im6vYS.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210339.185826:ERROR:CONSOLE:0] "Refused to load the script 'https://cdn.search.brave.com/serp/v3/_app/immutable/chunks/n5Im6vYS.js' because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210639.701765:ERROR:CONSOLE:0] "Refused to load the font 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/inter-latin-wght-normal.C2S99t-D.woff2' because it violates the following Content Security Policy directive: "font-src 'self' data:".
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210639.701848:ERROR:CONSOLE:0] "Refused to load the font 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/inter-latin-wght-normal.C2S99t-D.woff2' because it violates the following Content Security Policy directive: "font-src 'self' data:".
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210639.701979:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/app.Bj9XmOG-.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+[6531:6531:0628/210639.702371:ERROR:CONSOLE:0] "Refused to load the stylesheet 'https://cdn.search.brave.com/serp/v3/_app/immutable/assets/app.Bj9XmOG-.css' because it violates the following Content Security Policy directive: "style-src 'unsafe-inline'". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback.
+", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/_generated_background_page.html (0)
+Fontconfig warning: using without calling FcInit()
+Nemo-Share-Message: 21:10:00.612: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:11:24.979: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 21:11:24.979: g_file_query_file_type: assertion 'G_IS_FILE(file)' failed
+
+(xfdesktop:743): GLib-GIO-CRITICAL **: 21:11:24.979: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:11:24.979: invalid (NULL) pointer instance
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:11:24.979: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(xfdesktop:743): GLib-GObject-CRITICAL **: 21:11:24.979: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.110: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.110: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.111: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.111: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.111: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.111: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.111: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(nemo:5754): Gtk-CRITICAL **: 21:12:35.111: gtk_container_foreach: assertion 'GTK_IS_CONTAINER (container)' failed
+
+(xfce4-session:631): GLib-WARNING **: 21:12:35.127: ../glib/glib/gmain.c:5933: waitid(pid:5754, pidfd=33) failed: No child processes (10). See documentation of g_child_watch_source_new() for possible causes.
+
+(nemo:18110): Nemo-WARNING **: 21:12:37.230: Current gtk theme is not known to have nemo support (Dracula) - checking...
+Fontconfig warning: using without calling FcInit()
+
+(nemo:18110): Nemo-WARNING **: 21:12:37.553: Action '90_new-launcher.nemo_action' is missing dependency: cinnamon-desktop-editor
+Nemo-Share-Message: 21:12:37.887: Called "net usershare info" but it failed: 'net usershare' returned error 255: Can't load /etc/samba/smb.conf - run testparm to debug it
+net usershare: usershares are currently disabled
+
+
+(nemo:18110): Nemo-WARNING **: 21:13:20.686: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+
+(nemo:18110): Nemo-WARNING **: 21:13:24.202: Could not inhibit power management: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
