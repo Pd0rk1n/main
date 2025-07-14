@@ -28,7 +28,7 @@ super + F5
 
 #Vlc
 super + F6
-    vlc --video-on-top
+    sh -c 'env DISPLAY=$DISPLAY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR flatpak run org.videolan.VLC'
 
 #Virtualbox
 super + F7

@@ -457,8 +457,8 @@ def init_widgets_list():
         widget.LaunchBar(
                  progs = [("", "brave", "Brave web browser"),
                           (" ", "xfce4-terminal", " xfce4 terminal"),
-                          ("", "nemo", "nemo file manager"),
-                          ("", "vlc", "VLC media player")
+                          ("", "thunar", "thunar file manager"),
+                          ("", "flatpak run org.videolan.VLC")
                          ], 
                  fontsize = 14,
                  padding = 12,
@@ -548,7 +548,7 @@ from libqtile.log_utils import logger
 @hook.subscribe.client_new
 def assign_app_group(client):
     app_groups = {
-        "1": ["nemo"],
+        "1": ["thunar", "nemo"],
         "2": ["xed", "sublime_text"],
         "3": ["brave", "brave-browser"],
         "5": ["xfce4-terminal"],
