@@ -36,7 +36,7 @@
   <property name="misc-new-tab-adjacent" type="bool" value="false"/>
   <property name="misc-search-dialog-opacity" type="uint" value="100"/>
   <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
-  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_NONE"/>
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_RIGHT"/>
   <property name="scrolling-lines" type="uint" value="10000"/>
   <property name="scrolling-on-output" type="bool" value="false"/>
   <property name="scrolling-unlimited" type="bool" value="true"/>
