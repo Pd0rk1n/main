@@ -1,0 +1,6 @@
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_STYLE_OVERRIDE=kvantum
+GTK_THEME=Dracula
+flatpak override --user org.videolan.VLC --env=GTK_THEME=Dracula
+EDITOR=nano
+BROWSER=brave
