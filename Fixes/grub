@@ -1,0 +1,25 @@
+# GRUB boot loader configuration
+
+GRUB_DEFAULT=0
+GRUB_SAVEDEFAULT=0
+GRUB_TIMEOUT=1
+GRUB_TIMEOUT_STYLE=hidden
+#GRUB_DISTRIBUTOR='Arch'
+GRUB_CMDLINE_LINUX_DEFAULT='quiet ipv6.disable=1 nowatchdog loglevel=3 audit=0'
+
+GRUB_PRELOAD_MODULES="part_gpt part_msdos"
+
+#GRUB_ENABLE_CRYPTODISK=y
+#GRUB_TERMINAL_INPUT=console
+#GRUB_TERMINAL_OUTPUT=console
+
+GRUB_GFXMODE=1024x768
+GRUB_GFXPAYLOAD_LINUX=keep
+
+GRUB_DISABLE_RECOVERY=true
+
+GRUB_THEME="/boot/grub/themes/Vimix/theme.txt"
+#GRUB_COLOR_NORMAL="light-blue/black"
+#GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+
+#GRUB_DISABLE_OS_PROBER=false
