@@ -34,3 +34,7 @@ NoExtract = usr/lib/xorg/modules/drivers/intel_drv.so
 
      yay -S dracula-gtk-theme dracula-icons-git dracula-cursors-git
 
+
+                         ###### Fix Samba Config on Plex sever
+     sudo cp /etc/samba/smb.conf.backup-casaos /etc/samba/smb.conf
+
