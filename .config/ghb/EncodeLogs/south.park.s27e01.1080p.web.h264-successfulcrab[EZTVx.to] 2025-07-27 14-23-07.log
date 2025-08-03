@@ -1,0 +1,264 @@
+Handbrake Version: 20250220183715-e117cfe7f-makepkg (2025042301)
+[14:23:07] gtkgui: Custom Preset: /plex/plex
+[14:23:07] Starting work at: Sun Jul 27 14:23:07 2025
+
+[14:23:07] 1 job(s) to process
+[14:23:07] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 22,
+                    "Seconds": 25,
+                    "Ticks": 121055040
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/pd0rk1n/Videos/south.park.s27e01.1080p.web.h264-successfulcrab[EZTVx.to].mp4",
+        "InlineParameterSets": false,
+        "Mux": "m4v",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": true
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 1,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {},
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/home/pd0rk1n/Videos/south.park.s27e01.1080p.web.h264-successfulcrab[EZTVx.to].mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": true,
+            "Forced": true
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "4.0",
+        "MultiPass": false,
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 21.0,
+        "Tune": "fastdecode",
+        "Turbo": false
+    }
+}
+[14:23:07] CPU: Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz
+[14:23:07]  - Intel microarchitecture Skylake
+[14:23:07]  - logical processor count: 4
+[14:23:07] Intel Quick Sync Video support: no
+[14:23:07] hb_scan: path=/home/pd0rk1n/Videos/south.park.s27e01.1080p.web.h264-successfulcrab[EZTVx.to].mkv, title_index=1
+Input #0, matroska,webm, from '/home/pd0rk1n/Videos/south.park.s27e01.1080p.web.h264-successfulcrab[EZTVx.to].mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+  Duration: 00:22:25.06, start: 0.000000, bitrate: 4775 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+      Metadata:
+        BPS             : 4133309
+        DURATION        : 00:22:25.052000000
+        NUMBER_OF_FRAMES: 32249
+        NUMBER_OF_BYTES : 694939453
+        _STATISTICS_WRITING_APP: mkvmerge v84.0 ('Sleeper') 64-bit
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+      Metadata:
+        BPS             : 640000
+        DURATION        : 00:22:25.056000000
+        NUMBER_OF_FRAMES: 42033
+        NUMBER_OF_BYTES : 107604480
+        _STATISTICS_WRITING_APP: mkvmerge v84.0 ('Sleeper') 64-bit
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Subtitle: subrip (srt)
+      Metadata:
+        title           : English [SDH]
+        BPS             : 108
+        DURATION        : 00:22:02.930000000
+        NUMBER_OF_FRAMES: 567
+        NUMBER_OF_BYTES : 17896
+        _STATISTICS_WRITING_APP: mkvmerge v84.0 ('Sleeper') 64-bit
+        _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+[14:23:07] scan: decoding previews for title 1
+[14:23:07] scan: audio 0x1: eac3, rate=48000Hz, bitrate=640000 English (E-AC3, 5.1 ch, 640 kbps)
+[14:23:07] using container PAR 1:1
+[14:23:07] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[14:23:07] libhb: scan thread found 1 valid title(s)
+[14:23:07] Skipping subtitle scan.  No suitable subtitle tracks.
+[14:23:07] Starting Task: Encoding Pass
+[14:23:07] work: skipping crop/scale filter
+[14:23:07] job configuration:
+[14:23:07]  * source
+[14:23:07]    + /home/pd0rk1n/Videos/south.park.s27e01.1080p.web.h264-successfulcrab[EZTVx.to].mkv
+[14:23:07]    + title 1, chapter(s) 1 to 1
+[14:23:07]    + container: matroska,webm
+[14:23:07]    + data rate: 4775 kbps
+[14:23:07]  * destination
+[14:23:07]    + /home/pd0rk1n/Videos/south.park.s27e01.1080p.web.h264-successfulcrab[EZTVx.to].mp4
+[14:23:07]    + container: MPEG-4 (libavformat)
+[14:23:07]      + optimized for HTTP streaming (fast start)
+[14:23:07]      + align initial A/V stream timestamps
+[14:23:07]  * video track
+[14:23:07]    + decoder: h264 8-bit (yuv420p)
+[14:23:07]    + filters
+[14:23:07]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[14:23:07]      + Decomb (mode=39)
+[14:23:07]      + Framerate Shaper (mode=1:rate=27000000/900000)
+[14:23:07]        + frame rate: 23.976 fps -> constant 30.000 fps
+[14:23:07]    + Output geometry
+[14:23:07]      + storage dimensions: 1920 x 1080
+[14:23:07]      + pixel aspect ratio: 1 : 1
+[14:23:07]      + display dimensions: 1920 x 1080
+[14:23:07]    + encoder: H.264 (libx264)
+[14:23:07]      + preset:  fast
+[14:23:07]      + tune:    fastdecode
+[14:23:07]      + profile: main
+[14:23:07]      + level:   4.0
+[14:23:07]      + quality: 21.00 (RF)
+[14:23:07]      + color profile: 1-1-1
+[14:23:07]      + color range: tv
+[14:23:07]      + chroma location: left
+[14:23:07]  * audio track 1
+[14:23:07]    + decoder: English (E-AC3, 5.1 ch, 640 kbps) (track 1, id 0x1)
+[14:23:07]      + bitrate: 640 kbps, samplerate: 48000 Hz
+[14:23:07]    + mixdown: Stereo
+[14:23:07]    + encoder: AAC (libavcodec)
+[14:23:07]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[14:23:07] sync: expecting 32249 video frames
+[14:23:07] encx264: min-keyint: 30, keyint: 300
+[14:23:07] encx264: encoding at constant RF 21.000000
+[14:23:07] encx264: unparsed options: level=4.0:ref=2:weightb=0:no-deblock=1:cabac=0:8x8dct=0:weightp=0:subme=6:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 4.0, 4:2:0, 8-bit
+[14:23:07] sync: first pts video is 0
+[14:23:07] sync: Chapter 1 at frame 1 time 0
+[14:23:07] sync: first pts audio 0x1 is 0
+[14:38:51] reader: done. 1 scr changes
+[14:38:53] work: average encoding speed for job is 34.096508 fps
+[14:38:53] comb detect: heavy 585 | light 1693 | uncombed 29971 | total 32249
+[14:38:53] decomb: deinterlaced 585 | blended 1693 | unfiltered 29971 | total 32249
+[14:38:53] vfr: 40351 frames output, 0 dropped and 8102 duped for CFR/PFR
+[14:38:53] vfr: lost time: 0 (0 frames)
+[14:38:53] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[14:38:53] eac3-decoder done: 42033 frames, 0 decoder errors
+[14:38:53] h264-decoder done: 32249 frames, 0 decoder errors
+[14:38:53] sync: got 32249 frames, 32249 expected
+[14:38:53] sync: framerate min 23.976 fps, max 23.976 fps, avg 23.976 fps
+x264 [info]: frame I:320   Avg QP:14.08  size:226494
+x264 [info]: frame P:10618 Avg QP:17.18  size: 24004
+x264 [info]: frame B:29413 Avg QP:20.23  size:  3848
+x264 [info]: consecutive B-frames:  1.4%  2.0%  7.2% 89.5%
+x264 [info]: mb I  I16..4: 29.0%  0.0% 71.0%
+x264 [info]: mb P  I16..4:  2.9%  0.0%  1.9%  P16..4: 31.9%  7.8%  3.4%  0.0%  0.0%    skip:52.1%
+x264 [info]: mb B  I16..4:  1.1%  0.0%  0.1%  B16..8:  8.0%  1.2%  0.1%  direct: 6.1%  skip:83.4%  L0:47.8% L1:48.2% BI: 4.0%
+x264 [info]: coded y,uvDC,uvAC intra: 39.6% 59.6% 25.7% inter: 2.9% 13.4% 0.4%
+x264 [info]: i16 v,h,dc,p: 39% 28% 20% 13%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 23% 19%  6%  7%  5%  6%  4%  5%
+x264 [info]: i8c dc,h,v,p: 54% 23% 20%  3%
+x264 [info]: ref P L0: 68.7% 31.3%
+x264 [info]: ref B L0: 79.8% 20.2%
+x264 [info]: ref B L1: 96.0%  4.0%
+x264 [info]: kb/s:2620.21
+[14:38:53] mux: track 0, 40351 frames, 440520193 bytes, 2620.06 kbps, fifo 2048
+[14:38:53] mux: track 1, 63050 frames, 27398805 bytes, 162.96 kbps, fifo 4096
+[14:38:53] Finished work at: Sun Jul 27 14:38:53 2025
+
+[14:38:53] libhb: work result = 0

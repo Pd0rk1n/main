@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "fc9fd8a2-e09e-4591-9b67-bd96dd6c86e4",
+      "logo": {
+        "imageUrl": "1277a7a5-d152-4da1-86d7-24de809b46d5/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+        "destinationUrl": "https://pengu.pudgypenguins.com/",
+        "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+        "companyName": "Pudgy Penguins"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "1277a7a5-d152-4da1-86d7-24de809b46d5/19db5bc1-06e6-4904-8c1b-dd1fd373e05b.jpg",
+          "creativeInstanceId": "f48a988a-7e9b-4701-b010-78067994b671",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "96277097-066d-42c5-9a31-6564424b5f8f/370942a8-f122-4d03-929f-17239d7e34b4.jpg",
+          "creativeInstanceId": "688c6266-7cdd-4a87-9c87-17798bfa001c",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "96277097-066d-42c5-9a31-6564424b5f8f/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+            "destinationUrl": "https://pengu.pudgypenguins.com/",
+            "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+            "companyName": "Pudgy Penguins"
+          }
+        },
+        {
+          "imageUrl": "976ec25f-fda7-4be7-b72b-7d1250d544ff/54233c86-dd38-42e6-8adb-711b6b36e63e.jpg",
+          "creativeInstanceId": "27bbacca-f083-44bb-ba8c-96179c83dd71",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "976ec25f-fda7-4be7-b72b-7d1250d544ff/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+            "destinationUrl": "https://pengu.pudgypenguins.com/",
+            "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+            "companyName": "Pudgy Penguins"
+          }
+        },
+        {
+          "imageUrl": "a62c9932-771b-4e14-9f1d-f96a89880e79/bf0ce050-d2ce-4bfe-a6fc-6abbb17f1446.jpg",
+          "creativeInstanceId": "06b64df9-4e8e-477b-bdec-fc40696fface",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "a62c9932-771b-4e14-9f1d-f96a89880e79/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+            "destinationUrl": "https://pengu.pudgypenguins.com/",
+            "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+            "companyName": "Pudgy Penguins"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "fc9fd8a2-e09e-4591-9b67-bd96dd6c86e4",
+      "logo": {
+        "imageUrl": "1277a7a5-d152-4da1-86d7-24de809b46d5/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+        "destinationUrl": "https://pengu.pudgypenguins.com/",
+        "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+        "companyName": "Pudgy Penguins"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "1277a7a5-d152-4da1-86d7-24de809b46d5/19db5bc1-06e6-4904-8c1b-dd1fd373e05b.jpg",
+          "creativeInstanceId": "f48a988a-7e9b-4701-b010-78067994b671",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "96277097-066d-42c5-9a31-6564424b5f8f/370942a8-f122-4d03-929f-17239d7e34b4.jpg",
+          "creativeInstanceId": "688c6266-7cdd-4a87-9c87-17798bfa001c",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "96277097-066d-42c5-9a31-6564424b5f8f/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+            "destinationUrl": "https://pengu.pudgypenguins.com/",
+            "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+            "companyName": "Pudgy Penguins"
+          }
+        },
+        {
+          "imageUrl": "976ec25f-fda7-4be7-b72b-7d1250d544ff/54233c86-dd38-42e6-8adb-711b6b36e63e.jpg",
+          "creativeInstanceId": "27bbacca-f083-44bb-ba8c-96179c83dd71",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "976ec25f-fda7-4be7-b72b-7d1250d544ff/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+            "destinationUrl": "https://pengu.pudgypenguins.com/",
+            "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+            "companyName": "Pudgy Penguins"
+          }
+        },
+        {
+          "imageUrl": "a62c9932-771b-4e14-9f1d-f96a89880e79/bf0ce050-d2ce-4bfe-a6fc-6abbb17f1446.jpg",
+          "creativeInstanceId": "06b64df9-4e8e-477b-bdec-fc40696fface",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "a62c9932-771b-4e14-9f1d-f96a89880e79/991eeec2-7b1b-46f0-951e-df4631609d57.png",
+            "destinationUrl": "https://pengu.pudgypenguins.com/",
+            "alt": "Pudgy Penguins - $PENGU a new token from the Pudgy Penguins - Buy Here",
+            "companyName": "Pudgy Penguins"
+          }
+        }
+      ]
+    }
+  ]
+}

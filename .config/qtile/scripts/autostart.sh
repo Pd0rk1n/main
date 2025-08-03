@@ -58,6 +58,7 @@ picom --config $HOME/.config/qtile/scripts/picom.conf &
 
 #starting user applications at boot time
 run pasystray &
+run volumeicon &
 #run discord &
 #nitrogen --restore &
 #run caffeine -a &

@@ -55,7 +55,7 @@ end
 # sets tools
 set -x EDITOR nano
 set -x VISUAL nano
-#set -x TERM alacritty
+set -x TERM xfce4-terminal
 # Sets the terminal type for proper colors
 set TERM "xterm-256color"
 

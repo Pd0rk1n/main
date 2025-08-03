@@ -11,7 +11,6 @@ file:///home/pd0rk1n/iso iso
 file:///usr/share/themes themes
 file:///usr/share/applications applications
 file:///home/pd0rk1n/Videos Videos
+smb://10.0.0.19/1tb/
 smb://10.0.0.19/4tb/ 4tb on 10.0.0.19
 smb://10.0.0.19/6tb/ 6tb on 10.0.0.19
-smb://10.0.0.19/downloads/ downloads on 10.0.0.19
-smb://10.0.0.19/data/ data on 10.0.0.19

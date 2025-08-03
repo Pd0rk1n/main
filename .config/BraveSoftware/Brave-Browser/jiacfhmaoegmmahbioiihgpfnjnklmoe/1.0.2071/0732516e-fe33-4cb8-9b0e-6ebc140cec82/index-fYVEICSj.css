@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  user-select: none;
+  overflow: hidden;
+}
+
+#wallpaper-container {
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+  overflow: hidden;
+}
+
+#wallpaper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  will-change: transform;
+  contain: layout paint size;
+  cursor: pointer;
+}
+.gradient-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100dvw;
+  height: 100dvh;
+  pointer-events: none;
+
+  background: linear-gradient(
+    to bottom,
+
+    /* Top fade-out */ hsla(0, 0%, 0%, 0.738) 0px,
+    hsla(0, 0%, 0%, 0.541) 40px,
+    hsla(0, 0%, 0%, 0.382) 72px,
+    hsla(0, 0%, 0%, 0.278) 100px,
+    hsla(0, 0%, 0%, 0.194) 126px,
+    hsla(0, 0%, 0%, 0.126) 150px,
+    hsla(0, 0%, 0%, 0.075) 172px,
+    hsla(0, 0%, 0%, 0.042) 192px,
+    hsla(0, 0%, 0%, 0.021) 208px,
+    hsla(0, 0%, 0%, 0.008) 220px,
+    hsla(0, 0%, 0%, 0.002) 228px,
+    hsla(0, 0%, 0%, 0) 232px,
+    /* Transparent middle */ hsla(0, 0%, 0%, 0) calc(100% - 232px),
+    /* Bottom fade-in */ hsla(0, 0%, 0%, 0.002) calc(100% - 228px),
+    hsla(0, 0%, 0%, 0.008) calc(100% - 220px),
+    hsla(0, 0%, 0%, 0.021) calc(100% - 208px),
+    hsla(0, 0%, 0%, 0.042) calc(100% - 192px),
+    hsla(0, 0%, 0%, 0.075) calc(100% - 172px),
+    hsla(0, 0%, 0%, 0.126) calc(100% - 150px),
+    hsla(0, 0%, 0%, 0.194) calc(100% - 126px),
+    hsla(0, 0%, 0%, 0.278) calc(100% - 100px),
+    hsla(0, 0%, 0%, 0.382) calc(100% - 72px),
+    hsla(0, 0%, 0%, 0.541) calc(100% - 40px),
+    hsla(0, 0%, 0%, 0.738) 100%
+  );
+}
+:root {
+  --brand-font: sans-serif;
+}
+
+/* Content */
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background-color: transparent;
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.logo {
+  width: 64px;
+  margin-bottom: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 643px) and (max-height: 780px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (min-width: 642px) and (max-height: 600px) {
+  .logo {
+    display: none;
+  }
+}
+
+.headline,
+.subheadline {
+  font-family: var(--brand-font);
+  text-align: center;
+  color: white;
+  text-wrap: balance;
+  opacity: 0.9;
+}
+
+.headline {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.subheadline {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media (max-width: 643px) and (max-height: 600px) {
+  .headline {
+    display: none;
+  }
+}
+
+@media (min-width: 642px) and (max-height: 410px) {
+  .headline {
+    display: none;
+  }
+}
+
+@media (max-width: 643px) and (max-height: 650px) {
+  .subheadline {
+    display: none;
+  }
+}
+
+@media (min-width: 642px) and (max-height: 460px) {
+  .subheadline {
+    display: none;
+  }
+}
+
+/* Button */
+.button {
+  font-family: var(--brand-font);
+  display: block;
+  margin: 30px auto 0;
+  background-color: #4551d1;
+  border: none;
+  color: #ffffffcc;
+  padding: 14px 40px;
+  font-size: 15px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #4551d1;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+@media (max-width: 643px) and (max-height: 600px) {
+  .button {
+    display: none;
+  }
+}
+
+@media (min-width: 642px) and (max-height: 410px) {
+  .button {
+    display: none;
+  }
+}
