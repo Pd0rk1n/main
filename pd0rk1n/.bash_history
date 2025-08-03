@@ -24,3 +24,8 @@ sudo nano /etc/hosts
 fish
 sudo nano /etc/hosts
 fish
+fish
+cd
+whereis calamares-3.3.14.r51.g3b9ef52-1-x86_64.pkg.tar.zst
+find calamares-3.3.14.r51.g3b9ef52-1-x86_64.pkg.tar.zst
+cd etc/calamares/pkgbuild
