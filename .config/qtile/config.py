@@ -461,7 +461,7 @@ def init_widgets_list():
                           ("", "flatpak run org.videolan.VLC")
                          ], 
                  fontsize = 14,
-                 padding = 12,
+                 padding = 6,
                  foreground = colors[3],
                  background=colors[0],
                  ),
