@@ -20,3 +20,5 @@ Note (2): on a few SSD models (specifically two models from Crucial), executing 
 
 Now proceed to the next item.
 
+
+sudo systemctl enable fstrim.timer
