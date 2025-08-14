@@ -1,3 +1,15 @@
-2025/08/03-09:24:13.526 1b20 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_thepiratebay.org_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/03-09:24:13.526 1b20 Recovering log #75
-2025/08/03-09:24:13.527 1b20 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_thepiratebay.org_0.indexeddb.leveldb/000075.log 
+2025/08/09-17:59:03.011 1b7d Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_thepiratebay.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/09-17:59:03.012 1b7d Recovering log #75
+2025/08/09-17:59:03.012 1b7d Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_thepiratebay.org_0.indexeddb.leveldb/000075.log 
+2025/08/09-19:22:14.675 1b7e Level-0 table #80: started
+2025/08/09-19:22:14.677 1b7e Level-0 table #80: 209 bytes OK
+2025/08/09-19:22:14.679 1b7e Delete type=0 #75
+2025/08/09-19:22:14.680 1b7e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/08/09-19:22:14.680 1b7e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 81 : 1
+2025/08/09-19:22:14.680 1b7e Compacting 1@1 + 1@2 files
+2025/08/09-19:22:14.681 1b7e Generated table #81@1: 19 keys, 504 bytes
+2025/08/09-19:22:14.682 1b7e Compacted 1@1 + 1@2 files => 504 bytes
+2025/08/09-19:22:14.684 1b7e compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/09-19:22:14.684 1b7e Delete type=2 #77
+2025/08/09-19:22:14.684 1b7e Delete type=2 #80
+2025/08/09-19:22:14.684 1b7e Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 81 : 1 .. (end); will stop at (end)

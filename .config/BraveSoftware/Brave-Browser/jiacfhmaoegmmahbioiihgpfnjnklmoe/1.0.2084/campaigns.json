@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "gracePeriod": "72h",
+  "campaigns": [
+    {
+      "version": 1,
+      "advertiserId": "846dfc87-cea8-46f2-98b1-d9e42ef147b6",
+      "campaignId": "d7bae13f-ea4f-4e78-a9b2-8b81f99d783a",
+      "startAt": "2025-07-15T04:00:00.000Z",
+      "endAt": "2025-08-16T03:59:00.000Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "CA",
+        "DE",
+        "FR",
+        "GB",
+        "US"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "8087863c-9041-4d8c-b838-fadd0d2290b7",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0",
+          "creatives": [
+            {
+              "creativeInstanceId": "774b9047-f272-45ba-a8c5-da5c3573a590",
+              "targetUrl": "chrome://settings/search/defaultSearch",
+              "alt": "Switch to Brave Search. More Private. Better Answers. No Bias.",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "richMedia",
+                "relativeUrl": "0732516e-fe33-4cb8-9b0e-6ebc140cec82/index.html"
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "p3a.logs_constellation_prep|Brave.Search.SwitchEngine|value",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "p3a.logs_constellation_prep_express|Brave.Search.DefaultEngine.4|value",
+                  "condition": "[R≠]:8"
+                },
+                {
+                  "prefPath": "[virtual]:browser|version",
+                  "condition": "^\\d+\\.\\d+\\.(?:7[7-9]|[89]\\d|\\d{3,})\\.\\d+$"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|views",
+                  "condition": "[R≤]:5"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|clicks",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "advertiserId": "48f621e7-2ce4-4b36-b7ef-9202447fcc6a",
+      "campaignId": "d95af1b5-f6e4-4cd1-99eb-4d08de2c553d",
+      "startAt": "2025-08-14T04:00:00.000Z",
+      "endAt": "2025-08-15T03:59:59.999Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "AD",
+        "AE",
+        "AF",
+        "AL",
+        "AM",
+        "AO",
+        "AR",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BR",
+        "BS",
+        "BT",
+        "BW",
+        "BZ",
+        "CA",
+        "CD",
+        "CG",
+        "CH",
+        "CI",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CV",
+        "CW",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "GY",
+        "HK",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "KE",
+        "KG",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "ME",
+        "MG",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MQ",
+        "MR",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PS",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RW",
+        "SA",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SV",
+        "SZ",
+        "TG",
+        "TH",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TW",
+        "UG",
+        "US",
+        "UY",
+        "UZ",
+        "VC",
+        "VI",
+        "VN",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "0d42b9ed-1431-4353-9281-c6c5c0f080c5",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0.01",
+          "creatives": [
+            {
+              "creativeInstanceId": "6e1f3f9c-0c53-4e81-a560-d3cf541825be",
+              "targetUrl": "https://wormhole.com/portal-earn-waitlist",
+              "alt": "Wormhole - Portal earn - Join the waitlist",
+              "companyName": "Wormhole",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "0b45d9f0-ed7e-4f37-91f5-493381c492c2/d2a13faa-a271-4a8e-8383-6a548e3ccd79.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "0b45d9f0-ed7e-4f37-91f5-493381c492c2/2fd656d4-b3d8-411c-996b-864d68cac156.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "cc282d6a-6026-4b1b-b138-17c650438e96",
+              "targetUrl": "https://wormhole.com/portal-earn-waitlist",
+              "alt": "Wormhole - Portal earn - Join the waitlist",
+              "companyName": "Wormhole",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "a929cfd1-639f-4316-b833-5fb19fabffdc/9af7d724-4b2d-46ac-ae16-4d56dc2fb223.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "a929cfd1-639f-4316-b833-5fb19fabffdc/20300239-118b-4182-b6f9-f98bfe7a8b0f.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "284f281c-7ced-4b1e-9a18-794bbf597024",
+              "targetUrl": "https://wormhole.com/portal-earn-waitlist",
+              "alt": "Wormhole - Portal earn - Climb to high status. Get points. earn rewards - join the waitlist to start with 10,000 free points.",
+              "companyName": "Wormhole",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "bbe1e522-4648-4e59-b219-ca1acff149e0/1bbc4564-b48c-4d08-a6f4-6c3f3d9684df.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "bbe1e522-4648-4e59-b219-ca1acff149e0/0ed44c4b-7549-43b0-b559-0cfd9328ba44.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
