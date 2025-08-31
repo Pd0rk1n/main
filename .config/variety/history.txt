@@ -1,4 +1,10 @@
 0
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-5wrk19.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-j57kyp.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-x889jz.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-ymvrjl.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-x6z89o.jpg
+/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-4yj19l.jpg
 /home/pd0rk1n/.config/variety/Favorites/wallhaven-0jmg65.jpg
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-dpvvgm.jpg
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-49reld.jpg
@@ -93,9 +99,3 @@
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_scifi/wallhaven-ymvqgg.jpg
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_minimal/wallhaven-6kqoz7.png
 /home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-ym9y1g.png
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_simple/wallhaven-zmo1lj.png
-/home/pd0rk1n/.config/variety/Favorites/wallhaven-y8kvgx.jpg
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-47k2py.jpg
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-3zpzrv.jpg
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_abstract/wallhaven-45oz58.jpg
-/home/pd0rk1n/.config/variety/Downloaded/wallhaven_space/wallhaven-7pxqe9.png

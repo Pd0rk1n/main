@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "9eac8463-a30c-4d2d-81bf-a41651c9fd6a",
+      "logo": {
+        "imageUrl": "f99b2712-fca7-4375-bfbf-4f5411091869/ce2010d3-9f4d-47cd-93b6-4148ad2bee0b.png",
+        "destinationUrl": "https://www.youtube.com/@CryptoWendyO",
+        "alt": "CryptoWendyO - Join Crypto Wendy Live Daily",
+        "companyName": "CryptoWendyO"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "f99b2712-fca7-4375-bfbf-4f5411091869/4407d46b-0a3c-482b-8fd3-03830c2d9e11.jpg",
+          "creativeInstanceId": "d70919a4-cd16-468a-8d8d-68b5f2320d07",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "9eac8463-a30c-4d2d-81bf-a41651c9fd6a",
+      "logo": {
+        "imageUrl": "f99b2712-fca7-4375-bfbf-4f5411091869/ce2010d3-9f4d-47cd-93b6-4148ad2bee0b.png",
+        "destinationUrl": "https://www.youtube.com/@CryptoWendyO",
+        "alt": "CryptoWendyO - Join Crypto Wendy Live Daily",
+        "companyName": "CryptoWendyO"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "f99b2712-fca7-4375-bfbf-4f5411091869/4407d46b-0a3c-482b-8fd3-03830c2d9e11.jpg",
+          "creativeInstanceId": "d70919a4-cd16-468a-8d8d-68b5f2320d07",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        }
+      ]
+    }
+  ]
+}

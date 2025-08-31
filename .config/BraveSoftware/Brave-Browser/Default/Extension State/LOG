@@ -1,3 +1,9 @@
-2025/08/14-19:39:20.233 b0cb Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2025/08/14-19:39:20.234 b0cb Recovering log #51
-2025/08/14-19:39:20.247 b0cb Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Extension State/000051.log 
+2025/08/30-23:18:48.924 22a5 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2025/08/30-23:18:48.924 22a5 Recovering log #51
+2025/08/30-23:18:48.948 22a5 Level-0 table #55: started
+2025/08/30-23:18:48.963 22a5 Level-0 table #55: 1182988 bytes OK
+2025/08/30-23:18:48.964 22a5 Recovering log #58
+2025/08/30-23:18:48.970 22a5 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Extension State/000058.log 
+2025/08/30-23:18:48.974 22a5 Delete type=0 #51
+2025/08/30-23:18:48.974 22a5 Delete type=2 #59
+2025/08/30-23:18:48.974 22a5 Delete type=2 #56
