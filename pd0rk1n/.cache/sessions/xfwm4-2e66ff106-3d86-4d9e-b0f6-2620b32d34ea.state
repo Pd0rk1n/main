@@ -1,0 +1,13 @@
+[CLIENT] 0x2a00003
+  [CLIENT_ID] 28144e5a5-cdb2-4355-b21e-693f5ee679bd
+  [CLIENT_LEADER] 0x2a00001
+  [WINDOW_ROLE] xfce4-terminal-1754612152-1706583044
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - pd0rk1n@nvme:~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (509,251,902,632)
+  [GEOMETRY-MAXIMIZED] (509,251,902,632)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

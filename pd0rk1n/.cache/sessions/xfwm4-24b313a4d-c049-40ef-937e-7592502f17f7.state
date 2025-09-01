@@ -1,0 +1,24 @@
+[CLIENT] 0x1800003
+  [CLIENT_LEADER] 0x1800001
+  [RES_NAME] archlinux-logout.py
+  [RES_CLASS] Archlinux-logout.py
+  [WM_NAME] ArchLinux Logout
+  [WM_COMMAND] (1) "archlinux-logout.py"
+  [GEOMETRY] (0,0,1920,1080)
+  [GEOMETRY-MAXIMIZED] (0,31,1920,1080)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
+[CLIENT] 0xe00007
+  [CLIENT_ID] 207570622-e62a-452e-ac5b-992fe2f6836f
+  [CLIENT_LEADER] 0xe00001
+  [WINDOW_ROLE] Thunar-1756608756-2872727430
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] pd0rk1n - Thunar
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (404,202,1111,731)
+  [GEOMETRY-MAXIMIZED] (404,202,1111,731)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

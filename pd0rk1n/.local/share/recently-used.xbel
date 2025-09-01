@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/pd0rk1n/Documents/.ssh.zip" added="2025-08-08T00:36:22.659623Z" modified="2025-08-08T00:36:23.801418Z" visited="2025-08-08T00:36:22.659624Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2025-08-08T00:36:22.659625Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2025-08-08T00:36:23.801417Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/qtile/config.py" added="2025-08-08T00:44:57.815955Z" modified="2025-08-08T00:45:52.580427Z" visited="2025-08-08T00:44:57.815955Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-08T00:44:57.815957Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-08T00:45:52.580425Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/default/grub" added="2025-08-08T00:44:59.811553Z" modified="2025-08-31T03:55:27.771885Z" visited="2025-08-08T00:44:59.811554Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T03:55:27.771884Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/.config/qtile/config.py" added="2025-08-08T00:47:13.034676Z" modified="2025-08-08T00:47:58.027114Z" visited="2025-08-08T00:47:13.034677Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-08T00:47:13.034678Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-08T00:47:58.027112Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/kiro-nemesis/0-current-choices.sh" added="2025-08-11T12:20:13.452988Z" modified="2025-08-19T21:44:28.063926Z" visited="2025-08-11T12:20:13.452988Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-19T15:00:56.212951Z" count="5"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-19T21:44:28.063925Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/kiro-nemesis/install/install-virtualbox-for-linux.sh" added="2025-08-11T12:23:24.250508Z" modified="2025-08-11T12:24:04.740748Z" visited="2025-08-11T12:23:24.250508Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-11T12:23:24.250509Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-11T12:24:04.740746Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/pacman.conf" added="2025-08-11T12:26:59.483143Z" modified="2025-08-11T12:27:17.675107Z" visited="2025-08-11T12:26:59.483143Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-11T12:26:59.483144Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-11T12:27:17.675106Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/mirrorlist" added="2025-08-11T12:27:24.923560Z" modified="2025-08-11T12:27:28.139239Z" visited="2025-08-11T12:27:24.923560Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-11T12:27:24.923561Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-11T12:27:28.139238Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/120-install-core-software.sh" added="2025-08-11T12:28:50.846881Z" modified="2025-08-11T12:29:24.958288Z" visited="2025-08-11T12:28:50.846882Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-11T12:28:50.846883Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-11T12:29:24.958286Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/110-install-nemesis-software.sh" added="2025-08-11T12:29:41.948123Z" modified="2025-08-11T12:30:12.507226Z" visited="2025-08-11T12:29:41.948124Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-11T12:29:41.948125Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-11T12:30:12.507224Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/linuxmint-22.1-cinnamon-64bit.iso" added="2025-08-12T02:00:58.673271Z" modified="2025-08-12T02:00:58.923338Z" visited="2025-08-12T02:00:58.673272Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-08-12T02:00:58.923336Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/linuxmint-22.1-xfce-64bit.iso" added="2025-08-12T02:03:35.930229Z" modified="2025-08-12T02:03:36.180262Z" visited="2025-08-12T02:03:35.930229Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-08-12T02:03:36.180260Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/0-current-choices.sh" added="2025-08-12T04:13:48.585107Z" modified="2025-08-12T04:19:58.624880Z" visited="2025-08-12T04:13:48.585108Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:13:48.585109Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:19:58.624878Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/config.fish" added="2025-08-12T04:19:21.043654Z" modified="2025-08-12T04:19:56.560420Z" visited="2025-08-12T04:19:21.043655Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-fishscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:19:21.043656Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:19:56.560418Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/run.sh" added="2025-08-12T04:21:28.328519Z" modified="2025-08-12T04:21:38.812680Z" visited="2025-08-12T04:21:28.328519Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:21:28.328520Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:21:38.812677Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/install-apps-install.sh" added="2025-08-12T04:22:10.595483Z" modified="2025-08-12T04:24:10.468844Z" visited="2025-08-12T04:22:10.595484Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:23:55.975393Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:24:10.468842Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/1-all-in-one.sh" added="2025-08-12T04:22:38.215720Z" modified="2025-08-12T04:23:10.952462Z" visited="2025-08-12T04:22:38.215721Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:22:38.215722Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:23:10.952460Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/bar.sh" added="2025-08-12T04:23:16.941103Z" modified="2025-08-12T04:23:21.204073Z" visited="2025-08-12T04:23:16.941104Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:23:16.941106Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:23:21.204071Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/build-install-gitahead.sh" added="2025-08-12T04:23:28.394990Z" modified="2025-08-12T04:23:39.669104Z" visited="2025-08-12T04:23:28.394990Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:23:28.394991Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:23:39.669102Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/install-apps-ppa.sh" added="2025-08-12T04:24:27.795362Z" modified="2025-08-12T04:24:52.240716Z" visited="2025-08-12T04:24:27.795362Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:24:27.795363Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:24:52.240713Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/voyage-of-chadwm/mint-chadwm/personal-configs.sh" added="2025-08-12T04:25:10.391133Z" modified="2025-08-12T04:25:22.916894Z" visited="2025-08-12T04:25:10.391133Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:25:10.391134Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:25:22.916892Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/cf251d07-da00-4c25-83ee-d8eef1d0ca10/home/pd0rk1n/DATA/mint-chadwm/1-all-in-one.sh" added="2025-08-12T04:26:51.623167Z" modified="2025-08-12T04:27:23.547710Z" visited="2025-08-12T04:26:51.623167Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:26:51.623168Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:27:23.547708Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/pd0rk1n/cf251d07-da00-4c25-83ee-d8eef1d0ca10/home/pd0rk1n/DATA/mint-chadwm/run.sh" added="2025-08-12T04:27:31.383060Z" modified="2025-08-12T04:27:42.570883Z" visited="2025-08-12T04:27:31.383060Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-12T04:27:31.383061Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-12T04:27:42.570881Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/kiro-nemesis/Personal/930-real-metal.sh" added="2025-08-14T23:21:53.408596Z" modified="2025-08-14T23:23:30.292122Z" visited="2025-08-14T23:21:53.408596Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:21:53.408597Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:23:30.292120Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/kiro-nemesis/Personal/900-install-personal-settings-folders.sh" added="2025-08-14T23:23:39.221637Z" modified="2025-08-14T23:24:22.474810Z" visited="2025-08-14T23:23:39.221638Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:23:39.221639Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:24:22.474808Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/kiro-nemesis/Personal/920-kiro.sh" added="2025-08-14T23:24:31.728957Z" modified="2025-08-14T23:30:58.859273Z" visited="2025-08-14T23:24:31.728958Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:24:31.728959Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:30:58.859271Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/Fixes/Manual%20Trim" added="2025-08-14T23:26:24.464785Z" modified="2025-08-31T03:56:45.758472Z" visited="2025-08-14T23:26:24.464785Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-31T03:55:27.489661Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T03:56:45.758471Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/arch/when-on-Arch/give-me-pacman.conf-arch-nemesis-chaotic-arcolinux.sh" added="2025-08-14T23:29:32.199835Z" modified="2025-08-15T00:02:19.999220Z" visited="2025-08-14T23:29:32.199835Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:32:51.119405Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:02:19.999218Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/arch/when-on-Arch/pacman.conf" added="2025-08-14T23:30:15.955837Z" modified="2025-08-14T23:30:52.772031Z" visited="2025-08-14T23:30:15.955838Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:30:15.955839Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:30:52.772029Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/arch/when-on-Arch/install-yay-or-paru.sh" added="2025-08-14T23:31:05.905304Z" modified="2025-08-14T23:31:33.768777Z" visited="2025-08-14T23:31:05.905305Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:31:05.905306Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:31:33.768775Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/install/install-scrcpy.sh" added="2025-08-14T23:34:41.670916Z" modified="2025-08-14T23:35:15.846049Z" visited="2025-08-14T23:34:41.670917Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:34:41.670918Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:35:15.846047Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/brave/brave-browser.desktop" added="2025-08-14T23:36:10.636837Z" modified="2025-08-14T23:36:10.636842Z" visited="2025-08-14T23:36:10.636838Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-desktop"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:36:10.636839Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/arcolinux-nemesis/Personal/settings/environment/environment" added="2025-08-14T23:36:20.270091Z" modified="2025-08-14T23:36:49.714830Z" visited="2025-08-14T23:36:20.270092Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:36:20.270093Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:36:49.714828Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/environment" added="2025-08-14T23:37:23.145094Z" modified="2025-08-14T23:37:32.265407Z" visited="2025-08-14T23:37:23.145094Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:37:23.145096Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:37:32.265405Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/nanorc" added="2025-08-14T23:37:39.717921Z" modified="2025-08-14T23:37:42.736455Z" visited="2025-08-14T23:37:39.717921Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:37:39.717922Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:37:42.736453Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/installation-scripts/get-pacman-repos-keys-and-mirrors.sh" added="2025-08-14T23:52:24.409414Z" modified="2025-08-14T23:52:40.344038Z" visited="2025-08-14T23:52:24.409415Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:52:24.409416Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:52:40.344036Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/packages.x86_64" added="2025-08-14T23:53:12.802544Z" modified="2025-08-14T23:53:57.830931Z" visited="2025-08-14T23:53:12.802545Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:53:12.802546Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:53:57.830929Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/setup-git-v5.sh" added="2025-08-14T23:54:53.610893Z" modified="2025-08-14T23:55:01.535759Z" visited="2025-08-14T23:54:53.610893Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-14T23:54:53.610894Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-14T23:55:01.535757Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/profiledef.sh" added="2025-08-15T00:02:09.613145Z" modified="2025-08-15T00:02:17.662393Z" visited="2025-08-15T00:02:09.613146Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:02:09.613147Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:02:17.662391Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/installation-scripts/pacman.conf" added="2025-08-15T00:04:16.992176Z" modified="2025-08-15T00:53:11.308681Z" visited="2025-08-15T00:04:16.992186Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:53:08.074778Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:53:11.308680Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/personal_repo/x86_64/updaterepo.sh" added="2025-08-15T00:49:47.138516Z" modified="2025-08-15T00:50:06.133226Z" visited="2025-08-15T00:49:47.138517Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:49:47.138518Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:50:06.133224Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/airootfs/etc/environment" added="2025-08-15T00:50:42.835924Z" modified="2025-08-15T00:51:13.339720Z" visited="2025-08-15T00:50:42.835925Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:50:42.835926Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:51:13.339719Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/airootfs/etc/pacman.conf.kiro" added="2025-08-15T00:51:31.997499Z" modified="2025-08-15T00:51:35.299607Z" visited="2025-08-15T00:51:31.997500Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:51:31.997501Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:51:35.299604Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/airootfs/etc/passwd" added="2025-08-15T00:51:38.989478Z" modified="2025-08-15T00:51:42.139590Z" visited="2025-08-15T00:51:38.989479Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:51:38.989480Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:51:42.139588Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/airootfs/etc/sddm.conf" added="2025-08-15T00:51:46.205939Z" modified="2025-08-15T00:51:49.972067Z" visited="2025-08-15T00:51:46.205940Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:51:46.205941Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:51:49.972065Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/airootfs/etc/pacman.d/mirrorlist" added="2025-08-15T00:52:03.782275Z" modified="2025-08-15T00:52:07.124758Z" visited="2025-08-15T00:52:03.782276Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:52:03.782277Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:52:07.124756Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/archiso/airootfs/etc/dev-rel" added="2025-08-15T00:52:18.066511Z" modified="2025-08-15T00:53:12.580920Z" visited="2025-08-15T00:52:18.066512Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T00:52:18.066513Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-15T00:53:12.580918Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.0.0.19/1tb/Movies/Animal.House.1978.720p.BrRip.x264.YIFY.mp4" added="2025-08-15T01:40:58.604206Z" modified="2025-08-15T01:40:58.604210Z" visited="2025-08-15T01:40:58.604206Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-15T01:40:58.604207Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///boot/initramfs-linux.img" added="2025-08-16T14:23:05.499682Z" modified="2025-08-16T14:23:05.499686Z" visited="2025-08-16T14:23:05.499682Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.img"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-16T14:23:05.499683Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///boot/vmlinuz-linux" added="2025-08-16T14:25:27.559042Z" modified="2025-08-16T14:26:12.077017Z" visited="2025-08-16T14:25:27.559043Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-16T14:26:08.067880Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-16T14:26:12.077016Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///boot/initramfs-linux-fallback.img" added="2025-08-16T14:53:34.783767Z" modified="2025-08-16T14:53:34.783771Z" visited="2025-08-16T14:53:34.783768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.img"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-16T14:53:34.783769Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/iso/%20Kiro%20(%20patrick%20)/kiro-iso/change-version.sh" added="2025-08-19T14:59:06.017599Z" modified="2025-08-19T14:59:15.441263Z" visited="2025-08-19T14:59:06.017599Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-19T14:59:06.017600Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-19T14:59:15.441262Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/pacman-packages.txt" added="2025-08-22T20:06:27.623618Z" modified="2025-08-22T20:06:31.248463Z" visited="2025-08-22T20:06:27.623619Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-22T20:06:27.623620Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-22T20:06:31.248461Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/kde_settings.conf" added="2025-08-22T20:06:36.854103Z" modified="2025-08-22T20:06:45.448654Z" visited="2025-08-22T20:06:36.854104Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-22T20:06:36.854105Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-22T20:06:45.448652Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/backup.log" added="2025-08-22T20:06:55.126559Z" modified="2025-08-22T20:06:59.921203Z" visited="2025-08-22T20:06:55.126560Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-22T20:06:55.126561Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-22T20:06:59.921202Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.0.0.19/6tb/Tv/T3B87M~Z/S02/The%20Vicar%20of%20Dibley%20(1994)%20-%20S02E03%20-%20Celebrity%20Vicar%20(576p%20DVD%20x265%20Ghost).mkv" added="2025-08-22T20:14:22.713202Z" modified="2025-08-22T20:14:22.713212Z" visited="2025-08-22T20:14:22.713203Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-matroska"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-22T20:14:22.713204Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/tails-amd64-6.19.img.torrent" added="2025-08-26T14:53:17.060257Z" modified="2025-08-26T14:53:17.310340Z" visited="2025-08-26T14:53:17.060257Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-08-26T14:53:17.310338Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Videos/tails-amd64-6.19-img/tails-amd64-6.19.img" added="2025-08-26T15:11:21.191010Z" modified="2025-08-26T15:11:21.191014Z" visited="2025-08-26T15:11:21.191010Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.img"/>
+        <bookmark:applications>
+          <bookmark:application name="mintstick.py" exec="&apos;mintstick.py %u&apos;" modified="2025-08-26T15:11:21.191011Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/Downloads/tails-amd64-6.19.img" added="2025-08-27T18:52:08.324980Z" modified="2025-08-27T18:52:08.324984Z" visited="2025-08-27T18:52:08.324981Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.img"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.DiskUtility" exec="&apos;org.gnome.DiskUtility %u&apos;" modified="2025-08-27T18:52:08.324981Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/loader/entries/arch.conf" added="2025-08-27T20:19:35.702038Z" modified="2025-08-27T20:25:22.956364Z" visited="2025-08-27T20:19:35.702038Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-08-27T20:25:20.290270Z" count="5"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-08-27T20:25:22.956362Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/loader/entries/e802a74e72f4468d838b144549e7d24e-6.16.3-arch1-1.conf" added="2025-08-27T20:21:11.150506Z" modified="2025-08-27T20:25:05.301205Z" visited="2025-08-27T20:21:11.150506Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-08-27T20:25:05.301203Z" count="2"/>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-08-27T20:25:02.811790Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/EFI/BOOT/BOOTX64.EFI" added="2025-08-27T20:21:57.114715Z" modified="2025-08-27T20:23:46.034280Z" visited="2025-08-27T20:21:57.114715Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.microsoft.portable-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-08-27T20:23:46.034273Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/EFI/systemd/systemd-bootx64.efi" added="2025-08-27T20:22:27.415010Z" modified="2025-08-27T20:22:59.595496Z" visited="2025-08-27T20:22:27.415010Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-08-27T20:22:44.409131Z" count="2"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-08-27T20:22:59.595494Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/loader/entries/arch-fallback.conf" added="2025-08-27T20:25:35.083468Z" modified="2025-08-27T20:25:35.083473Z" visited="2025-08-27T20:25:35.083468Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-08-27T20:25:35.083470Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="admin:///boot/efi/loader/loader.conf" added="2025-08-27T20:25:59.106106Z" modified="2025-08-27T20:26:14.604724Z" visited="2025-08-27T20:25:59.106107Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;xed %U&apos;" modified="2025-08-27T20:25:59.106109Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-08-27T20:26:14.604722Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/Fixes/Home%20folder%20bug%20fix" added="2025-08-31T03:56:53.322024Z" modified="2025-08-31T03:57:13.589747Z" visited="2025-08-31T03:56:53.322024Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-31T03:56:53.322025Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T03:57:13.589746Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/DATA/main/Fixes/restart-Qbar.sh" added="2025-08-31T03:57:42.713150Z" modified="2025-08-31T03:59:06.828636Z" visited="2025-08-31T03:57:42.713151Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-31T03:59:06.828629Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T03:58:24.487434Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/qtile/scripts/picom.conf" added="2025-08-31T04:01:08.297671Z" modified="2025-08-31T04:04:35.604953Z" visited="2025-08-31T04:01:08.297672Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-31T04:04:35.604951Z" count="2"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T04:01:11.027157Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/qtile/scripts/autostart.sh" added="2025-08-31T04:01:21.767109Z" modified="2025-08-31T04:01:52.230571Z" visited="2025-08-31T04:01:21.767110Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-31T04:01:21.767111Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T04:01:52.230570Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/pd0rk1n/.config/qtile/scripts/.picom.conf" added="2025-08-31T04:02:40.934035Z" modified="2025-08-31T04:03:17.743104Z" visited="2025-08-31T04:02:40.934035Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-08-31T04:02:40.934036Z" count="1"/>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-08-31T04:03:17.743102Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

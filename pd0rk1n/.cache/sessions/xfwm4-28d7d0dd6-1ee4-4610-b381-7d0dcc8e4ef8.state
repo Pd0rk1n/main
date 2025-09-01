@@ -1,0 +1,24 @@
+[CLIENT] 0x3200003
+  [CLIENT_LEADER] 0x3200001
+  [RES_NAME] archlinux-logout.py
+  [RES_CLASS] Archlinux-logout.py
+  [WM_NAME] ArchLinux Logout
+  [WM_COMMAND] (1) "archlinux-logout.py"
+  [GEOMETRY] (0,0,1920,1080)
+  [GEOMETRY-MAXIMIZED] (0,31,1920,1080)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
+[CLIENT] 0x1800003
+  [CLIENT_ID] 25730b438-5df9-4552-a17b-62db8ebf98db
+  [CLIENT_LEADER] 0x1800001
+  [WINDOW_ROLE] xfce4-terminal-1756609601-176958254
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - pd0rk1n@nvme:~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (52,125,1815,884)
+  [GEOMETRY-MAXIMIZED] (52,125,1815,884)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

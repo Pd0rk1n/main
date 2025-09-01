@@ -1,0 +1,11 @@
+[CLIENT] 0x2c00003
+  [CLIENT_LEADER] 0x2c00001
+  [RES_NAME] archlinux-logout.py
+  [RES_CLASS] Archlinux-logout.py
+  [WM_NAME] ArchLinux Logout
+  [WM_COMMAND] (1) "archlinux-logout.py"
+  [GEOMETRY] (0,0,1920,1080)
+  [GEOMETRY-MAXIMIZED] (0,31,1920,1080)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x0
