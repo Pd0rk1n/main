@@ -1,28 +1,3 @@
-2025/08/30-23:18:49.375 2295 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/08/30-23:18:49.378 2295 Recovering log #7441
-2025/08/30-23:18:49.378 2295 Level-0 table #7457: started
-2025/08/30-23:18:49.380 2295 Level-0 table #7457: 2900 bytes OK
-2025/08/30-23:18:49.380 2295 Recovering log #8447
-2025/08/30-23:18:49.380 2295 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/008447.log 
-2025/08/30-23:18:49.383 2295 Delete type=2 #8433
-2025/08/30-23:18:49.383 2295 Delete type=2 #8434
-2025/08/30-23:18:49.383 2295 Delete type=2 #8444
-2025/08/30-23:18:49.383 2295 Delete type=2 #8442
-2025/08/30-23:18:49.383 2295 Delete type=2 #8421
-2025/08/30-23:18:49.383 2295 Delete type=2 #8420
-2025/08/30-23:18:49.383 2295 Delete type=2 #8423
-2025/08/30-23:18:49.384 2295 Delete type=2 #8438
-2025/08/30-23:18:49.384 2295 Delete type=2 #8441
-2025/08/30-23:18:49.384 2295 Delete type=2 #8437
-2025/08/30-23:18:49.384 2295 Delete type=0 #7441
-2025/08/30-23:18:49.384 2295 Delete type=2 #8422
-2025/08/30-23:18:49.384 2295 Delete type=2 #8439
-2025/08/30-23:18:49.384 2295 Delete type=2 #8448
-2025/08/30-23:18:49.384 2295 Delete type=2 #8440
-2025/08/30-23:18:49.384 2295 Delete type=2 #8446
-2025/08/30-23:20:33.690 2296 Level-0 table #8449: started
-2025/08/30-23:20:33.724 2296 Level-0 table #8449: 8404095 bytes OK
-2025/08/30-23:20:33.727 2296 Delete type=0 #8447
-2025/08/30-23:20:37.411 2296 Level-0 table #8451: started
-2025/08/30-23:20:37.457 2296 Level-0 table #8451: 6298440 bytes OK
-2025/08/30-23:20:37.460 2296 Delete type=0 #8448
+2025/11/17-18:45:00.623 19748 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/11/17-18:45:00.631 19748 Recovering log #8650
+2025/11/17-18:45:00.631 19748 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/008650.log 

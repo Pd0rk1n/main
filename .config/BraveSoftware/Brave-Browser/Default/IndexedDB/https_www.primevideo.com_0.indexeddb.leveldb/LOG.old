@@ -1,0 +1,6 @@
+2025/11/16-14:26:37.764 c4256 Creating DB /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb since it was missing.
+2025/11/16-14:26:37.770 c4256 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/16-14:29:15.370 c4259 Level-0 table #5: started
+2025/11/16-14:29:15.378 c4259 Level-0 table #5: 130467 bytes OK
+2025/11/16-14:29:15.381 c4259 Delete type=0 #3
+2025/11/16-14:29:15.382 c4259 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -6,7 +6,6 @@
     "os",
     "host",
     "kernel",
-    "Weather",
     "uptime",
     "packages",
     "shell",

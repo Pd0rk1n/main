@@ -1,4 +1,3 @@
-2025/07/22-03:57:47.999 2306a Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/22-03:57:48.000 2306a Recovering log #198
-2025/07/22-03:57:48.001 2306a Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000198.log 
-2025/07/22-03:57:48.001 2306a Delete type=2 #197
+2025/11/17-18:18:00.967 288b61 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/17-18:18:00.968 288b61 Recovering log #235
+2025/11/17-18:18:00.971 288b61 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000235.log 
