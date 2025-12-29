@@ -1,6 +1,14 @@
 {
 	"file_history":
 	[
+		"/home/pd0rk1n/DATA/main/arch/When on Arch/pacman.conf",
+		"/home/pd0rk1n/DATA/kiro-nemesis/0-current-choices.sh",
+		"/home/pd0rk1n/Documents/pacman.conf",
+		"/home/pd0rk1n/DATA/kiro-nemesis/Personal/999-last-changes.sh",
+		"/home/pd0rk1n/DATA/kiro-nemesis/Personal/930-real-metal.sh",
+		"/home/pd0rk1n/DATA/kiro-nemesis/Personal/920-kiro.sh",
+		"/home/pd0rk1n/DATA/kiro-nemesis/Personal/910-ckb-next.sh",
+		"/home/pd0rk1n/DATA/kiro-nemesis/Personal/900-install-personal-settings-folders.sh",
 		"/home/pd0rk1n/DATA/iso/packages.x86_64",
 		"/home/pd0rk1n/DATA/kiro-iso/installation-scripts/pacman.conf",
 		"/home/pd0rk1n/DATA/kiro-iso/archiso/packages.x86_64",
@@ -120,11 +128,7 @@
 		"/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb/usr_src/linux-headers-6.8.0-60-generic/.config",
 		"/home/pd0rk1n/.config/qt5ct/qt5ct.conf",
 		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/user-dirs.locale",
-		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/i3/etc/environment",
-		"/home/pd0rk1n/github/arcolinux-nemesis/120-install-core-software.sh",
-		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/Fixes/BraveUnlock.txt",
-		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/arch config dotfiles/mimeapps.list",
-		"/home/pd0rk1n/github/arcolinux-nemesis/110-install-nemesis-software.sh"
+		"/run/media/pd0rk1n/15305956-56c8-4198-9651-3e3feb6ee609/Arch My Way/i3/etc/environment"
 	],
 	"folder_history":
 	[
@@ -132,7 +136,7 @@
 	"last_version": 4200,
 	"last_window_id": 5,
 	"log_indexing": false,
-	"next_update_check": 1763493494,
+	"next_update_check": 1764733351,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -186,11 +190,24 @@
 			},
 			"file_history":
 			[
-				"/home/pd0rk1n/DATA/iso/ Kiro ( patrick )/kiro-iso/archiso/pacman.conf",
+				"/home/pd0rk1n/DATA/kiro-nemesis/0-current-choices.sh",
+				"/home/pd0rk1n/Documents/pacman.conf",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/999-last-changes.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/930-real-metal.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/920-kiro.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/910-ckb-next.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/900-install-personal-settings-folders.sh",
+				"/home/pd0rk1n/DATA/iso/packages.x86_64",
+				"/home/pd0rk1n/DATA/kiro-iso/installation-scripts/pacman.conf",
+				"/home/pd0rk1n/DATA/kiro-iso/archiso/packages.x86_64",
 				"/home/pd0rk1n/DATA/iso/ Kiro ( patrick )/kiro-iso/archiso/packages.x86_64",
+				"/home/pd0rk1n/DATA/kiro-iso/archiso/pacman.conf",
+				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
+				"/home/pd0rk1n/DATA/iso/ Kiro ( patrick )/kiro-iso/archiso/airootfs/etc/ssh/sshd_config.d/10-archiso.conf",
+				"/home/pd0rk1n/DATA/iso/ Kiro ( patrick )/kiro-iso/archiso/airootfs/etc/environment",
+				"/home/pd0rk1n/DATA/iso/ Kiro ( patrick )/kiro-iso/archiso/pacman.conf",
 				"/home/pd0rk1n/DATA/iso/ Kiro ( patrick )/kiro-iso/installation-scripts/pacman.conf",
 				"/home/pd0rk1n/DATA/att-exports/packages-x86_64.txt",
-				"/home/pd0rk1n/.config/qtile/scripts/autostart.sh",
 				"/home/pd0rk1n/DATA/main/Fixes/Manual Trim",
 				"/home/pd0rk1n/.config/qtile/config.py",
 				"/home/pd0rk1n/.config/fish/config.fish",
@@ -198,12 +215,10 @@
 				"/etc/default/grub",
 				"/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb/TV/South Park Season 1 to 26 Mp4 1080p/Season 27/Plex Versions/Optimized for Mobile/South Park/S27E01.120040.eng.srt",
 				"/home/pd0rk1n/.config/qtile/scripts/restart-Qbar.sh",
-				"/home/pd0rk1n/DATA/kiro-iso/archiso/pacman.conf",
 				"/home/pd0rk1n/DATA/kiro-iso/archiso/airootfs/root/.zlogin",
 				"/home/pd0rk1n/DATA/kiro-iso/archiso/airootfs/root/.automated_script.sh",
 				"/run/media/pd0rk1n/kiro-v25.07.22.01/arch/pkglist.x86_64.txt",
 				"/run/media/pd0rk1n/kiro-v25.07.22.01/arch/x86_64/airootfs.sha512",
-				"/home/pd0rk1n/DATA/kiro-iso/archiso/packages.x86_64",
 				"/home/pd0rk1n/DATA/kiro-calamares-config/etc/calamares/pkgbuild/build-calamares",
 				"/home/pd0rk1n/DATA/kiro-iso/archiso/profiledef.sh",
 				"/home/pd0rk1n/DATA/kiro-calamares-config/etc/calamares/pkgbuild/calamares_polkit",
@@ -316,6 +331,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"pasystray",
 					"xed"
 				],
 				"highlight": true,
@@ -442,6 +458,14 @@
 			},
 			"file_history":
 			[
+				"/home/pd0rk1n/DATA/main/arch/When on Arch/pacman.conf",
+				"/home/pd0rk1n/DATA/kiro-nemesis/0-current-choices.sh",
+				"/home/pd0rk1n/Documents/pacman.conf",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/999-last-changes.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/930-real-metal.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/920-kiro.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/910-ckb-next.sh",
+				"/home/pd0rk1n/DATA/kiro-nemesis/Personal/900-install-personal-settings-folders.sh",
 				"/home/pd0rk1n/DATA/iso/packages.x86_64",
 				"/home/pd0rk1n/DATA/kiro-iso/installation-scripts/pacman.conf",
 				"/home/pd0rk1n/DATA/kiro-iso/archiso/packages.x86_64",
@@ -562,7 +586,7 @@
 			],
 			"find":
 			{
-				"height": 44.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{

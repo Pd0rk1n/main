@@ -28,4 +28,5 @@
   <property name="misc-terminal-emulator" type="string" value="xfce4-terminal"/>
   <property name="misc-terminal-command" type="string" value="xfce4-terminal --working-directory=%s"/>
   <property name="misc-thumbnail-draw-frames" type="bool" value="true"/>
+  <property name="last-menubar-visible" type="bool" value="true"/>
 </channel>

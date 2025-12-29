@@ -1,9 +1,18 @@
-2025/11/17-18:45:00.723 19748 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2025/11/17-18:45:00.724 19748 Recovering log #2556
-2025/11/17-18:45:00.724 19748 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002556.log 
-2025/11/17-18:58:01.694 1974a Compacting 1@1 + 1@2 files
-2025/11/17-18:58:01.705 1974a Generated table #2559@1: 15 keys, 129812 bytes
-2025/11/17-18:58:01.705 1974a Compacted 1@1 + 1@2 files => 129812 bytes
-2025/11/17-18:58:01.708 1974a compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/17-18:58:01.708 1974a Delete type=2 #2557
-2025/11/17-18:58:01.708 1974a Delete type=2 #2554
+2025/12/02-10:16:40.132 82b8 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2025/12/02-10:16:40.133 82b8 Recovering log #2583
+2025/12/02-10:16:40.133 82b8 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002583.log 
+2025/12/02-10:27:40.846 82b8 Compacting 1@1 + 1@2 files
+2025/12/02-10:27:40.856 82b8 Generated table #2586@1: 20 keys, 131797 bytes
+2025/12/02-10:27:40.856 82b8 Compacted 1@1 + 1@2 files => 131797 bytes
+2025/12/02-10:27:40.859 82b8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/02-10:27:40.859 82b8 Delete type=2 #2581
+2025/12/02-10:27:40.859 82b8 Delete type=2 #2584
+2025/12/02-11:25:42.499 82b6 Level-0 table #2588: started
+2025/12/02-11:25:42.509 82b6 Level-0 table #2588: 520598 bytes OK
+2025/12/02-11:25:42.513 82b6 Delete type=0 #2583
+2025/12/02-11:47:43.100 82b8 Compacting 1@1 + 1@2 files
+2025/12/02-11:47:43.107 82b8 Generated table #2589@1: 9 keys, 129215 bytes
+2025/12/02-11:47:43.107 82b8 Compacted 1@1 + 1@2 files => 129215 bytes
+2025/12/02-11:47:43.109 82b8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/02-11:47:43.109 82b8 Delete type=2 #2588
+2025/12/02-11:47:43.109 82b8 Delete type=2 #2586

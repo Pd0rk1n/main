@@ -1,0 +1,15 @@
+HandBrake 20250906052339-dddf75f75-makepkg (2025092401)
+OS: Arch Linux
+Kernel: Linux 6.17.9-arch1-1 (x86_64)
+CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz x 4
+Install Dir: /usr/bin
+Config Dir:  /home/pd0rk1n/.config/ghb
+_______________________________
+
+[08:13:32] Compile-time hardening features are enabled
+Cannot load libnvidia-encode.so.1
+[08:13:32] vcn: not available on this system
+[08:13:32] qsv: not available on this system
+[08:13:32] hb_init: starting libhb thread
+[08:13:32] hb_init: starting libhb thread
+[08:13:32] hb_init: starting libhb thread

@@ -1,0 +1,227 @@
+Handbrake Version: 20250906052339-dddf75f75-makepkg (2025092401)
+[07:57:35] gtkgui: Modified Custom Preset: /plex/plex
+[07:57:35] Starting work at: Sat Nov 29 07:57:35 2025
+
+[07:57:35] 1 job(s) to process
+[07:57:35] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 44,
+                    "Seconds": 28,
+                    "Ticks": 240199650
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/pd0rk1n/Videos/Shakespeare and Hathaway Private Investigators 2018 S05E01 720p WEB.mp4",
+        "InlineParameterSets": false,
+        "Mux": "m4v",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": true
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 1,
+                    "rate": "27000000/450000"
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 720,
+                    "width": 1280
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "CreationTime": "2025-09-30T09:57:03.000000Z"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/home/pd0rk1n/Videos/Shakespeare and Hathaway Private Investigators 2018 S05 720p WEB-DL HEVC x265 BONE/Shakespeare and Hathaway Private Investigators 2018 S05E01 720p WEB-DL HEVC x265 BONE.mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "AdapterIndex": -1,
+        "AsyncDepth": 0,
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "mpeg4",
+        "HardwareDecode": 0,
+        "Level": "auto",
+        "MultiPass": false,
+        "Options": "",
+        "PasshtruHDRDynamicMetadata": 6,
+        "Preset": "auto",
+        "Profile": "auto",
+        "Quality": 3.0,
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[07:57:35] CPU: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+[07:57:35]  - Intel microarchitecture Skylake
+[07:57:35]  - logical processor count: 4
+[07:57:35] Intel Quick Sync Video support: no
+[07:57:35] hb_scan: path=/home/pd0rk1n/Videos/Shakespeare and Hathaway Private Investigators 2018 S05 720p WEB-DL HEVC x265 BONE/Shakespeare and Hathaway Private Investigators 2018 S05E01 720p WEB-DL HEVC x265 BONE.mkv, title_index=1
+Input #0, matroska,webm, from '/home/pd0rk1n/Videos/Shakespeare and Hathaway Private Investigators 2018 S05 720p WEB-DL HEVC x265 BONE/Shakespeare and Hathaway Private Investigators 2018 S05E01 720p WEB-DL HEVC x265 BONE.mkv':
+  Metadata:
+    creation_time   : 2025-09-30T09:57:03.000000Z
+    ENCODER         : Lavf61.7.100
+  Duration: 00:44:28.89, start: -0.021000, bitrate: 1131 kb/s
+  Stream #0:0: Video: hevc (Main), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        DURATION        : 00:44:28.880000000
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+      Metadata:
+        title           : Stereo
+        DURATION        : 00:44:28.885000000
+[07:57:35] scan: decoding previews for title 1
+[07:57:35] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 English (AAC LC, 2.0 ch)
+[07:57:35] using container PAR 1:1
+[07:57:35] scan: 10 previews, 1280x720, 25.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[07:57:35] libhb: scan thread found 1 valid title(s)
+[07:57:35] Starting Task: Encoding Pass
+[07:57:35] work: skipping crop/scale filter
+[07:57:35] job configuration:
+[07:57:35]  * source
+[07:57:35]    + /home/pd0rk1n/Videos/Shakespeare and Hathaway Private Investigators 2018 S05 720p WEB-DL HEVC x265 BONE/Shakespeare and Hathaway Private Investigators 2018 S05E01 720p WEB-DL HEVC x265 BONE.mkv
+[07:57:35]    + title 1, chapter(s) 1 to 1
+[07:57:35]    + container: matroska,webm
+[07:57:35]    + data rate: 1131 kbps
+[07:57:35]  * destination
+[07:57:35]    + /home/pd0rk1n/Videos/Shakespeare and Hathaway Private Investigators 2018 S05E01 720p WEB.mp4
+[07:57:35]    + container: MPEG-4 (libavformat)
+[07:57:35]      + optimized for HTTP streaming (fast start)
+[07:57:35]      + align initial A/V stream timestamps
+[07:57:35]  * video track
+[07:57:35]    + decoder: hevc 8-bit (yuv420p)
+[07:57:35]    + filters
+[07:57:35]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[07:57:35]      + Decomb (mode=39)
+[07:57:35]      + Framerate Shaper (mode=1:rate=27000000/450000)
+[07:57:35]        + frame rate: 25.000 fps -> constant 60.000 fps
+[07:57:35]    + Output geometry
+[07:57:35]      + storage dimensions: 1280 x 720
+[07:57:35]      + pixel aspect ratio: 1 : 1
+[07:57:35]      + display dimensions: 1280 x 720
+[07:57:35]    + encoder: MPEG-4 (libavcodec)
+[07:57:35]      + preset:  auto
+[07:57:35]      + profile: auto
+[07:57:35]      + level:   auto
+[07:57:35]      + quality: 3.00 (QP)
+[07:57:35]      + color profile: 1-1-1
+[07:57:35]      + color range: tv
+[07:57:35]      + chroma location: left
+[07:57:35]  * audio track 1
+[07:57:35]    + decoder: English (AAC LC, 2.0 ch) (track 1, id 0x1)
+[07:57:35]      + samplerate: 48000 Hz
+[07:57:35]    + mixdown: Stereo
+[07:57:35]    + encoder: AAC (libavcodec)
+[07:57:35]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[07:57:35] sync: expecting 66722 video frames
+[07:57:35] encavcodecInit: MPEG-4 ASP encoder
+[07:57:35] encavcodec: encoding at constant quantizer 354
+[07:57:35] encavcodec: encoding with stored aspect 1/1
+[07:57:35] sync: first pts video is 0
+[07:57:35] sync: Chapter 1 at frame 1 time 0
+[07:57:35] sync: first pts audio 0x1 is 0
+[08:06:00] reader: done. 1 scr changes
+[08:06:00] work: average encoding speed for job is 132.097015 fps
+[08:06:00] comb detect: heavy 64 | light 434 | uncombed 66224 | total 66722
+[08:06:00] decomb: deinterlaced 64 | blended 434 | unfiltered 66224 | total 66722
+[08:06:00] vfr: 160132 frames output, 0 dropped and 93410 duped for CFR/PFR
+[08:06:00] vfr: lost time: 0 (0 frames)
+[08:06:00] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[08:06:00] aac-decoder done: 125104 frames, 0 decoder errors
+[08:06:00] hevc-decoder done: 66722 frames, 0 decoder errors
+[08:06:00] sync: got 66722 frames, 66722 expected
+[08:06:00] sync: framerate min 25.000 fps, max 25.000 fps, avg 25.000 fps
+[08:06:00] mux: track 0, 160132 frames, 587185572 bytes, 1760.09 kbps, fifo 8192
+[08:06:00] mux: track 1, 125104 frames, 53570948 bytes, 160.58 kbps, fifo 8192
+[08:06:00] Finished work at: Sat Nov 29 08:06:00 2025
+
+[08:06:00] libhb: work result = 0
