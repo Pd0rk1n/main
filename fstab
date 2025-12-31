@@ -5,9 +5,12 @@
 # disks are added and removed. See fstab(5).
 #
 # <file system>             <mount point>  <type>  <options>  <dump>  <pass>
-UUID=707D-07CD                            /boot/efi      vfat    defaults,umask=0077 0 2
-UUID=08a4ca56-c960-4d98-8471-f59ae3627d51 /              ext4    defaults,noatime 0 1
+UUID=7CD5-847D                            /boot/efi      vfat    defaults,umask=0077 0 2
+UUID=02890af0-adb8-4933-9de7-96f8024bb68d /              ext4    defaults,noatime 0 1
 tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
 
-UUID=ad89d0a1-b793-44a1-bf50-88e1fdface31  run/media/pd0rk1n/ad89d0a1-b793-44a1-bf50-88e1fdface31  ext4  defaults,noatime  0  2
+//10.0.0.19/1tb /mnt/1tb cifs credentials=/etc/samba/credentials-1tb,uid=1000,gid=1000,iocharset=utf8 0 0
 
+//10.0.0.19/4tb /mnt/4tb cifs credentials=/etc/samba/credentials-4tb,uid=1000,gid=1000,iocharset=utf8 0 0
+
+//10.0.0.19/6tb /mnt/6tb cifs credentials=/etc/samba/credentials-6tb,uid=1000,gid=1000,iocharset=utf8 0 0
