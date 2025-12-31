@@ -549,6 +549,14 @@ set fish_color_search_match --background="#60AEFF"
 
 alias fixtray="/home/pd0rk1n/.local/bin/restart-tray-apps.sh"
 
+function y
+	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+	command yazi $argv --cwd-file="$tmp"
+	if read -z cwd < "$tmp"; and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+		builtin cd -- "$cwd"
+	end
+	rm -f -- "$tmp"
+end
 
 
 fastfetch
