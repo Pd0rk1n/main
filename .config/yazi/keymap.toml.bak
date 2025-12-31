@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on = ["g", "1"]
+run = "shell 'test -d /run/user/1000/gvfs/smb-share:server=10.0.0.19,share=1tb || gio mount smb://10.0.0.19/1tb; sleep 1; yazi /run/user/1000/gvfs/smb-share:server=10.0.0.19,share=1tb' --block"
+desc = "Open 1TB Plex share"
+
+[[manager.prepend_keymap]]
+on = ["g", "4"]
+run = "shell 'test -d /run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb || gio mount smb://10.0.0.19/4tb; sleep 1; yazi /run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb' --block"
+desc = "Open 4TB Plex share"
+
+[[manager.prepend_keymap]]
+on = ["g", "6"]
+run = "shell 'test -d /run/user/1000/gvfs/smb-share:server=10.0.0.19,share=6tb || gio mount smb://10.0.0.19/6tb; sleep 1; yazi /run/user/1000/gvfs/smb-share:server=10.0.0.19,share=6tb' --block"
+desc = "Open 6TB Plex share"

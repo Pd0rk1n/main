@@ -1,0 +1,14 @@
+[[sidebar.bookmarks]]
+name = "Plex 1TB"
+path = "/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=1tb"
+icon = "drive-harddisk-symbolic"
+
+[[sidebar.bookmarks]]
+name = "Plex 4TB"
+path = "/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=4tb"
+icon = "drive-harddisk-symbolic"
+
+[[sidebar.bookmarks]]
+name = "Plex 6TB"
+path = "/run/user/1000/gvfs/smb-share:server=10.0.0.19,share=6tb"
+icon = "drive-harddisk-symbolic"
