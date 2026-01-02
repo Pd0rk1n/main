@@ -1,0 +1,6 @@
+Set CPU Performance
+
+
+
+
+       sudo cpupower frequency-set -g performance
