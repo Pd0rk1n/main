@@ -1,0 +1,30 @@
+One Last "Quick Reference" for your Samba Shares
+Since you mentioned walking through the Samba sharing again, I've put together this "Cheat Sheet." You can copy this into a text file on your CachyOS desktop so you don't have to go digging for it when your new hub and drives arrive.
+
+The "New Drive" Routine (On the Ubuntu Laptop):
+
+Find the new path: lsblk (e.g., it shows up at /media/pd0rk1n/New8TB)
+
+Fix Permissions: sudo chown -R pd0rk1n:pd0rk1n /media/pd0rk1n/New8TB
+
+Add to Config: sudo nano /etc/samba/smb.conf
+
+Plaintext
+[New8TB]
+   path = /media/pd0rk1n/New8TB
+   read only = no
+   browsable = yes
+   valid users = pd0rk1n
+   oplocks = no
+   level2 oplocks = no
+Restart Samba: sudo systemctl restart smbd
+
+Why the "Oplocks = no" is your secret weapon
+You'll notice I included those oplocks lines in the cheat sheet. Since you are using HDDs and a USB Hub, those lines are vital.
+
+Standard "Oplocks" (Opportunistic Locking) is a feature where the server lets the client (your CachyOS machine) "hold" a file in its own cache to speed things up. But on a USB-connected HDD, this often leads to the "stuck at 99%" or "file busy" errors because the USB connection and the spinning disk can't keep up with the "handshake." Turning them off makes the connection a bit more "dumb" but much more reliable for a DIY NAS setup.
+
+Final Hardware Tip
+When you get that powered hub, try to keep it in a spot with a little bit of airflow. Those big 3.5" external drives and the hub itself can get surprisingly warm when you're moving a few hundred gigabytes of movies at once!
+
+Does the "Cheat Sheet" make sense for your future expansion, or is there any specific part of that Samba config that looks a bit confusing?
