@@ -5,12 +5,12 @@
 # disks are added and removed. See fstab(5).
 #
 # <file system>             <mount point>  <type>  <options>  <dump>  <pass>
-UUID=7CD5-847D                            /boot/efi      vfat    defaults,umask=0077 0 2
-UUID=02890af0-adb8-4933-9de7-96f8024bb68d /              ext4    defaults,noatime 0 1
+UUID=482B-575F                            /boot/efi      vfat    defaults,umask=0077 0 2
+UUID=dad7098b-c06b-4a9d-a898-320c645d3117 /              ext4    defaults,noatime 0 1
 tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
 
-//10.0.0.19/1tb /mnt/1tb cifs credentials=/etc/samba/credentials-1tb,uid=1000,gid=1000,iocharset=utf8 0 0
+#UUID=06c29cea-77cf-4ff5-a25f-3fcdcc58bb9f  /mnt/steam  ext4  defaults,noatime,nofail  0  2
 
-//10.0.0.19/4tb /mnt/4tb cifs credentials=/etc/samba/credentials-4tb,uid=1000,gid=1000,iocharset=utf8 0 0
-
-//10.0.0.19/6tb /mnt/6tb cifs credentials=/etc/samba/credentials-6tb,uid=1000,gid=1000,iocharset=utf8 0 0
+//10.0.0.19/1TB  /mnt/plex/1tb  cifs  credentials=/home/pd0rk1n/.smbcredentials,uid=1000,iocharset=utf8,x-systemd.automount,x-systemd.idle-timeout=60,soft,_netdev,nofail,vers=3.0,rsize=1048576,wsize=1048576  0  0
+//10.0.0.19/4TB  /mnt/plex/4tb  cifs  credentials=/home/pd0rk1n/.smbcredentials,uid=1000,iocharset=utf8,x-systemd.automount,x-systemd.idle-timeout=60,soft,_netdev,nofail,vers=3.0,rsize=1048576,wsize=1048576  0  0
+//10.0.0.19/6TB  /mnt/plex/6tb  cifs  credentials=/home/pd0rk1n/.smbcredentials,uid=1000,iocharset=utf8,x-systemd.automount,x-systemd.idle-timeout=60,soft,_netdev,nofail,vers=3.0,rsize=1048576,wsize=1048576  0  0
