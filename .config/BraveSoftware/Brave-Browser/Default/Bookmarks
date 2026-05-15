@@ -1,5 +1,5 @@
 {
-   "checksum": "25799da7f948d16472fdc4f54976953c",
+   "checksum": "2bfb07c713f043da24e3fb1879541e5e",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -40,6 +40,17 @@
             "name": "Plex",
             "type": "url",
             "url": "http://10.0.0.19:32400/web/index.html#!/"
+         }, {
+            "date_added": "13423281730394282",
+            "date_last_used": "0",
+            "guid": "8d852127-5c39-4fad-99c9-af6b435fbe2c",
+            "id": "187",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Gemini",
+            "type": "url",
+            "url": "https://gemini.google.com/app"
          }, {
             "date_added": "13315300304935255",
             "date_last_used": "13423280792353191",
@@ -1024,7 +1035,7 @@
          } ],
          "date_added": "13361210410425129",
          "date_last_used": "0",
-         "date_modified": "13409150717517204",
+         "date_modified": "13423281747938700",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks bar",
