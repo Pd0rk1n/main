@@ -1,0 +1,855 @@
+{
+   "Add": {
+      "message": "Add"
+   },
+   "Add_accesskey": {
+      "message": "A"
+   },
+   "AdditionalPermissions": {
+      "message": "Permisiuni suplimentare pentru site-uri de încredere"
+   },
+   "AdditionalRestrictions": {
+      "message": "Restricții suplimentare pentru site-uri nesigure"
+   },
+   "Allow": {
+      "message": "Permiteți"
+   },
+   "AllowBookmarks": {
+      "message": "Permiteți site-uri deschise prin marcaje"
+   },
+   "AllowClipboard": {
+      "message": "Permiteți copierea și lipirea textului bogat din clipboard-ul extern"
+   },
+   "AllowLocalLinks": {
+      "message": "Permiteți legături locale"
+   },
+   "AllowPage": {
+      "message": "Permiteți toate această pagină"
+   },
+   "AllowPage_accesskey": {
+      "message": "A"
+   },
+   "AllowPing": {
+      "message": "Permiteți \u003CA PING…>"
+   },
+   "AllowViaBookmarks": {
+      "message": "Permiteți site-urile deschise prin marcaje"
+   },
+   "Allow_accesskey": {
+      "message": "l"
+   },
+   "AlwaysBlockUntrustedContent": {
+      "message": "Blochează orice obiect care provine de pe un site marcat ca fiind de neîncredere"
+   },
+   "AutoAllowTopLevel": {
+      "message": "Setați temporar site-uri de nivel superior la TRUSTED (de încredere)"
+   },
+   "AutoReload": {
+      "message": "Reîncarcă automat paginile afectate atunci când se schimbă permisiunile"
+   },
+   "AutoReload_currentTab": {
+      "message": "Reîncarcă doar fila curentă"
+   },
+   "AutoTrustedLabel": {
+      "description": "Short label for CUSTOM preset when automatically filled with TRUSTED capabilities as a top-level site",
+      "message": "Auto-trusted"
+   },
+   "BaseDom": {
+      "message": "Domenii de bază de nivel 2 (noscript.net)"
+   },
+   "BlockedItems": {
+      "message": "Blocat $1 de $2 itemi."
+   },
+   "BlockedObjects": {
+      "message": "NoScript Blocat Obiecte"
+   },
+   "BookmarkSync": {
+      "message": "Salvarea configurației NoScript într-un bookmark pentru o sincronizare ușoară"
+   },
+   "Cancel": {
+      "message": "Cancel"
+   },
+   "CascadePermissions": {
+      "message": "Automatically apply top document's permissions to subdocuments and inclusions not configured yet"
+   },
+   "CascadeRestrictions": {
+      "message": "Orice capacitate blocată în documentul principal trebuie să fie blocată și în subdocumentele sale"
+   },
+   "CascadedLabel": {
+      "description": "Short label for DEFAULT preset when the actual capabilities are inherited from top-level site",
+      "message": "Cascaded"
+   },
+   "ClearClickDescription": {
+      "message": "NoScript a interceptat o interacțiune a mouse-ului sau a tastaturii cu un element parțial ascuns. Faceți clic pe imaginea de mai jos pentru a trece de la o versiune obstrucționată la cea clară."
+   },
+   "ClearClickHeader": {
+      "message": "Potențial Clickjacking / Încercare de Redresare UI!"
+   },
+   "ClearClickOpt": {
+      "message": "Protecția ClearClick pe paginile…"
+   },
+   "ClearClickReport": {
+      "message": "Raport"
+   },
+   "ClearClickReportId": {
+      "message": "Raport ID:"
+   },
+   "ClearClickReport_accesskey": {
+      "message": "R"
+   },
+   "ClearClickTitle": {
+      "message": "Avertisment ClearClick"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CollapseBlockedObjects": {
+      "message": "Colapsul obiectelor blocate"
+   },
+   "ConfirmUnblock": {
+      "message": "Cereți o confirmare înainte de a debloca temporar un obiect"
+   },
+   "CtxMenu": {
+      "message": "Meniul contextual"
+   },
+   "Custom": {
+      "message": "Personalizat"
+   },
+   "CustomizePresets": {
+      "message": "Personalizare a presetului (pentru site-uri care împart un preset)"
+   },
+   "Default": {
+      "message": "Default"
+   },
+   "DefaultContainerName": {
+      "message": "Default"
+   },
+   "DefaultPolicies": {
+      "message": "Politici default"
+   },
+   "Description": {
+      "message": "Protecție maximă pentru browser: NoScript permite conținut activ numai pentru domenii de încredere la alegerea dumneavoastră, pentru a preveni o exploatare."
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateLong": {
+      "message": "NoScript este un software gratuit și nu poate exista fără ajutorul dumneavoastră. Vă rugăm să donați acum!"
+   },
+   "DonateShort": {
+      "message": "Donație"
+   },
+   "Donate_accesskey": {
+      "message": "o"
+   },
+   "Embeddings": {
+      "message": "Încorporări"
+   },
+   "EnableGesture": {
+      "message": "Enable gesture activation: drawing \"S\" on a web page opens NoScript's UI for the site"
+   },
+   "Enforce": {
+      "message": "Activați restricțiile la nivel global"
+   },
+   "EnforceForTab": {
+      "message": "Activați restricțiile pentru acest tab"
+   },
+   "EnforceOnRestart": {
+      "message": "Restabilirea restricțiilor la repornirea browserului"
+   },
+   "Exceptions": {
+      "message": "Excepții…"
+   },
+   "Export": {
+      "message": "Export"
+   },
+   "Export_accesskey": {
+      "message": "E"
+   },
+   "FixLinks": {
+      "message": "Încercarea de a repara legăturile JavaScript"
+   },
+   "GestureLabel": {
+      "message": "Draw \"S\" to summon NoScript."
+   },
+   "HelpLink": {
+      "message": "Help…"
+   },
+   "Hider": {
+      "message": "Aruncați aici pentru a vă ascunde."
+   },
+   "HighContrast": {
+      "message": "Contrast ridicat"
+   },
+   "Https": {
+      "message": "HTTPS"
+   },
+   "HttpsFaq": {
+      "message": "HTTPS FAQ…"
+   },
+   "HttpsFaq_accesskey": {
+      "message": "Q"
+   },
+   "HttpsForced": {
+      "message": "Forțați următoarele site-uri să utilizeze conexiuni securizate (HTTPS):"
+   },
+   "HttpsForcedExceptions": {
+      "message": "Nu forțați niciodată conexiuni securizate (HTTPS) pentru următoarele site-uri:"
+   },
+   "Https_always": {
+      "message": "Întotdeauna"
+   },
+   "Https_behavior": {
+      "message": "Comportament"
+   },
+   "Https_cookies": {
+      "message": "Cookies"
+   },
+   "Https_description": {
+      "message": "Interziceți conținutul web activ dacă nu provine de la o conexiune securizată (HTTPS):"
+   },
+   "Https_never": {
+      "message": "Niciodată"
+   },
+   "Https_proxy": {
+      "message": "Când folosiți un proxy (recomandat cu Tor)"
+   },
+   "Import": {
+      "message": "Import"
+   },
+   "Import_accesskey": {
+      "message": "I"
+   },
+   "KeepLocked": {
+      "message": "Păstrați acest element blocat (recomandat)"
+   },
+   "LearnMoreLink": {
+      "message": "Learn more…"
+   },
+   "MatchSample": {
+      "message": "Eșantion care se potriveste unui șablon:"
+   },
+   "ModernRed": {
+      "message": "Roșu modern"
+   },
+   "Modify": {
+      "description": "Verb to label action triggers such as buttons used to modify a property shown in the same context (e.g. current behavior)",
+      "message": "Modificați"
+   },
+   "Next": {
+      "message": "Următorul"
+   },
+   "NoEnforcement": {
+      "message": "Dezactiveaza restricțiile la nivel global (periculos)"
+   },
+   "NoEnforcementForTab": {
+      "message": "Dezactiveaza restricțiile pentru acest tab"
+   },
+   "NoUntrustedPlaceholder": {
+      "message": "Nu există un marcaj pentru obiectele care provin de pe site-uri marcate ca nefiabile"
+   },
+   "NotEnforced": {
+      "message": "Restricții dezactivate de setările utilizatorului: NoScript nu va bloca nimic de pe această pagină!"
+   },
+   "Notifications": {
+      "message": "Notificări"
+   },
+   "Notify": {
+      "message": "Arata mesajul despre script-urile blocate"
+   },
+   "NotifyMeta": {
+      "message": "Arata mesajul despre redirecționările META blocate"
+   },
+   "NotifyMeta_accesskey": {
+      "message": "R"
+   },
+   "Notify_bottom": {
+      "message": "Puneți mesajul în partea de jos"
+   },
+   "NselForce": {
+      "message": "Arata \u003CNOSCRIPT> elementul care urmează unui blocat \u003CSCRIPT>"
+   },
+   "NselNever": {
+      "message": "Ascunde \u003CNOSCRIPT> elemente"
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "Onboarding_title": {
+      "description": "The onboarding page, containing the Trust Mode selector, is shown on first run after a CLEAN installation",
+      "message": "Welcome to NoScript!"
+   },
+   "OptAmnesticUpdates": {
+      "message": "Revocarea permisiunilor temporare la actualizările NoScript, chiar dacă browser-ul nu este repornit"
+   },
+   "OptBlockCssScanners": {
+      "message": "Blocheaza scanerele bazate pe CSS"
+   },
+   "OptFilterXGet": {
+      "message": "Curățați cererile suspicioase cross-site"
+   },
+   "OptFilterXPost": {
+      "message": "Transformați cererile POSTARE cross-site în cereri GET fără date"
+   },
+   "OptIncognitoPerm": {
+      "message": "Activați setarea permisiunilor permanente în filele incognito/private.\nATENȚIE: dacă faceți acest lucru, este posibil să apară o scurgere de informații despre site!"
+   },
+   "OptOverrideTorBrowserPolicy": {
+      "message": "Suprascrieți nivelul de securitate prestabilit de Tor Browser"
+   },
+   "Options": {
+      "message": "Opțiuni…"
+   },
+   "OptionsLong": {
+      "message": "Opțiuni NoScript"
+   },
+   "OptionsWidth": {
+      "message": "40em"
+   },
+   "Options_accesskey": {
+      "message": "O"
+   },
+   "PermanentInPrivate": {
+      "message": "Comenzi permanente \"Permite\" în ferestrele private"
+   },
+   "PermissionsText": {
+      "message": "Puteți specifica site-uri web cărora li se permite să execute scripturi. Introduceți adresa sau domeniul (de exemplu, \"http://www.site.com\" sau \"site.com\") un site pe care doriți să îl permiteți și apoi faceți clic pe Allow (Permiteți)."
+   },
+   "Plugins": {
+      "message": "Plugin-uri"
+   },
+   "Policies": {
+      "message": "Politici"
+   },
+   "Preset": {
+      "message": "Nivelul de securitate"
+   },
+   "Prev": {
+      "message": "Anterior"
+   },
+   "RecentBlocked": {
+      "message": "Site-uri blocate recent"
+   },
+   "Refresh": {
+      "message": "Refresh"
+   },
+   "Reload": {
+      "message": "Reincarca"
+   },
+   "ReloadWarn": {
+      "message": "Aceste opțiuni vor avea efect pe paginile noi sau reîncărcate (manual)"
+   },
+   "RemoveSelected": {
+      "message": "Eliminați site-uri selectate"
+   },
+   "Reset": {
+      "message": "Reset"
+   },
+   "ResetDef": {
+      "message": "Reseteaza la setările Default"
+   },
+   "ResetDef_accesskey": {
+      "message": "D"
+   },
+   "Reset_accesskey": {
+      "message": "s"
+   },
+   "Reveal": {
+      "message": "Faceți clic aici pentru a recupera butoanele lipsă…"
+   },
+   "RevokeTemp": {
+      "message": "Revocarea permisiunilor temporare"
+   },
+   "RevokeTemp_accesskey": {
+      "message": "R"
+   },
+   "SectionAdvanced": {
+      "message": "Avansat"
+   },
+   "SectionAppearance": {
+      "message": "Aspect"
+   },
+   "SectionGeneral": {
+      "message": "General"
+   },
+   "SectionSitePermissions": {
+      "message": "Permisiuni per site"
+   },
+   "SecureCookies": {
+      "message": "Activați gestionarea automată a cookie-urilor securizate"
+   },
+   "SecureCookiesExceptions": {
+      "message": "Ignorați modulele cookie nesigure setate prin HTTPS de către următoarele site-uri:"
+   },
+   "SecureCookiesForced": {
+      "message": "Forțați criptarea tuturor cookie-urilor setate prin HTTPS de către următoarele site-uri:"
+   },
+   "SecurityManager": {
+      "message": "Manager de securitate"
+   },
+   "Show": {
+      "message": "Arata…"
+   },
+   "ShowConsole": {
+      "message": "Arata consola…"
+   },
+   "ShowConsole_accesskey": {
+      "message": "S"
+   },
+   "ShowCountBadge": {
+      "message": "Afișarea insignei cu numărul de elemente blocate"
+   },
+   "ShowCtxMenuItem": {
+      "message": "Arata elementul de meniu contextual NoScript"
+   },
+   "ShowFullAddresses": {
+      "message": "Afișarea adreselor complete în fereastra popup a permisiunilor (https://www.noscript.net)"
+   },
+   "ShowPlaceholder": {
+      "message": "Arata pictograma de locțiitor"
+   },
+   "ShowProbePlaceholders": {
+      "message": "Show synthetic placeholders for invisible capability probes"
+   },
+   "ShowReleaseNotes": {
+      "message": "Afișarea notelor de deblocare privind actualizările"
+   },
+   "SitePermissions": {
+      "message": "Permisiuni Site"
+   },
+   "SitePermissions_accessKey": {
+      "message": "S"
+   },
+   "SitePolicies": {
+      "message": "Politici specifice pentru fiecare site"
+   },
+   "TabGuard_forget": {
+      "message": "Uitați de decizii"
+   },
+   "TabGuard_label": {
+      "message": "Protecție împotriva scurgerii de identitate Cross-tab"
+   },
+   "TabGuard_message": {
+      "message": "Sunteți pe cale să încărcați o pagină din $1.\nDacă sunteți un $1 utilizator logat, informațiile despre identitatea dumneavoastră pot fi obținute de către$2."
+   },
+   "TabGuard_optAllow": {
+      "message": "Încărcați normal"
+   },
+   "TabGuard_optAnonymize": {
+      "message": "Încărcați în mod anonim"
+   },
+   "TabGuard_optDisabled": {
+      "message": "Dezactivat"
+   },
+   "TabGuard_optEnabled": {
+      "message": "Activat peste tot"
+   },
+   "TabGuard_optIncognito": {
+      "message": "Activat numai în Navigare privată"
+   },
+   "TabGuard_optPromptAlways": {
+      "message": "Prompt before anonymizing any request"
+   },
+   "TabGuard_optPromptNever": {
+      "message": "Never prompt before anonymization"
+   },
+   "TabGuard_optPromptPost": {
+      "message": "Prompt before anonymizing POST submissions"
+   },
+   "TabGuard_title": {
+      "message": "Scurgere potențială de identitate"
+   },
+   "TempToPerm": {
+      "message": "Faceți permisiunile de pagină permanente"
+   },
+   "TempToPerm_accesskey": {
+      "message": "M"
+   },
+   "TempTrustPage": {
+      "message": "Setați toate informațiile de pe această pagină la Temporarily TRUSTED (Încredere temporară)"
+   },
+   "TempTrustPage_accesskey": {
+      "message": "T"
+   },
+   "Trust": {
+      "message": "Marcați ca fiind de încredere"
+   },
+   "Trust_accesskey": {
+      "message": "T"
+   },
+   "Trusted": {
+      "message": "De încredere"
+   },
+   "TrustedPagesAdj": {
+      "message": "de încredere"
+   },
+   "Trusted_permanent": {
+      "message": "ÎNCREDERE"
+   },
+   "Trusted_temporary": {
+      "message": "Temp. ÎNCREDERE"
+   },
+   "Uninstall": {
+      "message": "Dezinstalați"
+   },
+   "Unknown": {
+      "message": "Necunoscut"
+   },
+   "UnsafeReload": {
+      "message": "O reîncărcare nesigură"
+   },
+   "UnsafeReload_accesskey": {
+      "message": "R"
+   },
+   "Untrust": {
+      "message": "Marcați ca fiind de neîncredere"
+   },
+   "Untrust_accesskey": {
+      "message": "U"
+   },
+   "Untrusted": {
+      "message": "Nu este de încredere"
+   },
+   "UntrustedPagesAdj": {
+      "message": "nu este de încredere"
+   },
+   "VintageBlue": {
+      "message": "Albastru de epocă"
+   },
+   "WebAddress": {
+      "message": "Cauta sau adauga un site web:"
+   },
+   "WebAddress_accesskey": {
+      "message": "w"
+   },
+   "XSS_clearUserChoices": {
+      "message": "Ștergeți opțiunile XSS"
+   },
+   "XSS_notify": {
+      "message": "Arata XSS notificari"
+   },
+   "XSS_optAllow": {
+      "message": "Permiteți această cerere"
+   },
+   "XSS_optAlwaysAllow": {
+      "message": "Permiteți întotdeauna cererile de documente de la $1 la $2"
+   },
+   "XSS_optAlwaysBlock": {
+      "message": "Blocheaza întotdeauna cererile de documente de la $1 la $2"
+   },
+   "XSS_optBlock": {
+      "message": "Blocheaza această cerere"
+   },
+   "XSS_optSanitize": {
+      "message": "Curățați această cerere"
+   },
+   "XSS_promptMessage": {
+      "message": "NoScript a detectat un potențial atac Cross-Site Scripting\nde la $1 la $2.\nDate suspecte:\n$3"
+   },
+   "XSS_promptTitle": {
+      "message": "Avertisment NoScript XSS"
+   },
+   "Xss": {
+      "message": "XSS"
+   },
+   "XssExceptions": {
+      "message": "Anti-XSS Excepții de protecție"
+   },
+   "XssExceptions_description": {
+      "message": "Destinațiile care se potrivesc acestor expresii regulate NU vor fi protejate contra XSS."
+   },
+   "XssFaq": {
+      "message": "XSS FAQ…"
+   },
+   "XssFaq_accesskey": {
+      "message": "Q"
+   },
+   "Xss_accesskey": {
+      "message": "X"
+   },
+   "about": {
+      "message": "Despre $1"
+   },
+   "allowFrom": {
+      "message": "Permiteți toate din $1"
+   },
+   "allowGlobal": {
+      "message": "Dezactiveaza toate verificările de permisiuni (periculos)"
+   },
+   "allowLocal": {
+      "message": "Allow $1"
+   },
+   "allowTemp": {
+      "message": "Permite temporar $1"
+   },
+   "allowTempFrom": {
+      "message": "Permite temporar accesul tuturor din $1"
+   },
+   "allowed_no": {
+      "message": "Scripturile sunt interzise momentan"
+   },
+   "allowed_prt": {
+      "message": "Scripturile sunt permise partial"
+   },
+   "allowed_yes": {
+      "message": "Scripturile sunt momentan permise"
+   },
+   "alwaysAsk": {
+      "message": "Cerere permanenta pentru confirmare"
+   },
+   "anySite": {
+      "message": "ORICE SITE"
+   },
+   "audio_samples": {
+      "message": "Audio samples"
+   },
+   "behavior_auto_description": {
+      "message": "A compromise between security and convenience: the top level site, whose address is shown in the navigation bar, is automatically promoted to \"Temporarily TRUSTED\" unless already manually classified. 3d party sites still need to be classified manually. Cross-site protections are always enforced."
+   },
+   "behavior_auto_title": {
+      "message": "EASIER / Auto"
+   },
+   "behavior_defaultAllow_description": {
+      "message": "The most relaxed behavior: unclassified top-level sites are promoted to \"Temporarily TRUSTED\", and capabilities enabled for the top-level site are automatically cascaded to all its 3rd party unclassified sub-resources. Sites already classified as \"UNTRUSTED\" and \"CUSTOM\" are not affected. Cross-site protections are always enforced."
+   },
+   "behavior_defaultAllow_title": {
+      "message": "EASIEST / Default allow"
+   },
+   "behavior_defaultDeny_description": {
+      "message": "The traditional and most secure NoScript behavior: unclassified sites, marked as \"DEFAULT\", are NOT considered trusted. Potentially harmful capabilities, including scripts, are disabled. You can manually enable the sites you trust by opening the NoScript interface and marking them as \"TRUSTED\", or further customize their capabilities by selecting \"CUSTOM\". Cross-site protections are always enforced."
+   },
+   "behavior_defaultDeny_title": {
+      "message": "STRICT / Default Deny"
+   },
+   "behavior_label": {
+      "message": "Current site classification behavior:"
+   },
+   "behavior_prompt": {
+      "message": "Please select the way NoScript behaves when encountering unclassified sites. You can revisit this choice from the NoScript Options page and whenever you reset NoScript."
+   },
+   "behavior_title": {
+      "description": "The title of the NoScript's Behavior selector, where user decides how NoScript should manage the trust policy assigned to unclassified sites",
+      "message": "Site Classification Behavior"
+   },
+   "bookmarkSync_confirm": {
+      "message": "NoScript a găsit un bookmark de configurare aparent salvat pe\n$1.\nChiar doriți să suprascrieți configurația locală NoScript cu conținutul acestui bookmark?"
+   },
+   "bookmarkSync_message": {
+      "message": "Acest bookmark nu este valabil deschiderii, ci sincronizarii folosind servicii ca spre exemplu Weave sau extensia XMarks."
+   },
+   "bookmarkSync_title": {
+      "message": "Configurare Bookmark in NoScript"
+   },
+   "cap_fetch": {
+      "message": "preluare"
+   },
+   "cap_font": {
+      "message": "font"
+   },
+   "cap_frame": {
+      "message": "context"
+   },
+   "cap_lan": {
+      "message": "LAN"
+   },
+   "cap_lazy_load": {
+      "message": "lazy load"
+   },
+   "cap_media": {
+      "message": "media"
+   },
+   "cap_noscript": {
+      "message": "noscript"
+   },
+   "cap_object": {
+      "message": "obiect"
+   },
+   "cap_other": {
+      "message": "altele"
+   },
+   "cap_ping": {
+      "message": "ping"
+   },
+   "cap_script": {
+      "message": "script"
+   },
+   "cap_unchecked_css": {
+      "message": "CSS nerestricționat"
+   },
+   "cap_wasm": {
+      "description": "WebAssembly modules compilation and execution capability.",
+      "message": "wasm"
+   },
+   "cap_webgl": {
+      "message": "webgl"
+   },
+   "cap_x_load": {
+      "description": "Capability for file:// documents to load subresources from a different and non descendant directory.",
+      "message": "x-load"
+   },
+   "caps": {
+      "message": "Activați aceste capacități"
+   },
+   "capsContext": {
+      "message": "Activați aceste capacități atunci când pagina de sus se potrivește"
+   },
+   "changelog": {
+      "message": "Jurnal de modificări"
+   },
+   "changelog_tip": {
+      "message": "Arata jurnalul modificărilor"
+   },
+   "clear_container_label": {
+      "message": "Clear permissions for this container"
+   },
+   "confirm": {
+      "message": "Esti sigur?"
+   },
+   "container_clear_warning": {
+      "message": "All site permissions for this container will be removed.\nThis action cannot be reverted.\nDo you want to continue?"
+   },
+   "container_copy_warning": {
+      "message": "Copying permissions from \"$1\".\nAll site permissions for this container will be removed.\nThis action cannot be reverted.\nDo you want to continue?"
+   },
+   "copy_container_label": {
+      "message": "Copy permissions from container:"
+   },
+   "disable": {
+      "message": "Dezactiveaza $1"
+   },
+   "disable_accessKey": {
+      "message": "D"
+   },
+   "distrust": {
+      "message": "Marcați $1 ca fiind de neîncredere"
+   },
+   "enable_container_tabs_label": {
+      "message": "Enable support for container tabs"
+   },
+   "extensionContributors": {
+      "message": "Colaboratori:"
+   },
+   "extensionContributors_tip": {
+      "message": "Oameni cărora ar trebui să le mulțumiți pentru această extensie"
+   },
+   "extensionCreatorLabel": {
+      "message": "Autor:"
+   },
+   "extensionCreator_tip": {
+      "message": "Vizitați pagina de start a autorului"
+   },
+   "extensionHomepage_tip": {
+      "message": "Vizitați pagina principală a extensiei"
+   },
+   "forbidGlobal": {
+      "message": "Interzi scripturile in general (recomandat)"
+   },
+   "forbidLocal": {
+      "message": "Interzis $1"
+   },
+   "forbid_replace_default_policy": {
+      "message": "Cannot replace the default policy."
+   },
+   "freshInstallReload": {
+      "message": "Pentru a opera pe această filă, NoScript trebuie să o reîncarce.\nContinuați?"
+   },
+   "httpsOnly": {
+      "message": "Se potriveste numai conținutul HTTPS"
+   },
+   "incompatibleOptions": {
+      "message": "\"$1\"\neste incompatibilă cu \"$2\".\nDoriți să îl activați pe primul și se dezactiveaza al doilea?"
+   },
+   "incompatibleOptions_title": {
+      "message": "Atentionarea unei optiuni incompatibile"
+   },
+   "informaction_tip": {
+      "message": "Vizitați pagina de pornire InformAction"
+   },
+   "license": {
+      "message": "License"
+   },
+   "license_tip": {
+      "message": "Citiți licența de utilizator final"
+   },
+   "logo_tip": {
+      "message": "Vizitați pagina principală a acestei extensii"
+   },
+   "metaRefresh_notify": {
+      "message": "NoScript a blocat un \u003CMETA> redirecționarea în interiorul unui \u003CNOSCRIPT> element: $1 în $2 secunde."
+   },
+   "pagePermissionsUI": {
+      "message": "Configure current page's permissions"
+   },
+   "privilegedPage": {
+      "message": "Aceasta este o pagină privilegiată, ale cărei permisiuni nu pot fi configurate."
+   },
+   "removal_message": {
+      "message": "Prin a dezactiva sau dezinstala NoScript, predai protectia oferita de catre NoScript.\n\nDaca te-ai plictisit de a controla permisiunea scripturilor pagina cu pagina, exista o varianta mai sigura.\n\nNoScript poate bloca scripturile, inafara de cele pe care le marchezii ca fiind sigure, continuand protejarea ta prin intermediul celor mai avansate masuri de siguranta impotriva XSS, Clickjacking, CSRF si a altor amenintari web.\n\nChiar doresti sa stergi TOATA protectia oferita de NoScript?\n"
+   },
+   "removal_no": {
+      "message": "Nu, inceteaza blocarea scripturilor."
+   },
+   "removal_title": {
+      "message": "Atentionare pentru un downgrade al securitatii"
+   },
+   "removal_yes": {
+      "message": "Da, sterge TOATE protectiile"
+   },
+   "reset_title": {
+      "message": "Reseteaza NoScript"
+   },
+   "reset_warning": {
+      "message": "TOATE preferintele si permisiunile ale NoScript catre site-uri vor fii resetate la valorile initiale imediat.\nAceasta actiune nu poate fi reversata.\nDoresti sa continui?"
+   },
+   "select_container_label": {
+      "message": "Choose a container:"
+   },
+   "settingsThemeLabel": {
+      "message": "Temă"
+   },
+   "siteInfo_confirm": {
+      "message": "Sunteți pe cale să solicitați informații despre \"$1\" site\nprin trimiterea unei cereri de informații la $2.\nDoriți să continuați?"
+   },
+   "siteInfo_tooltip": {
+      "message": "Middle-click or shift+click for site info…"
+   },
+   "sponsor_tip": {
+      "message": "Vizitați pagina de start a sponsorului"
+   },
+   "tabLess_reload_warning": {
+      "message": "Changing permissions in a sidebar will require a MANUAL reload."
+   },
+   "tabLess_short": {
+      "message": "(sidebar?)"
+   },
+   "tabLess_tip": {
+      "message": "Site outside of a content tab, e.g. in a sidebar"
+   },
+   "themeAuto": {
+      "message": "Auto"
+   },
+   "themeDark": {
+      "message": "Întunecat"
+   },
+   "themeLight": {
+      "message": "Lumină"
+   },
+   "toVintageBlue": {
+      "message": "Treci la stilul Vintage Blue"
+   },
+   "toggleEnforcementForTab": {
+      "message": "Toggle restrictions enforcement for current tab"
+   },
+   "unsafeReload_warning": {
+      "message": "UNSAFELY reîncărcare a ceva suspect\n\n$1 [$2]\n\nDE LA [$3]\n\nNoScript NU va proteja această cerere!\n"
+   },
+   "untrustedOrigin": {
+      "message": "origine necunoscuta"
+   },
+   "version": {
+      "message": "Versiune $1"
+   },
+   "versionShort": {
+      "message": "v $1"
+   }
+}

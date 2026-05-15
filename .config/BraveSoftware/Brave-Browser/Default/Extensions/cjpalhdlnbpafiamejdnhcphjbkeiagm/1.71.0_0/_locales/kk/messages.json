@@ -1,0 +1,1314 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Өзгерістерді іске асыру"
+   },
+   "1pEnableMyFiltersLabel": {
+      "description": "Label for the checkbox use to enable/disable 'My filters' list",
+      "message": "Менің пайдаланушылық сүзгілерімді іске қосу"
+   },
+   "1pExport": {
+      "description": "Button in the 'My filters' pane",
+      "message": "Экспорттау…"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "my-ublock-static-filters_{{datetime}}.txt"
+   },
+   "1pImport": {
+      "description": "Button in the 'My filters' pane",
+      "message": "Импорттау және қосу…"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Менің сүзгілерім"
+   },
+   "1pTrustMyFiltersLabel": {
+      "description": "Label for the checkbox use to trust the content of 'My filters' list",
+      "message": "Сенімді талап ететін пайдаланушылық сүзгілерге рұқсат ету"
+   },
+   "1pTrustWarning": {
+      "description": "Warning against copy-pasting filters from random sources",
+      "message": "Сенімсіз дереккөздерден сүзгілер қоспаңыз."
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Өзгерістерді іске асыру"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "A checkbox in the _3rd-party filters_ pane",
+      "message": "Сүзгілер тізімін автожаңарту"
+   },
+   "3pExternalListObsolete": {
+      "description": "used as a tooltip for the out-of-date icon beside a list",
+      "message": "Ескірген."
+   },
+   "3pExternalListsHint": {
+      "description": "Short information about how to use the textarea to import external filter lists by URL",
+      "message": "Бір жолға бір URL. Жарамсыз URL-дер ескертусіз еленбейді."
+   },
+   "3pGroupAds": {
+      "description": "Filter lists section name",
+      "message": "Жарнама"
+   },
+   "3pGroupAnnoyances": {
+      "description": "Filter lists section name",
+      "message": "Кедергілер"
+   },
+   "3pGroupCookies": {
+      "description": "Filter lists section name",
+      "message": "Cookie ескертулері"
+   },
+   "3pGroupCustom": {
+      "description": "Filter lists section name",
+      "message": "Пайдаланушылық"
+   },
+   "3pGroupDefault": {
+      "description": "Filter lists section name",
+      "message": "Кірістірілген"
+   },
+   "3pGroupMalware": {
+      "description": "Filter lists section name",
+      "message": "Зиянды бағдарламалардан қорғау, қауіпсіздік"
+   },
+   "3pGroupMultipurpose": {
+      "description": "Filter lists section name",
+      "message": "Әмбебап"
+   },
+   "3pGroupPrivacy": {
+      "description": "Filter lists section name",
+      "message": "Жекелік"
+   },
+   "3pGroupRegions": {
+      "description": "Filter lists section name",
+      "message": "Аймақтар, тілдер"
+   },
+   "3pGroupSocial": {
+      "description": "Filter lists section name",
+      "message": "Әлеуметтік виджеттер"
+   },
+   "3pIgnoreGenericCosmeticFilters": {
+      "description": "This will cause uBO to ignore all generic cosmetic filters.",
+      "message": "Жалпы косметикалық сүзгілерді елемеу"
+   },
+   "3pIgnoreGenericCosmeticFiltersInfo": {
+      "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature.",
+      "message": "Жалпы косметикалық сүзгілер — бұл барлық веб-сайттарға қолданылатын сүзгілер. Бұл опцияны іске қосу жалпы косметикалық сүзгілерді өңдеу нәтижесінде веб-беттерге қосылатын жады мен процессор шығындарын азайтады.\n\nБұл опцияны қуаты азырақ құрылғыларда іске қосу ұсынылады."
+   },
+   "3pImport": {
+      "description": "The label for the checkbox used to import external filter lists",
+      "message": "Импорттау…"
+   },
+   "3pLastUpdate": {
+      "description": "used as a tooltip for the clock icon beside a list",
+      "message": "Соңғы жаңарту: {{ago}}.\nЖаңартуға мәжбүрлеу үшін шертіңіз."
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Lists of blocked hosts"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{total}} ішінен {{used}} қолданылуда"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "Appears at the top of the _3rd-party filters_ pane",
+      "message": "{{netFilterCount}} желі сүзгісі ＋ {{cosmeticFilterCount}} косметикалық сүзгі, дереккөздері:"
+   },
+   "3pNetworkError": {
+      "description": "used as a tooltip for error icon beside a list",
+      "message": "Желілік қате ресурс жаңартылуына кедергі келтірді."
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Сүзгілер тізімі"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
+      "message": "Косметикалық сүзгілер веб-беттердегі визуалды кедергі деп саналатын және желілік сұрауларға негізделген сүзгілеу қозғалтқыштарымен блокталмайтын элементтерді жасыру үшін қолданылады."
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Косметикалық сүзгілерді талдау және қолдану"
+   },
+   "3pPurgeAll": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Барлық кэштерді толық жою"
+   },
+   "3pSuspendUntilListsAreLoaded": {
+      "description": "A checkbox in the 'Filter lists' pane",
+      "message": "Барлық сүзгілер тізімі жүктелгенше желі белсенділігін кідірту"
+   },
+   "3pUpdateNow": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Қазір жаңарту"
+   },
+   "3pUpdating": {
+      "description": "used as a tooltip for the spinner icon beside a list",
+      "message": "Жаңартылуда…"
+   },
+   "3pViewContent": {
+      "description": "used as a tooltip for eye icon beside a list",
+      "message": "мазмұнын көру"
+   },
+   "GB": {
+      "description": "short for 'gigabytes'",
+      "message": "ГБ"
+   },
+   "KB": {
+      "description": "short for 'kilobytes'",
+      "message": "КБ"
+   },
+   "MB": {
+      "description": "short for 'megabytes'",
+      "message": "МБ"
+   },
+   "aboutBackupDataButton": {
+      "description": "Text for button to create a backup of all settings",
+      "message": "Файлға сақтық көшірме жасау…"
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "my-ublock-backup_{{datetime}}.txt"
+   },
+   "aboutCDNs": {
+      "description": "Shown in the About pane",
+      "message": "uBO-ның өз сүзгілер тізімдері келесі CDNs-де еркін орналастырылған:"
+   },
+   "aboutCDNsInfo": {
+      "description": "Shown in the About pane",
+      "message": "Сүзгілер тізімін жаңарту қажет болғанда кездейсоқ таңдалған CDN қолданылады."
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Өзгерістер журналы"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Бастапқы код (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Үлес қосушылар"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Сыртқы тәуелділіктер (GPLv3-үйлесімді):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Сүзгілер тізімі"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Туралы"
+   },
+   "aboutPrivacyPolicy": {
+      "description": "Link to privacy policy on GitHub (English)",
+      "message": "Жекелік саясаты"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Бастапқы баптауларға қайтару…"
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Барлық баптауларыңыз өшіріледі және uBlock₀ қайта іске қосылады.\n\nuBlock₀-ді бастапқы (зауыттық) баптауларға қайтару керек пе?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Файлдан қалпына келтіру…"
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Барлық баптауларыңыз {{time}} кезінде сақталған деректермен ауыстырылады және uBlock₀ қайта іске қосылады.\n\nБарлық қолданыстағы баптауларды сақтық көшірме деректерімен ауыстыру керек пе?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "Деректерді оқу мүмкін емес немесе олар жарамсыз"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Бастапқы код"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Аудармалар"
+   },
+   "advancedSettingsPageName": {
+      "description": "Title for the advanced settings page",
+      "message": "Кеңейтілген баптаулар"
+   },
+   "advancedSettingsWarning": {
+      "description": "A warning to users at the top of 'Advanced settings' page",
+      "message": "Ескерту! Бұл кеңейтілген баптауларды өз жауапкершілігіңізбен өзгертіңіз."
+   },
+   "assetViewerPageName": {
+      "description": "Title for the asset viewer page",
+      "message": "uBlock₀ — Нысандарды көру"
+   },
+   "clickToLoad": {
+      "description": "Message used in frame placeholders",
+      "message": "Жүктеу үшін шертіңіз"
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "Бұл құрылғының аты:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "…\n…"
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Бұлттық сақтау қоймасынан импорттау"
+   },
+   "cloudPullAndMerge": {
+      "description": "tooltip",
+      "message": "Бұлттық сақтау қоймасынан импорттау және ағымдағы баптаулармен біріктіру"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Бұлттық сақтау қоймасына экспорттау"
+   },
+   "contextMenuBlockElementInFrame": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "Кадрдағы элементті блоктау…"
+   },
+   "contextMenuSubscribeToList": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "Сүзгілер тізіміне жазылу…"
+   },
+   "contextMenuTemporarilyAllowLargeMediaElements": {
+      "description": "A context menu entry, present when large media elements have been blocked on the current site",
+      "message": "Үлкен медиа элементтеріне уақытша рұқсат ету"
+   },
+   "contextMenuViewSource": {
+      "description": "A context menu entry, to view the source code of the target resource",
+      "message": "Бастапқы кодты көру…"
+   },
+   "dashboardName": {
+      "description": "English: uBlock₀ — Dashboard",
+      "message": "uBlock₀ — Бақылау тақтасы"
+   },
+   "dashboardUnsavedWarning": {
+      "description": "A warning in the dashboard when navigating away from unsaved changes",
+      "message": "Ескерту: сізде сақталмаған өзгерістер бар!"
+   },
+   "dashboardUnsavedWarningIgnore": {
+      "description": "Label for button to ignore unsaved changes",
+      "message": "Елемеу"
+   },
+   "dashboardUnsavedWarningStay": {
+      "description": "Label for button to prevent navigating away from unsaved changes",
+      "message": "Осында қалу"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Артқа қайту"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Бұл терезені жабу"
+   },
+   "docblockedDisable": {
+      "description": "Button text to navigate to the blocked page",
+      "message": "Өту"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Толығымен"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Уақытша"
+   },
+   "docblockedDontWarn": {
+      "description": "Label for checkbox in document-blocked page",
+      "message": "Бұл сайт туралы маған қайтадан ескертпеу"
+   },
+   "docblockedFoundIn": {
+      "description": "English: List of filter list names follows",
+      "message": "Сүзгі келесі жерден табылды:"
+   },
+   "docblockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "параметрлерсіз"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "{{hostname}} үшін қатаң блоктауды сөндіру"
+   },
+   "docblockedPrompt1": {
+      "description": "Used in the strict-blocking page",
+      "message": "uBlock Origin келесі беттің жүктелуіне жол бермеді:"
+   },
+   "docblockedPrompt2": {
+      "description": "Used in the strict-blocking page",
+      "message": "Бұл келесі сүзгінің кесірінен болды:"
+   },
+   "docblockedReasonDisreputable": {
+      "description": "An actual reason why a page was blocked",
+      "message": "Сенімсіз"
+   },
+   "docblockedReasonLabel": {
+      "description": "The label which prepend the actual reason why a page was blocked",
+      "message": "Себебі:"
+   },
+   "docblockedReasonMalicious": {
+      "description": "An actual reason why a page was blocked",
+      "message": "Зиянды"
+   },
+   "docblockedReasonTracker": {
+      "description": "An actual reason why a page was blocked",
+      "message": "Трекер"
+   },
+   "docblockedRedirectPrompt": {
+      "description": "Text warning about an incoming redirect",
+      "message": "Блокталған бет басқа сайтқа бағыттағысы келеді. Егер жалғастыруды таңдасаңыз, сіз тікелей келесі мекенжайға өтесіз: {{url}}"
+   },
+   "docblockedTitle": {
+      "description": "Used as a title for the document-blocked page",
+      "message": "Бет блокталған"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} күн бұрын"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} сағат бұрын"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} минут бұрын"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "бір күн бұрын"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "бір сағат бұрын"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "бір минут бұрын"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: {{msg}}",
+      "message": "Желілік қате: {{msg}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Ақыры, тиімді блоктаушы. Процессор мен жадыға жеңіл."
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock₀ (off)'",
+      "message": "сөндірулі"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Өзгерістерді іске асыру"
+   },
+   "genericBytes": {
+      "description": "",
+      "message": "байт"
+   },
+   "genericCopyToClipboard": {
+      "description": "Label for buttons used to copy something to the clipboard",
+      "message": "Алмасу буферіне көшіру"
+   },
+   "genericMergeViewScrollLock": {
+      "description": "Tooltip for the button used to lock scrolling between the views in the 'My rules' pane",
+      "message": "Құлыпталған айналдыруды ауыстырып қосу"
+   },
+   "genericRevert": {
+      "description": "for generic 'Revert' buttons",
+      "message": "Кері қайтару"
+   },
+   "genericSelectAll": {
+      "description": "Label for buttons used to select all text in editor",
+      "message": "Барлығын таңдау"
+   },
+   "genericSubmit": {
+      "description": "for generic 'Submit' buttons",
+      "message": "Жіберу"
+   },
+   "linterMainReport": {
+      "description": "Summary of number of errors as reported by the linter ",
+      "message": "Қателер: {{count}}"
+   },
+   "logAll": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Барлығы"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Бетсіз"
+   },
+   "logFilterPrompt": {
+      "description": "Placeholder string for logger output filtering input field",
+      "message": "logger мазмұнын сүзгілеу"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Домен"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Сүзгі"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Түр"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "loggerClearTip": {
+      "description": "Tooltip for the eraser in the logger page; used to blank the content of the logger",
+      "message": "Logger-ді тазарту"
+   },
+   "loggerCurrentTab": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Ағымдағы бет"
+   },
+   "loggerDomInspectorTip": {
+      "description": "Tooltip for the DOM inspector button in the logger page",
+      "message": "DOM инспекторын ауыстырып қосу"
+   },
+   "loggerEntryDetailsContext": {
+      "description": "Label to identify a context field (typically a hostname)",
+      "message": "Контекст"
+   },
+   "loggerEntryDetailsFilter": {
+      "description": "Label to identify a filter field",
+      "message": "Сүзгі"
+   },
+   "loggerEntryDetailsFilterList": {
+      "description": "Label to identify a filter list field",
+      "message": "Сүзгілер тізімі"
+   },
+   "loggerEntryDetailsHeader": {
+      "description": "Small header to identify the 'Details' pane for a specific logger entry",
+      "message": "Толық ақпарат"
+   },
+   "loggerEntryDetailsPartyness": {
+      "description": "Label to identify a field providing partyness information",
+      "message": "Тараптылығы"
+   },
+   "loggerEntryDetailsRootContext": {
+      "description": "Label to identify a root context field (typically a hostname)",
+      "message": "Түбірлік контекст"
+   },
+   "loggerEntryDetailsRule": {
+      "description": "Label to identify a rule field",
+      "message": "Ереже"
+   },
+   "loggerEntryDetailsType": {
+      "description": "Label to identify the type of an entry",
+      "message": "Түр"
+   },
+   "loggerEntryDetailsURL": {
+      "description": "Label to identify the URL of an entry",
+      "message": "URL"
+   },
+   "loggerExportEncodeMarkdown": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "Markdown"
+   },
+   "loggerExportEncodePlain": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "Жай"
+   },
+   "loggerExportFormatList": {
+      "description": "Label for radio-button to pick export format",
+      "message": "Тізім"
+   },
+   "loggerExportFormatTable": {
+      "description": "Label for radio-button to pick export format",
+      "message": "Кесте"
+   },
+   "loggerInfoTip": {
+      "description": "Tooltip for the top-right info label in the logger page",
+      "message": "uBlock Origin wiki: Logger"
+   },
+   "loggerPauseTip": {
+      "description": "Tooltip for the pause button in the logger page",
+      "message": "Logger-ді аялдату (барлық кіріс деректерді болдырмау)"
+   },
+   "loggerPopupPanelTip": {
+      "description": "Tooltip for the popup panel button in the logger page",
+      "message": "Қалқымалы панельді ауыстырып қосу"
+   },
+   "loggerReloadTip": {
+      "description": "Tooltip for the reload button in the logger page",
+      "message": "Бет мазмұнын қайта жүктеу"
+   },
+   "loggerRowFiltererBuiltin1p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "1-ші тарап"
+   },
+   "loggerRowFiltererBuiltin3p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "3-ші тарап"
+   },
+   "loggerRowFiltererBuiltinAllowed": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "рұқсат етілген"
+   },
+   "loggerRowFiltererBuiltinBlocked": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "блокталған"
+   },
+   "loggerRowFiltererBuiltinEventful": {
+      "description": "A keyword in the built-in row filtering expression: all items corresponding to uBO doing something (blocked, allowed, redirected, etc.)",
+      "message": "eventful"
+   },
+   "loggerRowFiltererBuiltinModified": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "өзгертілген"
+   },
+   "loggerRowFiltererBuiltinNot": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "Емес"
+   },
+   "loggerRowFiltererBuiltinTip": {
+      "description": "Tooltip for the button to bring up logger output filtering options",
+      "message": "Logger сүзгілеу опциялары"
+   },
+   "loggerRowFiltererButtonTip": {
+      "description": "Tooltip for the row filterer button in the logger page",
+      "message": "Logger сүзгілеуін ауыстырып қосу"
+   },
+   "loggerSettingDiscardPrompt": {
+      "description": "Logger setting: A sentence to describe the purpose of the settings below",
+      "message": "Төмендегі үш шартты қанағаттандырмайтын Logger жазбалары автоматты түрде жойылады:"
+   },
+   "loggerSettingHideColumnContext": {
+      "description": "A label for the context column",
+      "message": "{{input}} Контекст"
+   },
+   "loggerSettingHideColumnFilter": {
+      "description": "A label for the filter or rule column",
+      "message": "{{input}} Сүзгі/ереже"
+   },
+   "loggerSettingHideColumnPartyness": {
+      "description": "A label for the partyness column",
+      "message": "{{input}} Тараптылығы"
+   },
+   "loggerSettingHideColumnTime": {
+      "description": "A label for the time column",
+      "message": "{{input}} Уақыт"
+   },
+   "loggerSettingHideColumnsPrompt": {
+      "description": "Logger settings: a sentence to describe the purpose of the checkboxes below",
+      "message": "Бағандарды жасыру:"
+   },
+   "loggerSettingPerEntryLineCount": {
+      "description": "A logger setting",
+      "message": "Вертикалды кеңейтілген режимде бір жазбаға {{input}} жол қолдану"
+   },
+   "loggerSettingPerEntryMaxAge": {
+      "description": "A logger setting",
+      "message": "Соңғы {{input}} минуттағы жазбаларды сақтап қалу"
+   },
+   "loggerSettingPerTabMaxEntries": {
+      "description": "A logger setting",
+      "message": "Бір бетке ең көп дегенде {{input}} жазбаны сақтап қалу"
+   },
+   "loggerSettingPerTabMaxLoads": {
+      "description": "A logger setting",
+      "message": "Бір бетке ең көп дегенде {{input}} бет жүктеуін сақтап қалу"
+   },
+   "loggerStaticFilteringFinderSentence1": {
+      "description": "Below this sentence, the filter list(s) in which the filter was found",
+      "message": "Статикалық сүзгі {{filter}} келесі жерде табылды:"
+   },
+   "loggerStaticFilteringFinderSentence2": {
+      "description": "Message to show when a filter cannot be found in any filter lists",
+      "message": "Статикалық сүзгі қазіргі уақытта іске қосылған сүзгілер тізімдерінің ешбірінен табылмады"
+   },
+   "loggerStaticFilteringHeader": {
+      "description": "Small header to identify the static filtering section",
+      "message": "Статикалық сүзгі"
+   },
+   "loggerStaticFilteringSentence": {
+      "description": "Used in the static filtering wizard",
+      "message": "{{action}} келесі шарттарға сай {{type}} желілік сұраулары: {{br}}URL адресі {{url}} сәйкес келеді {{br}}және {{origin}} басталады,{{br}}{{importance}} сәйкес келетін ерекшелік сүзгісі бар."
+   },
+   "loggerStaticFilteringSentencePartAllow": {
+      "description": "Used in the static filtering wizard",
+      "message": "Рұқсат ету"
+   },
+   "loggerStaticFilteringSentencePartAnyOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "кез келген жерден"
+   },
+   "loggerStaticFilteringSentencePartAnyType": {
+      "description": "Used in the static filtering wizard",
+      "message": "кез келген түр"
+   },
+   "loggerStaticFilteringSentencePartBlock": {
+      "description": "Used in the static filtering wizard",
+      "message": "Блоктау"
+   },
+   "loggerStaticFilteringSentencePartImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "болса да"
+   },
+   "loggerStaticFilteringSentencePartNotImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "келесі жағдайлардан басқа"
+   },
+   "loggerStaticFilteringSentencePartOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "“{{origin}}” дереккөзінен"
+   },
+   "loggerStaticFilteringSentencePartType": {
+      "description": "Used in the static filtering wizard",
+      "message": "“{{type}}” түрі"
+   },
+   "loggerURLFilteringContextLabel": {
+      "description": "Label for the context selector",
+      "message": "Контекст:"
+   },
+   "loggerURLFilteringHeader": {
+      "description": "Small header to identify the dynamic URL filtering section",
+      "message": "URL ережесі"
+   },
+   "loggerURLFilteringTypeLabel": {
+      "description": "Label for the type selector",
+      "message": "Түр:"
+   },
+   "loggerUnpauseTip": {
+      "description": "Tooltip for the play button in the logger page",
+      "message": "Logger-ді жалғастыру"
+   },
+   "pickerContextMenuEntry": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "Элементті блоктау…"
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Косметикалық сүзгілер"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Шерту, Ctrl+шерту"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Жасау"
+   },
+   "pickerNetFilters": {
+      "description": "English: header for a type of filter in the element picker dialog",
+      "message": "Желілік сүзгілер"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Таңдау"
+   },
+   "pickerPreview": {
+      "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page",
+      "message": "Алдын ала қарау"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Шығу"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "1-ші тарап скрипттері"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "3-ші жақты"
+   },
+   "popup3pFrameFilter": {
+      "description": "Appears as an option to filter out firewall rows",
+      "message": "кадр"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "3-ші тарап кадрлары"
+   },
+   "popup3pPassiveRulePrompt": {
+      "description": "",
+      "message": "3-ші тарап CSS/суреттері"
+   },
+   "popup3pScriptFilter": {
+      "description": "Appears as an option to filter out firewall rows",
+      "message": "скрипт"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "3-ші тарап скрипттері"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "барлығы"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "осы бетте"
+   },
+   "popupBlockedOnThisPage_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Осы бетте блокталған"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "блокталған сұраулар"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "орнатқаннан бері"
+   },
+   "popupBlockedSinceInstall_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Орнатқаннан бері блокталған"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 (13%)",
+      "message": "{{count}} немесе {{percent}}%"
+   },
+   "popupDomainsConnected_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Қосылған домендер"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{total}} ішінен {{count}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "қосылған домендер"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "суреттер"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "жолішілік скрипттер"
+   },
+   "popupLessButton_v2": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Азырақ"
+   },
+   "popupMoreButton_v2": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Көбірек"
+   },
+   "popupNoCosmeticFiltering_v2": {
+      "description": "Caption for the no-cosmetic-filtering per-site switch",
+      "message": "Косметикалық сүзгілеу"
+   },
+   "popupNoLargeMedia_v2": {
+      "description": "Caption for the no-large-media per-site switch",
+      "message": "Үлкен медиа элементтері"
+   },
+   "popupNoPopups_v2": {
+      "description": "Caption for the no-popups per-site switch",
+      "message": "Қалқымалы терезелер"
+   },
+   "popupNoRemoteFonts_v2": {
+      "description": "Caption for the no-remote-fonts per-site switch",
+      "message": "Қашықтағы қаріптер"
+   },
+   "popupNoScripting_v2": {
+      "description": "Caption for the no-scripting per-site switch",
+      "message": "JavaScript"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "немесе"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page.",
+      "message": "Шерту: бұл сайт үшін uBlock₀ сөндіру/іске қосу.\n\nCtrl+шерту: uBlock₀ тек осы бетте сөндіру."
+   },
+   "popupPowerSwitchInfo1": {
+      "description": "Message to be read by screen readers",
+      "message": "Бұл сайт үшін uBlock₀ сөндіру үшін шертіңіз.\n\nТек осы бетте uBlock₀ сөндіру үшін Ctrl+шертіңіз."
+   },
+   "popupPowerSwitchInfo2": {
+      "description": "Message to be read by screen readers",
+      "message": "Бұл сайт үшін uBlock₀ іске қосу үшін шертіңіз."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Бақылау тақтасын ашу"
+   },
+   "popupTipGlobalRules": {
+      "description": "Tooltip when hovering the top-most cell of the global-rules column.",
+      "message": "Глобалды ережелер: бұл баған барлық сайттарға қолданылатын ережелерге арналған."
+   },
+   "popupTipLocalRules": {
+      "description": "Tooltip when hovering the top-most cell of the local-rules column.",
+      "message": "Жергілікті ережелер: бұл баған тек ағымдағы сайтқа қолданылатын ережелерге арналған."
+   },
+   "popupTipLog": {
+      "description": "Tooltip used for the logger icon in the panel",
+      "message": "Logger-ді ашу"
+   },
+   "popupTipNoCosmeticFiltering": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Бұл сайт үшін косметикалық сүзгілеуді ауыстырып қосу"
+   },
+   "popupTipNoCosmeticFiltering1": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Бұл сайтта косметикалық сүзгілеуді сөндіру үшін шертіңіз"
+   },
+   "popupTipNoCosmeticFiltering2": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Бұл сайтта косметикалық сүзгілеуді іске қосу үшін шертіңіз"
+   },
+   "popupTipNoLargeMedia": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Бұл сайт үшін үлкен медиа элементтерін блоктауды ауыстырып қосу"
+   },
+   "popupTipNoLargeMedia1": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Бұл сайттағы үлкен медиа элементтерін блоктау үшін шертіңіз"
+   },
+   "popupTipNoLargeMedia2": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Бұл сайттағы үлкен медиа элементтерін бұдан былай блоктамау үшін шертіңіз"
+   },
+   "popupTipNoPopups": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Бұл сайт үшін барлық қалқымалы терезелерді блоктауды ауыстырып қосу"
+   },
+   "popupTipNoPopups1": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Бұл сайттағы барлық қалқымалы терезелерді блоктау үшін шертіңіз"
+   },
+   "popupTipNoPopups2": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Бұл сайттағы барлық қалқымалы терезелерді бұдан былай блоктамау үшін шертіңіз"
+   },
+   "popupTipNoRemoteFonts": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Бұл сайт үшін қашықтағы қаріптерді блоктауды ауыстырып қосу"
+   },
+   "popupTipNoRemoteFonts1": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Бұл сайттағы қашықтағы қаріптерді блоктау үшін шертіңіз"
+   },
+   "popupTipNoRemoteFonts2": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Бұл сайттағы қашықтағы қаріптерді бұдан былай блоктамау үшін шертіңіз"
+   },
+   "popupTipNoScripting1": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Бұл сайтта JavaScript-ті сөндіру үшін шертіңіз"
+   },
+   "popupTipNoScripting2": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Бұл сайтта JavaScript-ті бұдан былай сөндірмеу үшін шертіңіз"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Элемент таңдағыш режиміне өту"
+   },
+   "popupTipReport": {
+      "description": "Tooltip used for the 'chat' icon in the panel",
+      "message": "Осы веб-сайттағы мәселе туралы хабарлау"
+   },
+   "popupTipRevertRules": {
+      "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
+      "message": "Өзгерістерді кері қайтару үшін шертіңіз."
+   },
+   "popupTipSaveRules": {
+      "description": "Tooltip when hovering over the padlock in the dynamic filtering pane.",
+      "message": "Өзгерістерді тұрақты ету үшін шертіңіз."
+   },
+   "popupTipZapper": {
+      "description": "Tooltip for the element-zapper icon in the popup panel",
+      "message": "Элементтерді жылдам жою режиміне өту"
+   },
+   "popupVersion": {
+      "description": "Example of use: Version 1.26.4",
+      "message": "Нұсқа"
+   },
+   "relaxBlockingMode": {
+      "description": "Label for keyboard shortcut used to relax blocking mode",
+      "message": "Блоктау режимін жеңілдету"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Бекіту"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-ublock-dynamic-rules_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Түзету"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Болдырмау"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Сақтау"
+   },
+   "rulesExport": {
+      "description": "Button in the 'My rules' pane",
+      "message": "Файлға экспорттау…"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Ереже синтаксисі: дереккөз мақсатты_орын түр әрекет (толық құжаттама)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "Сіздің динамикалық сүзгілеу ережелеріңіздің тізімі."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Файлдан импорттау…"
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Менің ережелерім"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Тұрақты ережелер"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Кері қайтару"
+   },
+   "rulesSort": {
+      "description": "English: label for sort option.",
+      "message": "Сұрыптау:"
+   },
+   "rulesSortByDestination": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Мақсатты орын"
+   },
+   "rulesSortBySource": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Дереккөз"
+   },
+   "rulesSortByType": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Ереже түрі"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Уақытша ережелер"
+   },
+   "settingPerSiteSwitchGroup": {
+      "description": "",
+      "message": "Үнсіз келісім бойынша әрекет"
+   },
+   "settingPerSiteSwitchGroupSynopsis": {
+      "description": "",
+      "message": "Бұл үнсіз келісім бойынша әрекеттерді әр сайт үшін жеке өзгертуге болады"
+   },
+   "settingsAdvanced": {
+      "description": "Section for controlling advanced-user settings",
+      "message": "Кеңейтілген"
+   },
+   "settingsAdvancedSynopsis": {
+      "description": "Description of section controlling advanced-user settings",
+      "message": "Тек техникалық пайдаланушыларға сай келетін мүмкіндіктер"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "Checkbox to let user access advanced, technical features",
+      "message": "Мен кеңейтілген пайдаланушымын"
+   },
+   "settingsAdvancedUserSettings": {
+      "description": "For the tooltip of a link which gives access to advanced settings",
+      "message": "кеңейтілген баптаулар"
+   },
+   "settingsAppearance": {
+      "description": "Section for controlling user interface appearance",
+      "message": "Сыртқы көрініс"
+   },
+   "settingsCloudStorageEnabledPrompt": {
+      "description": "",
+      "message": "Бұлттық сақтау қоймасын қолдауды іске қосу"
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Блокталған элементтердің орынбасарларын жасыру"
+   },
+   "settingsColorBlindPrompt": {
+      "description": "English: Color-blind friendly",
+      "message": "Дальтониктерге ыңғайлы"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Тиісті жерлерде контексттік мәзірді қолдану"
+   },
+   "settingsHyperlinkAuditingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Гиперсілтемелер аудитін сөндіру"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "Таңбашада блокталған сұраулар санын көрсету"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Соңғы сақтық көшірме:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Соңғы қалпына келтіру:"
+   },
+   "settingsNoCSPReportsPrompt": {
+      "description": "background information: https://github.com/gorhill/uBlock/issues/3150",
+      "message": "CSP есептерін блоктау"
+   },
+   "settingsNoCosmeticFilteringPrompt": {
+      "description": "",
+      "message": "Косметикалық сүзгілеуді сөндіру"
+   },
+   "settingsNoLargeMediaPrompt": {
+      "description": "",
+      "message": "{{input}} КБ-тан үлкен медиа элементтерін блоктау"
+   },
+   "settingsNoRemoteFontsPrompt": {
+      "description": "",
+      "message": "Қашықтағы қаріптерді блоктау"
+   },
+   "settingsNoScriptingPrompt": {
+      "description": "The default state for the per-site no-scripting switch",
+      "message": "JavaScript-ті сөндіру"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Баптаулар"
+   },
+   "settingsPrefetchingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Алдын ала жүктеуді сөндіру (блокталған желілік сұраулар үшін кез келген қосылымды болдырмау үшін)"
+   },
+   "settingsThemeAccent0Label": {
+      "description": "Label for checkbox to pick an accent color",
+      "message": "Ерекшелеу түсі"
+   },
+   "settingsThemeLabel": {
+      "description": "Label for checkbox to enable a custom dark theme",
+      "message": "Тема"
+   },
+   "settingsTooltipsPrompt": {
+      "description": "A checkbox in the Settings pane",
+      "message": "Қалқымалы кеңестерді сөндіру"
+   },
+   "settingsUncloakCnamePrompt": {
+      "description": "background information: https://github.com/uBlockOrigin/uBlock-issues/issues/1513",
+      "message": "Канондық атауларды ашу"
+   },
+   "settingsWebRTCIPAddressHiddenPrompt": {
+      "description": "English: ",
+      "message": "WebRTC-нің жергілікті IP адрестерді ашып қоюына жол бермеу"
+   },
+   "shortcutCapturePlaceholder": {
+      "description": "Placeholder string for input field used to capture a keyboard shortcut",
+      "message": "Жарлықты теріңіз"
+   },
+   "shortcutsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Жарлықтар"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Бақылау тақтасын көрсету"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Logger",
+      "message": "Logger-ді көрсету"
+   },
+   "statsPageName": {
+      "description": "Title for the logger window",
+      "message": "uBlock₀ — Журналшы"
+   },
+   "storageUsed": {
+      "description": " In Setting pane, renders as (example): Storage used: 13.2 MB",
+      "message": "Қолданылған сақтау орны: {{value}} {{unit}}"
+   },
+   "subscribeButton": {
+      "description": "For the button used to subscribe to a filter list",
+      "message": "Жазылу"
+   },
+   "supportFindSpecificButton": {
+      "description": "A clickable link in the filter issue reporter section",
+      "message": "GitHub-тан ұқсас есептерді табу"
+   },
+   "supportOpenButton": {
+      "description": "Text for button which open an external web page in Support pane",
+      "message": "Ашу"
+   },
+   "supportPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Қолдау"
+   },
+   "supportReportSpecificButton": {
+      "description": "Text for button which open an external web page in Support pane",
+      "message": "GitHub-та жаңа есеп жасау"
+   },
+   "supportS1H": {
+      "description": "Header of 'Documentation' section in Support pane",
+      "message": "Құжаттама"
+   },
+   "supportS1P1": {
+      "description": "First paragraph of 'Documentation' section in Support pane",
+      "message": "uBlock Origin-нің барлық мүмкіндіктері туралы білу үшін uBlock/wiki мекенжайындағы құжаттаманы оқыңыз."
+   },
+   "supportS2H": {
+      "description": "Header of 'Questions and support' section in Support pane",
+      "message": "Сұрақтар және қолдау"
+   },
+   "supportS2P1": {
+      "description": "First paragraph of 'Questions and support' section in Support pane",
+      "message": "Сұрақтарға жауаптар және басқа да көмек /r/uBlockOrigin сабреддитінде беріледі."
+   },
+   "supportS3H": {
+      "description": "Header of 'Filter issues' section in Support pane",
+      "message": "Сүзгі мәселелері/веб-сайт бұзылған"
+   },
+   "supportS3P1": {
+      "description": "First paragraph of 'Filter issues' section in Support pane",
+      "message": "Белгілі бір веб-сайттардағы сүзгі мәселелерін uBlockOrigin/uAssets мәселелерді бақылау жүйесіне хабарлаңыз. GitHub тіркелгісі талап етіледі."
+   },
+   "supportS3P2": {
+      "description": "Second paragraph of 'Filter issues' section in Support pane",
+      "message": "Маңызды: uBlock Origin-мен бірге басқа ұқсас блоктаушыларды қолданбауға тырысыңыз, себебі бұл белгілі бір веб-сайттарда сүзгі мәселелерін тудыруы мүмкін."
+   },
+   "supportS3P3": {
+      "description": "Third paragraph of 'Filter issues' section in Support pane",
+      "message": "Кеңестер: Сүзгілер тізімі жаңартылғанына көз жеткізіңіз. Logger — сүзгілерге қатысты мәселелерді анықтауға арналған негізгі сайман."
+   },
+   "supportS4H": {
+      "description": "Header of 'Bug report' section in Support pane",
+      "message": "Ақау туралы есеп"
+   },
+   "supportS4P1": {
+      "description": "First paragraph of 'Bug report' section in Support pane",
+      "message": "uBlock Origin-нің өзіне қатысты мәселелерді uBlockOrigin/uBlock-issue мәселелерді бақылау жүйесіне хабарлаңыз. GitHub тіркелгісі талап етіледі."
+   },
+   "supportS5H": {
+      "description": "Header of 'Troubleshooting Information' section in Support pane",
+      "message": "Мәселелерді шешу ақпараты"
+   },
+   "supportS5P1": {
+      "description": "First paragraph of 'Troubleshooting Information' section in Support pane",
+      "message": "Төменде еріктілер мәселені шешуге көмектесу кезінде пайдалы болуы мүмкін техникалық ақпарат берілген."
+   },
+   "supportS6Checkbox1": {
+      "description": "A checkbox to use for NSFW sites",
+      "message": "Веб-бетті “NSFW” (“Not Safe For Work”) ретінде таңбалау"
+   },
+   "supportS6H": {
+      "description": "Header of 'Report a filter issue' section in Support pane",
+      "message": "Сүзгі мәселесі туралы хабарлау"
+   },
+   "supportS6P1S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Еріктілерге артық жүк болмас үшін, мәселенің бұрын хабарланбағанын тексеріңіз. Ескертпе: батырманы шерту беттің дереккөзін GitHub-қа жібереді."
+   },
+   "supportS6P2S1": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Сүзгілер тізімі күн сайын жаңартылып тұрады. Мәселеңіздің ең соңғы сүзгілер тізімдерінде шешілмегеніне көз жеткізіңіз."
+   },
+   "supportS6P2S2": {
+      "description": "A paragraph in the filter issue reporter section",
+      "message": "Мәселе туындаған веб-бетті қайта жүктегеннен кейін мәселенің әлі де бар екенін тексеріңіз."
+   },
+   "supportS6Select1": {
+      "description": "Label for widget to select type of issue",
+      "message": "Веб-бет…"
+   },
+   "supportS6Select1Option0": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "-- Жазбаны таңдау --"
+   },
+   "supportS6Select1Option1": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Жарнамаларды немесе жарнама қалдықтарын көрсетеді"
+   },
+   "supportS6Select1Option2": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Қабаттастырулары немесе басқа да кедергілері бар"
+   },
+   "supportS6Select1Option3": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "uBlock Origin-ді анықтайды"
+   },
+   "supportS6Select1Option4": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Жекелікке қатысты мәселелері бар"
+   },
+   "supportS6Select1Option5": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "uBlock Origin іске қосылғанда дұрыс жұмыс істемейді"
+   },
+   "supportS6Select1Option6": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Қажетсіз беттерді немесе терезелерді ашады"
+   },
+   "supportS6Select1Option7": {
+      "description": "An entry in the widget used to select the type of issue",
+      "message": "Зиянды бағдарламаларға, фишингке апарады"
+   },
+   "supportS6URL": {
+      "description": "Label for the URL of the page",
+      "message": "Веб-бет адресі:"
+   },
+   "toggleCosmeticFiltering": {
+      "description": "Label for keyboard shortcut used to toggle cosmetic filtering",
+      "message": "Косметикалық сүзгілеуді ауыстырып қосу"
+   },
+   "toggleJavascript": {
+      "description": "Label for keyboard shortcut used to toggle no-scripting switch",
+      "message": "JavaScript-ті ауыстырып қосу"
+   },
+   "unprocessedRequestTooltip": {
+      "description": "A warning which will appear in the popup panel if needed",
+      "message": "Браузер іске қосылғанда дұрыс сүзгілеу мүмкін болмады. Дұрыс сүзгілеуді қамтасыз ету үшін бетті қайта жүктеңіз."
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Өзгерістерді іске асыру"
+   },
+   "whitelistExport": {
+      "description": "Button in the 'Trusted sites' pane",
+      "message": "Экспорттау…"
+   },
+   "whitelistExportFilename": {
+      "description": "The default filename to use for import/export purpose",
+      "message": "my-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "Button in the 'Trusted sites' pane",
+      "message": "Импорттау және қосу…"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Сенімді сайттар"
+   },
+   "whitelistPrompt": {
+      "description": "A concise description of the 'Trusted sites' pane.",
+      "message": "Сенімді сайттар директивалары uBlock Origin қай веб-беттерде сөндірілуі керектігін анықтайды. Бір жолға бір жазба."
+   }
+}

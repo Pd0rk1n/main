@@ -1,3 +1,4 @@
-2025/12/02-07:05:08.812 23e6 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
-2025/12/02-07:05:08.813 23e6 Recovering log #4
-2025/12/02-07:05:08.815 23e6 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000004.log 
+2026/05/14-21:05:26.709 37fb Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2026/05/14-21:05:26.709 37fb Recovering log #4
+2026/05/14-21:05:26.710 37fb Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000004.log 
+2026/05/14-21:05:26.712 37fb Delete type=0 #3

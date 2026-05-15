@@ -1,3 +1,19 @@
-2025/12/02-07:05:09.298 5 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2025/12/02-07:05:09.301 5 Recovering log #2895
-2025/12/02-07:05:09.303 5 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Session Storage/002895.log 
+2026/05/14-21:05:27.202 7 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2026/05/14-21:05:27.209 7 Recovering log #2895
+2026/05/14-21:05:27.215 7 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Session Storage/002895.log 
+2026/05/14-21:05:27.217 7 Delete type=0 #3
+2026/05/14-21:06:55.496 7 Level-0 table #2899: started
+2026/05/14-21:06:55.507 7 Level-0 table #2899: 464937 bytes OK
+2026/05/14-21:06:55.510 7 Delete type=0 #2895
+2026/05/14-21:06:55.511 7 Compacting 4@0 + 1@1 files
+2026/05/14-21:06:55.543 7 Generated table #2900@0: 20510 keys, 946982 bytes
+2026/05/14-21:06:55.543 7 Compacted 4@0 + 1@1 files => 946982 bytes
+2026/05/14-21:06:55.544 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/14-21:06:55.545 7 Delete type=2 #2893
+2026/05/14-21:06:55.545 7 Delete type=2 #2890
+2026/05/14-21:06:55.545 7 Delete type=2 #2899
+2026/05/14-21:06:55.545 7 Delete type=2 #2896
+2026/05/14-21:06:55.545 7 Delete type=2 #2887
+2026/05/14-21:08:50.446 7 Level-0 table #2902: started
+2026/05/14-21:08:50.457 7 Level-0 table #2902: 452965 bytes OK
+2026/05/14-21:08:50.460 7 Delete type=0 #2898

@@ -1,0 +1,855 @@
+{
+   "Add": {
+      "message": "افزودن"
+   },
+   "Add_accesskey": {
+      "message": "A"
+   },
+   "AdditionalPermissions": {
+      "message": "دسترسی‌های بیشتر برای سایت‌های مورد اعتماد"
+   },
+   "AdditionalRestrictions": {
+      "message": "محدودیت‌های بیشتر برای سایت‌های غیر‌ قابل اعتماد"
+   },
+   "Allow": {
+      "message": "اجازه"
+   },
+   "AllowBookmarks": {
+      "message": "اجازه به سایت های باز شده از بوکمارک ها"
+   },
+   "AllowClipboard": {
+      "message": "اجازه به کپی و پیست نوشته غنی از کلیپ‌بورد خارجی"
+   },
+   "AllowLocalLinks": {
+      "message": "اجازه به لینک های محلی"
+   },
+   "AllowPage": {
+      "message": "اجازه به تمام این صفحه"
+   },
+   "AllowPage_accesskey": {
+      "message": "A"
+   },
+   "AllowPing": {
+      "message": "اجازه به \u003CA PING…>"
+   },
+   "AllowViaBookmarks": {
+      "message": "اجازه به سایت های باز شده از بوکمارک ها"
+   },
+   "Allow_accesskey": {
+      "message": "l"
+   },
+   "AlwaysBlockUntrustedContent": {
+      "message": "مسدود کردن همه اشیاء آمده از یک سایت غیر قابل اعتماد"
+   },
+   "AutoAllowTopLevel": {
+      "message": "به صورت موقت سایت‌های سطح-بالا را مورد اعتماد قرار بده"
+   },
+   "AutoReload": {
+      "message": "بارگذاری مجدد صفحه‌های تحت‌تاثیر قرار گرفته به صورت خودکار در هنگام تغییر دسترسی‌ها"
+   },
+   "AutoReload_currentTab": {
+      "message": "فقط بارگذاری مجدد زبانه فعلی"
+   },
+   "AutoTrustedLabel": {
+      "description": "Short label for CUSTOM preset when automatically filled with TRUSTED capabilities as a top-level site",
+      "message": "Auto-trusted"
+   },
+   "BaseDom": {
+      "message": "دامنه‌های سطح دوم پایه (noscript.net)"
+   },
+   "BlockedItems": {
+      "message": "$1 مورد از $2 مورد مسدود شد."
+   },
+   "BlockedObjects": {
+      "message": "NoScript   شیء را مسدود کرد"
+   },
+   "BookmarkSync": {
+      "message": "پشتیبان‌گیری از پیکربندی NoScript در یک بوک‌مارک برای همگام‌سازی آسان"
+   },
+   "Cancel": {
+      "message": "لغو"
+   },
+   "CascadePermissions": {
+      "message": "Automatically apply top document's permissions to subdocuments and inclusions not configured yet"
+   },
+   "CascadeRestrictions": {
+      "message": "هر قابلیت مسدود شده در سند بالا باید در اسناد فرعی آن نیز مسدود شود"
+   },
+   "CascadedLabel": {
+      "description": "Short label for DEFAULT preset when the actual capabilities are inherited from top-level site",
+      "message": "Cascaded"
+   },
+   "ClearClickDescription": {
+      "message": "NoScript یک تعامل صفحه کلید یا موشی با یک عنصر پنهان شده به صورت جزئی را رهگیری کرد. روی تصویر زیر برای چرخه نسخه مسدود شده و نسخه روان کلیک کنید."
+   },
+   "ClearClickHeader": {
+      "message": "کلید دزدی احتمالی / قصد رابط کاربری با ظاهری فریبنده!"
+   },
+   "ClearClickOpt": {
+      "message": "محافظت ClearClick روی صفحات…"
+   },
+   "ClearClickReport": {
+      "message": "گزارش"
+   },
+   "ClearClickReportId": {
+      "message": "شناسه گزارش:"
+   },
+   "ClearClickReport_accesskey": {
+      "message": "R"
+   },
+   "ClearClickTitle": {
+      "message": "هشدار ClearClick"
+   },
+   "Close": {
+      "message": "بستن"
+   },
+   "CollapseBlockedObjects": {
+      "message": "پشت سر هم چیدن اشیا مسدود شده"
+   },
+   "ConfirmUnblock": {
+      "message": "قبل از خارج کردن از مسدودیت یک شی تایید بخواه"
+   },
+   "CtxMenu": {
+      "message": "منوی محتوایی"
+   },
+   "Custom": {
+      "message": "سفارشی"
+   },
+   "CustomizePresets": {
+      "message": "سفارشی‌سازی پیش‌فرض (برای تمامی سایت‌هایی که یک پیش‌فرض به اشتراک می گذارند)"
+   },
+   "Default": {
+      "message": "پیش فرض"
+   },
+   "DefaultContainerName": {
+      "message": "Default"
+   },
+   "DefaultPolicies": {
+      "message": "سیاست های پیش فرض"
+   },
+   "Description": {
+      "message": "بیشترین محافظت برای مرورگر شما: NoScript به محتوا فعال فقط برای دامنه های مورد اعتماد انتخابی شما برای جلوگیری از بهره‌جویی اجازه می‌دهد."
+   },
+   "Donate": {
+      "message": "کمک مالی"
+   },
+   "DonateLong": {
+      "message": "NoScript یک نرم افزار رایگان است و بدون کمک شما نمی‌تواند وجود داشته باشد. لطفا همین الان کمک کنید!"
+   },
+   "DonateShort": {
+      "message": "کمک مالی"
+   },
+   "Donate_accesskey": {
+      "message": "o"
+   },
+   "Embeddings": {
+      "message": "جاسازی‌ها"
+   },
+   "EnableGesture": {
+      "message": "Enable gesture activation: drawing \"S\" on a web page opens NoScript's UI for the site"
+   },
+   "Enforce": {
+      "message": "فعال‌کردن محدودیت‌ها به صورت سراسری"
+   },
+   "EnforceForTab": {
+      "message": "فعال کردن محدودیت‌ها برای این زبانه"
+   },
+   "EnforceOnRestart": {
+      "message": "بازگرداندن محدودیت‌ها پس از راه اندازی دوباره مرورگر"
+   },
+   "Exceptions": {
+      "message": "استثنا‌ها…"
+   },
+   "Export": {
+      "message": "برون برد"
+   },
+   "Export_accesskey": {
+      "message": "E"
+   },
+   "FixLinks": {
+      "message": "تلاش برای اصلاح پیوند‌های جاوا اسکریپت"
+   },
+   "GestureLabel": {
+      "message": "Draw \"S\" to summon NoScript."
+   },
+   "HelpLink": {
+      "message": "Help…"
+   },
+   "Hider": {
+      "message": "برای پنهان کردن اینجا بیاندازید."
+   },
+   "HighContrast": {
+      "message": "کنتراست بالا"
+   },
+   "Https": {
+      "message": "HTTPS"
+   },
+   "HttpsFaq": {
+      "message": "سوالات متداول HTTPS…"
+   },
+   "HttpsFaq_accesskey": {
+      "message": "Q"
+   },
+   "HttpsForced": {
+      "message": "مجبور کردن سایت های زیر به استفاده از اتصال امن (HTTPS):"
+   },
+   "HttpsForcedExceptions": {
+      "message": "هیچ‌وقت اتصال امن (HTTPS) را برای سایت‌های زیر اجبار نکن:"
+   },
+   "Https_always": {
+      "message": "همیشه"
+   },
+   "Https_behavior": {
+      "message": "رفتار"
+   },
+   "Https_cookies": {
+      "message": "کوکی ها"
+   },
+   "Https_description": {
+      "message": "ممنوعیت محتوای وب فعال جز در حالتی که از یک اتصال امن (HTTPS) بیاید:"
+   },
+   "Https_never": {
+      "message": "هیچ وقت"
+   },
+   "Https_proxy": {
+      "message": "در هنگام استفاده از یک پروکسی (با تور توصیه می شود)"
+   },
+   "Import": {
+      "message": "درون برد"
+   },
+   "Import_accesskey": {
+      "message": "I"
+   },
+   "KeepLocked": {
+      "message": "این عناصر را قفل نگه دار (توصیه می شود)"
+   },
+   "LearnMoreLink": {
+      "message": "Learn more…"
+   },
+   "MatchSample": {
+      "message": "نمونه تطبیق الگو:"
+   },
+   "ModernRed": {
+      "message": "قرمز مدرن"
+   },
+   "Modify": {
+      "description": "Verb to label action triggers such as buttons used to modify a property shown in the same context (e.g. current behavior)",
+      "message": "اصلاح"
+   },
+   "Next": {
+      "message": "بعدی"
+   },
+   "NoEnforcement": {
+      "message": "غیر‌فعال کردن محدودیت‌ها به صورت سراسری (خطرناک)"
+   },
+   "NoEnforcementForTab": {
+      "message": "غیرفعال کردن محدودیت‌ها برای این زبانه"
+   },
+   "NoUntrustedPlaceholder": {
+      "message": "هیچ placeholder برای اشیا آمده از سایت‌های علامت زده شده به صورت غیر قابل اعتماد وجود ندارد"
+   },
+   "NotEnforced": {
+      "message": "محدودیت‌های غیرفعال شده توسط تنظیمات کاربر: NoScript هیچ چیزی را در این صفحه مسدود نمی‌کند!"
+   },
+   "Notifications": {
+      "message": "آگاهی‌ساز"
+   },
+   "Notify": {
+      "message": "نمایش پیام درباره اسکریپت‌های مسدود شده"
+   },
+   "NotifyMeta": {
+      "message": "نمایش پیام درباره تغییر مسیر META مسدود شده"
+   },
+   "NotifyMeta_accesskey": {
+      "message": "R"
+   },
+   "Notify_bottom": {
+      "message": "قرار دادن پیام در پایین"
+   },
+   "NselForce": {
+      "message": "نمایش عنصر \u003CNOSCRIPT> که بعد از یک \u003CSCRIPT> مسدود شده می آید"
+   },
+   "NselNever": {
+      "message": "پنهان‌کردن \u003CNOSCRIPT> عنصر"
+   },
+   "OK": {
+      "message": "تایید"
+   },
+   "Onboarding_title": {
+      "description": "The onboarding page, containing the Trust Mode selector, is shown on first run after a CLEAN installation",
+      "message": "Welcome to NoScript!"
+   },
+   "OptAmnesticUpdates": {
+      "message": "فسخ دسترسی‌های موقت برای به‌روزرسانی‌های NoScript، حتی اگر مرورگر مجدداً راه اندازی نشده باشد"
+   },
+   "OptBlockCssScanners": {
+      "message": "مسدود‌ کردن اسکنر های مبتنی بر CSS"
+   },
+   "OptFilterXGet": {
+      "message": "پاک‌سازی درخواست‌های مشکوک میان‌وب‌گاهی"
+   },
+   "OptFilterXPost": {
+      "message": "تبدیل درخواست‌های POST میان-وب‌گاهی به درخواست‌های GET کم داده‌ تر"
+   },
+   "OptIncognitoPerm": {
+      "message": "فعال‌سازی تنظیم دسترسی‌های دائمی در زبانه های خصوصی/ناشناس.\nتوجه: این کار می‌تواند باعث نشت اطلاعات سایت شود!"
+   },
+   "OptOverrideTorBrowserPolicy": {
+      "message": "نادیده گرفتن پیش‌فرض سطح امنیتی مرورگر تور"
+   },
+   "Options": {
+      "message": "گزینه ها"
+   },
+   "OptionsLong": {
+      "message": "گزینه های NoScript"
+   },
+   "OptionsWidth": {
+      "message": "40em"
+   },
+   "Options_accesskey": {
+      "message": "O"
+   },
+   "PermanentInPrivate": {
+      "message": "فرمان های \"مجاز\" دائمی در پنجره‌های خصوصی"
+   },
+   "PermissionsText": {
+      "message": "شما می توانید سایت‌هایی که مجاز به اجرای اسکریپت هستند را مشخص کنید. نشانی یا دامنه (برای نمونه \"http://www.site.com\" یا \"site.com\") سایتی که می خواهید به آن اجازه دهید را بنویسید و سپس روی اجازه کلیک کنید."
+   },
+   "Plugins": {
+      "message": "افزونه ها"
+   },
+   "Policies": {
+      "message": "سیاست ها"
+   },
+   "Preset": {
+      "message": "سطح امنیت"
+   },
+   "Prev": {
+      "message": "قبلی"
+   },
+   "RecentBlocked": {
+      "message": "سایت های تازه مسدود شده"
+   },
+   "Refresh": {
+      "message": "باز‌آوری"
+   },
+   "Reload": {
+      "message": "بارگذاری مجدد"
+   },
+   "ReloadWarn": {
+      "message": "این گزینه‌ها روی صفحه‌های جدید یا بارگذاری شده به صورت (دستی) تاثیر خواهند کرد"
+   },
+   "RemoveSelected": {
+      "message": "حذف سایت های انتخاب شده"
+   },
+   "Reset": {
+      "message": "تنظیم مجدد"
+   },
+   "ResetDef": {
+      "message": "بازنشانی به پیش‌فرض"
+   },
+   "ResetDef_accesskey": {
+      "message": "D"
+   },
+   "Reset_accesskey": {
+      "message": "s"
+   },
+   "Reveal": {
+      "message": "برای بازیابی دکمه های گمشده اینجا کلیک کنید…"
+   },
+   "RevokeTemp": {
+      "message": "فسخ دسترسی‌های موقت"
+   },
+   "RevokeTemp_accesskey": {
+      "message": "R"
+   },
+   "SectionAdvanced": {
+      "message": "پیشرفته"
+   },
+   "SectionAppearance": {
+      "message": "ظاهر"
+   },
+   "SectionGeneral": {
+      "message": "کلی"
+   },
+   "SectionSitePermissions": {
+      "message": "دسترسی‌های هر-سایت"
+   },
+   "SecureCookies": {
+      "message": "فعال‌سازی مدیریت خودکار امن کوکی‌ها"
+   },
+   "SecureCookiesExceptions": {
+      "message": "نادیده گرفتن کوکی‌های ناامن تنظیم شده روی HTTPS برای سایت های زیر:"
+   },
+   "SecureCookiesForced": {
+      "message": "اجبار کوکی های تنظیم شده روی HTTPS به استفاده از رمزنگاری برای سایت‌های زیر:"
+   },
+   "SecurityManager": {
+      "message": "امنیت گردان"
+   },
+   "Show": {
+      "message": "نمایش…"
+   },
+   "ShowConsole": {
+      "message": "نمایش کنسول…"
+   },
+   "ShowConsole_accesskey": {
+      "message": "S"
+   },
+   "ShowCountBadge": {
+      "message": "نمایش نشان شمارش آیتم‌های مسدود شده"
+   },
+   "ShowCtxMenuItem": {
+      "message": "نمایش آیتم منوی محتوایی NoScript"
+   },
+   "ShowFullAddresses": {
+      "message": "فهرست کردن نشانی‌های کامل در پاپ آپ دسترسی‌ها (https://www.noscript.net)"
+   },
+   "ShowPlaceholder": {
+      "message": "نمایش نگارک placeholder"
+   },
+   "ShowProbePlaceholders": {
+      "message": "Show synthetic placeholders for invisible capability probes"
+   },
+   "ShowReleaseNotes": {
+      "message": "نمایش یادداشت های انتشار روی به روز رسانی ها"
+   },
+   "SitePermissions": {
+      "message": "دسترسی های سایت"
+   },
+   "SitePermissions_accessKey": {
+      "message": "S"
+   },
+   "SitePolicies": {
+      "message": "سیاست‌های مختص سایت"
+   },
+   "TabGuard_forget": {
+      "message": "تصمیمات را فراموش کن"
+   },
+   "TabGuard_label": {
+      "message": "حفاظت از نشت هویت متقاطع"
+   },
+   "TabGuard_message": {
+      "message": "شما در شرف بارگیری صفحه ای از $1 هستید.\nاگر شما یک کاربر وارد شده به سیستم $1 هستید، اطلاعات مربوط به هویت شما ممکن است توسط $2 به دست آید."
+   },
+   "TabGuard_optAllow": {
+      "message": "بارگذاری عادی"
+   },
+   "TabGuard_optAnonymize": {
+      "message": "بارگذاری ناشناس"
+   },
+   "TabGuard_optDisabled": {
+      "message": "غیرفعال"
+   },
+   "TabGuard_optEnabled": {
+      "message": "در همه جا فعال است"
+   },
+   "TabGuard_optIncognito": {
+      "message": "فقط در مرور خصوصی فعال است"
+   },
+   "TabGuard_optPromptAlways": {
+      "message": "Prompt before anonymizing any request"
+   },
+   "TabGuard_optPromptNever": {
+      "message": "Never prompt before anonymization"
+   },
+   "TabGuard_optPromptPost": {
+      "message": "Prompt before anonymizing POST submissions"
+   },
+   "TabGuard_title": {
+      "message": "نشت بالقوه هویت"
+   },
+   "TempToPerm": {
+      "message": "قرار دادن دسترسی‌های صفحه به صورت دائمی"
+   },
+   "TempToPerm_accesskey": {
+      "message": "M"
+   },
+   "TempTrustPage": {
+      "message": "تنظیم همه این صفحه روی مورد اعتماد به صورت موقتی"
+   },
+   "TempTrustPage_accesskey": {
+      "message": "T"
+   },
+   "Trust": {
+      "message": "علامت زدن به صورت مورد اعتماد"
+   },
+   "Trust_accesskey": {
+      "message": "T"
+   },
+   "Trusted": {
+      "message": "مورد اعتماد"
+   },
+   "TrustedPagesAdj": {
+      "message": "مورد اعتماد"
+   },
+   "Trusted_permanent": {
+      "message": "مورد اعتماد"
+   },
+   "Trusted_temporary": {
+      "message": "مورد اعتماد به صورت موقتی"
+   },
+   "Uninstall": {
+      "message": "حذف"
+   },
+   "Unknown": {
+      "message": "ناشناخته"
+   },
+   "UnsafeReload": {
+      "message": "بارگذاری نا‌امن"
+   },
+   "UnsafeReload_accesskey": {
+      "message": "R"
+   },
+   "Untrust": {
+      "message": "علامت زدن به صورت غیر‌قابل اعتماد"
+   },
+   "Untrust_accesskey": {
+      "message": "U"
+   },
+   "Untrusted": {
+      "message": "غیر قابل اعتماد"
+   },
+   "UntrustedPagesAdj": {
+      "message": "غیر قابل اعتماد"
+   },
+   "VintageBlue": {
+      "message": "آبی قدیمی"
+   },
+   "WebAddress": {
+      "message": "جستجو یا اضافه کردن یک وب سایت:"
+   },
+   "WebAddress_accesskey": {
+      "message": "w"
+   },
+   "XSS_clearUserChoices": {
+      "message": "پاک‌سازی انتخاب‌های XSS"
+   },
+   "XSS_notify": {
+      "message": "نمایش اعلان‌های XSS"
+   },
+   "XSS_optAllow": {
+      "message": "اجازه به این درخواست"
+   },
+   "XSS_optAlwaysAllow": {
+      "message": "همیشه درخواست‌های سند از $1 به $2 را اجازه بده"
+   },
+   "XSS_optAlwaysBlock": {
+      "message": "همیشه درخواست‌های سند از $1 به $2 را مسدود کن"
+   },
+   "XSS_optBlock": {
+      "message": "مسدود کردن این درخواست"
+   },
+   "XSS_optSanitize": {
+      "message": "پاک‌سازی این درخواست"
+   },
+   "XSS_promptMessage": {
+      "message": "NoScript یک حمله تزریق اسکریپت از طریق وبگاه را\nاز $1 به $2 شناسایی کرد.\nداده مشکوک:\n$3"
+   },
+   "XSS_promptTitle": {
+      "message": "هشدار تزریق اسکریپت از طریق وبگاه NoScript"
+   },
+   "Xss": {
+      "message": "XSS"
+   },
+   "XssExceptions": {
+      "message": "استثناهای محافظت در برابر XSS"
+   },
+   "XssExceptions_description": {
+      "message": "مقاصدی که با این عبارات باقاعده تطابق دارند در برابر XSS محافظت نخواهند شد."
+   },
+   "XssFaq": {
+      "message": "سوالات متداول XSS…"
+   },
+   "XssFaq_accesskey": {
+      "message": "Q"
+   },
+   "Xss_accesskey": {
+      "message": "X"
+   },
+   "about": {
+      "message": "درباره $1"
+   },
+   "allowFrom": {
+      "message": "اجازه به همه $1"
+   },
+   "allowGlobal": {
+      "message": "غیر فعال کردن تمام چک‌های دسترسی (خطرناک)"
+   },
+   "allowLocal": {
+      "message": "اجازه به $1"
+   },
+   "allowTemp": {
+      "message": "اجازه موقت به $1"
+   },
+   "allowTempFrom": {
+      "message": "اجازه موقت همه از $1"
+   },
+   "allowed_no": {
+      "message": "اسکریپت‌های ممنوع در حال حاضر"
+   },
+   "allowed_prt": {
+      "message": "اجازه به اسکریپت‌ها به صورت جزئی"
+   },
+   "allowed_yes": {
+      "message": "اسکریپت‌های مجاز فعلی"
+   },
+   "alwaysAsk": {
+      "message": "همیشه تایید بخواه"
+   },
+   "anySite": {
+      "message": "هر سایتی"
+   },
+   "audio_samples": {
+      "message": "نمونه های صوتی"
+   },
+   "behavior_auto_description": {
+      "message": "A compromise between security and convenience: the top level site, whose address is shown in the navigation bar, is automatically promoted to \"Temporarily TRUSTED\" unless already manually classified. 3d party sites still need to be classified manually. Cross-site protections are always enforced."
+   },
+   "behavior_auto_title": {
+      "message": "EASIER / Auto"
+   },
+   "behavior_defaultAllow_description": {
+      "message": "The most relaxed behavior: unclassified top-level sites are promoted to \"Temporarily TRUSTED\", and capabilities enabled for the top-level site are automatically cascaded to all its 3rd party unclassified sub-resources. Sites already classified as \"UNTRUSTED\" and \"CUSTOM\" are not affected. Cross-site protections are always enforced."
+   },
+   "behavior_defaultAllow_title": {
+      "message": "EASIEST / Default allow"
+   },
+   "behavior_defaultDeny_description": {
+      "message": "The traditional and most secure NoScript behavior: unclassified sites, marked as \"DEFAULT\", are NOT considered trusted. Potentially harmful capabilities, including scripts, are disabled. You can manually enable the sites you trust by opening the NoScript interface and marking them as \"TRUSTED\", or further customize their capabilities by selecting \"CUSTOM\". Cross-site protections are always enforced."
+   },
+   "behavior_defaultDeny_title": {
+      "message": "STRICT / Default Deny"
+   },
+   "behavior_label": {
+      "message": "Current site classification behavior:"
+   },
+   "behavior_prompt": {
+      "message": "Please select the way NoScript behaves when encountering unclassified sites. You can revisit this choice from the NoScript Options page and whenever you reset NoScript."
+   },
+   "behavior_title": {
+      "description": "The title of the NoScript's Behavior selector, where user decides how NoScript should manage the trust policy assigned to unclassified sites",
+      "message": "Site Classification Behavior"
+   },
+   "bookmarkSync_confirm": {
+      "message": "NoScript یک بوک‌مارک پیکربندی که به نظر روی $1 ذخیره شده است را\nیافته است.\nآیا واقعاً می خواهید تا پیکربندی NoScript محلی خود را با محتوای این بوک‌مارک رونویسی کنید؟"
+   },
+   "bookmarkSync_message": {
+      "message": "این بوک‌مارک‌ برای باز شدن نمی باشد، به منظور همگام سازی با استفاده از یک سرویس مانند Weave یا افزونه XMarks می باشد."
+   },
+   "bookmarkSync_title": {
+      "message": "بوک‌مارک پیکربندی NoScript"
+   },
+   "cap_fetch": {
+      "message": "واکشی"
+   },
+   "cap_font": {
+      "message": "فونت"
+   },
+   "cap_frame": {
+      "message": "فریم"
+   },
+   "cap_lan": {
+      "message": "LAN"
+   },
+   "cap_lazy_load": {
+      "message": "lazy load"
+   },
+   "cap_media": {
+      "message": "رسانه"
+   },
+   "cap_noscript": {
+      "message": "noscript"
+   },
+   "cap_object": {
+      "message": "شیء"
+   },
+   "cap_other": {
+      "message": "سایر"
+   },
+   "cap_ping": {
+      "message": "پینگ"
+   },
+   "cap_script": {
+      "message": "اسکریپت"
+   },
+   "cap_unchecked_css": {
+      "message": "CSS نامحدود"
+   },
+   "cap_wasm": {
+      "description": "WebAssembly modules compilation and execution capability.",
+      "message": "wasm"
+   },
+   "cap_webgl": {
+      "message": "وب‌جی‌ال"
+   },
+   "cap_x_load": {
+      "description": "Capability for file:// documents to load subresources from a different and non descendant directory.",
+      "message": "x-load"
+   },
+   "caps": {
+      "message": "این قابلیت‌ها را فعال کنید"
+   },
+   "capsContext": {
+      "message": "هنگامی که صفحه اصلی مطابقت دارد، این قابلیت‌ها را فعال کنید"
+   },
+   "changelog": {
+      "message": "سیاهه تغییرات"
+   },
+   "changelog_tip": {
+      "message": "نمایش سیاهه تغییرات"
+   },
+   "clear_container_label": {
+      "message": "Clear permissions for this container"
+   },
+   "confirm": {
+      "message": "آیا مطمئن هستید؟"
+   },
+   "container_clear_warning": {
+      "message": "All site permissions for this container will be removed.\nThis action cannot be reverted.\nDo you want to continue?"
+   },
+   "container_copy_warning": {
+      "message": "Copying permissions from \"$1\".\nAll site permissions for this container will be removed.\nThis action cannot be reverted.\nDo you want to continue?"
+   },
+   "copy_container_label": {
+      "message": "Copy permissions from container:"
+   },
+   "disable": {
+      "message": "غیرفعال کردن $1"
+   },
+   "disable_accessKey": {
+      "message": "D"
+   },
+   "distrust": {
+      "message": "علامت زدن $1 به عنوان غیر قابل اعتماد"
+   },
+   "enable_container_tabs_label": {
+      "message": "Enable support for container tabs"
+   },
+   "extensionContributors": {
+      "message": "مشارکت کنندگان:"
+   },
+   "extensionContributors_tip": {
+      "message": "افرادی که از آن ها باید برای این افزونه تشکر کرد"
+   },
+   "extensionCreatorLabel": {
+      "message": "نویسنده:"
+   },
+   "extensionCreator_tip": {
+      "message": "مراجعه به صفحه اصلی سازنده"
+   },
+   "extensionHomepage_tip": {
+      "message": "بازدید از صفحه اصلی افزونه"
+   },
+   "forbidGlobal": {
+      "message": "ممنوع کردن اسکریپت‌ها به صورت سراسری (توصیه می شود)"
+   },
+   "forbidLocal": {
+      "message": "ممنوع کردن $1"
+   },
+   "forbid_replace_default_policy": {
+      "message": "Cannot replace the default policy."
+   },
+   "freshInstallReload": {
+      "message": "برای کار کردن روی این زبانه، NoScript باید آن را به صورت مجدد بارگذاری کند.\nادامه؟"
+   },
+   "httpsOnly": {
+      "message": "مطابقت تنها با محتوای HTTPS"
+   },
+   "incompatibleOptions": {
+      "message": "\"$1\"\nبا \"$2\" ناسازگار است.\nآیا می خواهید اولی را فعال کنید و آخری را غیر فعال کنید؟"
+   },
+   "incompatibleOptions_title": {
+      "message": "هشدار گزینه‌های ناسازگار"
+   },
+   "informaction_tip": {
+      "message": "مراجعه به صفحه اصلی InformAction"
+   },
+   "license": {
+      "message": "پروانه"
+   },
+   "license_tip": {
+      "message": "خواندن مجوز کاربر نهایی"
+   },
+   "logo_tip": {
+      "message": "بازدید از صفحه اصلی افزونه"
+   },
+   "metaRefresh_notify": {
+      "message": "NoScript یک تغییر مسیر \u003CMETA> داخل عنصر \u003CNOSCRIPT> را مسدود کرد: $1 در $2 ثانیه."
+   },
+   "pagePermissionsUI": {
+      "message": "Configure current page's permissions"
+   },
+   "privilegedPage": {
+      "message": "این صفحه دارای امتیاز ویژه می باشد، دسترسی‌های آن قابل پیکربندی نمی باشد."
+   },
+   "removal_message": {
+      "message": "با حذف یا غیر فعال کردن NoScript، شما تمام محافظت ارائه شده توسط NoScript را از دست خواهید داد.\n\nاگر از مدیریت دسترسی‌های اسکریپت‌ برای هر سایت خسته شده اید، یک گزینه امن تر وجود دارد.\n\nNoScript می تواند اسکریپت‌ها را مسدود کند، به جز آنهایی که شما به صورت غیر قابل اعتماد علامت زده اید، این در حالی است که از شما در برابر تزریق اسکریپت از طریق وبگاه، کلیک دزدی، جعل درخواست میان‌وب‌گاهی و دیگر خطرات وب محافظت می کند.\n\nآیا واقعاً می‌خواهید همه محافظت‌های NoScript را حذف کنید؟\n"
+   },
+   "removal_no": {
+      "message": "نه، فقط اسکریپت‌ها را مسدود کن"
+   },
+   "removal_title": {
+      "message": "هشدار کاهش امنیت"
+   },
+   "removal_yes": {
+      "message": "بله، همه محافظت ها را حذف کن"
+   },
+   "reset_title": {
+      "message": "تنظیم مجدد NoScript"
+   },
+   "reset_warning": {
+      "message": "تمام ترجیحات NoScript و دسترسی‌های سایت به مقادیر پیش‌فرض خود به صورت فوری بازنشانی می‌شوند.\nاین عملیات غیر قابل بازگشت است.\nآیا می‌خواهید ادامه دهید؟"
+   },
+   "select_container_label": {
+      "message": "Choose a container:"
+   },
+   "settingsThemeLabel": {
+      "message": "قالب"
+   },
+   "siteInfo_confirm": {
+      "message": "شما در حال درخواست اطلاعات درباره سایت \"$1\"\nبا ثبت یک پرسمان به $2 می باشید.\nآیا می‌خواهید ادامه دهید؟"
+   },
+   "siteInfo_tooltip": {
+      "message": "Middle-click or shift+click for site info…"
+   },
+   "sponsor_tip": {
+      "message": "بازدید از صفحه اصلی حامی"
+   },
+   "tabLess_reload_warning": {
+      "message": "Changing permissions in a sidebar will require a MANUAL reload."
+   },
+   "tabLess_short": {
+      "message": "(sidebar?)"
+   },
+   "tabLess_tip": {
+      "message": "Site outside of a content tab, e.g. in a sidebar"
+   },
+   "themeAuto": {
+      "message": "خودکار"
+   },
+   "themeDark": {
+      "message": "تیره"
+   },
+   "themeLight": {
+      "message": "روشن"
+   },
+   "toVintageBlue": {
+      "message": "به سبک آبی قدیمی بروید"
+   },
+   "toggleEnforcementForTab": {
+      "message": "Toggle restrictions enforcement for current tab"
+   },
+   "unsafeReload_warning": {
+      "message": "بارگذاری مجدد یک مورد مشکوک به صورت نا‌امن\n\n$1[$2]\n\nاز [$3]\n\nNoScript از این درخواست محافظت نخواهد کرد!\n"
+   },
+   "untrustedOrigin": {
+      "message": "مبدا غیر‌ قابل اعتماد"
+   },
+   "version": {
+      "message": "نسخه $1"
+   },
+   "versionShort": {
+      "message": "نسخه $1"
+   }
+}

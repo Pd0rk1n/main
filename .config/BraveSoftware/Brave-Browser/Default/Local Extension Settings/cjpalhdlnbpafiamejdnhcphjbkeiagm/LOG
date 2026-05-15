@@ -1,86 +1,9 @@
-2025/12/02-10:16:40.100 82b8 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2025/12/02-10:16:40.108 82b8 Recovering log #8759
-2025/12/02-10:16:40.120 82b8 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/008759.log 
-2025/12/02-10:17:20.137 82b8 Level-0 table #8763: started
-2025/12/02-10:17:20.151 82b8 Level-0 table #8763: 4877757 bytes OK
-2025/12/02-10:17:20.154 82b8 Delete type=0 #8759
-2025/12/02-10:17:20.820 82b8 Level-0 table #8765: started
-2025/12/02-10:17:20.835 82b8 Level-0 table #8765: 5093217 bytes OK
-2025/12/02-10:17:20.837 82b8 Delete type=0 #8762
-2025/12/02-10:17:20.838 82b8 Compacting 4@0 + 3@1 files
-2025/12/02-10:17:20.853 82b8 Generated table #8766@0: 4 keys, 2653857 bytes
-2025/12/02-10:17:20.868 82b8 Generated table #8767@0: 8 keys, 3333771 bytes
-2025/12/02-10:17:20.873 82b8 Generated table #8768@0: 2 keys, 869779 bytes
-2025/12/02-10:17:20.892 82b8 Generated table #8769@0: 11 keys, 1423010 bytes
-2025/12/02-10:17:20.892 82b8 Compacted 4@0 + 3@1 files => 8280417 bytes
-2025/12/02-10:17:20.894 82b8 compacted to: files[ 0 4 10 0 0 0 0 ]
-2025/12/02-10:17:20.894 82b8 Delete type=2 #8763
-2025/12/02-10:17:20.894 82b8 Delete type=2 #8751
-2025/12/02-10:17:20.894 82b8 Delete type=2 #8765
-2025/12/02-10:17:20.895 82b8 Delete type=2 #8757
-2025/12/02-10:17:20.895 82b8 Delete type=2 #8760
-2025/12/02-10:17:20.895 82b8 Delete type=2 #8748
-2025/12/02-10:17:20.895 82b8 Delete type=2 #8747
-2025/12/02-10:18:20.618 82b8 Level-0 table #8771: started
-2025/12/02-10:18:20.655 82b8 Level-0 table #8771: 6881065 bytes OK
-2025/12/02-10:18:20.657 82b8 Delete type=0 #8764
-2025/12/02-10:18:24.239 82b6 Level-0 table #8773: started
-2025/12/02-10:18:24.283 82b6 Level-0 table #8773: 6548579 bytes OK
-2025/12/02-10:18:24.286 82b6 Delete type=0 #8770
-2025/12/02-15:17:27.261 82b8 Level-0 table #8775: started
-2025/12/02-15:17:27.277 82b8 Level-0 table #8775: 4581286 bytes OK
-2025/12/02-15:17:27.279 82b8 Delete type=0 #8772
-2025/12/02-15:18:22.362 82b8 Level-0 table #8777: started
-2025/12/02-15:18:22.389 82b8 Level-0 table #8777: 8004209 bytes OK
-2025/12/02-15:18:22.391 82b8 Delete type=0 #8774
-2025/12/02-15:18:22.392 82b8 Compacting 4@0 + 4@1 files
-2025/12/02-15:18:22.412 82b8 Generated table #8778@0: 4 keys, 2655815 bytes
-2025/12/02-15:18:22.428 82b8 Generated table #8779@0: 8 keys, 3334603 bytes
-2025/12/02-15:18:22.452 82b8 Generated table #8780@0: 2 keys, 7221744 bytes
-2025/12/02-15:18:22.459 82b8 Generated table #8781@0: 11 keys, 1424730 bytes
-2025/12/02-15:18:22.459 82b8 Compacted 4@0 + 4@1 files => 14636892 bytes
-2025/12/02-15:18:22.461 82b8 compacted to: files[ 0 4 10 0 0 0 0 ]
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8769
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8777
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8766
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8771
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8773
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8767
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8768
-2025/12/02-15:18:22.462 82b8 Delete type=2 #8775
-2025/12/02-15:18:22.463 82b8 Compacting 1@1 + 2@2 files
-2025/12/02-15:18:22.484 82b8 Generated table #8782@1: 20 keys, 1815444 bytes
-2025/12/02-15:18:22.484 82b8 Compacted 1@1 + 2@2 files => 1815444 bytes
-2025/12/02-15:18:22.486 82b8 compacted to: files[ 0 3 9 0 0 0 0 ]
-2025/12/02-15:18:22.486 82b8 Delete type=2 #8677
-2025/12/02-15:18:22.486 82b8 Delete type=2 #8781
-2025/12/02-15:18:22.487 82b8 Delete type=2 #8722
-2025/12/02-15:18:22.487 82b8 Compacting 1@1 + 4@2 files
-2025/12/02-15:18:22.496 82b8 Generated table #8783@1: 8 keys, 2665008 bytes
-2025/12/02-15:18:22.505 82b8 Generated table #8784@1: 6 keys, 2588472 bytes
-2025/12/02-15:18:22.514 82b8 Generated table #8785@1: 3 keys, 2439388 bytes
-2025/12/02-15:18:22.524 82b8 Generated table #8786@1: 6 keys, 2412663 bytes
-2025/12/02-15:18:22.525 82b8 Compacted 1@1 + 4@2 files => 10105531 bytes
-2025/12/02-15:18:22.526 82b8 compacted to: files[ 0 2 9 0 0 0 0 ]
-2025/12/02-15:18:22.527 82b8 Delete type=2 #8714
-2025/12/02-15:18:22.527 82b8 Delete type=2 #8717
-2025/12/02-15:18:22.527 82b8 Delete type=2 #8715
-2025/12/02-15:18:22.527 82b8 Delete type=2 #8713
-2025/12/02-15:18:22.527 82b8 Delete type=2 #8778
-2025/12/02-15:18:22.527 82b8 Compacting 1@1 + 2@2 files
-2025/12/02-15:18:22.536 82b8 Generated table #8787@1: 8 keys, 2211765 bytes
-2025/12/02-15:18:22.549 82b8 Generated table #8788@1: 8 keys, 2215868 bytes
-2025/12/02-15:18:22.549 82b8 Compacted 1@1 + 2@2 files => 4427633 bytes
-2025/12/02-15:18:22.551 82b8 compacted to: files[ 0 1 9 0 0 0 0 ]
-2025/12/02-15:18:22.551 82b8 Delete type=2 #8719
-2025/12/02-15:18:22.551 82b8 Delete type=2 #8779
-2025/12/02-15:18:22.551 82b8 Delete type=2 #8752
-2025/12/02-15:18:25.971 82b8 Level-0 table #8790: started
-2025/12/02-15:18:26.010 82b8 Level-0 table #8790: 6501956 bytes OK
-2025/12/02-15:18:26.013 82b8 Delete type=0 #8776
-2025/12/02-17:18:26.663 82b8 Level-0 table #8792: started
-2025/12/02-17:18:26.690 82b8 Level-0 table #8792: 6678288 bytes OK
-2025/12/02-17:18:26.692 82b8 Delete type=0 #8789
-2025/12/02-17:18:30.284 82b8 Level-0 table #8794: started
-2025/12/02-17:18:30.328 82b8 Level-0 table #8794: 6558319 bytes OK
-2025/12/02-17:18:30.330 82b8 Delete type=0 #8791
+2026/05/14-21:10:41.459 3e4a Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2026/05/14-21:10:41.464 3e4a Recovering log #8811
+2026/05/14-21:10:41.464 3e4a Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/008811.log 
+2026/05/14-21:10:45.292 3e4a Level-0 table #8836: started
+2026/05/14-21:10:45.306 3e4a Level-0 table #8836: 4806135 bytes OK
+2026/05/14-21:10:45.308 3e4a Delete type=0 #8811
+2026/05/14-21:10:47.841 3e4a Level-0 table #8838: started
+2026/05/14-21:10:47.854 3e4a Level-0 table #8838: 4917255 bytes OK
+2026/05/14-21:10:47.856 3e4a Delete type=0 #8835

@@ -1,3 +1,9 @@
-2025/12/02-07:05:10.214 23db Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/02-07:05:10.215 23db Recovering log #197
-2025/12/02-07:05:10.220 23db Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000197.log 
+2026/05/14-21:05:28.663 380a Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/14-21:05:28.663 380a Recovering log #197
+2026/05/14-21:05:28.672 380a Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000197.log 
+2026/05/14-21:06:42.833 380a Compacting 1@0 + 1@1 files
+2026/05/14-21:06:42.838 380a Generated table #200@0: 2380 keys, 187582 bytes
+2026/05/14-21:06:42.838 380a Compacted 1@0 + 1@1 files => 187582 bytes
+2026/05/14-21:06:42.840 380a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/14-21:06:42.840 380a Delete type=2 #195
+2026/05/14-21:06:42.840 380a Delete type=2 #198

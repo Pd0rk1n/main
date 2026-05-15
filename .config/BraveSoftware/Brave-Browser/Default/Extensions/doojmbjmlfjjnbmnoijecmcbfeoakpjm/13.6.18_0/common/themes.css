@@ -1,0 +1,127 @@
+/*
+ * Copyright (C) 2005-2024 Giorgio Maone <https://maone.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+.__NoScript_Theme__ {
+  --focus-color-dark: #c35a;
+  --focus-color-light: #f68a;
+
+  --img-noscript-options: url(/img/noscript-options.webp);
+  --img-ui-revoke-temp: url(/img/ui-revoke-temp64.webp);
+  --img-ui-temp-all: url(/img/ui-temp-all64.webp);
+  --img-ui-tab-no: url(/img/ui-tab-no64.webp);
+  --img-ui-tab: url(/img/ui-tab64.webp);
+  --img-ui-global-no: url(/img/ui-global-no64.webp);
+  --img-ui-global: url(/img/ui-global64.webp);
+  --img-ui-close: url(/img/ui-close64.webp);
+  --img-ui-reload: url(/img/ui-reload64.webp);
+  --img-warning: url(/img/warning64.webp);
+  --img-error: url(/img/error64.webp);
+  --img-logo: url(/img/logo.svg);
+  --img-logo-full: url(/img/logo-full.svg);
+  --img-ui-http: url(/img/ui-http64.webp);
+  --img-ui-https: url(/img/ui-https64.webp);
+  --img-ui-no: url(/img/ui-no64.webp);
+  --img-ui-temp: url(/img/ui-temp64.webp);
+  --img-ui-yes: url(/img/ui-yes64.webp);
+  --img-ui-black: url(/img/ui-black64.webp);
+  --img-ui-custom: url(/img/ui-custom64.webp);
+  --img-ui-clock: url(/img/ui-clock64.webp);
+
+  --icon-size: 2.5em;
+  --line-size: 2em;
+  --popup-size: 600px;
+
+  --bg-preset-color: var(--form-color2);
+  --bg-odd-row: var(--bg-color2);
+  --bg-even-row: var(--tab-color1);
+  --bg-focused-row: linear-gradient(to bottom, var(--focus-color) 0, transparent 10%, transparent 90%, var(--focus-color) 100%);
+  --border-row-sep: none;
+}
+
+
+.__NoScript_Theme__.vintage {
+
+  --focus-color-dark: #35Ca !important;
+  --focus-color-light: #8cfa !important;
+
+  --img-noscript-options: url(/img/vintage/noscript-options.webp);
+  --img-ui-revoke-temp: url(/img/vintage/ui-revoke-temp64.webp);
+  --img-ui-temp-all: url(/img/vintage/ui-temp-all64.webp);
+  --img-ui-tab-no: url(/img/vintage/ui-tab-no64.webp);
+  --img-ui-tab: url(/img/vintage/ui-tab64.webp);
+  --img-ui-global-no: url(/img/vintage/ui-global-no64.webp);
+  --img-ui-global: url(/img/vintage/ui-global64.webp);
+  --img-ui-close: url(/img/vintage/ui-close64.webp);
+  --img-ui-reload: url(/img/vintage/ui-reload64.webp);
+  --img-warning: url(/img/vintage/warning64.webp);
+  --img-error: url(/img/vintage/error64.webp);
+  --img-logo: url(/img/vintage/logo.svg);
+  --img-logo-full: url(/img/vintage/logo-full.svg);
+  --img-ui-http: url(/img/vintage/ui-http64.webp);
+  --img-ui-https: url(/img/vintage/ui-https64.webp);
+  --img-ui-no: url(/img/vintage/ui-no64.webp);
+  --img-ui-temp: url(/img/vintage/ui-temp64.webp);
+  --img-ui-yes: url(/img/vintage/ui-yes64.webp);
+  --img-ui-black: url(/img/vintage/ui-black64.webp);
+  --img-ui-custom: url(/img/vintage/ui-custom64.webp);
+  --img-ui-clock: url(/img/vintage/ui-clock64.webp);
+
+}
+
+.__NoScript_Theme__, .__NoScript_Theme__[data-theme="dark"] {
+  color-scheme: dark;
+  --accent-color: #d12027;
+  --fg-color1: #ccc;
+  --fg-color2: #fff;
+  --text-color: #ddd;
+  --bg-color1: #000;
+  --bg-color2: #212026;
+  --form-color1: #333;
+  --form-color2: #111;
+  --focus-color: var(--focus-color-dark);
+  --tab-color1: #334;
+  --tab-color2: #3348;
+  --form-check-color: var(--form-color2);
+  --form-check-bg-color: var(--accent-color);
+  --form-radio-color: var(--accent-color);
+  --form-radio-bg-color: var(--form-color1);
+  --hilite-color: #8008;
+  --unsafe-color: #F68;
+}
+
+.__NoScript_Theme__.vintage:not([data-theme="light"]) :is(input.preset, .icon) {
+  filter: brightness(85%);
+}
+
+
+@media (prefers-color-scheme: light) {
+  .__NoScript_Theme__ {
+    color-scheme: light;
+    --fg-color1: #555;
+    --fg-color2: #000;
+    --text-color: #333;
+    --bg-color1: #ddd;
+    --bg-color2: #fff;
+    --form-color1: #ccc;
+    --form-color2: #eee;
+    --form-check-color: var(--bg-color2);
+    --form-check-bg-color: var(--accent-color);
+    --tab-color1: #d0d8e0;
+    --tab-color2: #d0d8e088;
+    --focus-color: var(--focus-color-light);
+    --hilite-color: #f008;
+    --unsafe-color: #811;
+  }
+
+
+  .__NoScript_Theme__.vintage:not([data-theme="light"]) :is(input.preset, .icon) {
+    filter: none;
+  }
+  .__NoScript_Theme__.vintage[data-theme="dark"] :is(input.preset, .icon) {
+    filter: brightness(85%);
+  }
+
+}

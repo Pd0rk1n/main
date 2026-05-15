@@ -1,6 +1,6 @@
-2025/12/02-07:05:09.980 23e6 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2025/12/02-07:05:09.981 23e6 Recovering log #2579
-2025/12/02-07:05:10.011 23e6 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002579.log 
-2025/12/02-07:06:17.517 23db Level-0 table #2584: started
-2025/12/02-07:06:17.528 23db Level-0 table #2584: 543439 bytes OK
-2025/12/02-07:06:17.531 23db Delete type=0 #2579
+2026/05/14-21:05:28.116 37f9 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2026/05/14-21:05:28.117 37f9 Recovering log #2587
+2026/05/14-21:05:28.126 37f9 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002587.log 
+2026/05/14-21:09:57.069 37fb Level-0 table #2592: started
+2026/05/14-21:09:57.077 37fb Level-0 table #2592: 519455 bytes OK
+2026/05/14-21:09:57.079 37fb Delete type=0 #2587
