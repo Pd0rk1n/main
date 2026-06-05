@@ -1,0 +1,96 @@
+/**
+ * qtile theme-switcher menu — small single-column picker.
+ *
+ * Adapted from adi1090x's rofi applets (type-1/style-1), flattened to be
+ * self-contained: colours and font are inlined so it has no dependency on
+ * ~/.config/rofi. Chrome is fixed (DoomOne-based) so the picker looks the
+ * same whichever palette is currently active. Font matches the other qtile
+ * rofi themes (Iosevka), which ships with Kiro.
+ */
+
+* {
+    font:                        "Iosevka 12";
+    background:                  #282c34;
+    background-alt:              #1c1f24;
+    foreground:                  #bbc2cf;
+    selected:                    #46d9ff;
+    active:                      #98be65;
+    urgent:                      #ff6c6b;
+}
+
+configuration {
+    show-icons:                  false;
+}
+
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       380px;
+    padding:                     0px;
+    border:                      2px solid;
+    border-radius:               8px;
+    border-color:                @selected;
+    background-color:            @background;
+    cursor:                      "default";
+}
+
+mainbox {
+    enabled:                     true;
+    spacing:                     10px;
+    padding:                     20px;
+    background-color:            transparent;
+    children:                    [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    padding:                     0px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    children:                    [ "prompt" ];
+}
+prompt {
+    enabled:                     true;
+    padding:                     10px;
+    border-radius:               6px;
+    background-color:            @active;
+    text-color:                  @background;
+}
+
+listview {
+    enabled:                     true;
+    columns:                     1;
+    lines:                       8;
+    cycle:                       true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    spacing:                     5px;
+    background-color:            transparent;
+    cursor:                      "default";
+}
+
+element {
+    enabled:                     true;
+    padding:                     8px 12px;
+    border-radius:               6px;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      pointer;
+}
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+element normal.normal {
+    background-color:            transparent;
+    text-color:                  @foreground;
+}
+element selected.normal {
+    background-color:            @selected;
+    text-color:                  @background;
+}
