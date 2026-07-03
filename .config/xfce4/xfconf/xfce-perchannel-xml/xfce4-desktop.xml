@@ -1,16 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-desktop" version="1.0">
-  <property name="backdrop" type="empty">
-    <property name="screen0" type="empty">
-      <property name="monitorHDMI-4" type="empty">
-        <property name="workspace0" type="empty">
-          <property name="backdrop-cycle-enable" type="bool" value="true"/>
-          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
-          <property name="backdrop-cycle-timer" type="uint" value="5"/>
-          <property name="last-image" type="string" value="/home/pd0rk1n/.config/variety/wallpaper/wallpaper-clock-4cd2571a2bc86d22169e9d6da52b6a93.jpg"/>
-        </property>
-      </property>
-    </property>
+  <property name="last-settings-migration-version" type="uint" value="1"/>
+  <property name="desktop-icons" type="empty">
+    <property name="style" type="int" value="0"/>
   </property>
 </channel>

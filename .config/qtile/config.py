@@ -24,41 +24,35 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# Kiro qtile config:
+#   - Visual design (DoomOne colours, bar, widgets) follows the DTOS/CachyOS qtile.
+#   - Keybindings are authoritative from qtile-erik: window management lives here,
+#     application/multimedia/screenshot launchers live in sxhkd/sxhkdrc and are
+#     started by scripts/autostart.sh ("sxhkd to replace Qtile native key-bindings").
 
 import os
-import re
-import socket
 import subprocess
-from typing import List  # noqa: F401
-from libqtile import layout, bar, widget, hook, qtile
-from libqtile.config import Click, Drag, Group, Key, Match, Screen, Rule
+
+from libqtile import bar, hook, layout, qtile, widget
+from libqtile.config import Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
-from libqtile.widget import Spacer
-# import arcobattery
+
+import colors
+
+IS_WAYLAND = qtile.core.name == "wayland"
+IS_X11 = qtile.core.name == "x11"
 
 # mod4 or mod = super key
 mod = "mod4"
-myTerm = "xfce4-terminal"      # My terminal of choice
-myBrowser = "brave"       # My browser of choice
 mod1 = "alt"
 mod2 = "control"
-home = os.path.expanduser('~')
+home = os.path.expanduser("~")
 
+myTerm = "xfce4-terminal"
 
-@lazy.function
-def window_to_prev_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i - 1].name)
-
-
-@lazy.function
-def window_to_next_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i + 1].name)
-
-
+# ── Keybindings (authoritative: qtile-erik) ──────────────────────────────
+# Application launchers, multimedia and screenshot keys live in sxhkd/sxhkdrc.
+# Only window-management bindings are native to qtile, exactly as in qtile-erik.
 keys = [
 
     # Most of our keybindings are in sxhkd file - except these
@@ -72,6 +66,11 @@ keys = [
 
     Key([mod, "shift"], "q", lazy.window.kill()),
     Key([mod, "shift"], "r", lazy.restart()),
+    Key([mod, "shift"], "t", lazy.spawn(home + "/.config/qtile/scripts/theme-switcher.sh"),
+        desc="Pick a qtile colour theme (rofi)"),
+
+    # ALT + SHIFT KEYS
+    Key(["mod1", "shift"], "r", lazy.reload_config()),
 
 
     # QTILE LAYOUT KEYS
@@ -136,8 +135,8 @@ keys = [
         ),
 
 
-    # FLIP LAYOUT FOR MONADTALL/MONADWIDE
-    Key([mod, "shift"], "f", lazy.layout.flip()),
+    # MAXIMIZE (fills screen but keeps the bar; super+f is true fullscreen)
+    Key([mod, "shift"], "f", lazy.window.toggle_maximize()),
 
     # FLIP LAYOUT FOR BSP
     Key([mod, "mod1"], "k", lazy.layout.flip_up()),
@@ -152,10 +151,11 @@ keys = [
     Key([mod, "shift"], "l", lazy.layout.shuffle_right()),
 
     # MOVE WINDOWS UP OR DOWN MONADTALL/MONADWIDE LAYOUT
+    # shift+Left/Right are NOT bound here on purpose: they move a window to the
+    # previous/next screen (see keys.extend below). Binding them twice made the
+    # swap_left/swap_right dead (qtile kept the later move-to-screen binding).
     Key([mod, "shift"], "Up", lazy.layout.shuffle_up()),
     Key([mod, "shift"], "Down", lazy.layout.shuffle_down()),
-    Key([mod, "shift"], "Left", lazy.layout.swap_left()),
-    Key([mod, "shift"], "Right", lazy.layout.swap_right()),
 
     # TOGGLE FLOATING LAYOUT
     Key([mod, "shift"], "space", lazy.window.toggle_floating()),
@@ -168,8 +168,8 @@ def window_to_previous_screen(qtile, switch_group=False, switch_screen=False):
     if i != 0:
         group = qtile.screens[i - 1].group.name
         qtile.current_window.togroup(group, switch_group=switch_group)
-        if switch_screen == True:
-            qtile.cmd_to_screen(i - 1)
+        if switch_screen:
+            qtile.to_screen(i - 1)
 
 
 def window_to_next_screen(qtile, switch_group=False, switch_screen=False):
@@ -177,8 +177,8 @@ def window_to_next_screen(qtile, switch_group=False, switch_screen=False):
     if i + 1 != len(qtile.screens):
         group = qtile.screens[i + 1].group.name
         qtile.current_window.togroup(group, switch_group=switch_group)
-        if switch_screen == True:
-            qtile.cmd_to_screen(i + 1)
+        if switch_screen:
+            qtile.to_screen(i + 1)
 
 
 keys.extend([
@@ -187,22 +187,63 @@ keys.extend([
     Key([mod, "shift"], "Left", lazy.function(window_to_previous_screen, switch_screen=True)),
 ])
 
+
+def drag_window(qtile, x, y):
+    """Super+drag handler. Floating windows are repositioned as before; a tiled
+    window dragged onto another screen re-tiles there (joins that screen's group)
+    instead of floating."""
+    win = qtile.current_window
+    if win is None:
+        return
+    if win.floating:
+        win.set_position_floating(x, y)
+        return
+    px, py = qtile.core.get_mouse_position()
+    for idx, screen in enumerate(qtile.screens):
+        if (screen.x <= px < screen.x + screen.width
+                and screen.y <= py < screen.y + screen.height):
+            if screen is not qtile.current_screen:
+                win.togroup(screen.group.name)
+                qtile.focus_screen(idx, warp=False)
+                # qtile suppresses focus/relayout mid-drag (see Group.focus);
+                # force it so the window tiles and paints immediately instead
+                # of waiting for the next click.
+                win.group.focus(win, warp=False, force=True)
+            break
+
+# ── Groups (qtile-erik bindings, DoomOne circle labels from DTOS) ─────────
 groups = []
 
-# FOR QWERTY KEYBOARDS
-group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+def detect_group_names():
+    """Return group names matching the active keyboard layout.
 
-# FOR AZERTY KEYBOARDS
-# group_names = ["ampersand", "eacute", "quotedbl", "apostrophe", "parenleft", "section", "egrave", "exclam", "ccedilla", "agrave",]
+    Belgian AZERTY ('be') emits these keysyms on the unshifted number row, so
+    Super+<physical 1..0> only reaches the group bindings when the names match
+    them. Every other layout (QWERTY) just uses plain digits.
+    """
+    azerty_be = ["ampersand", "eacute", "quotedbl", "apostrophe", "parenleft",
+                 "section", "egrave", "exclam", "ccedilla", "agrave",]
+    qwerty = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
+    try:
+        out = subprocess.check_output(["setxkbmap", "-query"], text=True)
+        for line in out.splitlines():
+            if line.startswith("layout:") and line.split()[1].split(",")[0] == "be":
+                return azerty_be
+    except Exception:
+        pass
+    return qwerty
 
-group_labels = ["1 ", "2 ", "3 ", "4 ", "5 ", "6 ", "7 ", "8 ", "9 ", "0",]
-# group_labels = ["", "", "", "", "", "", "", "", "", "",]
+
+group_names = detect_group_names()
+
+# Circle labels from the DTOS design.
+group_labels = ["⬤", "⬤", "⬤", "⬤", "⬤", "⬤", "⬤", "⬤", "⬤", "⬤",]
+# group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0",]
 # group_labels = ["Web", "Edit/chat", "Image", "Gimp", "Meld", "Video", "Vb", "Files", "Mail", "Music",]
 
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall",
                  "monadtall", "monadtall", "monadtall", "monadtall",
                  "monadtall", "monadtall",]
-# group_layouts = ["monadtall", "matrix", "monadtall", "bsp", "monadtall", "matrix", "monadtall", "bsp", "monadtall", "monadtall",]
 
 for i in range(len(group_names)):
     groups.append(
@@ -212,370 +253,235 @@ for i in range(len(group_names)):
             label=group_labels[i],
         ))
 
+# CYCLE GROUPS (registered once, not per-group)
+keys.extend([
+    Key([mod], "Tab", lazy.screen.next_group()),
+    Key([mod, "shift"], "Tab", lazy.screen.prev_group()),
+    Key(["mod1"], "Tab", lazy.screen.next_group()),
+    Key(["mod1", "shift"], "Tab", lazy.screen.prev_group()),
+])
+
 for i in groups:
     keys.extend([
 
         # CHANGE WORKSPACES
         Key([mod], i.name, lazy.group[i.name].toscreen()),
-        Key([mod], "Tab", lazy.screen.next_group()),
-        Key([mod, "shift" ], "Tab", lazy.screen.prev_group()),
-        Key(["mod1"], "Tab", lazy.screen.next_group()),
-        Key(["mod1", "shift"], "Tab", lazy.screen.prev_group()),
 
-        # MOVE WINDOW TO SELECTED WORKSPACE 1-10 AND STAY ON WORKSPACE
-        # Key([mod, "shift"], i.name, lazy.window.togroup(i.name)),
         # MOVE WINDOW TO SELECTED WORKSPACE 1-10 AND FOLLOW MOVED WINDOW TO WORKSPACE
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name), 
+        Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
             lazy.group[i.name].toscreen()),
     ])
 
+# ── Theme selection (default DoomOne; honored from the switcher if set) ──────
+# scripts/theme-switcher.sh (Super+Shift+T) writes a palette name to
+# ~/.config/qtile/active_theme. Missing or invalid → the shipped DoomOne
+# default is used untouched.
+_active_theme_file = os.path.expanduser("~/.config/qtile/active_theme")
+_palette = "DoomOne"
+try:
+    with open(_active_theme_file) as _fh:
+        _pick = _fh.read().strip()
+    if _pick and hasattr(colors, _pick):
+        _palette = _pick
+except OSError:
+    pass
+colors = getattr(colors, _palette)
 
-def init_layout_theme():
-    return {"margin": 5,
-            "border_width": 5,
-            "border_focus": "#FF0055",
-            "border_normal": "#4c566a"
-            }
-
-
-layout_theme = init_layout_theme()
-
+layout_theme = {"border_width": 2,
+                "margin": 12,
+                "border_focus": colors[8],
+                "border_normal": colors[0],
+                }
 
 layouts = [
-    # layout.MonadTall(margin=8, border_width=2, border_focus="#5e81ac", border_normal="#4c566a"),
     layout.MonadTall(**layout_theme),
-    # layout.MonadWide(margin=8, border_width=2, border_focus="#5e81ac", border_normal="#4c566a"),
     layout.MonadWide(**layout_theme),
     layout.Matrix(**layout_theme),
     layout.Bsp(**layout_theme),
     layout.Floating(**layout_theme),
     layout.RatioTile(**layout_theme),
-    layout.Max(**layout_theme)
+    layout.Max(**layout_theme),
 ]
 
-# COLORS FOR THE BAR
-#Theme name : ArcoLinux Dracula
-def init_colors():
-    return [["#000000", "#000000"], # color 0
-            ["#282A36", "#282A36"], # color 1
-            ["#F8F8F2", "#F8F8F2"], # color 2
-            ["#F1FA8C", "#F1FA8C"], # color 3
-            ["#BD93F9", "#BD93F9"], # color 4
-            ["#FF79C6", "#FF79C6"], # color 5
-            ["#8BE9FD", "#8BE9FD"], # color 6
-            ["#BFBFBF", "#BFBFBF"], # color 7
-            ["#4D4D4D", "#4D4D4D"], # color 8
-            ["#FF5555", "#FF5555"]] # color 9
+# ── Widgets / bar (DTOS DoomOne design) ──────────────────────────────────
+widget_defaults = dict(
+    font="Ubuntu Bold",
+    fontsize=12,
+    padding=0,
+    background=colors[0],
+)
+
+extension_defaults = widget_defaults.copy()
 
 
-colors = init_colors()
-
-#extra icons to choose from
-#http://fontawesome.io/cheatsheet/
-#            v               
-
-
-# WIDGETS FOR THE BAR
+def tray_widget():
+    if IS_WAYLAND:
+        return widget.StatusNotifier(padding=6)
+    else:
+        return widget.Systray(padding=6)
 
 
-
-
-def init_widgets_defaults():
-    return dict(font="Noto Sans",
-                fontsize=12,
-                padding=0,
-                background=colors[1])
-
-
-widget_defaults = init_widgets_defaults()
-
-
-def init_widgets_list():
-    prompt = "{0}@{1}: ".format(os.environ["USER"], socket.gethostname())
+def init_widgets_list(include_tray=True):
     widgets_list = [
-        widget.GroupBox(
-            center_aligned=True,
-            font="JetBrainsMono Nerd Font",  # Or any monospaced font you have installed
-            fontsize=16,
-            margin_y=3,
-            margin_x=2,
-            padding_y=4,
-            padding_x=0,
-            borderwidth=0,
-            disable_drag=True,
-            active=colors[2],
-            inactive=colors[5],
-            rounded=False,
-            highlight_method="text",  # Optional: improves visual alignment
-            this_current_screen_border=colors[8],
-            foreground=colors[2],
-            background=colors[0],
-            ),
-
-        widget.Sep(
-            linewidth=1,
-            padding=10,
-            foreground=colors[2],
-            background=colors[0]
-            ),
-        widget.CurrentLayout(
-            font="Noto Sans Bold",
-            foreground=colors[6],
-            background=colors[1]
-            ),
-        widget.Sep(
-            linewidth=1,
-            padding=10,
-            foreground=colors[2],
-            background=colors[0]
-            ),
-        widget.WindowName(
-            font="Noto Sans",
-            fontsize=14,
-            foreground=colors[5],
-            background=colors[0],
-            ),
-         widget.Net(
-                  font="Noto Sans",
-                  fontsize=14,
-                  interface="enp2s0",
-                  foreground=colors[5],
-                  background=colors[0],
-                  padding = 0,
-                  ),
-         widget.Sep(
-                  linewidth = 0,
-                  padding = 10,
-                  foreground = colors[2],
-                  background = colors[0]
-                  ),
-         #widget.NetGraph(
-         #         font="Noto Sans",
-         #         fontsize=12,
-         #         bandwidth="down",
-         #         interface="auto",
-         #         fill_color = colors[4],
-         #         foreground=colors[2],
-         #         background=colors[0],
-         #         graph_color = colors[8],
-         #         border_color = colors[3],
-         #         padding = 0,
-         #         border_width = 1,
-         #         line_width = 1,
-         #         ),
-         widget.Sep(
-                  linewidth = 1,
-                  padding = 10,
-                  foreground = colors[2],
-                  background = colors[0]
-                  ),
-        # # do not activate in Virtualbox - will break qtile
-        # widget.ThermalSensor(
-        #          foreground = colors[5],
-        #          foreground_alert = colors[6],
-        #          background = colors[1],
-        #          metric = True,
-        #          padding = 3,
-        #          threshold = 80
-        #          ),
-        # # battery option 1  ArcoLinux Horizontal icons do not forget to import arcobattery at the top
-        # widget.Sep(
-        #          linewidth = 1,
-        #          padding = 10,
-        #          foreground = colors[2],
-        #          background = colors[1]
-        #          ),
-        # arcobattery.BatteryIcon(
-        #          padding=0,
-        #          scale=0.7,
-        #          y_poss=2,
-        #          theme_path=home + "/.config/qtile/icons/battery_icons_horiz",
-        #          update_interval = 5,
-        #          background = colors[1]
-        #          ),
-        # # battery option 2  from Qtile
-        # widget.Sep(
-        #          linewidth = 1,
-        #          padding = 10,
-        #          foreground = colors[2],
-        #          background = colors[1]
-        #          ),
-        # widget.Battery(
-        #          font="Noto Sans",
-        #          update_interval = 10,
-        #          fontsize = 12,
-        #          foreground = colors[5],
-        #          background = colors[1],
-        #          ),
-         widget.TextBox(
-                  font="FontAwesome",
-                  text="  ",
-                  foreground=colors[9],
-                  background=colors[0],
-                  padding = 0,
-                  fontsize=16
-                  ),
-         widget.CPU(
-                  border_color = colors[5],
-                  fill_color = colors[6],
-                  graph_color = colors[6],
-                  foreground=colors[4],
-                  background=colors[0],
-                  border_width = 1,
-                  line_width = 1,
-                  core = "all",
-                  type = "box"
-                  ),
-         widget.Sep(
-                  linewidth = 1,
-                  padding = 10,
-                  foreground = colors[2],
-                  background = colors[0]
-                  ),
-         # widget.TextBox(
-         #         font="FontAwesome",
-         #         text="  ",
-         #         foreground=colors[4],
-         #         background=colors[1],
-         #         padding = 0,
-         #         fontsize=16
-         #         ),
-         # widget.Memory(
-         #         font="Noto Sans",
-         #         format = '{MemUsed}M/{MemTotal}M',
-         #         update_interval = 1,
-         #         fontsize = 12,
-         #         foreground = colors[5],
-         #         background = colors[1],
-         #        ),
-         #  widget.Sep(
-         #          linewidth = 1,
-         #         padding = 10,
-         #         foreground = colors[2],
-         #         background = colors[0]
-         #         ),
-        widget.LaunchBar(
-                 progs = [("", "brave", "Brave web browser"),
-                          (" ", "xfce4-terminal", " xfce4 terminal"),
-                          ("", "thunar", "thunar file manager"),
-                          ("", "flatpak run org.videolan.VLC")
-                         ], 
-                 fontsize = 14,
-                 padding = 6,
-                 foreground = colors[3],
-                 background=colors[0],
+        widget.Spacer(length=8),
+        widget.Image(
+                 filename="~/.config/qtile/icons/favicon-32.png",
+                 scale="False",
+                 mouse_callbacks={"Button1": lambda: qtile.spawn(
+                     "rofi -no-config -no-lazy-grab -show drun -modi drun "
+                     f"-theme {home}/.config/qtile/rofi/launcher2.rasi")},
                  ),
-        widget.Sep(
-                   linewidth = 1,
-                  padding = 10,
-                  foreground = colors[2],
-                  background = colors[0]
-                  ),
+        widget.Prompt(
+                 font="Ubuntu Mono",
+                 fontsize=14,
+                 foreground=colors[1],
+        ),
+        widget.GroupBox(
+                 fontsize=8,
+                 margin_y=5,
+                 margin_x=10,
+                 padding_y=0,
+                 padding_x=2,
+                 borderwidth=3,
+                 active=colors[8],
+                 inactive=colors[9],
+                 rounded=False,
+                 highlight_color=colors[0],
+                 highlight_method="line",
+                 this_current_screen_border=colors[7],
+                 this_screen_border=colors[4],
+                 other_current_screen_border=colors[7],
+                 other_screen_border=colors[4],
+                 ),
         widget.TextBox(
-            font="FontAwesome",
-            text="  ",
-            foreground=colors[3],
-            background=colors[0],
-            padding=3,
-            fontsize=16
-            ),
+                 text='|',
+                 font="Ubuntu Mono",
+                 foreground=colors[9],
+                 padding=2,
+                 fontsize=14,
+                 ),
+        widget.LaunchBar(
+                 progs=[("🦁", "brave", "Brave web browser"),
+                        ("🚀", "alacritty", "Alacritty terminal"),
+                        ("📁", "thunar", "Thunar file manager"),
+                        ("🎸", "vlc", "VLC media player")
+                        ],
+                 fontsize=12,
+                 padding=5,
+                 foreground=colors[3],
+        ),
+        widget.TextBox(
+                 text='|',
+                 font="Ubuntu Mono",
+                 foreground=colors[9],
+                 padding=2,
+                 fontsize=14,
+                 ),
+        widget.CurrentLayout(
+                 foreground=colors[1],
+                 padding=5,
+                 ),
+        widget.TextBox(
+                 text='|',
+                 font="Ubuntu Mono",
+                 foreground=colors[9],
+                 padding=2,
+                 fontsize=14,
+                 ),
+        widget.WindowName(
+                 foreground=colors[6],
+                 padding=8,
+                 max_chars=40,
+                 ),
+        widget.CPU(
+                 foreground=colors[4],
+                 padding=8,
+                 mouse_callbacks={"Button1": lambda: qtile.spawn(myTerm + " -e btop")},
+                 format='Cpu: {load_percent:03.0f}%',
+                 ),
+        widget.GenPollText(
+                 update_interval=300,
+                 func=lambda: subprocess.check_output("printf $(uname -r)", shell=True, text=True),
+                 foreground=colors[3],
+                 padding=8,
+                 fmt='{}',
+                 ),
+        widget.Memory(
+                 foreground=colors[8],
+                 padding=8,
+                 mouse_callbacks={"Button1": lambda: qtile.spawn(myTerm + " -e btop")},
+                 format='{MemUsed: .0f}{mm}',
+                 fmt='Mem: {}',
+                 ),
+        widget.DF(
+                 update_interval=60,
+                 foreground=colors[5],
+                 padding=8,
+                 mouse_callbacks={"Button1": lambda: qtile.spawn(
+                     myTerm + ' -e bash -c "df -hT; read -n1 -s"')},
+                 partition='/',
+                 format='{uf:.0f}{m} free',
+                 fmt='Disk: {}',
+                 visible_on_warn=False,
+                 ),
+        widget.Volume(
+                 foreground=colors[7],
+                 padding=8,
+                 fmt='Vol: {}',
+                 ),
         widget.Clock(
-            foreground=colors[4],
-            background=colors[0],
-            fontsize=12,
-            format="%Y-%m-%d %H:%M"
-            ),
-         widget.Sep(
-                  linewidth = 1,
-                  padding = 10,
-                  foreground = colors[2],
-                  background = colors[0]
-                  ),
-        widget.Systray(
-            background=colors[0],
-            icon_size=22,
-            padding=3
-            ),
-        ]
+                 foreground=colors[8],
+                 padding=8,
+                 mouse_callbacks={"Button1": lambda: qtile.spawn("yad --calendar --no-buttons --title=Calendar")},
+                 format="%I:%M %p  %a %d %b %Y",
+                 ),
+    ]
+
+    if include_tray:
+        widgets_list.extend([
+            tray_widget(),
+            widget.Spacer(length=8),
+        ])
+
     return widgets_list
 
 
-widgets_list = init_widgets_list()
-
-
 def init_widgets_screen1():
-    widgets_screen1 = init_widgets_list()
-    return widgets_screen1
+    return init_widgets_list()
 
 
+# All other monitors' bars display everything but the systray and its spacer.
 def init_widgets_screen2():
     widgets_screen2 = init_widgets_list()
+    del widgets_screen2[16:17]
     return widgets_screen2
 
 
-widgets_screen1 = init_widgets_screen1()
-widgets_screen2 = init_widgets_screen2()
-
-
 def init_screens():
-    return [Screen(top=bar.Bar(widgets=init_widgets_screen1(), size=26, opacity=1)),
-            Screen(top=bar.Bar(widgets=init_widgets_screen2(), size=26, opacity=1))]
+    return [Screen(top=bar.Bar(widgets=init_widgets_screen1(), margin=[8, 12, 0, 12], size=30)),
+            Screen(top=bar.Bar(widgets=init_widgets_screen2(), margin=[8, 12, 0, 12], size=30)),
+            Screen(top=bar.Bar(widgets=init_widgets_screen2(), margin=[8, 12, 0, 12], size=30))]
 
 
-screens = init_screens()
+if __name__ in ["config", "__main__"]:
+    screens = init_screens()
 
-
-# MOUSE CONFIGURATION
+# ── Mouse ────────────────────────────────────────────────────────────────
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(),
+    Drag([mod], "Button1", lazy.function(drag_window),
          start=lazy.window.get_position()),
     Drag([mod], "Button3", lazy.window.set_size_floating(),
-         start=lazy.window.get_size())
+         start=lazy.window.get_size()),
 ]
 
 dgroups_key_binder = None
 dgroups_app_rules = []
 
-# ASSIGN APPLICATIONS TO A SPECIFIC GROUPNAME
-# BEGIN
-
-#########################################################
-################ assgin apps to groups ##################
-#########################################################
-from libqtile import hook
-from libqtile.log_utils import logger
-
-@hook.subscribe.client_new
-def assign_app_group(client):
-    app_groups = {
-        "1": ["thunar", "nemo"],
-        "2": ["xed", "sublime_text"],
-        "3": ["brave", "brave-browser"],
-        "5": ["xfce4-terminal"],
-        "6": ["vlc"],
-        "7": ["transmission-gtk", "transmission-qt"]
-    }
-
-    wm_class = client.window.get_wm_class()
-    if wm_class:
-        app = wm_class[0].lower()
-        logger.warning(f"[Assign Hook] App started: {app}")
-        for group, apps in app_groups.items():
-            if app in [a.lower() for a in apps]:
-                client.togroup(group)
-                client.group.cmd_toscreen(toggle=False)  # ← this switches to the group
-                logger.warning(f"[Assign Hook] Moved {app} to group {group} and switched to it")
-                break
-
-
-
-# END
-# ASSIGN APPLICATIONS TO A SPECIFIC GROUPNAME
-
 main = None
 
-# hides the top bar when the archlinux-logout widget is opened
 
+# ── Hooks (qtile-erik behaviour: archlinux-logout bar, sxhkd autostart) ───
+# hides the top bar when the archlinux-logout widget is opened
 @hook.subscribe.client_new
 def new_client(window):
     if window.name == "ArchLinux Logout":
@@ -591,14 +497,13 @@ def logout_killed(window):
 
 @hook.subscribe.startup_once
 def start_once():
-    home = os.path.expanduser('~')
-    subprocess.call([home + '/.config/qtile/scripts/autostart.sh'])
+    subprocess.call([home + "/.config/qtile/scripts/autostart.sh"])
 
 
 @hook.subscribe.startup
 def start_always():
     # Set the cursor to something sane in X
-    subprocess.Popen(['xsetroot', '-cursor_name', 'left_ptr'])
+    subprocess.Popen(["xsetroot", "-cursor_name", "left_ptr"])
 
 
 @hook.subscribe.client_new
@@ -615,35 +520,36 @@ follow_mouse_focus = True
 bring_front_click = False
 floats_kept_above = True
 cursor_warp = False
-floating_layout = layout.Floating(float_rules=[
-    # Run the utility of `xprop` to see the wm class and name of an X client.
-    *layout.Floating.default_float_rules,
-    Match(wm_class='confirmreset'),  # gitk
-    Match(wm_class='makebranch'),  # gitk
-    Match(wm_class='maketag'),  # gitk
-    Match(wm_class='ssh-askpass'),  # ssh-askpass
-    Match(title='branchdialog'),  # gitk
-    Match(title='pinentry'),  # GPG key password entry
-    Match(wm_class='Arcolinux-welcome-app.py'),
-    Match(wm_class='Arcolinux-calamares-tool.py'),
-    Match(wm_class='confirm'),
-    Match(wm_class='dialog'),
-    Match(wm_class='download'),
-    Match(wm_class='error'),
-    Match(wm_class='file_progress'),
-    Match(wm_class='notification'),
-    Match(wm_class='splash'),
-    Match(wm_class='toolbar'),
-    Match(wm_class='Arandr'),
-    Match(wm_class='feh'),
-    Match(wm_class='Galculator'),
-    Match(wm_class='archlinux-logout'),
-#    Match(wm_class='xfce4-terminal'),
-
-],  fullscreen_border_width=0, border_width=0)
+floating_layout = layout.Floating(
+    border_focus=colors[8],
+    border_width=2,
+    float_rules=[
+        # Run the utility of `xprop` to see the wm class and name of an X client.
+        *layout.Floating.default_float_rules,
+        Match(wm_class='confirmreset'),  # gitk
+        Match(wm_class='makebranch'),  # gitk
+        Match(wm_class='maketag'),  # gitk
+        Match(wm_class='ssh-askpass'),  # ssh-askpass
+        Match(title='branchdialog'),  # gitk
+        Match(title='pinentry'),  # GPG key password entry
+        Match(wm_class='confirm'),
+        Match(wm_class='dialog'),
+        Match(wm_class='download'),
+        Match(wm_class='error'),
+        Match(wm_class='file_progress'),
+        Match(wm_class='notification'),
+        Match(wm_class='splash'),
+        Match(wm_class='toolbar'),
+        Match(wm_class='Arandr'),
+        Match(wm_class='feh'),
+        Match(wm_class='Galculator'),
+        Match(wm_class='archlinux-logout'),
+        Match(wm_class='xfce4-terminal'),
+    ],
+)
 auto_fullscreen = True
 
-focus_on_window_activation = "focus" # or smart
+focus_on_window_activation = "focus"  # or smart
 reconfigure_screens = True
 
 # If things like steam games want to auto-minimize themselves when losing

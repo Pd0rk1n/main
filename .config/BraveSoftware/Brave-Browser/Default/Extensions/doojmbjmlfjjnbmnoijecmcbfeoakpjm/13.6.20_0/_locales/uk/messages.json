@@ -1,0 +1,855 @@
+{
+   "Add": {
+      "message": "Додати"
+   },
+   "Add_accesskey": {
+      "message": "A"
+   },
+   "AdditionalPermissions": {
+      "message": "Додаткові дозволи для довірених сайтів"
+   },
+   "AdditionalRestrictions": {
+      "message": "Додаткові обмеження для не довірених сайтів"
+   },
+   "Allow": {
+      "message": "Дозволити"
+   },
+   "AllowBookmarks": {
+      "message": "Дозволити сайти, відкриті з вкладок"
+   },
+   "AllowClipboard": {
+      "message": "Дозволити копіювання тексту з форматуванням з зовнішнього буфера обміну"
+   },
+   "AllowLocalLinks": {
+      "message": "Дозволити локальні посилання"
+   },
+   "AllowPage": {
+      "message": "Дозволити усю сторінку"
+   },
+   "AllowPage_accesskey": {
+      "message": "A"
+   },
+   "AllowPing": {
+      "message": "Дозволити \u003CA PING…>"
+   },
+   "AllowViaBookmarks": {
+      "message": "Дозволити сайти, відкриті з вкладок"
+   },
+   "Allow_accesskey": {
+      "message": "l"
+   },
+   "AlwaysBlockUntrustedContent": {
+      "message": "Блокувати усі об'єкти, що надходять з сайту, який позначено як не довірений"
+   },
+   "AutoAllowTopLevel": {
+      "message": "Тимчасово визначити сайти верхнього рівня як довірени"
+   },
+   "AutoReload": {
+      "message": "Автоматично перезавантажувати сторінки, яких стосуються оновлені дозволи"
+   },
+   "AutoReload_currentTab": {
+      "message": "Перезавантажити лише поточну вкладку"
+   },
+   "AutoTrustedLabel": {
+      "description": "Short label for CUSTOM preset when automatically filled with TRUSTED capabilities as a top-level site",
+      "message": "Автоматично довірений"
+   },
+   "BaseDom": {
+      "message": "Базові домени 2-го рівня (noscript.net)"
+   },
+   "BlockedItems": {
+      "message": "Заблоковано $1 з $2 елементів."
+   },
+   "BlockedObjects": {
+      "message": "NoScript заблокував  об'єктів"
+   },
+   "BookmarkSync": {
+      "message": "Збережіть налаштування NoScript у вкладку для легшої синхронізації"
+   },
+   "Cancel": {
+      "message": "Скасувати"
+   },
+   "CascadePermissions": {
+      "message": "Автоматично застосовувати дозволи документа верхнього рівня до піддокументів та включень, які ще не налаштовані"
+   },
+   "CascadeRestrictions": {
+      "message": "Будь-яка можливість, що заблокована у верхньому документі, має бути заблокована в його піддокументах"
+   },
+   "CascadedLabel": {
+      "description": "Short label for DEFAULT preset when the actual capabilities are inherited from top-level site",
+      "message": "Каскадн."
+   },
+   "ClearClickDescription": {
+      "message": "NoScript перехопив взаємодію миші або клавіатури з частково прихованим елементом. Клацніть на зображенні нижче, щоб переключитися між версією з перешкодами та очищеною версією."
+   },
+   "ClearClickHeader": {
+      "message": "Потенційна спроба клікджекінгу/переробки інтерфейсу!"
+   },
+   "ClearClickOpt": {
+      "message": "Захист ClearClick на сторінках…"
+   },
+   "ClearClickReport": {
+      "message": "Звіт"
+   },
+   "ClearClickReportId": {
+      "message": "ID звіту:"
+   },
+   "ClearClickReport_accesskey": {
+      "message": "R"
+   },
+   "ClearClickTitle": {
+      "message": "Попередження ClearClick"
+   },
+   "Close": {
+      "message": "Закрити"
+   },
+   "CollapseBlockedObjects": {
+      "message": "Згорнути заблоковані об'єкти"
+   },
+   "ConfirmUnblock": {
+      "message": "Запитувати підтвердження перед тимчасовим розблокуванням об'єкту"
+   },
+   "CtxMenu": {
+      "message": "Контекстне меню"
+   },
+   "Custom": {
+      "message": "Індивідуальна"
+   },
+   "CustomizePresets": {
+      "message": "Попереднє налаштування (для усіх сайтів, для яких воно залучене)"
+   },
+   "Default": {
+      "message": "За замовчуванням"
+   },
+   "DefaultContainerName": {
+      "message": "Default"
+   },
+   "DefaultPolicies": {
+      "message": "Політика за замовчуванням"
+   },
+   "Description": {
+      "message": "Максимальний захист для вашого браузера: NoScript дозволяє активний вміст лише для довірених доменів на ваш вибір, щоб запобігти дії шкідливого програмного забезпечення."
+   },
+   "Donate": {
+      "message": "Пожертва"
+   },
+   "DonateLong": {
+      "message": "NoScript є безкоштовним програмним забезпеченням і не може існувати без вашої допомоги. Будь ласка, пожертвуйте зараз!"
+   },
+   "DonateShort": {
+      "message": "Пожертва"
+   },
+   "Donate_accesskey": {
+      "message": "o"
+   },
+   "Embeddings": {
+      "message": "Вбудовування"
+   },
+   "EnableGesture": {
+      "message": "Enable gesture activation: drawing \"S\" on a web page opens NoScript's UI for the site"
+   },
+   "Enforce": {
+      "message": "Увімкнути обмеження глобально"
+   },
+   "EnforceForTab": {
+      "message": "Увімкнути обмеження для цієї вкладки"
+   },
+   "EnforceOnRestart": {
+      "message": "Відновити обмеження після перезапуску браузера"
+   },
+   "Exceptions": {
+      "message": "Виключення…"
+   },
+   "Export": {
+      "message": "Експортувати"
+   },
+   "Export_accesskey": {
+      "message": "E"
+   },
+   "FixLinks": {
+      "message": "Спроба виправити посилання JavaScript"
+   },
+   "GestureLabel": {
+      "message": "Draw \"S\" to summon NoScript."
+   },
+   "HelpLink": {
+      "message": "Допомога..."
+   },
+   "Hider": {
+      "message": "Перетягніть сюди, щоб сховати."
+   },
+   "HighContrast": {
+      "message": "Високий контраст"
+   },
+   "Https": {
+      "message": "HTTPS"
+   },
+   "HttpsFaq": {
+      "message": "ЧаПи про HTTPS…"
+   },
+   "HttpsFaq_accesskey": {
+      "message": "Q"
+   },
+   "HttpsForced": {
+      "message": "Примусово використовувати безпечні (HTTPS) з’єднання для таких сайтів:"
+   },
+   "HttpsForcedExceptions": {
+      "message": "Ніколи не встановлювати безпечні (HTTPS) з’єднання для таких сайтів:"
+   },
+   "Https_always": {
+      "message": "Завжди"
+   },
+   "Https_behavior": {
+      "message": "Поведінка"
+   },
+   "Https_cookies": {
+      "message": "Реп'яшки"
+   },
+   "Https_description": {
+      "message": "Заборонити активний вміст, якщо він не надходить з захищеного (HTTPS) з'єднання:"
+   },
+   "Https_never": {
+      "message": "Ніколи"
+   },
+   "Https_proxy": {
+      "message": "За використання проксі (рекомендується з Tor)"
+   },
+   "Import": {
+      "message": "Імпортувати"
+   },
+   "Import_accesskey": {
+      "message": "I"
+   },
+   "KeepLocked": {
+      "message": "Залишити цей елемент заблокованим (рекомендується)"
+   },
+   "LearnMoreLink": {
+      "message": "Дізнатися більше…"
+   },
+   "MatchSample": {
+      "message": "Зразок відповідності шаблону:"
+   },
+   "ModernRed": {
+      "message": "Сучасний червоний"
+   },
+   "Modify": {
+      "description": "Verb to label action triggers such as buttons used to modify a property shown in the same context (e.g. current behavior)",
+      "message": "Редагувати"
+   },
+   "Next": {
+      "message": "Наступний"
+   },
+   "NoEnforcement": {
+      "message": "Вимкнути обмеження глобально (небезпечно)"
+   },
+   "NoEnforcementForTab": {
+      "message": "Вимкнути обмеження для цієї вкладки"
+   },
+   "NoUntrustedPlaceholder": {
+      "message": "Немає заповнювача для об’єктів, які надходять із сайтів, позначених як недовірені"
+   },
+   "NotEnforced": {
+      "message": "Обмеження, вимкнені налаштуваннями користувача: NoScript нічого не блокуватиме на цій сторінці!"
+   },
+   "Notifications": {
+      "message": "Сповіщення"
+   },
+   "Notify": {
+      "message": "Показувати повідомлення про заблоковані скріпти"
+   },
+   "NotifyMeta": {
+      "message": "Показувати повідомлення про заблоковані переспрямування META"
+   },
+   "NotifyMeta_accesskey": {
+      "message": "R"
+   },
+   "Notify_bottom": {
+      "message": "Розмістити повідомлення внизу"
+   },
+   "NselForce": {
+      "message": "Показати елемент \u003CNOSCRIPT>, який слідує за заблокованим \u003CSCRIPT>"
+   },
+   "NselNever": {
+      "message": "Сховати \u003CNOSCRIPT> елементи"
+   },
+   "OK": {
+      "message": "Гаразд"
+   },
+   "Onboarding_title": {
+      "description": "The onboarding page, containing the Trust Mode selector, is shown on first run after a CLEAN installation",
+      "message": "Ласкаво просимо до NoScript!"
+   },
+   "OptAmnesticUpdates": {
+      "message": "Скасуйте тимчасові дозволи на оновлення NoScript, навіть якщо браузер не перезавантажено"
+   },
+   "OptBlockCssScanners": {
+      "message": "Заблокувати сканери на основі CSS"
+   },
+   "OptFilterXGet": {
+      "message": "Дезінфікувати підозрілі запити між сайтами"
+   },
+   "OptFilterXPost": {
+      "message": "Перетворіть міжсайтові POST-запити на GET-запити без даних"
+   },
+   "OptIncognitoPerm": {
+      "message": "Увімкніть налаштування постійних дозволів на вкладках анонімного/приватного режиму.\nУВАГА: це може призвести до витоку інформації про сайт!"
+   },
+   "OptOverrideTorBrowserPolicy": {
+      "message": "Заміняти попередньо встановлений рівень безпеки браузера Tor"
+   },
+   "Options": {
+      "message": "Налаштування…"
+   },
+   "OptionsLong": {
+      "message": "Налаштування NoScript"
+   },
+   "OptionsWidth": {
+      "message": "40em"
+   },
+   "Options_accesskey": {
+      "message": "O"
+   },
+   "PermanentInPrivate": {
+      "message": "Постійні команди «Дозволити» у приватних вікнах"
+   },
+   "PermissionsText": {
+      "message": "Ви можете вказати, яким веб-сайтам дозволено виконувати скрипти. Введіть адресу або домен (наприклад, \"http://www.site.com\" або \"site.com\"), який потрібно дозволити, а потім натисніть \"Дозволити\"."
+   },
+   "Plugins": {
+      "message": "Плагіни"
+   },
+   "Policies": {
+      "message": "Політика"
+   },
+   "Preset": {
+      "message": "Рівень захисту"
+   },
+   "Prev": {
+      "message": "Назад"
+   },
+   "RecentBlocked": {
+      "message": "Нещодавно заблоковані сайти"
+   },
+   "Refresh": {
+      "message": "Оновити"
+   },
+   "Reload": {
+      "message": "Перезавантажити"
+   },
+   "ReloadWarn": {
+      "message": "Ці налаштування почнуть працювати на нових або (вручну) перезавантажених сторінках"
+   },
+   "RemoveSelected": {
+      "message": "Вибрати обрані сайти"
+   },
+   "Reset": {
+      "message": "Скинути"
+   },
+   "ResetDef": {
+      "message": "За замовчуванням"
+   },
+   "ResetDef_accesskey": {
+      "message": "D"
+   },
+   "Reset_accesskey": {
+      "message": "s"
+   },
+   "Reveal": {
+      "message": "Натисніть тут, щоб відновити відсутні кнопки…"
+   },
+   "RevokeTemp": {
+      "message": "Скасувати тимчасові дозволи"
+   },
+   "RevokeTemp_accesskey": {
+      "message": "R"
+   },
+   "SectionAdvanced": {
+      "message": "Додатково"
+   },
+   "SectionAppearance": {
+      "message": "Вигляд"
+   },
+   "SectionGeneral": {
+      "message": "Загальні"
+   },
+   "SectionSitePermissions": {
+      "message": "Дозволи сайтів"
+   },
+   "SecureCookies": {
+      "message": "Увімкнути автоматичне керування безпечними файлами cookie"
+   },
+   "SecureCookiesExceptions": {
+      "message": "Ігнорувати небезпечні реп'яшки, надіслані через HTTPS наступними сайтами:"
+   },
+   "SecureCookiesForced": {
+      "message": "Примусове шифрування для всіх файлів cookie, встановлених через HTTPS такими сайтами:"
+   },
+   "SecurityManager": {
+      "message": "Менеджер безпеки"
+   },
+   "Show": {
+      "message": "Показати…"
+   },
+   "ShowConsole": {
+      "message": "Показати консоль…"
+   },
+   "ShowConsole_accesskey": {
+      "message": "S"
+   },
+   "ShowCountBadge": {
+      "message": "Показувати кількість заблокованих елементів"
+   },
+   "ShowCtxMenuItem": {
+      "message": "Показувати NoScript у контекстному меню"
+   },
+   "ShowFullAddresses": {
+      "message": "Перелік повних адрес у спливаючому вікні дозволів (https://www.noscript.net)"
+   },
+   "ShowPlaceholder": {
+      "message": "Показувати іконку-заповнювач"
+   },
+   "ShowProbePlaceholders": {
+      "message": "Показати синтетичні заповнювачі для зондів невидимих можливостей"
+   },
+   "ShowReleaseNotes": {
+      "message": "Показувати що нового під час оновлення"
+   },
+   "SitePermissions": {
+      "message": "Дозволи сайту"
+   },
+   "SitePermissions_accessKey": {
+      "message": "S"
+   },
+   "SitePolicies": {
+      "message": "Окрема політика сайту"
+   },
+   "TabGuard_forget": {
+      "message": "Забути всі рішення (анонімно/нормально)"
+   },
+   "TabGuard_label": {
+      "message": "Захист від витоку ідентифікації до іншої вкладки"
+   },
+   "TabGuard_message": {
+      "message": "Ви збираєтеся завантажити сторінку з $1.\nЯкщо ви увійшли до облікового запису $1, ваша ідентифікаційна інформація може бути отримана $2."
+   },
+   "TabGuard_optAllow": {
+      "message": "Завантажити нормально"
+   },
+   "TabGuard_optAnonymize": {
+      "message": "Завантажити анонімно"
+   },
+   "TabGuard_optDisabled": {
+      "message": "Вимкнений"
+   },
+   "TabGuard_optEnabled": {
+      "message": "Увімкнено скрізь"
+   },
+   "TabGuard_optIncognito": {
+      "message": "Увімкнено лише у приватному режимі"
+   },
+   "TabGuard_optPromptAlways": {
+      "message": "Попереджати перед анонімізацією будь-яких запитів"
+   },
+   "TabGuard_optPromptNever": {
+      "message": "Не попереджати до анонімізації"
+   },
+   "TabGuard_optPromptPost": {
+      "message": "Попереджати перед анонімізацією POST запитів"
+   },
+   "TabGuard_title": {
+      "message": "Потенційний витік\nданих ідентифікації"
+   },
+   "TempToPerm": {
+      "message": "Зробити дозволи сторінки постійними"
+   },
+   "TempToPerm_accesskey": {
+      "message": "M"
+   },
+   "TempTrustPage": {
+      "message": "Зробити все на цій сторінці тимчасово довіреним"
+   },
+   "TempTrustPage_accesskey": {
+      "message": "T"
+   },
+   "Trust": {
+      "message": "Позначити довіреним"
+   },
+   "Trust_accesskey": {
+      "message": "T"
+   },
+   "Trusted": {
+      "message": "Довірений"
+   },
+   "TrustedPagesAdj": {
+      "message": "довірений"
+   },
+   "Trusted_permanent": {
+      "message": "довірений"
+   },
+   "Trusted_temporary": {
+      "message": "Тимчасово довірений"
+   },
+   "Uninstall": {
+      "message": "Видалити"
+   },
+   "Unknown": {
+      "message": "Невідомо"
+   },
+   "UnsafeReload": {
+      "message": "Небезпечне перезавантаження"
+   },
+   "UnsafeReload_accesskey": {
+      "message": "R"
+   },
+   "Untrust": {
+      "message": "Позначити не довіреним"
+   },
+   "Untrust_accesskey": {
+      "message": "U"
+   },
+   "Untrusted": {
+      "message": "Не довірений"
+   },
+   "UntrustedPagesAdj": {
+      "message": "не довірений"
+   },
+   "VintageBlue": {
+      "message": "Вінтажний синій"
+   },
+   "WebAddress": {
+      "message": "Знайти або додати вебсайт:"
+   },
+   "WebAddress_accesskey": {
+      "message": "w"
+   },
+   "XSS_clearUserChoices": {
+      "message": "Очистити вибір XSS"
+   },
+   "XSS_notify": {
+      "message": "Показувати сповіщення XSS"
+   },
+   "XSS_optAllow": {
+      "message": "Дозволити цей запит"
+   },
+   "XSS_optAlwaysAllow": {
+      "message": "Завжди дозволяти запити документів від $1 до $2"
+   },
+   "XSS_optAlwaysBlock": {
+      "message": "Завжди блокувати запити документів від $1 до $2"
+   },
+   "XSS_optBlock": {
+      "message": "Блокувати цей запит"
+   },
+   "XSS_optSanitize": {
+      "message": "Очистити цей запит"
+   },
+   "XSS_promptMessage": {
+      "message": "NoScript виявив потенційну атаку міжсайтових сценаріїв від $1 до $2.\nПідозрілі дані:\n$3"
+   },
+   "XSS_promptTitle": {
+      "message": "Попередження NoScript XSS"
+   },
+   "Xss": {
+      "message": "XSS"
+   },
+   "XssExceptions": {
+      "message": "Виключення захисту від XSS"
+   },
+   "XssExceptions_description": {
+      "message": "Цільові адреси, що відповідають цим регулярним виразам, НЕ будуть захищені від XSS."
+   },
+   "XssFaq": {
+      "message": "ЧаПи про XSS…"
+   },
+   "XssFaq_accesskey": {
+      "message": "Q"
+   },
+   "Xss_accesskey": {
+      "message": "X"
+   },
+   "about": {
+      "message": "Про $1"
+   },
+   "allowFrom": {
+      "message": "Дозволити все від $1"
+   },
+   "allowGlobal": {
+      "message": "Вимкнути усі запити на надання дозволів (небезпечно)"
+   },
+   "allowLocal": {
+      "message": "Дозволити $1"
+   },
+   "allowTemp": {
+      "message": "Тимчасово дозволити $1"
+   },
+   "allowTempFrom": {
+      "message": "Тимчасово дозволити все від $1"
+   },
+   "allowed_no": {
+      "message": "Наразі заблоковані скріпти"
+   },
+   "allowed_prt": {
+      "message": "Частково дозволені скріпти"
+   },
+   "allowed_yes": {
+      "message": "Наразі дозволені скріпти"
+   },
+   "alwaysAsk": {
+      "message": "Завжди запитувати підтвердження"
+   },
+   "anySite": {
+      "message": "БУДЬ-ЯКИЙ САЙТ"
+   },
+   "audio_samples": {
+      "message": "Зразки аудіо"
+   },
+   "behavior_auto_description": {
+      "message": "Компроміс між безпекою та зручністю: сайт верхнього рівня, адреса якого відображається в навігаційній панелі, автоматично переходить у статус «Тимчасово ДОВІРЕНИЙ», якщо він ще не був класифікований вручну. Сайти третіх сторін все ще потрібно класифікувати вручну. Захист від міжсайтових атак завжди застосовується."
+   },
+   "behavior_auto_title": {
+      "message": "ПОЛЕГШЕНИЙ / Автоматичний"
+   },
+   "behavior_defaultAllow_description": {
+      "message": "Найбільш розслаблена поведінка: некласифіковані сайти верхнього рівня підвищуються до статусу «Тимчасово ДОВІРЕНІ», а можливості, доступні для сайту верхнього рівня, автоматично поширюються на всі його некласифіковані підресурси третіх сторін. Сайти, які вже класифіковані як «НЕДОВІРЕНІ» та «ВИЗНАЧЕНІ», не підпадають під дію цих змін. Міжсайтовий захист завжди застосовується."
+   },
+   "behavior_defaultAllow_title": {
+      "message": "НАЙПРОСТІШИЙ / Дозволити за замовчуванням"
+   },
+   "behavior_defaultDeny_description": {
+      "message": "Традиційна і найбезпечніша поведінка NoScript: некласифіковані сайти, позначені як «DEFAULT», НЕ вважаються надійними. \nПотенційно шкідливі функції, включаючи скрипти, відключені. Ви можете вручну ввімкнути сайти, яким довіряєте, відкривши інтерфейс NoScript і позначивши їх як «TRUSTED», або додатково налаштувати їх функції, вибравши «CUSTOM». Захист від міжсайтових атак завжди застосовується."
+   },
+   "behavior_defaultDeny_title": {
+      "message": "СТРОГИЙ / Відмова за замовчуванням"
+   },
+   "behavior_label": {
+      "message": "Поточна класифікація сайтів:"
+   },
+   "behavior_prompt": {
+      "message": "Виберіть спосіб поведінки NoScript при виявленні некласифікованих сайтів. Ви можете переглянути цей вибір на сторінці «Параметри NoScript» та після кожного скидання налаштувань NoScript."
+   },
+   "behavior_title": {
+      "description": "The title of the NoScript's Behavior selector, where user decides how NoScript should manage the trust policy assigned to unclassified sites",
+      "message": "Класифікація сайтів"
+   },
+   "bookmarkSync_confirm": {
+      "message": "NoScript знайшов закладку конфігурації, начебто збережену на $1.\nВи дійсно хочете перезаписати локальну конфігурацію NoScript вмістом цієї закладки?"
+   },
+   "bookmarkSync_message": {
+      "message": "Ця закладка призначена НЕ для відкриття, а для синхронізації за допомогою такої служби, як Weave або розширення XMarks."
+   },
+   "bookmarkSync_title": {
+      "message": "Закладка конфігурації NoScript"
+   },
+   "cap_fetch": {
+      "message": "fetch"
+   },
+   "cap_font": {
+      "message": "font"
+   },
+   "cap_frame": {
+      "message": "frame"
+   },
+   "cap_lan": {
+      "message": "локальна мережа"
+   },
+   "cap_lazy_load": {
+      "message": "ледаче завантаження"
+   },
+   "cap_media": {
+      "message": "media"
+   },
+   "cap_noscript": {
+      "message": "noscript"
+   },
+   "cap_object": {
+      "message": "object"
+   },
+   "cap_other": {
+      "message": "інші"
+   },
+   "cap_ping": {
+      "message": "ping"
+   },
+   "cap_script": {
+      "message": "script"
+   },
+   "cap_unchecked_css": {
+      "message": "необмежений CSS"
+   },
+   "cap_wasm": {
+      "description": "WebAssembly modules compilation and execution capability.",
+      "message": "wasm"
+   },
+   "cap_webgl": {
+      "message": "webgl"
+   },
+   "cap_x_load": {
+      "description": "Capability for file:// documents to load subresources from a different and non descendant directory.",
+      "message": "x-load"
+   },
+   "caps": {
+      "message": "Увімкніть ці можливості"
+   },
+   "capsContext": {
+      "message": "Увімкніть ці можливості, коли збігається верхня сторінка"
+   },
+   "changelog": {
+      "message": "Перелік змін"
+   },
+   "changelog_tip": {
+      "message": "Показати перелік змін"
+   },
+   "clear_container_label": {
+      "message": "Clear permissions for this container"
+   },
+   "confirm": {
+      "message": "Ви впевнені?"
+   },
+   "container_clear_warning": {
+      "message": "All site permissions for this container will be removed.\nThis action cannot be reverted.\nDo you want to continue?"
+   },
+   "container_copy_warning": {
+      "message": "Copying permissions from \"$1\".\nAll site permissions for this container will be removed.\nThis action cannot be reverted.\nDo you want to continue?"
+   },
+   "copy_container_label": {
+      "message": "Copy permissions from container:"
+   },
+   "disable": {
+      "message": "Блокувати $1"
+   },
+   "disable_accessKey": {
+      "message": "D"
+   },
+   "distrust": {
+      "message": "Позначити $1 як не довірений"
+   },
+   "enable_container_tabs_label": {
+      "message": "Enable support for container tabs"
+   },
+   "extensionContributors": {
+      "message": "Свій вклад внесли:"
+   },
+   "extensionContributors_tip": {
+      "message": "Люди, яким можна подякувати за це розширення"
+   },
+   "extensionCreatorLabel": {
+      "message": "Автор:"
+   },
+   "extensionCreator_tip": {
+      "message": "Перейти до домашньої сторінки автора"
+   },
+   "extensionHomepage_tip": {
+      "message": "Перейти до домашньої сторінки розширення"
+   },
+   "forbidGlobal": {
+      "message": "Заборонити скріпти глобально (рекомендується)"
+   },
+   "forbidLocal": {
+      "message": "Заборонити $1"
+   },
+   "forbid_replace_default_policy": {
+      "message": "Cannot replace the default policy."
+   },
+   "freshInstallReload": {
+      "message": "Щоб працювати на цій сторінці, NoScript має перезавантажити її.\nПродовжити?"
+   },
+   "httpsOnly": {
+      "message": "Відповідати лише вмісту HTTPS"
+   },
+   "incompatibleOptions": {
+      "message": "\"$1\"\nнесумісний із \"$2\".\nВи хочете ввімкнути перше і вимкнути друге?"
+   },
+   "incompatibleOptions_title": {
+      "message": "Попередження про несумісні налаштування"
+   },
+   "informaction_tip": {
+      "message": "Перейти до домашньої сторінки InformAction"
+   },
+   "license": {
+      "message": "Ліцензія"
+   },
+   "license_tip": {
+      "message": "Читати ліцензію кінцевого користувача"
+   },
+   "logo_tip": {
+      "message": "Перейти до домашньої сторінки розширення"
+   },
+   "metaRefresh_notify": {
+      "message": "NoScript заблокував \u003CMETA> перенаправлення всередині \u003CNOSCRIPT> елементу: $1 за $2 секунд."
+   },
+   "pagePermissionsUI": {
+      "message": "Налаштувати дозволи поточної сторінки"
+   },
+   "privilegedPage": {
+      "message": "Це привілейована сторінка, дозволи якої неможливо налаштувати."
+   },
+   "removal_message": {
+      "message": "Вимикаючи або видаляючи NoScript, ви відмовляєтеся від ВСІХ засобів захисту, наданих NoScript.\n\nЯкщо ви просто втомилися обробляти дозволи на сценарії сайт за сайтом, є безпечніший вибір.\n\nNoScript може припинити блокування сценаріїв, крім тих, які ви позначили як ненадійний, але захищає вас найсучаснішими засобами захисту від XSS, Clickjacking, CSRF та інших веб-загроз.\n\nВи дійсно хочете видалити ВСІ засоби захисту NoScript?\n"
+   },
+   "removal_no": {
+      "message": "Ні, лише припинити блокування скриптів"
+   },
+   "removal_title": {
+      "message": "Попередження про зниження рівню захисту"
+   },
+   "removal_yes": {
+      "message": "Так, прибрати УВЕСЬ захист"
+   },
+   "reset_title": {
+      "message": "Скинути NoScript"
+   },
+   "reset_warning": {
+      "message": "УСІ параметри NoScript та дозволи сайту буде негайно скинуто до значень за замовчуванням.\nЦю дію неможливо скасувати.\nВи хочете продовжити?"
+   },
+   "select_container_label": {
+      "message": "Choose a container:"
+   },
+   "settingsThemeLabel": {
+      "message": "Тема"
+   },
+   "siteInfo_confirm": {
+      "message": "Ви збираєтеся запросити інформацію про сайт \"$1\" надіславши\nзапит на $2.\nВи хочете продовжити?"
+   },
+   "siteInfo_tooltip": {
+      "message": "Натисніть середню кнопку миші або Shift+клік, щоб отримати інформацію про сайт..."
+   },
+   "sponsor_tip": {
+      "message": "Перейти до домашньої сторінки спонсора"
+   },
+   "tabLess_reload_warning": {
+      "message": "Зміна дозволів у бічній панелі вимагатиме РУЧНОГО перезавантаження."
+   },
+   "tabLess_short": {
+      "message": "(бічна панель?)"
+   },
+   "tabLess_tip": {
+      "message": "Сайт поза контентом вкладки, наприклад, на бічній панелі"
+   },
+   "themeAuto": {
+      "message": "Автоматично"
+   },
+   "themeDark": {
+      "message": "Темна"
+   },
+   "themeLight": {
+      "message": "Світла"
+   },
+   "toVintageBlue": {
+      "message": "Перейдіть до стилю Вінтажний синій"
+   },
+   "toggleEnforcementForTab": {
+      "message": "Ввімкнути обмеження для поточної вкладки"
+   },
+   "unsafeReload_warning": {
+      "message": "НЕБЕЗПЕЧНО перезавантажувати підозрілий\n\n$1 [$2]\n\nЗ [$3]\n\nNoScript НЕ захистить цей запит!\n"
+   },
+   "untrustedOrigin": {
+      "message": "не довірене джерело"
+   },
+   "version": {
+      "message": "Версія $1"
+   },
+   "versionShort": {
+      "message": "в $1"
+   }
+}

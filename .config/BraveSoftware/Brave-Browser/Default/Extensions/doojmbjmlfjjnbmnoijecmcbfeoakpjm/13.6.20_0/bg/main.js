@@ -1,0 +1,567 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"use strict";
+{
+  {
+    for (let event of ["onInstalled", "onUpdateAvailable"]) {
+      browser.runtime[event].addListener(async details => {
+        await include("/bg/LifeCycle.js");
+        LifeCycle[event](details);
+      });
+    }
+  }
+  const popupURL = browser.runtime.getURL("/ui/popup.html");
+  const popupFor = tabId => `${popupURL}#tab${tabId}`;
+
+  const ctxMenuId = "noscript-ctx-menu";
+  let menuShowing = false;
+  const menuUpdater = async (tabId) => {
+    if (!menuShowing) return;
+    try {
+      const badgeText = await browser.action.getBadgeText({tabId});
+      let title = "NoScript";
+      if (badgeText) title = `${title} [${badgeText}]`;
+      await browser.contextMenus.update(ctxMenuId, {title});
+    } catch (e) {
+
+    }
+  }
+  async function toggleCtxMenuItem(show = ns.local.showCtxMenuItem) {
+    if (!("contextMenus" in browser)) return;
+    const id = ctxMenuId;
+    try {
+      await browser.contextMenus.remove(id);
+    } catch (e) {}
+
+    if (menuShowing = show) {
+      browser.contextMenus.create({
+        id,
+        title: "NoScript",
+        contexts: ["all"]
+      });
+      if (!browser.tabs.onUpdated.hasListener(menuUpdater)) {
+        browser.tabs.onUpdated.addListener(menuUpdater);
+        browser.tabs.onActivated.addListener(({tabId}) => menuUpdater(tabId));
+      }
+    }
+  }
+
+  const session = new SessionCache(
+    "NoScriptSession",
+    {
+      afterLoad(data) {
+        if (data) {
+          ns.gotTorBrowserInit = data.gotTorBrowserInit;
+          ns.unrestrictedTabs = new Set(data.unrestrictedTabs);
+          ns.policy = new Policy(data.policy);
+        }
+      },
+      beforeSave() { 
+        return {
+          policy: ns.policy.dry(true),
+          unrestrictedTabs: [...ns.unrestrictedTabs],
+          gotTorBrowserInit: ns.gotTorBrowserInit,
+        };
+      },
+    }
+  );
+
+  async function init() {
+    await Defaults.init();
+    await session.load();
+    if (!ns.policy) { 
+      const policyData = (await Storage.get("sync", "policy")).policy;
+      if (policyData?.DEFAULT) {
+        const policy = new Policy(policyData);
+        if (ns.local.enforceOnRestart && !policy.enforced) {
+          (ns.policy = policy).enforced = true;
+          await ns.savePolicy();
+        } else {
+          ns.policy = policy;
+        }
+      } else {
+        ns.policy = new Policy(Settings.createDefaultDryPolicy());
+        await ns.savePolicy();
+      }
+    }
+
+    if (!ns.contextStore) { 
+      const contextStoreData = (await Storage.get("sync", "contextStore")).contextStore;
+      if (contextStoreData) {
+        ns.contextStore = new ContextStore(contextStoreData);
+        await ns.contextStore.updateContainers(ns.policy);
+      } else {
+        log("No container data found. Initializing new policies.")
+        ns.contextStore = new ContextStore();
+        await ns.contextStore.updateContainers(ns.policy);
+        await ns.saveContextStore();
+      }
+    }
+
+    const {isTorBrowser} = ns.local;
+    Sites.onionSecure = isTorBrowser;
+
+    await include("/nscl/service/prefetchCSSResources.js");
+
+    await Promise.allSettled([
+      TabGuard.wakening,
+      RequestGuard.DNRPolicy?.update(),
+    ]);
+    try {
+      await Messages.send("started");
+    } catch (e) {
+
+    }
+    log("STARTED");
+  };
+
+  const Commands = {
+    openPageUI() {
+      messageHandler.openStandalonePopup();
+    },
+
+    async toggleEnforcementForTab() {
+      const [tab] = (await browser.tabs.query({
+        currentWindow: true,
+        active: true
+      }));
+      if (tab) {
+        await ns.toggleTabRestrictions(tab.id);
+        browser.tabs.reload(tab.id);
+      }
+    },
+    async install() {
+      if ("commands" in browser) {
+
+        browser.commands.onCommand.addListener(cmd => {
+          if (cmd in Commands) {
+            Commands[cmd]();
+          }
+        });
+      }
+
+      if ("contextMenus" in browser) {
+        toggleCtxMenuItem();
+        browser.contextMenus.onClicked.addListener((info, tab) => {
+          if (info.menuItemId == ctxMenuId) {
+            messageHandler.openStandalonePopup(tab);
+          }
+        });
+      }
+
+
+      browser.action.setPopup({popup: popupURL});
+    }
+  };
+
+  const messageHandler = {
+    async updateSettings(settings, sender) {
+      if (settings.command === "tg-forget") {
+        TabGuard.forget();
+        delete settings.tabGuardCommand;
+      }
+      await Settings.update(settings);
+      toggleCtxMenuItem();
+      Messages.send("configureGesture", messageHandler.fetchGestureConfiguration(), {});
+    },
+
+    async broadcastSettings({
+      tabId = -1
+    }) {
+      const policy = ns.policy.dry(true);
+      const contextStore = ns.contextStore.dry(true);
+      const seen = tabId !== -1 ? await ns.collectSeen(tabId) : null;
+      const xssUserChoices = await XSS.getUserChoices();
+      await Messages.send("settings", {
+        policy,
+        contextStore,
+        seen,
+        xssUserChoices,
+        local: ns.local,
+        sync: ns.sync,
+        unrestrictedTab: ns.unrestrictedTabs.has(tabId),
+        tabId,
+        xssBlockedInTab: XSS.getBlockedInTab(tabId),
+        tabLess: await RequestGuard.getTabLess(),
+        anonymyzedTabInfo: TabGuard.isAnonymizedTab(tabId) && TabGuard.getAnonymizedTabInfo(tabId),
+      });
+    },
+
+    async exportSettings() {
+      return Settings.export();
+    },
+
+    async importSettings({ data }) {
+      return await Settings.import(data);
+    },
+
+    async fetchChildPolicy({ url, contextUrl }, sender) {
+      return await ns.computeChildPolicy(...arguments);
+    },
+
+    async openPopup(msg, { tab }) {
+      await messageHandler.openStandalonePopup(tab);
+    },
+
+    async openStandalonePopup(tab) {
+      if (!(tab?.id > -1)) {
+        tab = (await browser.tabs.query({
+          currentWindow: true,
+          active: true
+        }))[0];
+      }
+
+      if (!(tab?.id > -1)) {
+        log("No tab found to open the UI for");
+        return;
+      }
+
+      if (!browser.windows) {
+
+        browser.tabs.create({ url: popupFor(tab.id) });
+        return;
+      }
+      const win = await browser.windows.get(tab.windowId);
+      const width = 800, height = 600;
+      browser.windows.create({
+        url: popupFor(tab.id),
+        width,
+        height,
+        top: win.top + Math.round((win.height - height) / 2),
+        left: win.left +  Math.round((win.width - width) / 2),
+        type: "panel"
+      });
+    },
+    async getTheme(msg, {tab, frameId}) {
+      let css = await Themes.getContentCSS();
+      if (!ns.local.showProbePlaceholders) {
+        css += `\n.__NoScript_Offscreen_PlaceHolders__ {display: none}`;
+      }
+      try {
+        await Scripting.insertCSS({
+          target: {tabId: tab.id, frameId},
+          css,
+        });
+      } catch (e) {
+        console.error(e);
+      }
+      const ret = {"vintage": !!(await Themes.isVintage())};
+
+      return Promise.resolve(ret);
+    },
+
+    async reloadWithCredentials({tabId, remember}) {
+      if (remember) {
+        TabGuard.allow(tabId);
+      }
+      await TabGuard.reloadNormally(tabId);
+    },
+
+    fetchGestureConfiguration() {
+      return {
+        enabled: ns.local.gestureEnabled,
+        label: _("GestureLabel"),
+      };
+    },
+  };
+  Messages.addHandler(messageHandler);
+
+  function onSyncMessage(msg, sender) {
+    switch(msg.id) {
+      case "fetchChildPolicy":
+        return messageHandler.fetchChildPolicy(msg, sender);
+      break;
+    }
+  }
+
+  let _policy = null;
+  let _contextStore = null;
+
+  globalThis.ns = {
+    running: false,
+    set policy(p) {
+      _policy = p;
+      RequestGuard.DNRPolicy?.update();
+    },
+    get policy() { return _policy; },
+    set contextStore(c) {
+      _contextStore = c;
+      RequestGuard.DNRPolicy?.update();
+    },
+    get contextStore() { return _contextStore; },
+    local: null,
+    sync: null,
+    initializing: null,
+    unrestrictedTabs: new Set(),
+    async toggleTabRestrictions(tabId, restrict = ns.unrestrictedTabs.has(tabId)) {
+      ns.unrestrictedTabs[restrict ? "delete": "add"](tabId);
+      await Promise.allSettled([
+        session.save(),
+        RequestGuard.DNRPolicy?.updateTabs(),
+      ]);
+    },
+    isEnforced(tabId = -1) {
+      return this.policy.enforced && (tabId === -1 || !this.unrestrictedTabs.has(tabId));
+    },
+    policyContext(contextualData) {
+
+
+
+
+      let {tab, tabId, documentUrl, url, frameAncestors} = contextualData;
+      if (frameAncestors) {
+        return frameAncestors[frameAncestors?.length - 1]?.url || documentUrl || url;
+      }
+      if (!tab) {
+        if (contextualData.type === "main_frame") return url;
+        tab = tabId !== -1 && TabCache.get(tabId);
+      }
+      return tab?.url || documentUrl || url;
+    },
+    requestCan(request, capability) {
+      return (
+        !this.isEnforced(request.tabId) ||
+        ns.getPolicy(request.cookieStoreId).can(request.url, capability, this.policyContext(request))
+      );
+    },
+
+    getPolicy(cookieStoreId){
+      if (
+        ns.contextStore &&
+        ns.contextStore.enabled &&
+        ns.contextStore.policies.hasOwnProperty(cookieStoreId)
+      ) {
+        let currentPolicy = ns.contextStore.policies[cookieStoreId];
+        debug("id", cookieStoreId, "has cookiestore", currentPolicy);
+        if (currentPolicy) return currentPolicy;
+      }
+      debug("default cookiestore", cookieStoreId);
+      return ns.policy;
+    },
+
+    async computeChildPolicy({url, contextUrl}, sender) {
+      await ns.initializing;
+      let { tab, origin, frameId, cookieStoreId, documentLifecycle } = sender;
+      const tabId = tab ? tab.id : -1;
+
+      if (url == sender.url) {
+        while (url == "about:blank" || url == "about:srcdoc" || url.startsWith("data:")) {
+          url = origin;
+          if (frameId == 0 || url != "null") {
+            break;
+          }
+          await NavCache.wakening;
+          const parentFrameId = NavCache.getFrame(tabId, frameId)?.parentFrameId || 0;
+          const parentUrl = NavCache.getFrame(tabId, parentFrameId)?.url;
+          if (parentUrl) {
+            url = origin = parentUrl;
+          }
+        }
+      }
+      if (!cookieStoreId && tab) cookieStoreId = tab.cookieStoreId;
+      let policy = ns.getPolicy(cookieStoreId);
+      const {isTorBrowser} = ns.local;
+      if (!policy) {
+        console.log("Policy is null, initializing: %o, sending fallback.", ns.initializing);
+        return {
+          permissions: new Permissions(Permissions.DEFAULT).dry(),
+          unrestricted: false,
+          cascaded: false,
+          fallback: true,
+          isTorBrowser,
+        };
+      }
+
+      const isTop = frameId === 0;
+      const topUrl = documentLifecycle != "prerender" && tab && (tab.url || TabCache.get(tabId)?.url) || url;
+
+      if (!contextUrl) contextUrl = topUrl;
+
+      let xLoadable;
+      if (Sites.isInternal(url) || !ns.isEnforced(tabId)) {
+        policy = null;
+      } else if (contextUrl.startsWith("file:")) {
+        const contextDir = contextUrl.replace(/[^\/]*$/, '');
+        const urls = [...policy.sites.keys()].filter(u => u.startsWith("file:"));
+        xLoadable = urls.filter(u =>
+          policy.get(u, contextDir)?.perms?.capabilities.has("x-load"));
+      }
+
+      let permissions, unrestricted, cascaded;
+      if (policy) {
+        const policyMatch = policy.get(url, contextUrl);
+        let { perms } = policyMatch;
+        if (isTop && policy.autoAllowTop && topUrl == url) {
+          const autoPerms = policy.autoAllow(url, perms);
+
+          if (autoPerms) {
+            perms = autoPerms;
+            await Promise.allSettled([
+              RequestGuard.DNRPolicy?.update(),
+              session.save(),
+            ]);
+
+          } else {
+
+            await RequestGuard.DNRPolicy?.update();
+          }
+
+
+
+        } else if (topUrl) {
+          const {cascadePermissions, cascadeRestrictions} = ns.sync;
+          cascaded = (cascadePermissions || cascadeRestrictions) &&
+            {permissions: cascadePermissions, restrictions: cascadeRestrictions}
+          if (cascaded) {
+            perms = policy.cascade(policyMatch, topUrl, cascaded);
+          }
+        }
+        permissions = perms.dry();
+      } else {
+
+        permissions = new Permissions(Permissions.ALL).dry();
+        unrestricted = true;
+        cascaded = false;
+      }
+      return {permissions, unrestricted, cascaded, isTorBrowser, xLoadable};
+    },
+
+    async init() {
+      browser.runtime.onSyncMessage.addListener(onSyncMessage);
+      await (Messages.wakening = this.initializing = init());
+      Wakening.done();
+      Commands.install();
+      try {
+        this.devMode = (await browser.management.getSelf()).installType === "development";
+      } catch(e) {}
+      if (!(this.local.debug || this.devMode)) {
+        debug = () => {}; 
+      }
+    },
+
+    async test() {
+
+      runTests();
+    },
+
+    async testIC(callbackOrUrl) {
+      await include("xss/InjectionChecker.js");
+      const IC = await XSS.InjectionChecker;
+      const ic = new IC();
+      ic.logEnabled = true;
+      return (typeof callbackOrUrl === "function")
+        ? await callbackOrUrl(ic)
+        : ic.checkUrl(callbackOrUrl);
+    },
+
+    async savePolicy() {
+      if (this.policy) {
+        await Promise.allSettled([
+          Storage.set("sync", {
+            policy: this.policy.dry()
+          }),
+          session.save(),
+          browser.webRequest.handlerBehaviorChanged()
+        ]);
+      }
+      return this.policy;
+    },
+
+    async saveContextStore() {
+      if (this.contextStore) {
+        await Promise.allSettled([
+          Storage.set("sync", {
+            contextStore: this.contextStore.dry()
+          }),
+          session.save(),
+          browser.webRequest.handlerBehaviorChanged()
+        ]);
+      }
+      return this.contextStore;
+    },
+
+    openOptionsPage({tab, focus, hilite}) {
+      const url = new URL(browser.runtime.getManifest().options_ui.page);
+      if (tab !== undefined) {
+        url.hash += `;tab-main-tabs=${tab}`;
+      }
+      const search = new URLSearchParams(url.search);
+      if (focus) search.set("focus", focus);
+      if (hilite) search.set("hilite", hilite);
+      url.search = search;
+      browser.tabs.create({url: url.toString() });
+    },
+
+    async save(obj) {
+      if (obj?.storage) {
+        const toBeSaved = {
+          [obj.storage]: obj
+        };
+        await Storage.set(obj.storage, toBeSaved);
+      }
+      return obj;
+    },
+
+    async saveSession() {
+      await session.save();
+    },
+
+    async collectSeen(tabId) {
+      await this.initializing;
+      try {
+        const seen = Array.from(await Messages.send("collect", {uuid: ns.local.uuid}, {tabId, frameId: 0}));
+
+        return seen;
+      } catch (e) {
+        try {
+          const {url} = (await browser.tabs.get(tabId));
+          await include("/nscl/common/restricted.js");
+          if (!isRestrictedURL(url)) {
+
+
+          }
+        } catch (e2) {
+
+        }
+      }
+      return null;
+    },
+  };
+ }
+
+ ns.init();
+
+if (!browser.windows) {
+
+
+  browser.tabs.onRemoved.addListener(async () => {
+    if ((await browser.tabs.query({})).length) {
+      return;
+    }
+    log("All tabs closed: revoking temporary permissions.");
+    ns.policy.revokeTemp();
+    ns.savePolicy();
+    ns.contextStore.revokeTemp();
+    ns.saveContextStore();
+  });
+}

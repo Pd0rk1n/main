@@ -1,0 +1,26 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=/run/media/pd0rk1n/40AC04D4AC04C67E/OneDriveBackup/Albums/Family & friends/01a491c477d4f3c65bc2ae54e3ddfac276764385ff.jpg
+File2[$e]=/run/media/pd0rk1n/30C5-5071/CDN FIREARMS.jpg
+File3[$e]=/run/media/pd0rk1n/30C5-5071/._CDN FIREARMS.jpg
+File4[$e]=/mnt/steam_ntfs/Downloaded From One Drive/Albums/7 days in Oshawa/IMG_0049.JPG
+File5[$e]=/mnt/plex/6tb/Tv/The Big Bang Theory/The Big Bang Theory.jpg
+File6[$e]=/mnt/plex/6tb/Tv/The Big Bang Theory/The Big Bang Theory (2).jpg
+File7[$e]=/mnt/plex/6tb/Tv/Star Trek TNG/Cover.jpg
+File8[$e]=$HOME/Downloads/Screenshot_20200703-233151.png
+Name1[$e]=01a491c477d4f3c65bc2ae54e3ddfac276764385ff.jpg
+Name2[$e]=CDN FIREARMS.jpg
+Name3[$e]=._CDN FIREARMS.jpg
+Name4[$e]=IMG_0049.JPG
+Name5[$e]=The Big Bang Theory.jpg
+Name6[$e]=The Big Bang Theory (2).jpg
+Name7[$e]=Cover.jpg
+Name8[$e]=Screenshot_20200703-233151.png
+
+[SideBar]
+InformationSplitterSizes=208,245

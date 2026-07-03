@@ -1,0 +1,13 @@
+Timestamp:      2026-06-10 21:25:34
+Result:         FAILED (exit 253)
+Duration:       0m 42s
+Build folder:   /home/pd0rk1n
+nvidia_driver:  580xx
+kernel:         linux-cachyos linux-cachyos-lts
+Host:           CachyOS
+archiso:        archiso 88-1
+ISO:            kiro-v26.05.30-x86_64.iso
+ISO size:       6.65 GB
+sha256:         7adad39e33a9f5123ebbe72efa669393ba0a10f63526693c1980ad2fa01f0718
+sha1:         c4f114a9d7ff5de47ff2b1ca7e0595fb35b087b7
+md5:         ea6a25f526f01804b0618504265e04a9

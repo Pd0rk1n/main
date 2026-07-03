@@ -1,0 +1,20 @@
+[INFO] Session log: /home/pd0rk1n/.config/archlinux-tweak-tool/logging_sessions/log_session_2026_05_28_22_57.log
+[INFO] ATT application activated
+[INFO] To unlock all features, add Chaotic-AUR and Nemesis repo to your pacman.conf.
+For terminal operations and full transparency, alacritty must be installed
+[INFO] Desktop: kde
+[SUB] Ensuring application directories
+[SUB] Ensuring /root/.config directories
+[SUB] Setting up icon/cursor theme defaults
+[SUB] Setting up fastfetch config
+[SUB] Backing up GTK config
+[INFO]   ATT runs as root; copying user GTK 3/4 config so the app respects your desktop theme
+[SUB] Backing up system config files
+[SUB] Backing up user config files
+[SUB] Checking file permissions
+[INFO] To unlock all features, add Chaotic-AUR and Nemesis repo to your pacman.conf.
+[INFO] For terminal operations and full transparency, alacritty must be installed.
+[INFO] fastfetch is installed
+[SUB] Lolcat disabled
+[OK] Lolcat disabled in shell config
+[INFO] ATT closing

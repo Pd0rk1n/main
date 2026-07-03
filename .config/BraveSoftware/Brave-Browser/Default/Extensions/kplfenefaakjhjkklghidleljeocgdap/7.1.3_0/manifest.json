@@ -1,0 +1,38 @@
+{
+   "author": "Qwant",
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://www.qwant.com/favicon.ico",
+         "is_default": true,
+         "keyword": "www.qwant.com",
+         "name": "Qwant",
+         "prepopulated_id": 94,
+         "search_url": "https://www.qwant.com/?q={searchTerms}&client=plgn-chrome-sb",
+         "suggest_url": "https://api.qwant.com/api/suggest/?q={searchTerms}&client=opensearch"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "assets/css/no-popin.css" ],
+      "matches": [ "https://*.qwant.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "assets/icons/icon-128.png",
+      "16": "assets/icons/icon-16.png",
+      "19": "assets/icons/icon-19.png",
+      "38": "assets/icons/icon-38.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAooj9KcN1ZFl3knp1jQWLHj1J/DDOIXrDVVPuhM1oUh4ZpkOS7GsEtYtr4lJ12KjkxrkAZcPVh91T5hKjOj+vwNzHF/RvitVtOgCLsDmSCZy7Zd/NU4so8opn4l7974thcCscyyg8v2g8xLLAIF94VKElpCKBrhgkja4ekFAkSRFcO6E/ewDrBhdSG1uj5PDBhukcxN+JHASvVppb8u2fm47wMeU2k3iQYJazBmTuYg2g3PONftP5tkfdouQecb4T0kAwY+JR65vfpkHN3XaFkQrXljtdb+o2huzd7+FG8RDu1DDFl+jJjBc9U/YGPveeuy4N1qBZ4APfy2aX3ZY37wIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0",
+   "name": "__MSG_name__",
+   "omnibox": {
+      "keyword": "q"
+   },
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.1.3"
+}

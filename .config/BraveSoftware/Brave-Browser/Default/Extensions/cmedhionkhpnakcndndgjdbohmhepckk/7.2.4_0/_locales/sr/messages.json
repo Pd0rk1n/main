@@ -1,0 +1,47 @@
+{
+   "branding": {
+      "message": "очишћено од стране Adblock за YouTube™"
+   },
+   "disable": {
+      "message": "Онемогући"
+   },
+   "disabled": {
+      "message": "Онемогућено"
+   },
+   "enable": {
+      "message": "Омогући"
+   },
+   "enable_non_video_ads": {
+      "message": "Омогући обичне огласе"
+   },
+   "enable_video_ads": {
+      "message": "Омогући видео огласе"
+   },
+   "extension_description": {
+      "message": "Уклања рекламе са YouTube™-а."
+   },
+   "extension_name": {
+      "message": "Adblock за YouTube™"
+   },
+   "extension_short_name": {
+      "message": "VideoAdblock"
+   },
+   "inform_about_updates": {
+      "message": "Обавести ме о ажурирањима"
+   },
+   "like_on_facebook": {
+      "message": "Оцените нас на Facebook-у"
+   },
+   "options": {
+      "message": "Adblock за YouTube™ подешавања"
+   },
+   "options_short": {
+      "message": "Подешавања"
+   },
+   "page_action_title": {
+      "message": "Огласи се аутоматски прескачу"
+   },
+   "rate_this_extension": {
+      "message": "Оцените нас на Google-у"
+   }
+}

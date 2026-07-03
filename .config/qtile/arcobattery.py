@@ -1,10 +1,10 @@
-from __future__ import division
+
+import os
+from pathlib import Path
 
 import cairocffi
-import os
 from libqtile import bar
 from libqtile.widget import base
-from pathlib import Path
 
 BAT_NAME = ""
 
@@ -86,14 +86,14 @@ class _Battery(base._TextBox):
     def _load_file(self, name):
         try:
             path = os.path.join(BAT_DIR, self.battery_name, name)
-            with open(path, 'r') as f:
+            with open(path) as f:
                 return f.read().strip()
-        except IOError:
+        except OSError:
             if name == 'current_now':
                 return 0
             return False
         except Exception:
-            self.log.exception("Failed to get %s" % name)
+            self.log.exception("Failed to get %s", name)
 
     def _get_param(self, name):
         if name in self.filenames and self.filenames[name]:
@@ -247,7 +247,7 @@ class BatteryIcon(_Battery):
             self.length = 0
         self.surfaces = {}
         self.current_icon = 'battery-missing'
-        self.icons = dict([(x, '{0}.png'.format(x)) for x in (
+        self.icons = {x: f'{x}.png' for x in (
             'battery-missing',
             'battery-empty',
             'battery-empty-charge',
@@ -272,7 +272,7 @@ class BatteryIcon(_Battery):
             'battery-full',
             'battery-full-charge',
             'battery-full-charged',
-        )])
+        )}
         self.icons.update(self.custom_icons)
 
     def timer_setup(self):

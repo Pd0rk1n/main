@@ -1,0 +1,590 @@
+/*
+ * Copyright (C) 2005-2026 Giorgio Maone <https://maone.net>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+ @import url("./common.css");
+
+.opt-group {
+  display: flex;
+  flex-flow: row wrap;
+  padding: .5em 0;
+}
+
+:is(section, .opt-group) ~ :is(.opt-group, section, fieldset) {
+  border-top: 2px solid var(--tab-color1);
+}
+
+fieldset > .opt-group ~ .opt-group {
+  border: none;
+}
+
+.opt-group > span {
+  margin: 0 .5em;
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+}
+
+.opt-group input[type="radio"] ~ label
+{
+  margin-right: 1em;
+}
+
+.customizing .customizer-controls {
+  max-height: 100em;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.customizer-controls {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .customizer-controls {
+   transition: opacity .5s, max-height .5s;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .sites li.url {
+    padding-left: 1em;
+  }
+
+  #sites .presets {
+    margin: 0 !important;
+    padding-right: 1em;
+    align-items: center;
+  }
+
+  #presets .presets input.preset {
+    min-width: 28vw;
+  }
+
+  #sites .presets input.preset {
+     min-width: 0 !important;
+     margin-top: 0;
+     margin-left: .5em;
+     margin-right: .5em;
+     font-weight: bold;
+  }
+
+  #sites .presets input.preset:checked {
+    filter: drop-shadow(0 0 2px var(--fg-color1));
+  }
+
+  #sites .site:not(.customizing) .presets input.preset {
+    background-color: transparent;
+    background-position: center;
+  }
+
+  #sites .presets input.preset:checked + label {
+    z-index: 1000;
+    font-size: 60%;
+    width: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    position: static;
+    overflow: visible !important;
+    background: none !important;
+  }
+
+  #sites .customizing .preset.CUSTOM {
+    bottom: -1.2em;
+    transition: .5s bottom;
+  }
+
+  .presets input.preset:checked ~ input.temp {
+    left: calc(var(--line-size) * 1.3);
+  }
+
+  .customizing input.preset:checked ~ input.temp {
+    pointer-events: all !important;
+    z-index: 1000;
+  }
+
+  .sites .customizing input.preset:checked + label {
+    pointer-events: none;
+    text-align: center !important;
+  }
+
+
+  div.presets {
+    white-space: nowrap !important;
+  }
+
+  .url > span > span {
+    letter-spacing: -0.2mm;
+    font-size: 80%;
+  }
+
+  .customizer-controls fieldset {
+     padding-top: 1.2em;
+  }
+}
+
+.capsContext > div {
+  display: none;
+}
+
+.capsContext, .contextual .capsContext > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.capsContext > label, .capsContext button {
+  display: block;
+  margin: .5em;
+}
+
+.capsContext select {
+  margin: 0.5em;
+  max-width: 32em;
+}
+
+.pageTurn {
+  position: absolute;
+  outline: 3px solid #888;
+  z-index: 1000;
+  background-color: var(--bg-color2);
+  transform-origin: bottom center;
+  transition: transform .5s;
+}
+
+.pageTurn.endgame {
+  transform: scale(.5, .1);
+}
+
+input[type="text"] {
+  border: 1px solid;
+}
+input[type="checkbox"] {
+  width: 1em;
+  height: 1em;
+}
+
+ul.sites {
+  width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.vintage .sites {
+  image-rendering: auto;
+}
+
+.sites li, .sites > li > div {
+  padding: 0;
+  border: none;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+html:not(.mobile) .sites > .site:not(.customizing):is(:focus-within),
+.customizing {
+  background-image: var(--bg-focused-row);
+  border-color: transparent;
+}
+
+.sites > .site:not(.customizing) {
+  border-top: var(--border-row-sep);
+}
+
+.sites > .site:nth-of-type(even) {
+  background-color: var(--bg-even-row);
+}
+
+.sites > .site:nth-of-type(odd) {
+  background-color: var(--bg-odd-row);
+}
+
+.sites > .site:first-of-type, .site:focus-within + li {
+  border-color: transparent;
+}
+.site .url {
+  color: var(--fg-color2);
+  display: flex;
+  align-items: center;
+  white-space: wrap;
+  word-break: break-all;
+  flex: 1;
+}
+
+.site .url .protocol { display: none }
+
+.site .url .domain { cursor: help }
+
+[data-key="host"] .full-address span .protocol,
+[data-key="domain"] .full-address span .host,
+[data-key="domain"] .full-address span .protocol {
+  border: none;
+}
+
+
+.site .url[data-key="domain"] .domain,
+.site .url[data-key="host"] .domain,
+.site .url[data-key="host"] .sub,
+.site .url[data-key="unsafe"] span {
+  color: var(--unsafe-color)
+}
+
+.site .url[data-key="secure"] .domain,
+.site .url[data-key="secure"] .sub,
+.site .url[data-key="full"] span {
+  color: var(--fg-color2)
+}
+
+.site .url[data-key="full"] span,
+.site .url[data-key="unsafe"] span {
+  display: initial;
+}
+
+.site .url .full-address {
+  display: inline-block;
+  max-height: 3em;
+  overflow: auto;
+}
+
+.site .url .domain {
+  font-weight: bold;
+}
+
+.site.tabLess .full-address::after {
+  content: attr(data-tabLess);
+  display: inline-block;
+  padding-inline: .5em;
+}
+
+input.https-only {
+  font-size: 100%;
+  appearance: none;
+  background: var(--img-ui-http) no-repeat center;
+  background-size: 1.5em;
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+input.https-only:checked {
+  background-image: var(--img-ui-https);
+}
+label.https-only {
+  display: none;
+}
+
+.preset label.preset.override {
+  color: var(--text-color);
+}
+
+:is(.site:is([data-preset="UNTRUSTED"],[data-preset="DEFAULT"]), .url[data-key="full"]) .https-only {
+  visibility: hidden;
+}
+
+
+div.presets {
+  font-size: 1em;
+  white-space: nowrap;
+  padding-left: 0.5em;
+  user-select: none;
+}
+
+span.preset {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .2em;
+  font-size: 1em;
+  overflow: visible;
+}
+
+.preset label, .preset input, .preset button {
+  cursor: pointer;
+}
+
+.presets input.preset {
+  font-size: 1em;
+  appearance: none;
+  background: transparent var(--img-ui-no) no-repeat center;
+  outline: 0;
+  opacity: .7;
+  margin: 0 1em 0 0;
+  background-position: 0;
+  background-size: var(--line-size);
+  width: var(--line-size);
+  height: var(--line-size);
+  position: relative;
+  z-index: 10;
+}
+
+#presets-sizer {
+  visibility: hidden;
+  position: absolute;
+  display: block;
+  width: 5000px;
+  height: 500px;
+  top: -5000px;
+
+}
+
+#presets-sizer span.preset {
+  display: block;
+}
+
+.presets input.preset:checked, #presets input.preset, #presets-sizer input.preset {
+  opacity: 1;
+  transform: none;
+  min-width: calc(var(--preset-label-width) + var(--line-size) * 1.5);
+}
+
+.presets input.preset:focus {
+  transform: none;
+}
+.sites input + label {
+  font-size: 1em;
+  vertical-align: baseline;
+}
+.presets label.preset {
+  letter-spacing: -0.06em;
+  width: 0;
+  overflow: hidden;
+  display: none;
+  text-transform: uppercase;
+  color: var(--fg-color2);
+  opacity: .8;
+  position: absolute;
+  left: 0;
+  padding: .05em 0.4em 0 0;
+  --line-scaled: var(--line-size);
+  line-height: var(--line-scaled);
+  padding-left: calc(var(--line-scaled) * 1.4);
+}
+
+.presets input.preset[value^="T"] + label {
+  text-transform: none;
+}
+
+.presets input.preset:checked + label, #presets .presets label {
+  opacity: 1;
+  display: inline-flex;
+  width: var(--preset-label-width);
+  background-color: var(--form-color2);
+  border-radius: 1em 1em 0 0;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  content-visibility: auto;
+  contain-intrinsic-size: auto calc(var(--line-size) * 1.2);
+}
+
+.site.filtered, site.filtered {
+  display: none;
+}
+.site.overflown {
+  display: none;
+}
+.site-controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.site-controls > div {
+  display: flex;
+}
+
+@media (min-width: 550px) {
+  :not(#presets) > .sites .site:not(.customizing) .presets input.preset:checked + label.preset {
+    background-color: var(--bg-preset-color);
+    border-radius: calc(var(--line-size) / 2);
+  }
+  .customizing .presets input.preset:checked + label.preset {
+    padding-bottom: .8em;
+  }
+}
+
+
+#presets-sizer .presets label {
+   position: absolute;
+   display: inline;
+   width: auto;
+   overflow: visible;
+   padding: 0;
+}
+
+input.preset[value="T_TRUSTED"] {
+  background-image: var(--img-ui-temp);
+}
+
+input.preset[value="TRUSTED"], input.preset.canScript {
+  background-image: var(--img-ui-yes)
+}
+input.preset[value="UNTRUSTED"] {
+  background-image: var(--img-ui-black)
+}
+input.preset[value="CUSTOM"] {
+  background-image: var(--img-ui-custom)
+}
+
+input.temp {
+  font-size: 1em;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  outline: 0;
+  background: var(--img-ui-clock) no-repeat center;
+  background-size: 60%;
+  width: var(--line-size);
+  height: var(--line-size);
+  transition: 0.2s background-size;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 100;
+}
+
+input.temp + label {
+  display: none;
+}
+
+input.temp + label {
+  display: none;
+}
+
+input.preset:checked ~ input.temp {
+  opacity: .7;
+  right: .4em;
+  pointer-events: all;
+}
+
+.presets input.preset:checked ~ input.temp:checked {
+ opacity: 1 !important;
+ background-size: 100%;
+}
+
+.customizing input.preset:checked {
+  filter: none;
+}
+
+.customizer fieldset {
+  background-color: var(--form-color2);
+  margin: 0 0 .2em 0;
+  position: relative;
+  border: 0;
+  border-radius: .5em;
+}
+
+.caps {
+  display: flex;
+  align-content: start;
+  flex-wrap: wrap;
+  clear: both;
+  padding: .5em;
+}
+
+span.cap {
+  padding: 0.3em;
+  margin: 0.2em;
+  border-radius: .4em;
+  font-weight: normal;
+  display: inline-flex;
+  align-items: center;
+}
+
+span.cap.needed {
+  font-weight: bold;
+  color: var(--fg-color2);
+  background-color: var(--hilite-color);
+}
+
+#noscript-popup span.cap.extra:not(.needed, .checked),
+#noscript-options span.cap.extra:not(.belongs, .checked)
+{
+  display: none;
+}
+
+
+span.cap
+
+fieldset {
+  border: 0;
+  padding: 1em;
+  margin: 0;
+}
+
+legend {
+  font-weight: bold;
+  display: block;
+}
+
+.customizer legend {
+  font-size: 1em;
+  float: left;
+}
+
+#high-contrast-chooser {
+  display: none;
+}
+
+.hilite {
+  background-color: #850 !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hilite-end {
+    transition: background-color 1s;
+  }
+  .hilite .url {
+    transform: scale(2);
+    transition: none;
+  }
+  .hilite-end .url {
+    transform: none;
+    transition: transform 1s;
+  }
+}
+
+#xssChoices {
+  padding: .5em;
+  display: none;
+}
+
+#xssChoices.populated {
+  display: block;
+}
+
+#xssChoices select {
+  display: block;
+  margin: 0 0 .5em 0;
+}
+
+#xssChoices option {
+  background: var(--bg-color2);
+}
+
+#xssChoices option.block {
+  color: var(--accent-color);
+}
+
+#xssChoices option.allow {
+  color: var(--text-color);
+}

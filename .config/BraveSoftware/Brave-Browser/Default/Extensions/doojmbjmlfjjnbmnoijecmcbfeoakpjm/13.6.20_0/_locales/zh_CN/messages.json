@@ -1,0 +1,855 @@
+{
+   "Add": {
+      "message": "添加"
+   },
+   "Add_accesskey": {
+      "message": "A"
+   },
+   "AdditionalPermissions": {
+      "message": "给受信任网站额外的权限"
+   },
+   "AdditionalRestrictions": {
+      "message": "针对不受信任网站的额外限制"
+   },
+   "Allow": {
+      "message": "允许"
+   },
+   "AllowBookmarks": {
+      "message": "允许通过书签打开网站"
+   },
+   "AllowClipboard": {
+      "message": "允许从外部剪贴板中复制和粘贴 rtf 文本"
+   },
+   "AllowLocalLinks": {
+      "message": "允许本地链接"
+   },
+   "AllowPage": {
+      "message": "此页面全部允许"
+   },
+   "AllowPage_accesskey": {
+      "message": "A"
+   },
+   "AllowPing": {
+      "message": "允许 \u003CA PING…>"
+   },
+   "AllowViaBookmarks": {
+      "message": "允许通过书签打开网站"
+   },
+   "Allow_accesskey": {
+      "message": "l"
+   },
+   "AlwaysBlockUntrustedContent": {
+      "message": "拦截来自标记为不受信任网站的全部对象"
+   },
+   "AutoAllowTopLevel": {
+      "message": "临时将顶级网站设置为受信任"
+   },
+   "AutoReload": {
+      "message": "权限更改时自动重新加载受影响的网页"
+   },
+   "AutoReload_currentTab": {
+      "message": "仅重新加载当前标签页"
+   },
+   "AutoTrustedLabel": {
+      "description": "Short label for CUSTOM preset when automatically filled with TRUSTED capabilities as a top-level site",
+      "message": "自动信任"
+   },
+   "BaseDom": {
+      "message": "基础二级域名（noscript.net）"
+   },
+   "BlockedItems": {
+      "message": "拦截了 $2 个对象中的 $1 个。"
+   },
+   "BlockedObjects": {
+      "message": "NoScript 拦截了  个对象"
+   },
+   "BookmarkSync": {
+      "message": "在书签中备份 NoScript 配置以同步"
+   },
+   "Cancel": {
+      "message": "取消"
+   },
+   "CascadePermissions": {
+      "message": "自动将顶层文档的权限应用到子文档以及尚未配置的包含项"
+   },
+   "CascadeRestrictions": {
+      "message": "在顶部文档中被阻止的任何功能也必须在其子文档中被阻止"
+   },
+   "CascadedLabel": {
+      "description": "Short label for DEFAULT preset when the actual capabilities are inherited from top-level site",
+      "message": "层叠的"
+   },
+   "ClearClickDescription": {
+      "message": "NoScript 使用半隐蔽的元素拦截鼠标或键盘的交互。点击下面的图片可以交替显示拦截和未拦截的版本。"
+   },
+   "ClearClickHeader": {
+      "message": "有潜在的点击劫持/UI 重定向尝试！"
+   },
+   "ClearClickOpt": {
+      "message": "ClearClick 页面保护…"
+   },
+   "ClearClickReport": {
+      "message": "报告"
+   },
+   "ClearClickReportId": {
+      "message": "报告 ID："
+   },
+   "ClearClickReport_accesskey": {
+      "message": "R"
+   },
+   "ClearClickTitle": {
+      "message": "ClearClick 警告"
+   },
+   "Close": {
+      "message": "关闭"
+   },
+   "CollapseBlockedObjects": {
+      "message": "折叠被拦截的对象"
+   },
+   "ConfirmUnblock": {
+      "message": "在临时解除拦截对象前要求确认"
+   },
+   "CtxMenu": {
+      "message": "右键菜单"
+   },
+   "Custom": {
+      "message": "自定义"
+   },
+   "CustomizePresets": {
+      "message": "预设定制（针对所有共享预设的网站）"
+   },
+   "Default": {
+      "message": "默认"
+   },
+   "DefaultContainerName": {
+      "message": "默认"
+   },
+   "DefaultPolicies": {
+      "message": "默认策略"
+   },
+   "Description": {
+      "message": "最大限度地保护您的浏览器：NoScript 只允许您选择的信任域名显示活动内容，以防止漏洞利用。"
+   },
+   "Donate": {
+      "message": "捐赠"
+   },
+   "DonateLong": {
+      "message": "NoScript 是自由软件，没有你的帮助便无法存在。请考虑捐赠！"
+   },
+   "DonateShort": {
+      "message": "捐赠"
+   },
+   "Donate_accesskey": {
+      "message": "o"
+   },
+   "Embeddings": {
+      "message": "嵌入"
+   },
+   "EnableGesture": {
+      "message": "启用手势激活：在网页上绘制 ”S\" 打开为该站点打开 NoScript 的用户界面"
+   },
+   "Enforce": {
+      "message": "全局启用限制"
+   },
+   "EnforceForTab": {
+      "message": "启用此标签页的限制"
+   },
+   "EnforceOnRestart": {
+      "message": "浏览器重启时恢复限制"
+   },
+   "Exceptions": {
+      "message": "例外…"
+   },
+   "Export": {
+      "message": "导出"
+   },
+   "Export_accesskey": {
+      "message": "E"
+   },
+   "FixLinks": {
+      "message": "尝试修正 JavaScript 链接"
+   },
+   "GestureLabel": {
+      "message": "绘制 \"S\" 召唤 NoScript。"
+   },
+   "HelpLink": {
+      "message": "帮助…"
+   },
+   "Hider": {
+      "message": "拖到这里来隐藏。"
+   },
+   "HighContrast": {
+      "message": "高对比度"
+   },
+   "Https": {
+      "message": "HTTPS"
+   },
+   "HttpsFaq": {
+      "message": "HTTPS 常见问题…"
+   },
+   "HttpsFaq_accesskey": {
+      "message": "Q"
+   },
+   "HttpsForced": {
+      "message": "对以下网站强制使用安全（HTTPS）连接："
+   },
+   "HttpsForcedExceptions": {
+      "message": "不对以下网站强制使用安全（HTTPS）连接："
+   },
+   "Https_always": {
+      "message": "总是"
+   },
+   "Https_behavior": {
+      "message": "行为"
+   },
+   "Https_cookies": {
+      "message": "Cookie"
+   },
+   "Https_description": {
+      "message": "除非网页内容来自安全（HTTPS）连接，否则禁止动态网页内容。"
+   },
+   "Https_never": {
+      "message": "永不"
+   },
+   "Https_proxy": {
+      "message": "使用代理时（推荐使用 Tor）"
+   },
+   "Import": {
+      "message": "导入"
+   },
+   "Import_accesskey": {
+      "message": "I"
+   },
+   "KeepLocked": {
+      "message": "保持此元素锁定（推荐）"
+   },
+   "LearnMoreLink": {
+      "message": "了解更多…"
+   },
+   "MatchSample": {
+      "message": "模式匹配示例："
+   },
+   "ModernRed": {
+      "message": "现代红"
+   },
+   "Modify": {
+      "description": "Verb to label action triggers such as buttons used to modify a property shown in the same context (e.g. current behavior)",
+      "message": "修改"
+   },
+   "Next": {
+      "message": "下一步"
+   },
+   "NoEnforcement": {
+      "message": "全局解除限制（危险）"
+   },
+   "NoEnforcementForTab": {
+      "message": "解除此标签页的限制"
+   },
+   "NoUntrustedPlaceholder": {
+      "message": "对标记为不信任的网站上的对象不保留占位符"
+   },
+   "NotEnforced": {
+      "message": "根据用户设置禁用了限制：NoScript 在此页面上不会拦截任何东西！"
+   },
+   "Notifications": {
+      "message": "通知"
+   },
+   "Notify": {
+      "message": "显示有关被拦截脚本的消息"
+   },
+   "NotifyMeta": {
+      "message": "显示有关被拦截的 META 重定向的消息"
+   },
+   "NotifyMeta_accesskey": {
+      "message": "R"
+   },
+   "Notify_bottom": {
+      "message": "消息置于底部"
+   },
+   "NselForce": {
+      "message": "显示被拦截的 \u003CSCRIPT> 元素之前 \u003CNOSCRIPT> 元素"
+   },
+   "NselNever": {
+      "message": "隐藏 \u003CNOSCRIPT> 元素"
+   },
+   "OK": {
+      "message": "确定"
+   },
+   "Onboarding_title": {
+      "description": "The onboarding page, containing the Trust Mode selector, is shown on first run after a CLEAN installation",
+      "message": "欢迎来到 NoScript！"
+   },
+   "OptAmnesticUpdates": {
+      "message": "NoScript 更新时撤销临时权限，即使浏览器没有重新启动"
+   },
+   "OptBlockCssScanners": {
+      "message": "屏蔽基于 CSS 的扫描器"
+   },
+   "OptFilterXGet": {
+      "message": "净化跨网站的可疑请求"
+   },
+   "OptFilterXPost": {
+      "message": "将跨网站的 POST 请求转换为无数据的 GET 请求"
+   },
+   "OptIncognitoPerm": {
+      "message": "允许在隐身/私密选项卡中设置永久权限。\n注意:这样做会泄露网站信息！"
+   },
+   "OptOverrideTorBrowserPolicy": {
+      "message": "覆盖 Tor 浏览器的安全级别预设"
+   },
+   "Options": {
+      "message": "选项…"
+   },
+   "OptionsLong": {
+      "message": "NoScript 选项"
+   },
+   "OptionsWidth": {
+      "message": "40em"
+   },
+   "Options_accesskey": {
+      "message": "O"
+   },
+   "PermanentInPrivate": {
+      "message": "在隐私窗口中永久”允许“命令"
+   },
+   "PermissionsText": {
+      "message": "你可以设置允许哪些网站运行脚本。输入要允许的网址或域名（比如\"http://www.site.com\"或\"site.com\"），然后点击允许。"
+   },
+   "Plugins": {
+      "message": "插件"
+   },
+   "Policies": {
+      "message": "策略"
+   },
+   "Preset": {
+      "message": "安全等级"
+   },
+   "Prev": {
+      "message": "上一步"
+   },
+   "RecentBlocked": {
+      "message": "最近拦截的网站"
+   },
+   "Refresh": {
+      "message": "刷新"
+   },
+   "Reload": {
+      "message": "重新载入"
+   },
+   "ReloadWarn": {
+      "message": "这些选项会在新打开或手动重新载入页面时生效"
+   },
+   "RemoveSelected": {
+      "message": "移除选定网站"
+   },
+   "Reset": {
+      "message": "重置"
+   },
+   "ResetDef": {
+      "message": "重置为默认设置"
+   },
+   "ResetDef_accesskey": {
+      "message": "D"
+   },
+   "Reset_accesskey": {
+      "message": "s"
+   },
+   "Reveal": {
+      "message": "点击此处找回丢失的按钮…"
+   },
+   "RevokeTemp": {
+      "message": "撤销临时权限"
+   },
+   "RevokeTemp_accesskey": {
+      "message": "R"
+   },
+   "SectionAdvanced": {
+      "message": "高级"
+   },
+   "SectionAppearance": {
+      "message": "外观"
+   },
+   "SectionGeneral": {
+      "message": "常规"
+   },
+   "SectionSitePermissions": {
+      "message": "网站权限"
+   },
+   "SecureCookies": {
+      "message": "启用自动的安全 Cookie 管理"
+   },
+   "SecureCookiesExceptions": {
+      "message": "忽略下列网站通过 HTTPS 设置的不安全 Cookie："
+   },
+   "SecureCookiesForced": {
+      "message": "强制加密下列网站通过 HTTPS 设置的所有 Cookie："
+   },
+   "SecurityManager": {
+      "message": "安全管理器"
+   },
+   "Show": {
+      "message": "显示…"
+   },
+   "ShowConsole": {
+      "message": "显示控制台…"
+   },
+   "ShowConsole_accesskey": {
+      "message": "S"
+   },
+   "ShowCountBadge": {
+      "message": "显示脚本计数角标"
+   },
+   "ShowCtxMenuItem": {
+      "message": "在右键菜单中显示 NoScript 菜单项"
+   },
+   "ShowFullAddresses": {
+      "message": "在授权弹窗里显示完整网址（https://www.noscript.net）"
+   },
+   "ShowPlaceholder": {
+      "message": "显示占位符图标"
+   },
+   "ShowProbePlaceholders": {
+      "message": "对不可见的能力探测显示合成占位符"
+   },
+   "ShowReleaseNotes": {
+      "message": "显示更新的发行说明"
+   },
+   "SitePermissions": {
+      "message": "网站权限"
+   },
+   "SitePermissions_accessKey": {
+      "message": "S"
+   },
+   "SitePolicies": {
+      "message": "网站专属策略"
+   },
+   "TabGuard_forget": {
+      "message": "忘记决定"
+   },
+   "TabGuard_label": {
+      "message": "跨标签页身份泄露保护"
+   },
+   "TabGuard_message": {
+      "message": "你打算从 $1 加载一个页面。\n如果你是$1已登录用户，你的身份信息可能被$2获取。"
+   },
+   "TabGuard_optAllow": {
+      "message": "正常加载"
+   },
+   "TabGuard_optAnonymize": {
+      "message": "匿名加载"
+   },
+   "TabGuard_optDisabled": {
+      "message": "已禁用"
+   },
+   "TabGuard_optEnabled": {
+      "message": "始终开启"
+   },
+   "TabGuard_optIncognito": {
+      "message": "仅在“无痕浏览”模式下启用"
+   },
+   "TabGuard_optPromptAlways": {
+      "message": "匿名化任何请求前进行提示"
+   },
+   "TabGuard_optPromptNever": {
+      "message": "匿名化前从不提示"
+   },
+   "TabGuard_optPromptPost": {
+      "message": "匿名化 POST 提交前进行提示"
+   },
+   "TabGuard_title": {
+      "message": "潜在身份泄露"
+   },
+   "TempToPerm": {
+      "message": "保存页面权限设置"
+   },
+   "TempToPerm_accesskey": {
+      "message": "M"
+   },
+   "TempTrustPage": {
+      "message": "临时信任此页上所有对象"
+   },
+   "TempTrustPage_accesskey": {
+      "message": "T"
+   },
+   "Trust": {
+      "message": "标记为受信任"
+   },
+   "Trust_accesskey": {
+      "message": "T"
+   },
+   "Trusted": {
+      "message": "受信任"
+   },
+   "TrustedPagesAdj": {
+      "message": "受信任"
+   },
+   "Trusted_permanent": {
+      "message": "受信任"
+   },
+   "Trusted_temporary": {
+      "message": "临时信任"
+   },
+   "Uninstall": {
+      "message": "卸载"
+   },
+   "Unknown": {
+      "message": "未知"
+   },
+   "UnsafeReload": {
+      "message": "不安全重新载入"
+   },
+   "UnsafeReload_accesskey": {
+      "message": "R"
+   },
+   "Untrust": {
+      "message": "标记为不信任"
+   },
+   "Untrust_accesskey": {
+      "message": "U"
+   },
+   "Untrusted": {
+      "message": "不信任"
+   },
+   "UntrustedPagesAdj": {
+      "message": "不信任"
+   },
+   "VintageBlue": {
+      "message": "古董蓝"
+   },
+   "WebAddress": {
+      "message": "搜索或添加网站："
+   },
+   "WebAddress_accesskey": {
+      "message": "w"
+   },
+   "XSS_clearUserChoices": {
+      "message": "清除 XSS 设置"
+   },
+   "XSS_notify": {
+      "message": "显示 XSS 通知"
+   },
+   "XSS_optAllow": {
+      "message": "允许此请求"
+   },
+   "XSS_optAlwaysAllow": {
+      "message": "始终允许从 $1 到 $2 的文档请求"
+   },
+   "XSS_optAlwaysBlock": {
+      "message": "始终拦截从 $1 到 $2 的文档请求"
+   },
+   "XSS_optBlock": {
+      "message": "阻止此请求"
+   },
+   "XSS_optSanitize": {
+      "message": "净化此请求"
+   },
+   "XSS_promptMessage": {
+      "message": "NoScript 发现潜在的跨站脚本攻击\n从 $1 到 $2。\n可疑数据：\n$3"
+   },
+   "XSS_promptTitle": {
+      "message": "NoScript XSS 警告"
+   },
+   "Xss": {
+      "message": "XSS"
+   },
+   "XssExceptions": {
+      "message": "反-XSS 保护例外"
+   },
+   "XssExceptions_description": {
+      "message": "满足这些正则表达式的目标将不会受到针对 XSS 的保护。"
+   },
+   "XssFaq": {
+      "message": "XSS 常见问题解答…"
+   },
+   "XssFaq_accesskey": {
+      "message": "Q"
+   },
+   "Xss_accesskey": {
+      "message": "X"
+   },
+   "about": {
+      "message": "关于 $1"
+   },
+   "allowFrom": {
+      "message": "允许所有来自 $1 的资源"
+   },
+   "allowGlobal": {
+      "message": "解除所有权限检查（危险）"
+   },
+   "allowLocal": {
+      "message": "允许 $1"
+   },
+   "allowTemp": {
+      "message": "临时允许 $1"
+   },
+   "allowTempFrom": {
+      "message": "临时允许所有来自 $1 的资源"
+   },
+   "allowed_no": {
+      "message": "当前禁止的脚本"
+   },
+   "allowed_prt": {
+      "message": "部分允许的脚本"
+   },
+   "allowed_yes": {
+      "message": "当前允许的脚本"
+   },
+   "alwaysAsk": {
+      "message": "总是要求确认"
+   },
+   "anySite": {
+      "message": "任意站点"
+   },
+   "audio_samples": {
+      "message": "音频示例"
+   },
+   "behavior_auto_description": {
+      "message": "安全和便利的妥协：顶级站点（地址显示在导航栏中）自动提升为“临时信任”，除非已经手动分类。第三方站点仍需手动分类。跨站点保护始终强制开启。"
+   },
+   "behavior_auto_title": {
+      "message": "较宽松/自动"
+   },
+   "behavior_defaultAllow_description": {
+      "message": "最宽松行为：未分类的顶级站点被提升至“临时可信”，顶层站点启用的能力自动下放至其所有第三方未分类的子资源。已分类为“不可信”和“自定义”的站点不受影响。跨站点保护始终强制开启。"
+   },
+   "behavior_defaultAllow_title": {
+      "message": "最宽松/默认允许"
+   },
+   "behavior_defaultDeny_description": {
+      "message": "传统和最安全的 NoScript 行为：标记为“默认”的未分类站点不被认为是可信的。包括脚本在内的潜在的有害能力被禁用。可以手动允许信任的站点，方法是打开 NoScript 界面，将站点标记为“受信任”，或者选择“自定义”进一步定制它们的能力。跨站点保护始终强制启用。"
+   },
+   "behavior_defaultDeny_title": {
+      "message": "严格/默认拒绝"
+   },
+   "behavior_label": {
+      "message": "当前站点分类行为："
+   },
+   "behavior_prompt": {
+      "message": "请选择 NoScript 遇到未分类站点时的行为方式。要重新审视此选项，可以访问选项页或重置 NoScript。"
+   },
+   "behavior_title": {
+      "description": "The title of the NoScript's Behavior selector, where user decides how NoScript should manage the trust policy assigned to unclassified sites",
+      "message": "站点分类行为"
+   },
+   "bookmarkSync_confirm": {
+      "message": "NoScript 发现一个可能保存在 $1 的配置书签。是否要使用此书签的内容覆盖本地 NoScript 配置？"
+   },
+   "bookmarkSync_message": {
+      "message": "本书签不应被直接打开，正确用法是用来通过 Weave 或 XMarks 之类的服务来同步设置。"
+   },
+   "bookmarkSync_title": {
+      "message": "NoScript 配置书签"
+   },
+   "cap_fetch": {
+      "message": "获取"
+   },
+   "cap_font": {
+      "message": "字体"
+   },
+   "cap_frame": {
+      "message": "框"
+   },
+   "cap_lan": {
+      "message": "局域网"
+   },
+   "cap_lazy_load": {
+      "message": "懒加载"
+   },
+   "cap_media": {
+      "message": "媒体"
+   },
+   "cap_noscript": {
+      "message": "noscript 元素"
+   },
+   "cap_object": {
+      "message": "对象"
+   },
+   "cap_other": {
+      "message": "其他"
+   },
+   "cap_ping": {
+      "message": "ping 属性"
+   },
+   "cap_script": {
+      "message": "脚本"
+   },
+   "cap_unchecked_css": {
+      "message": "不受限的 CSS"
+   },
+   "cap_wasm": {
+      "description": "WebAssembly modules compilation and execution capability.",
+      "message": "wasm"
+   },
+   "cap_webgl": {
+      "message": "webgl"
+   },
+   "cap_x_load": {
+      "description": "Capability for file:// documents to load subresources from a different and non descendant directory.",
+      "message": "x-load"
+   },
+   "caps": {
+      "message": "启用这些功能"
+   },
+   "capsContext": {
+      "message": "当顶部页面匹配时，启用这些功能"
+   },
+   "changelog": {
+      "message": "更新日志"
+   },
+   "changelog_tip": {
+      "message": "显示更新日志"
+   },
+   "clear_container_label": {
+      "message": "清除此容器的权限"
+   },
+   "confirm": {
+      "message": "您确认吗?"
+   },
+   "container_clear_warning": {
+      "message": "将删除此容器的所有站点权限。\n此操作无法撤销。\n要继续吗？"
+   },
+   "container_copy_warning": {
+      "message": "从 \"$1\" 复制权限。\n将删除此容器的所有站点权限。\n此操作无法撤销。\n要继续吗？"
+   },
+   "copy_container_label": {
+      "message": "从容器复制权限："
+   },
+   "disable": {
+      "message": "禁用 $1"
+   },
+   "disable_accessKey": {
+      "message": "D"
+   },
+   "distrust": {
+      "message": "标记 $1 为不信任"
+   },
+   "enable_container_tabs_label": {
+      "message": "启用对容器标签页的支持"
+   },
+   "extensionContributors": {
+      "message": "贡献者:"
+   },
+   "extensionContributors_tip": {
+      "message": "为您带来此扩展的人们"
+   },
+   "extensionCreatorLabel": {
+      "message": "作者："
+   },
+   "extensionCreator_tip": {
+      "message": "访问作者主页"
+   },
+   "extensionHomepage_tip": {
+      "message": "访问扩展主页"
+   },
+   "forbidGlobal": {
+      "message": "全局禁止脚本（推荐）"
+   },
+   "forbidLocal": {
+      "message": "禁止 $1"
+   },
+   "forbid_replace_default_policy": {
+      "message": "无法替换默认策略。"
+   },
+   "freshInstallReload": {
+      "message": "为了操作该标签页，NoScript 需要重新加载该标签页。\n继续吗？"
+   },
+   "httpsOnly": {
+      "message": "仅匹配 HTTPS 内容"
+   },
+   "incompatibleOptions": {
+      "message": "\"$1\"和\"$2\"不兼容。\n是否启用前者，禁用后者？"
+   },
+   "incompatibleOptions_title": {
+      "message": "选项不兼容警告"
+   },
+   "informaction_tip": {
+      "message": "访问 InformAction 主页"
+   },
+   "license": {
+      "message": "许可协议"
+   },
+   "license_tip": {
+      "message": "阅读用户许可协议"
+   },
+   "logo_tip": {
+      "message": "访问扩展主页"
+   },
+   "metaRefresh_notify": {
+      "message": "NoScript 在 \u003CNOSCRIPT> 元素里拦截了一个 \u003CMETA> 重定向：$1（在 $2 秒钟内）。"
+   },
+   "pagePermissionsUI": {
+      "message": "配置当前页面的权限"
+   },
+   "privilegedPage": {
+      "message": "这是一个特权页面，无法配置其权限。"
+   },
+   "removal_message": {
+      "message": "禁用或卸载 NoScript 的同时，您也舍弃了 NoScript 带来的所有保护。\n\n如果您疲于逐个设置网站脚本权限，那么还有一个更好的选择。\n\nNoScript 可以在所有未被标记为不信任的网站上停止拦截脚本，同时针对 XSS、点击劫持、CSRF 和其他网络威胁仍然保持最先进的安全防护。\n\n您确定要解除 NoScript 带来的所有保护吗？\n"
+   },
+   "removal_no": {
+      "message": "不, 只停止拦截脚本"
+   },
+   "removal_title": {
+      "message": "安全降级警告"
+   },
+   "removal_yes": {
+      "message": "是，移除所有保护"
+   },
+   "reset_title": {
+      "message": "NoScript 重置"
+   },
+   "reset_warning": {
+      "message": "所有 NoScript 偏好设置和网站权限将立即重置为默认值。此操作无法还原。是否继续？"
+   },
+   "select_container_label": {
+      "message": "选择容器："
+   },
+   "settingsThemeLabel": {
+      "message": "主题"
+   },
+   "siteInfo_confirm": {
+      "message": "您将向 $2 提交一个查询网站“$1”信息的请求。\n要继续吗？"
+   },
+   "siteInfo_tooltip": {
+      "message": "鼠标中键单击或 shift 键加鼠标单击查看网站信息…"
+   },
+   "sponsor_tip": {
+      "message": "访问赞助商主页"
+   },
+   "tabLess_reload_warning": {
+      "message": "在侧栏中更改权限需要手动重载。"
+   },
+   "tabLess_short": {
+      "message": "(侧栏？)"
+   },
+   "tabLess_tip": {
+      "message": "内容标签页外面的站点，如侧栏中的站点"
+   },
+   "themeAuto": {
+      "message": "自动"
+   },
+   "themeDark": {
+      "message": "深色"
+   },
+   "themeLight": {
+      "message": "亮"
+   },
+   "toVintageBlue": {
+      "message": "切换到古董蓝样式"
+   },
+   "toggleEnforcementForTab": {
+      "message": "切换当前标签页限制的强制执行"
+   },
+   "unsafeReload_warning": {
+      "message": "以不安全方式重新载入可疑的\n\n $1 [$2]\n\n来源：[$3]\n\nNoScript 不会保护此请求！\n"
+   },
+   "untrustedOrigin": {
+      "message": "不受信任的来源"
+   },
+   "version": {
+      "message": "版本 $1"
+   },
+   "versionShort": {
+      "message": "v $1"
+   }
+}

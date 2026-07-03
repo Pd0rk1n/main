@@ -1,0 +1,41 @@
+12:00:05 Tab8 FinishNav37
+12:00:05 Tab8 PageLoad
+12:01:31 Tab9 StartNav38 #renderer-script #auto_subframe
+12:01:31 Tab9 FinishNav38
+12:01:31 Tab9 PageLoad #failure
+12:04:43 Tab8 StartNav39 #renderer-script #auto_subframe
+12:04:43 Tab8 FinishNav39
+12:04:43 Tab8 PageLoad
+18:02:31 Tab9 StartNav40 #renderer-script #auto_subframe
+18:02:31 Tab9 FinishNav40
+18:02:31 Tab9 PageLoad #failure
+18:04:53 Tab8 StartNav41 #renderer-script #auto_subframe
+18:04:53 Tab8 FinishNav41
+18:04:53 Tab8 PageLoad
+20:53:04 UserEducation.Session.ActivePeriodStart
+20:53:06 Widget Closed: TabHoverCardBubbleView_ChromiumImpl
+20:53:12 Tab8 StartNav42 #renderer-user #link
+20:53:12 Tab8 FinishNav42
+20:53:18 Widget Closed: MenuHost
+20:53:18 Paste
+20:53:24 Widget Closed: StatusBubble
+20:53:42 Tab8 StartNav43 #renderer-user #link
+20:53:42 Tab8 FinishNav43
+20:57:48 Widget Closed: MenuHost
+20:57:48 Copy
+20:58:52 Widget Closed: MenuHost
+20:58:52 Paste
+21:02:40 Widget Closed: MenuHost
+21:02:40 Paste
+21:07:40 Widget Closed: MenuHost
+21:07:40 Copy
+21:09:51 Widget Closed: StatusBubble
+21:10:15 Widget Closed: MenuHost
+21:10:17 Widget Closed: MenuHost
+21:10:28 Widget Closed: MenuHost
+21:10:28 Copy
+21:10:31 Widget Closed: MenuHost
+21:10:33 Widget Closed: MenuHost
+21:10:33 Paste
+21:12:22 Widget Closed: MenuHost
+21:12:22 Paste

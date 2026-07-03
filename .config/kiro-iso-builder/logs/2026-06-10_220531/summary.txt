@@ -1,0 +1,10 @@
+Timestamp:      2026-06-10 22:06:17
+Result:         FAILED (exit 141)
+Duration:       0m 45s
+Build folder:   /home/pd0rk1n
+nvidia_driver:  open
+kernel:         linux-cachyos linux-cachyos-lts
+Host:           CachyOS
+archiso:        archiso 88-1
+ISO:            (none produced)
+ISO size:       -

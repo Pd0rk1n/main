@@ -1,0 +1,13 @@
+Timestamp:      2026-06-13 00:52:16
+Result:         SUCCESS
+Duration:       12m 33s
+Build folder:   /home/pd0rk1n/iso-builds
+nvidia_driver:  580xx
+kernel:         linux-cachyos linux-cachyos-lts
+Host:           CachyOS
+archiso:        archiso 88-1
+ISO:            kiro-v26.06.13-x86_64.iso
+ISO size:       5.69 GB
+sha256:         6b03a565ee6cb42c0b5cddcbc24cd70de79f8446c27d68d6631a9c4a41a002a7
+sha1:         71b34ca1710447153a80c7a70a413ced25d56eff
+md5:         691c0665018f0b73f795ce57f2ee4405

@@ -1,0 +1,172 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"use strict";
+
+globalThis.Scripting ||= (() => {
+
+  function fixDefaults(details, css = false) {
+    if (css) {
+      if (!"origin" in details) {
+        details.origin = "USER";
+      }
+    } else {
+      if (!"injectImmediately" in details) {
+        details.injectImmediately = true;
+      }
+      if (details.func?.toString().startsWith("func()")) {
+        throw new SyntaxError("Using { func() {} } rather than { func: () => {} } would cause a serialization error!");
+      }
+    }
+    const {target} = details;
+    if ("frameId" in target) {
+      target.frameIds = [target.frameId];
+      delete target.frameId;
+    } else if (!"allFrames" in target && !target.frameIds) {
+      details.target.allFrames = true;
+    }
+    return details;
+  }
+
+  async function wrapResults(results, target) {
+    const {frameId, frameIds, allFrames} = target;
+    if (allFrames) {
+      frameIds = (await browser.webNavigation.getAllFrames()).map(f => f.id);
+    } else if (frameIds && frameId !== undefined) {
+      frameIds = undefined;
+    }
+    return results.map((result, idx) => ({
+        result,
+        frameId: frameIds && frameIds[idx] || frameId || idx,
+        documentId: "",
+    }));
+  }
+
+  async function repeat(executor, attempts = 1) {
+
+    let execute = executor;
+    if (typeof executor == "object") {
+      const run = executor.run || Scripting.executeScript;
+      const details = executor;
+      delete executor.run;
+      execute = async () => await run.call(Scripting, details);
+    }
+    while (attempts-- > 0) {
+      try {
+        return await execute();
+      } catch (e) {
+
+        if (/Invalid frame IDs/.test(e.message) || attempts <= 0) {
+          throw e;
+        }
+
+      }
+    }
+  }
+
+  return browser.scripting
+  ? {
+    repeat,
+    async executeScript(details) {
+      return await browser.scripting.executeScript(fixDefaults(details));
+    },
+    async insertCSS(details) {
+      return await browser.scripting.insertCSS(fixDefaults(details));
+    },
+  }
+  : {
+    repeat,
+    async executeScript(details) {
+      const {target} = details;
+      const {frameId} = target;
+      details = fixDefaults(details);
+      const {tabId, allFrames, frameIds} = target;
+
+      if (frameId === undefined && frameIds?.length) {
+        const results = [];
+        for (const frameId of frameIds) {
+          target.frameId = frameId;
+          results.push(... await this.executeScript(details));
+        }
+        return results;
+      }
+
+      const opts = {
+        matchAboutBlank: true,
+        runAt: details.injectImmediately ? "document_start" : "idle",
+        allFrames,
+        frameId,
+      };
+
+      if (details.files) {
+        let results, exception;
+        for(const file of files) {
+          opts.file = file;
+          try {
+            results = await browser.tabs.executeScript(tabId, opts);
+          } catch(e) {
+            exception ||= e;
+            console.error(e);
+          }
+        }
+        if (results === undefined && exception) {
+          throw exception;
+        }
+        return await wrapResults(results, target);
+      }
+      const args = Array.isArray(details.args) ? `...${JSON.stringify(args)}` : "";
+      opts.code = `(${func})(${args})`;
+      return await wrapResults(await browser.tabs.executeScript(tabId, opts), target);
+    },
+
+    async insertCSS(details) {
+      const {target} = details;
+      const {frameId} = target;
+      fixDefaults(details, true);
+      const {tabId, allFrames, frameIds} = target;
+      if (frameId === undefined && frameIds?.length) {
+        return Promise.allSettled(frameIds.map(async frameId => {
+          let clone = structuredClone(details);
+          clone.target.frameId = frameId;
+          this.insertCSS(clone);
+        }));
+      }
+
+      const opts = {
+        matchAboutBlank: true,
+        runAt: details.injectImmediately ? "document_start" : "idle",
+        allFrames,
+        frameId,
+      };
+      if (details.files) {
+        return await Promise.allSettled(details.files.map(async file => {
+          await browser.tabs.insertCSS(tabId, Object.assign({file}, opts));
+        }));
+      }
+      browser.tabs.insertCSS(tabId, {
+        code: css,
+        frameId,
+        runAt: "document_start",
+        matchAboutBlank: true,
+        cssOrigin: "user",
+      });
+    },
+  };
+})();

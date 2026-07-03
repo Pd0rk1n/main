@@ -1,3 +1,12 @@
-2026/05/14-21:21:07.146 4e1b Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2026/05/14-21:21:07.160 4e1b Recovering log #2591
-2026/05/14-21:21:07.160 4e1b Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002591.log 
+2026/07/02-22:08:41.001 5c70 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2026/07/02-22:08:41.002 5c70 Recovering log #2734
+2026/07/02-22:08:41.012 5c70 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/002734.log 
+2026/07/02-23:07:43.407 5c70 Level-0 table #2739: started
+2026/07/02-23:07:43.416 5c70 Level-0 table #2739: 544287 bytes OK
+2026/07/02-23:07:43.418 5c70 Delete type=0 #2734
+2026/07/02-23:23:43.720 5c70 Compacting 1@1 + 1@2 files
+2026/07/02-23:23:43.725 5c70 Generated table #2740@1: 12 keys, 134434 bytes
+2026/07/02-23:23:43.725 5c70 Compacted 1@1 + 1@2 files => 134434 bytes
+2026/07/02-23:23:43.726 5c70 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/02-23:23:43.726 5c70 Delete type=2 #2739
+2026/07/02-23:23:43.726 5c70 Delete type=2 #2736

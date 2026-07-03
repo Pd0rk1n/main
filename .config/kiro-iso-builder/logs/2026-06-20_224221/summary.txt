@@ -1,0 +1,10 @@
+Timestamp:      2026-06-20 22:43:41
+Result:         FAILED (exit 1)
+Duration:       1m 20s
+Build folder:   /home/pd0rk1n/Projects
+nvidia_driver:  open
+kernel:         linux-cachyos linux-cachyos-lts
+Host:           CachyOS
+archiso:        archiso 88-1
+ISO:            (none produced)
+ISO size:       -

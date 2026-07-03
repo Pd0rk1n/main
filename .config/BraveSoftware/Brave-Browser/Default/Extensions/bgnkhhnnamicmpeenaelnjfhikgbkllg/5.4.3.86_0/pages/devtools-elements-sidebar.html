@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><link rel="stylesheet" href="../assets/css/devtools/inspectorCommon.css"><link rel="stylesheet" href="../assets/css/devtools/inspectorStyle.css"><link rel="stylesheet" href="../assets/css/devtools/inspectorSyntaxHighlight.css"><link rel="stylesheet" href="../assets/css/devtools/sidebarPane.css"><link rel="stylesheet" href="../assets/css/devtools/elementsPanel.css"><link rel="stylesheet" href="../assets/css/devtools/custom.css"><link rel="stylesheet" href="../assets/css/devtools/dark.css"><script defer src="../runtime.js"></script><script defer src="../pages/devtools-elements-sidebar.js"></script></head><body class="inactive platform-mac undocked"><div class="composite fill metrics-and-styles sidebar-pane">
+        <div class="vbox widget">
+            <div class="style-panes-wrapper vbox widget">
+                <div class="monospace sidebar-pane">
+                    <input type="text" id="filter-rule-text" placeholder="Rule text" class="rule-input">
+                    <div>
+                        <input type="button" id="add-rule-button" value="Add rule" class="action-button">
+                        <input type="button" id="preview-rule-button" value="Preview" class="action-button">
+                    </div>
+                </div>
+                <div class="monospace separator-properties sidebar-separator">Rule properties</div>
+                <div class="sidebar-pane">
+                    <div class="matched-styles monospace styles-section">
+                        <ol class="monospace style-properties update-rule-block">
+                            <li class="parent">
+                                <input class="enabled-button" type="checkbox" id="one-domain-checkbox">
+                                <span class="webkit-css-property">domain name</span>
+                            </li>
+
+                            <li class="parent" id="create-full-css-path-block">
+                                <input class="enabled-button" type="checkbox" id="create-full-css-path">
+                                <span class="webkit-css-property">include CSS path</span>
+                            </li>
+                            <li class="parent" id="block-by-url-checkbox-block">
+                                <input class="enabled-button" type="checkbox" id="block-by-url-checkbox">
+                                <span class="webkit-css-property">block element by url</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="monospace separator-attributes sidebar-separator">
+                    <input class="enabled-button" type="checkbox" id="select-attributes-checkbox">
+                    Attributes
+                </div>
+                <div class="monospace sidebar-pane">
+                    <div class="matched-styles monospace styles-section">
+                        <ol class="monospace style-properties update-rule-block" id="attributes-block"></ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></body></html>

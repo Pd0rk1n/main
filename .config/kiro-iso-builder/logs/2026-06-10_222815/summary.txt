@@ -1,0 +1,10 @@
+Timestamp:      2026-06-10 22:32:15
+Result:         FAILED (exit 143)
+Duration:       4m 0s
+Build folder:   /home/pd0rk1n/iso-builds
+nvidia_driver:  580xx
+kernel:         linux-cachyos linux-cachyos-lts
+Host:           CachyOS
+archiso:        archiso 88-1
+ISO:            (none produced)
+ISO size:       -

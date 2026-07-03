@@ -1,0 +1,1386 @@
+
+############################################################################
+Phase 1 — Preflight checks (disk space + connectivity)
+############################################################################
+
+[ OK ]  Disk space OK — 163G free (need 15G)
+[ OK ]  Reachable: https://archlinux.org
+[ OK ]  Reachable: https://github.com
+
+############################################################################
+Checking host Arch mirrors (the user's PC settings)
+############################################################################
+
+[ OK ]  Host Arch mirrors reachable — using the user's PC mirrorlist
+
+############################################################################
+Refreshing pacman databases
+############################################################################
+
+
+:: Synchronizing package databases...
+ cachyos-v3
+ cachyos-core-v3
+ cachyos-extra-v3
+ cachyos
+ core
+ extra
+ multilib
+ nemesis_repo
+ chaotic-aur
+
+############################################################################
+Chaotic keyring and mirrorlist are both installed
+############################################################################
+
+
+############################################################################
+Checking host Chaotic-AUR mirrors
+############################################################################
+
+[ OK ]  Host Chaotic-AUR mirrors reachable — using the user's PC mirrorlist
+
+############################################################################
+CachyOS keyring and mirrorlist are both installed
+############################################################################
+
+
+############################################################################
+Mirror health check — all repos must be green before building
+############################################################################
+
+[ OK ]  Arch  (build/host)   : https://archlinux.cachyos.org/repo/$repo/os/$arch
+[ OK ]  Chaotic (build/host) : https://geo-mirror.chaotic.cx/$repo/$arch
+[ OK ]  Arch  (shipped curated): https://geo.mirror.pkgbuild.com/$repo/os/$arch
+[ OK ]  Chaotic (shipped)    : https://geo-mirror.chaotic.cx/$repo/$arch
+[ OK ]  nemesis_repo         : https://erikdubois.github.io
+[ OK ]  kiro_repo            : https://kirodubes.github.io
+
+############################################################################
+All repositories green
+############################################################################
+
+
+############################################################################
+Phase 2 — Bumping version to v26.06.13
+############################################################################
+
+Updating /home/pd0rk1n/iso-builds/kiro-iso/build-scripts/../archiso/airootfs/etc/dev-rel
+Updating /home/pd0rk1n/iso-builds/kiro-iso/build-scripts/build-the-iso.sh
+Updating iso_label in /home/pd0rk1n/iso-builds/kiro-iso/build-scripts/../archiso/profiledef.sh
+Updating iso_version in /home/pd0rk1n/iso-builds/kiro-iso/build-scripts/../archiso/profiledef.sh
+
+############################################################################
+Version bump summary:
+  dev-rel     : ISO_RELEASE=v26.06.13
+  build-iso   : kiroVersion='v26.06.13'
+  profiledef  : iso_label="kiro-v26.06.13" / iso_version="v26.06.13"
+############################################################################
+
+
+############################################################################
+Phase 3 — Verifying version files are in sync
+############################################################################
+
+
+############################################################################
+Version files in sync: v26.06.13
+############################################################################
+
+
+############################################################################
+Phase 4 — Checking required packages
+############################################################################
+
+
+############################################################################
+Selecting kernel(s)
+############################################################################
+
+
+############################################################################
+Kernel(s) from config: linux-cachyos linux-cachyos-lts (live boot: linux-cachyos)
+############################################################################
+
+
+############################################################################
+Build overview
+############################################################################
+
+  Desktop      : xfce4/ohmychadwm
+  Editions     : qtile xfce
+  Version      : v26.06.13
+  ISO label    : kiro-v26.06.13-x86_64.iso
+  NVIDIA driver: 580xx
+  Kernel(s)    : linux-cachyos linux-cachyos-lts (live boot: linux-cachyos)
+  Build folder : /home/pd0rk1n/iso-builds/kiro-build
+  Out folder   : /home/pd0rk1n/iso-builds/kiro-Out
+
+############################################################################
+Phase 5 — Preparing build tree
+############################################################################
+
+[ OK ]  Build folder present — proceeding to delete
+
+############################################################################
+Deleting build folder: /home/pd0rk1n/iso-builds/kiro-build
+############################################################################
+
+
+############################################################################
+ParallelDownloads already 15 (>= 10) — leaving it unchanged
+############################################################################
+
+
+############################################################################
+Phase 6 — Refreshing skel and package list
+############################################################################
+
+Clearing skel...
+Fetching latest .bashrc...
+Refreshing packages.x86_64...
+
+############################################################################
+Package selection: applied package-selection.conf (10 TIER 3 package(s) excluded)
+############################################################################
+
+
+############################################################################
+Package additions: applied package-additions.conf (0 extra app(s) added)
+############################################################################
+
+
+############################################################################
+Phase 7 — Prepopulating pacman keyring
+############################################################################
+
+gpg: /home/pd0rk1n/iso-builds/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/trustdb.gpg: trustdb created
+gpg: no ultimately trusted keys found
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/home/pd0rk1n/iso-builds/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+gpg: migration succeeded
+==> Generating pacman master key. This may take some time.
+gpg: Generating pacman keyring master key...
+gpg: directory '/home/pd0rk1n/iso-builds/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/pd0rk1n/iso-builds/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/openpgp-revocs.d/42DA2170B3855873643960DF6F1FA2A05F11F85D.rev'
+gpg: Done
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+==> Appending keys from archlinux.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 5 keys.
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+gpg: setting ownertrust to 4
+==> Disabling revoked keys in keyring...
+  -> Disabled 38 keys.
+==> Updating trust database...
+gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+gpg: (use option "--allow-weak-key-signatures" to override)
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   5  signed:  86  trust: 0-, 0q, 0n, 5m, 0f, 0u
+gpg: depth: 2  valid:  74  signed:  18  trust: 74-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2026-10-21
+==> Appending keys from chaotic.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 2 keys.
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+==> Disabling revoked keys in keyring...
+  -> Disabled 3 keys.
+==> Updating trust database...
+gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+gpg: (use option "--allow-weak-key-signatures" to override)
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   7  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   7  signed:  86  trust: 0-, 0q, 0n, 7m, 0f, 0u
+gpg: depth: 2  valid:  74  signed:  18  trust: 74-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2026-10-21
+==> Appending keys from cachyos.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 1 key.
+==> Importing owner trust values...
+gpg: inserting ownertrust of 4
+==> Updating trust database...
+gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+gpg: (use option "--allow-weak-key-signatures" to override)
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   8  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   8  signed:  86  trust: 0-, 0q, 0n, 8m, 0f, 0u
+gpg: depth: 2  valid:  74  signed:  18  trust: 74-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2026-10-21
+
+############################################################################
+Keyring prepopulation complete
+############################################################################
+
+
+############################################################################
+Phase 8 — Injecting NVIDIA driver: 580xx
+############################################################################
+
+
+############################################################################
+Desktop / WM editions — qtile xfce  (login session: xfce)
+############################################################################
+
+
+############################################################################
+Enabled edition: qtile
+############################################################################
+
+
+############################################################################
+Enabled edition: xfce
+############################################################################
+
+
+############################################################################
+Phase 9 — Applying kernel(s): linux-cachyos linux-cachyos-lts (live boot: linux-cachyos)
+############################################################################
+
+
+############################################################################
+linux-zen not selected — stripping zen fallback entries from boot configs
+############################################################################
+
+
+############################################################################
+Phase 10 — Stamping build date
+############################################################################
+
+ISO build on: Sat 13 Jun 2026 12:37:31 AM EDT
+
+############################################################################
+Skipping pacman cache clean (clean_pacman_cache=no)
+############################################################################
+
+
+############################################################################
+Phase 11 — Running mkarchiso (this takes a while)
+############################################################################
+
+[mkarchiso] INFO: Validating options...
+[mkarchiso] INFO: Done!
+[mkarchiso] INFO: mkarchiso configuration settings
+[mkarchiso] INFO:              Architecture:   x86_64
+[mkarchiso] INFO:         Working directory:   /home/pd0rk1n/iso-builds/kiro-build
+[mkarchiso] INFO:    Installation directory:   arch
+[mkarchiso] INFO:                Build date:   2026-06-13T00:37-0400
+[mkarchiso] INFO:          Output directory:   /home/pd0rk1n/iso-builds/kiro-Out
+[mkarchiso] INFO:        Current build mode:   iso
+[mkarchiso] INFO:               Build modes:   iso
+[mkarchiso] INFO:                   GPG key:   None
+[mkarchiso] INFO:                GPG signer:   None
+[mkarchiso] INFO: Code signing certificates:   None
+[mkarchiso] INFO:                   Profile:   /home/pd0rk1n/iso-builds/kiro-build/archiso
+[mkarchiso] INFO: Pacman configuration file:   /home/pd0rk1n/iso-builds/kiro-build/archiso/pacman.conf
+[mkarchiso] INFO:           Image file name:   kiro-v26.06.13-x86_64.iso
+[mkarchiso] INFO:          ISO volume label:   kiro-v26.06.13
+[mkarchiso] INFO:             ISO publisher:   kiro
+[mkarchiso] INFO:           ISO application:   Kiro Live/Rescue CD
+[mkarchiso] INFO:                Boot modes:   bios.syslinux uefi.systemd-boot
+[mkarchiso] INFO:             Packages File:   /home/pd0rk1n/iso-builds/kiro-build/archiso/packages.x86_64
+[mkarchiso] INFO:                  Packages:   alsa-utils amd-ucode arch-install-scripts b43-fwcutter base bind broadcom-wl-dkms btrfs-progs clonezilla cryptsetup ddrescue diffutils dmidecode dmraid dnsmasq dosfstools e2fsprogs edk2-shell efibootmgr ethtool exfatprogs f2fs-tools fatresize fsarchiver gpart gpm gptfdisk grub hdparm hyperv intel-ucode iw iwd jfsutils ldns less libfido2 libusb-compat linux-atm linux-firmware linux-firmware-marvell lsscsi lvm2 man-db man-pages mdadm memtest86+ memtest86+-efi mkinitcpio mkinitcpio-archiso mkinitcpio-nfs-utils modemmanager mtools nano nbd ndisc6 nfs-utils nilfs-utils ntfs-3g nvme-cli open-iscsi open-vm-tools openconnect openssh openvpn partclone parted partimage pcsclite ppp pptpclient pv qemu-guest-agent refind reflector rsync screen sdparm sg3_utils smartmontools sof-firmware squashfs-tools sudo syslinux systemd-resolvconf tcpdump terminus-font testdisk tmux tpm2-tss udftools usb_modeswitch usbmuxd usbutils vim vpnc wireless-regdb wireless_tools wpa_supplicant wvdial xdg-utils xfsprogs xl2tpd aic94xx-firmware dialog dnsutils libadwaita logrotate upd72020x-fw wd719x-firmware wget mesa xf86-input-elographics xf86-input-libinput xorg-apps xorg-server xorg-xhost xorg-xinit base-devel gcc make cachyos-keyring cachyos-mirrorlist chaotic-keyring chaotic-mirrorlist calamares chwd hwdetect kiro-bootloader-grub kiro-calamares-config kiro-calamares-tweak-tool mkinitcpio-firmware mkinitcpio-openswap os-prober pacman-hook-kernel-install plymouth-theme-kiro-logo virtualbox-guest-utils spice-vdagent accountsservice qt5-virtualkeyboard sddm-git alacritty archlinux-logout-gtk4 kiro-qtile kiro-rofi kiro-rofi-themes kiro-xfce awesome-terminal-fonts dmenu feh lxappearance fastcompmgr-git polkit-gnome python-setuptools python-psutil qtile rofi thunar thunar-archive-plugin thunar-volman ttf-hack volctl xfce4-terminal xfce4 xfce4-goodies alsa-firmware alsa-lib alsa-plugins gst-libav gst-plugin-pipewire gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly gstreamer libdvdcss pamixer pavucontrol pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse wireplumber avahi hblock inetutils mobile-broadband-provider-info network-manager-applet networkmanager networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc nss-mdns gvfs gvfs-afc gvfs-dnssd gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb libmtp mtpfs udiskie udisks2 xdg-user-dirs ffmpegthumbnailer freetype2 libgepub libgsf libopenraw poppler-glib poppler-qt5 tumbler gnome-keyring polkit polkit-gnome xapp xdg-desktop-portal-gtk kvantum kvantum-qt5 lxappearance qt5ct vte4 ananicy-cpp archlinux-tools cachyos-ananicy-rules-git cronie firewall-config firewalld gparted irqbalance scx-manager sysz tuned tuned-ppd upower zram-generator git imagemagick paru-git yay-git bash-completion dracula-colors-xfce4-terminal fastfetch-git fish lolcat oh-my-zsh-git ripgrep ripgrep-all tldr ttf-jetbrains-mono-nerd ttf-meslo-nerd-font-powerlevel10k unifetch zsh zsh-completions zsh-syntax-highlighting alacritty-tweak-tool arc-gtk-theme archlinux-logout-gtk4 archlinux-tweak-tool-gtk4 kiro-arc-dawn kiro-arc-kde kiro-dot-files kiro-iso-builder kiro-keybindings kiro-neo-candy-arc kiro-neo-candy-arc-mint-grey kiro-neo-candy-arc-mint-red kiro-neo-candy-qogir kiro-neo-candy-tela kiro-polybar kiro-powermenu kiro-rofi kiro-rofi-themes kiro-sddm-simplicity kiro-shells kiro-system-files kiro-variety-config kiro-xfce sparklines-git beautyline bibata-cursor-theme candy-icons-git capitaine-cursors neo-candy-icons-git numix-circle-icon-theme-git numix-icon-theme-git sardi-icons surfn-icons-git ttf-material-design-iconic-font vimix-cursors noto-fonts noto-fonts-emoji ttf-dejavu ttf-font-awesome ttf-hack brave-bin firefox flameshot-git gcolor3 gpick nomacs peek shortwave variety vlc vlc-plugins-all xcolor evince file-roller galculator gnome-disk-utility gnome-screenshot meld sublime-text-4 bat btop duf fd glances most ncdu speedtest-cli the_silver_searcher tree wttr yt-dlp cpuid hardinfo2 hw-probe hwinfo inxi lm_sensors lshw pciutils redshift resources onboard blueberry bluez bluez-libs bluez-utils cups cups-filters cups-pdf ghostscript gsfonts gutenprint simple-scan system-config-printer timeshift appstream devtools downgrade expac hardcode-fixer-git namcap pacmanlogviewer pacquery pamac-aur pkgfile python-pyparted python-pywal rate-mirrors time 7zip unace unrar unzip adobe-source-han-sans-cn-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts adobe-source-sans-fonts ttf-droid ttf-ms-fonts ttf-roboto ttf-roboto-mono ttf-ubuntu-font-family arandr claude-code dconf-editor font-manager gittyup laptop-detect lsb-release menulibre mintstick mugshot plocate yad zenity nvidia-580xx-dkms nvidia-580xx-utils nvidia-580xx-settings linux-cachyos linux-cachyos-headers linux-cachyos-lts linux-cachyos-lts-headers
+[mkarchiso] INFO: Copying custom pacman.conf to work directory...
+[mkarchiso] INFO: Using pacman CacheDir: /var/cache/pacman/pkg/ 
+[mkarchiso] INFO: Copying custom airootfs files...
+[mkarchiso] INFO: Done!
+[mkarchiso] INFO: Installing packages to '/home/pd0rk1n/iso-builds/kiro-build/x86_64/airootfs/'...
+==> Creating install root at /home/pd0rk1n/iso-builds/kiro-build/x86_64/airootfs
+==> Installing packages to /home/pd0rk1n/iso-builds/kiro-build/x86_64/airootfs
+:: Synchronizing package databases...
+ core
+ extra
+ multilib
+ kiro_repo
+ nemesis_repo
+ chaotic-aur
+ cachyos
+:: There are 36 members in group xorg-apps:
+:: Repository extra
+   1) xorg-bdftopcf  2) xorg-iceauth  3) xorg-mkfontscale  4) xorg-sessreg  5) xorg-setxkbmap  6) xorg-smproxy
+   7) xorg-x11perf  8) xorg-xauth  9) xorg-xbacklight  10) xorg-xcmsdb  11) xorg-xcursorgen  12) xorg-xdpyinfo
+   13) xorg-xdriinfo  14) xorg-xev  15) xorg-xgamma  16) xorg-xhost  17) xorg-xinput  18) xorg-xkbcomp  19) xorg-xkbevd
+   20) xorg-xkbprint  21) xorg-xkbutils  22) xorg-xkill  23) xorg-xlsatoms  24) xorg-xlsclients  25) xorg-xmodmap
+   26) xorg-xpr  27) xorg-xprop  28) xorg-xrandr  29) xorg-xrdb  30) xorg-xrefresh  31) xorg-xset  32) xorg-xsetroot
+   33) xorg-xvinfo  34) xorg-xwd  35) xorg-xwininfo  36) xorg-xwud
+
+Enter a selection (default=all): 
+:: There are 15 members in group xfce4:
+:: Repository extra
+   1) exo  2) garcon  3) thunar  4) thunar-volman  5) tumbler  6) xfce4-appfinder  7) xfce4-panel
+   8) xfce4-power-manager  9) xfce4-session  10) xfce4-settings  11) xfce4-terminal  12) xfconf  13) xfdesktop
+   14) xfwm4
+:: Repository chaotic-aur
+   15) xfce4-panel-compiz
+
+Enter a selection (default=all): 
+:: There are 36 members in group xfce4-goodies:
+:: Repository extra
+   1) mousepad  2) parole  3) ristretto  4) thunar-archive-plugin  5) thunar-media-tags-plugin  6) xfburn
+   7) xfce4-battery-plugin  8) xfce4-clipman-plugin  9) xfce4-cpufreq-plugin  10) xfce4-cpugraph-plugin  11) xfce4-dict
+   12) xfce4-diskperf-plugin  13) xfce4-eyes-plugin  14) xfce4-fsguard-plugin  15) xfce4-genmon-plugin
+   16) xfce4-mailwatch-plugin  17) xfce4-mount-plugin  18) xfce4-mpc-plugin  19) xfce4-netload-plugin
+   20) xfce4-notes-plugin  21) xfce4-notifyd  22) xfce4-places-plugin  23) xfce4-pulseaudio-plugin
+   24) xfce4-screensaver  25) xfce4-screenshooter  26) xfce4-sensors-plugin  27) xfce4-smartbookmark-plugin
+   28) xfce4-systemload-plugin  29) xfce4-taskmanager  30) xfce4-time-out-plugin  31) xfce4-timer-plugin
+   32) xfce4-verve-plugin  33) xfce4-wavelan-plugin  34) xfce4-weather-plugin  35) xfce4-whiskermenu-plugin
+   36) xfce4-xkb-plugin
+
+Enter a selection (default=all): 
+:: There are 4 members in group archlinux-tools:
+:: Repository extra
+   1) arch-rebuild-order  2) arch-repro-status  3) arch-signoff  4) pacquery
+
+Enter a selection (default=all): 
+resolving dependencies...
+:: There are 2 providers available for libxtables.so=12-64:
+:: Repository core
+   1) iptables  2) iptables-legacy
+
+Enter a number (default=1): 
+looking for conflicting packages...
+warning: removing 'xfce4-panel-4.20.7-1' from target list because it conflicts with 'xfce4-panel-compiz-4.20.7-1'
+warning: removing 'libxnvctrl-610.43.02-1' from target list because it conflicts with 'libxnvctrl-580xx-580.159.04-1'
+
+Package (1444)                                 New Version                 Net Change  Download Size
+
+extra/a52dec                                   0.8.0-3                       0.13 MiB               
+extra/aalib                                    1.4rc5-19                     0.28 MiB               
+extra/abseil-cpp                               20260107.1-1                  6.71 MiB               
+core/acl                                       2.3.2-2                       0.33 MiB               
+extra/acpica                                   20251212-1                    2.09 MiB               
+extra/adwaita-cursors                          50.0-1                       11.41 MiB               
+extra/adwaita-fonts                            50.0-1                        7.29 MiB               
+extra/adwaita-icon-theme                       50.0-1                        1.19 MiB               
+extra/adwaita-icon-theme-legacy                46.2-3                        2.23 MiB               
+extra/alsa-card-profiles                       1:1.6.6-1                     0.19 MiB               
+extra/alsa-topology-conf                       1.2.5.1-4                     0.33 MiB               
+extra/alsa-ucm-conf                            1.2.16-2                      0.67 MiB               
+extra/aom                                      3.14.1-1                      9.25 MiB               
+extra/appstream-glib                           0.8.3-4                       3.66 MiB               
+extra/apr                                      1.7.6-1                       1.16 MiB       0.27 MiB
+extra/apr-util                                 1.6.3-2                       0.67 MiB       0.16 MiB
+extra/archlinux-appstream-data                 20260606-1                   22.50 MiB               
+core/archlinux-keyring                         20260420-1                    1.72 MiB               
+extra/aribb24                                  1.0.3-4                       0.12 MiB               
+extra/aribb25                                  0.2.7-3                       0.09 MiB               
+chaotic-aur/ast-firmware                       501-1.1                       0.03 MiB       0.01 MiB
+extra/at-spi2-core                             2.60.4-1                      4.04 MiB               
+extra/atkmm                                    2.28.5-2                      0.55 MiB               
+core/attr                                      2.5.2-2                       0.21 MiB               
+core/audit                                     4.1.4-2                       1.01 MiB               
+core/autoconf                                  2.73-1                        2.25 MiB               
+core/automake                                  1.18.1-1                      1.64 MiB               
+core/bash                                      5.3.15-1                      9.59 MiB       1.91 MiB
+extra/bc                                       1.08.2-1                      0.17 MiB       0.09 MiB
+chaotic-aur/betterlockscreen                   4.4.0-1.3                     0.03 MiB       0.01 MiB
+core/binutils                                  2.46+r70+g155188ea10a7-1     44.00 MiB               
+core/bison                                     3.8.2-8                       2.52 MiB               
+extra/blas                                     3.12.1-2                      0.74 MiB               
+extra/bluez-tools                              0.2.0-6                       0.26 MiB       0.07 MiB
+extra/boost-libs                               1.91.0-1                     48.98 MiB               
+extra/bpf                                      7.0.10-1                      5.81 MiB               
+extra/breeze-icons                             6.26.0-1                     82.99 MiB               
+extra/breezy                                   3.3.21-2                     57.61 MiB       7.70 MiB
+core/brotli                                    1.2.0-1                       1.03 MiB               
+extra/bubblewrap                               0.11.2-1                      0.09 MiB               
+core/bzip2                                     1.0.8-6                       0.14 MiB               
+core/ca-certificates                           20240618-1                    0.00 MiB               
+core/ca-certificates-mozilla                   3.124-1                       0.99 MiB               
+core/ca-certificates-utils                     20240618-1                    0.01 MiB               
+extra/cairo                                    1.18.4-1                      1.59 MiB               
+extra/cairomm                                  1.14.6-1                      0.40 MiB               
+extra/cairomm-1.16                             1.18.1-1                      0.41 MiB               
+extra/cblas                                    3.12.1-2                      0.34 MiB               
+extra/cdparanoia                               10.2-9                        0.18 MiB               
+extra/chromaprint                              1.6.0-3                       0.13 MiB               
+extra/cifs-utils                               7.5-1                         0.28 MiB               
+chaotic-aur/ckbcomp                            1.248-1                       0.14 MiB       0.03 MiB
+extra/clang                                    22.1.6-1                    254.42 MiB               
+extra/cmark                                    0.31.2-1                      0.23 MiB       0.10 MiB
+extra/colord                                   1.4.8-1                       5.12 MiB               
+extra/colord-sane                              1.4.8-1                       0.03 MiB       0.01 MiB
+extra/compiler-rt                              22.1.6-1                     54.94 MiB               
+extra/confuse                                  3.3-5                         0.14 MiB               
+core/coreutils                                 9.11-1                       27.50 MiB               
+extra/cpio                                     2.15-3                        0.98 MiB               
+core/cracklib                                  2.10.3-1                      0.91 MiB               
+core/curl                                      8.20.0-7                      2.18 MiB               
+extra/dav1d                                    1.5.3-1                       1.78 MiB               
+core/db5.3                                     5.3.28-7                      6.48 MiB               
+core/dbus                                      1.16.2-1                      0.98 MiB               
+core/dbus-broker                               37-3                          0.35 MiB               
+core/dbus-broker-units                         37-3                          0.00 MiB               
+extra/dbus-glib                                0.114-1                       0.75 MiB               
+core/dbus-units                                37-3                          0.00 MiB               
+extra/dconf                                    0.49.0-1                      0.45 MiB               
+extra/ddcutil                                  2.2.7-1                       2.50 MiB               
+core/debugedit                                 5.3-1                         0.13 MiB               
+extra/default-cursors                          3-1                           0.00 MiB               
+extra/deno                                     2.8.2-1                     107.43 MiB      32.11 MiB
+extra/desktop-file-utils                       0.28-1                        0.18 MiB               
+core/device-mapper                             2.03.41-1                     0.81 MiB               
+core/ding-libs                                 0.7.0-1                       0.28 MiB               
+extra/djvulibre                                3.5.30-1                      3.13 MiB       1.07 MiB
+extra/dkms                                     3.4.1-1                       0.16 MiB       0.05 MiB
+core/dnssec-anchors                            20250524-1                    0.00 MiB               
+extra/double-conversion                        3.4.0-1                       0.19 MiB               
+extra/doxygen                                  1.16.1-3                     20.74 MiB       5.81 MiB
+extra/drbl                                     5.9.6-1                       6.53 MiB       1.64 MiB
+extra/duktape                                  2.7.0-7                       0.78 MiB               
+extra/ecryptfs-utils                           111-9                         0.52 MiB       0.12 MiB
+core/efivar                                    39-2                          0.53 MiB               
+extra/egl-gbm                                  1.1.3-1                       0.03 MiB               
+extra/egl-wayland                              4:1.1.21-1                    0.10 MiB               
+extra/egl-x11                                  1.0.5-1                       0.15 MiB               
+extra/eglexternalplatform                      1.2.1-1                       0.02 MiB               
+extra/elementary-icon-theme                    8.2.0-2                      36.35 MiB               
+core/elfutils                                  0.195-1                       3.63 MiB               
+extra/ell                                      0.83-1                        0.65 MiB               
+extra/enchant                                  2.8.15-2                      0.27 MiB               
+extra/exempi                                   2.6.6-3                       1.41 MiB       0.54 MiB
+extra/exiv2                                    0.28.8-2                     15.52 MiB               
+core/expat                                     2.8.1-1                       0.48 MiB               
+extra/faac                                     1.50-1                        0.16 MiB               
+extra/faad2                                    2.11.2-1                      0.64 MiB               
+core/fakeroot                                  1:1.37.2-1                    0.14 MiB               
+extra/ffmpeg                                   2:8.1.1-2                    48.02 MiB               
+extra/fftw                                     3.3.11-1                      8.83 MiB               
+core/file                                      5.48-1                       10.53 MiB               
+core/filesystem                                2025.10.12-1                  0.02 MiB               
+core/findutils                                 4.10.0-3                      1.74 MiB               
+extra/flac                                     1.5.0-1                       1.14 MiB               
+core/flex                                      2.6.4-6                       0.84 MiB               
+extra/fluidsynth                               2.5.4-1                       0.74 MiB               
+extra/fmt                                      12.1.0-2                      0.70 MiB               
+extra/fontconfig                               2:2.18.1-1                    1.20 MiB               
+extra/freeglut                                 3.8.0-1                       0.41 MiB               
+extra/fribidi                                  1.0.16-2                      0.24 MiB               
+extra/ftgl                                     2.4.0-3                       2.28 MiB               
+extra/fuse-common                              3.18.2-1                      0.00 MiB               
+extra/fuse2                                    2.9.9-5                       0.44 MiB               
+extra/fuse3                                    3.18.2-1                      0.48 MiB               
+extra/fzf                                      0.72.0-1                      4.76 MiB               
+core/gawk                                      5.4.0-1                       4.02 MiB               
+core/gc                                        8.2.12-1                      0.76 MiB               
+core/gcc-libs                                  16.1.1+r12+g301eb08fa2c5-1    0.00 MiB               
+extra/gcr                                      3.41.2-2                      3.84 MiB               
+extra/gcr-4                                    4.4.0.1-1                     3.00 MiB               
+extra/gd                                       2.3.3-9                       0.64 MiB       0.15 MiB
+extra/gdb                                      17.2-1                       31.93 MiB               
+extra/gdb-common                               17.2-1                        1.13 MiB               
+core/gdbm                                      1.26-2                        0.72 MiB               
+extra/gdk-pixbuf2                              2.44.6-2                      2.96 MiB               
+core/gettext                                   1.0-2                        20.79 MiB               
+extra/giflib                                   6.1.3-1                       0.33 MiB               
+extra/glew                                     2.3.1-1                       2.86 MiB               
+extra/glib-networking                          1:2.80.1-1                    0.65 MiB               
+core/glib2                                     2.88.1-1                     37.96 MiB               
+core/glibc                                     2.43+r22+g8362e8ce10b2-2     50.35 MiB               
+extra/glibmm                                   2.66.8-2                      5.91 MiB               
+extra/glibmm-2.68                              2.88.0-2                      6.27 MiB               
+extra/glm                                      1.0.3-1                      20.58 MiB               
+extra/glow                                     2.1.2-1                      17.31 MiB       5.13 MiB
+extra/glslang                                  1:1.4.350.0-1                13.52 MiB               
+extra/glu                                      9.0.3-3                       0.37 MiB               
+extra/glycin                                   2.1.1-1                      17.50 MiB               
+extra/glycin-gtk4                              2.1.1-1                       0.27 MiB       0.13 MiB
+core/gmp                                       6.3.0-3                       1.01 MiB               
+nemesis_repo/gnome-bluetooth                   3.34.5+r16+g61cfff1c-3        1.34 MiB       0.36 MiB
+extra/gnome-desktop                            1:44.5-1                      0.54 MiB               
+extra/gnome-desktop-common                     1:44.5-1                      2.45 MiB               
+extra/gnome-menus                              3.38.1-1                      0.63 MiB       0.15 MiB
+extra/gnome-themes-extra                       1:3.28-1                      4.23 MiB               
+core/gnulib-l10n                               20241231-1                    0.61 MiB               
+core/gnupg                                     2.4.9-1                      10.28 MiB               
+core/gnutls                                    3.8.13-2                      8.11 MiB               
+extra/gobject-introspection-runtime            1.86.0-2                      0.15 MiB               
+extra/gperftools                               2.18.1-1                      2.01 MiB               
+core/gpgme                                     2.1.0-1                       0.77 MiB               
+extra/gpgmepp                                  2.1.0-1                       0.59 MiB               
+extra/graphene                                 1.10.8-2                      0.98 MiB               
+extra/graphite                                 1:1.3.15-1                    0.20 MiB               
+core/grep                                      3.12-2                        0.88 MiB               
+core/groff                                     1.24.1-1                      9.01 MiB               
+extra/gsettings-desktop-schemas                50.1-1                        6.08 MiB               
+extra/gsettings-system-schemas                 50.1-1                        0.02 MiB               
+extra/gsm                                      1.0.24-1                      0.10 MiB               
+extra/gspell                                   1.14.3-1                      0.44 MiB       0.10 MiB
+extra/gssdp                                    1.6.5-1                       0.24 MiB               
+core/gssproxy                                  0.9.2-3                       0.24 MiB               
+extra/gst-plugins-bad-libs                     1.28.4-1                     14.72 MiB       3.18 MiB
+extra/gst-plugins-base-libs                    1.28.4-1                     12.84 MiB       2.45 MiB
+extra/gtest                                    1.17.0-2                      1.63 MiB               
+extra/gtk-layer-shell                          0.10.1-1                      0.39 MiB               
+extra/gtk-update-icon-cache                    1:4.22.4-1                    0.04 MiB               
+extra/gtk3                                     1:3.24.52-1                  52.96 MiB               
+extra/gtk4                                     1:4.22.4-1                   51.53 MiB               
+extra/gtkmm-4.0                                4.22.0-2                      9.98 MiB               
+extra/gtkmm3                                   3.24.11-1                     9.35 MiB               
+extra/gtksourceview3                           1:3.24.11+r30+gd880929f-1     3.91 MiB       0.59 MiB
+extra/gtksourceview4                           4.8.4-2                       7.39 MiB               
+core/guile                                     3.0.11-1                     54.49 MiB               
+extra/gum                                      0.17.0-1                     13.21 MiB       3.63 MiB
+extra/gupnp                                    1:1.6.10-1                    0.70 MiB               
+extra/gupnp-igd                                1.6.0-2                       0.11 MiB               
+core/gzip                                      1.14-2                        0.16 MiB               
+extra/harfbuzz                                 14.2.1-1                      4.77 MiB               
+extra/harfbuzz-icu                             14.2.1-1                      0.02 MiB               
+extra/hicolor-icon-theme                       0.18-1                        0.05 MiB               
+extra/hidapi                                   0.15.0-1                      0.13 MiB               
+extra/highway                                  1.4.0-1                      10.04 MiB               
+extra/hunspell                                 1.7.3-1                       1.63 MiB               
+core/hwdata                                    0.408-1                       9.94 MiB               
+extra/hwloc                                    2.13.0-1                      1.67 MiB               
+extra/hyphen                                   2.8.9-1                       0.04 MiB               
+extra/i2c-tools                                4.4-4                         0.32 MiB               
+chaotic-aur/i3lock-color                       2.13.c.5-3.3                  0.13 MiB       0.06 MiB
+core/iana-etc                                  20260530-1                    4.02 MiB               
+core/icu                                       78.3-1                       43.23 MiB               
+extra/ijs                                      0.35-7                        0.12 MiB               
+extra/imath                                    3.2.2-6                      26.55 MiB               
+extra/imlib2                                   1.12.6-1                      1.47 MiB               
+extra/iperf3                                   3.21-1                        0.30 MiB               
+core/iproute2                                  7.0.0-1                       3.01 MiB               
+core/iptables                                  1:1.8.13-1                    2.35 MiB               
+core/iputils                                   20250605-1                    0.65 MiB               
+extra/iso-codes                                4.20.1-1                     22.30 MiB               
+core/jansson                                   2.15.0-1                      0.27 MiB               
+extra/jbig2dec                                 0.20-2                        0.15 MiB               
+extra/jbigkit                                  2.1-8                         0.16 MiB               
+extra/jemalloc                                 1:5.3.1-2                     1.26 MiB               
+extra/jq                                       1.8.1-3                       0.46 MiB               
+core/json-c                                    0.18-2                        0.18 MiB               
+extra/json-glib                                1.10.8-1                      1.01 MiB               
+extra/karchive                                 6.26.0-1                      0.82 MiB               
+core/kbd                                       2.10.0-1                      3.29 MiB               
+extra/kbookmarks                               6.26.0-1                      0.52 MiB               
+extra/kcodecs                                  6.26.0-1                      0.67 MiB               
+extra/kcolorscheme                             6.26.0-2                      0.16 MiB               
+extra/kcompletion                              6.26.0-1                      0.40 MiB               
+extra/kconfig                                  6.26.0-1                      2.27 MiB               
+extra/kconfigwidgets                           6.26.0-1                      1.36 MiB               
+extra/kcoreaddons                              6.26.0-1                      3.02 MiB               
+extra/kcrash                                   6.26.0-1                      0.07 MiB               
+extra/kdbusaddons                              6.26.0-1                      0.23 MiB               
+extra/kdsingleapplication                      1.2.1-1                       0.08 MiB               
+core/keyutils                                  1.6.3-4                       0.20 MiB               
+extra/kglobalaccel                             6.26.0-1                      0.29 MiB               
+extra/kguiaddons                               6.26.0-2                      0.72 MiB               
+extra/ki18n                                    6.26.0-1                     17.82 MiB               
+extra/kiconthemes                              6.26.0-1                      0.60 MiB               
+extra/kio                                      6.26.0-1                     18.92 MiB               
+extra/kitemviews                               6.26.0-1                      0.39 MiB               
+extra/kjobwidgets                              6.26.0-1                      0.72 MiB               
+core/kmod                                      34.2-1                        0.33 MiB               
+extra/knotifications                           6.26.0-1                      0.50 MiB               
+extra/kparts                                   6.26.0-1                      0.51 MiB               
+extra/kpmcore                                  26.04.2-1                     4.48 MiB               
+core/krb5                                      1.22.2-1                      4.72 MiB               
+extra/kservice                                 6.26.0-1                      0.67 MiB               
+extra/kwallet                                  6.26.0-1                      2.67 MiB               
+extra/kwidgetsaddons                           6.26.0-1                      7.48 MiB               
+extra/kwindowsystem                            6.26.0-2                      0.81 MiB               
+extra/kxmlgui                                  6.26.0-1                      3.71 MiB               
+extra/l-smash                                  2.14.5-4                      1.02 MiB               
+extra/lame                                     3.101.r6531-1                 1.09 MiB               
+extra/lapack                                   3.12.1-2                     15.06 MiB               
+extra/lbzip2                                   2.5-6                         0.14 MiB       0.06 MiB
+extra/lcms2                                    2.19.1-1                      0.69 MiB               
+extra/ldb                                      2:4.24.3-1                    2.17 MiB               
+core/leancrypto                                1.7.2-1                       6.19 MiB               
+core/libaio                                    0.3.113-4                     0.04 MiB               
+extra/libappindicator                          12.10.1-1                     0.34 MiB       0.05 MiB
+core/libarchive                                3.8.7-1                       1.23 MiB               
+core/libasan                                   16.1.1+r12+g301eb08fa2c5-1    1.88 MiB               
+extra/libass                                   0.17.4-2                      0.29 MiB               
+core/libassuan                                 3.0.0-1                       0.23 MiB               
+extra/libasyncns                               1:0.8+r3+g68cd5af-3           0.05 MiB               
+extra/libatasmart                              0.19-8                        0.10 MiB               
+core/libatomic                                 16.1.1+r12+g301eb08fa2c5-1    0.04 MiB               
+extra/libavc1394                               0.5.4-7                       0.12 MiB               
+extra/libavif                                  1.4.2-1                       0.87 MiB               
+extra/libavtp                                  0.2.0-3                       0.05 MiB               
+extra/libb2                                    0.98.1-3                      0.13 MiB               
+extra/libblockdev                              3.5.0-2                       3.63 MiB               
+extra/libblockdev-crypto                       3.5.0-2                       0.08 MiB               
+extra/libblockdev-fs                           3.5.0-2                       0.14 MiB               
+extra/libblockdev-loop                         3.5.0-2                       0.02 MiB               
+extra/libblockdev-mdraid                       3.5.0-2                       0.04 MiB               
+extra/libblockdev-nvme                         3.5.0-2                       0.08 MiB               
+extra/libblockdev-part                         3.5.0-2                       0.04 MiB               
+extra/libblockdev-smart                        3.5.0-2                       0.12 MiB               
+extra/libblockdev-swap                         3.5.0-2                       0.02 MiB               
+extra/libbluray                                1.4.1-1                       1.23 MiB               
+core/libbpf                                    1.7.0-1                       0.82 MiB               
+extra/libbs2b                                  3.1.0-10                      0.07 MiB               
+extra/libbsd                                   0.12.2-2                      0.33 MiB               
+extra/libburn                                  1.5.8-1                       0.68 MiB               
+extra/libbytesize                              2.12-3                        0.09 MiB               
+extra/libcaca                                  0.99.beta20-7                 2.58 MiB               
+extra/libcanberra                              1:0.30+r2+gc0620e4-6          0.37 MiB               
+core/libcap                                    2.78-1                        2.08 MiB               
+core/libcap-ng                                 0.9.3-1                       0.16 MiB               
+extra/libcbor                                  0.14.0-1                      0.18 MiB               
+extra/libcddb                                  1.3.2-9                       0.16 MiB               
+extra/libcdio                                  2.3.0-1                       0.88 MiB               
+extra/libcdio-paranoia                         10.2+2.0.2-2                  0.16 MiB               
+extra/libcloudproviders                        0.4.0-1                       0.32 MiB               
+extra/libcolord                                1.4.8-1                       1.24 MiB               
+extra/libcups                                  2:2.4.19-1                    0.77 MiB               
+extra/libcupsfilters                           2.1.1-4                       1.70 MiB       0.61 MiB
+extra/libdaemon                                0.14-6                        0.06 MiB               
+extra/libdatrie                                0.2.14-1                      0.49 MiB               
+extra/libdbusmenu-glib                         18.10.20180917-1              0.67 MiB               
+extra/libdbusmenu-gtk3                         18.10.20180917-1              0.22 MiB               
+extra/libdc1394                                2.2.7-2                       1.49 MiB               
+extra/libdca                                   0.0.7-3                       0.22 MiB               
+extra/libde265                                 1.1.1-1                       0.94 MiB               
+extra/libdecor                                 0.2.5-1                       0.16 MiB               
+extra/libdeflate                               1.25-1                        0.14 MiB               
+extra/libdisplay-info                          0.3.0-1                       0.39 MiB               
+extra/libdnet                                  1.18.2-1                      0.16 MiB       0.06 MiB
+extra/libdovi                                  3.3.2-1                       0.59 MiB               
+extra/libdrm                                   2.4.134-1                     1.28 MiB               
+extra/libdv                                    1.0.0-12                      0.20 MiB               
+extra/libdvbpsi                                1:1.3.3-4                     0.54 MiB               
+extra/libdvdnav                                7.0.0-1                       0.16 MiB               
+extra/libdvdread                               7.0.1-1                       0.36 MiB               
+extra/libebml                                  1.4.5-2                       0.25 MiB               
+extra/libebur128                               1.2.6-2                       0.05 MiB               
+core/libedit                                   20260512_3.1-1                0.27 MiB               
+core/libelf                                    0.195-1                       3.23 MiB               
+extra/libepoxy                                 1.5.10-3                      2.64 MiB               
+extra/libev                                    4.33-5                        0.19 MiB       0.12 MiB
+extra/libevdev                                 1.13.6-1                      0.21 MiB               
+core/libevent                                  2.1.12-5                      1.12 MiB               
+extra/libexif                                  0.6.26-1                      3.12 MiB               
+extra/libfdk-aac                               2.0.3-2                       1.46 MiB               
+core/libffi                                    3.5.2-1                       0.10 MiB               
+extra/libfontenc                               1.1.9-1                       0.03 MiB               
+extra/libfreeaptx                              0.2.2-1                       0.06 MiB               
+extra/libftdi                                  1.5-10                        0.51 MiB               
+extra/libfyaml                                 0.9.6-2                       1.27 MiB               
+core/libgcc                                    16.1.1+r12+g301eb08fa2c5-1    0.18 MiB               
+core/libgcrypt                                 1.12.2-1                      1.93 MiB               
+extra/libgee                                   0.20.8-1                      1.82 MiB               
+extra/libgexiv2                                0.14.6-2                      1.11 MiB               
+core/libgfortran                               16.1.1+r12+g301eb08fa2c5-1    3.53 MiB               
+extra/libgirepository                          1.86.0-2                      1.52 MiB               
+extra/libgit2                                  1:1.9.4-1                     3.15 MiB               
+extra/libglvnd                                 1.7.0-3                       3.34 MiB               
+extra/libgme                                   0.6.5-1                       0.33 MiB               
+extra/libgnomekbd                              1:3.28.1-2                    0.68 MiB       0.14 MiB
+core/libgomp                                   16.1.1+r12+g301eb08fa2c5-1    0.43 MiB               
+extra/libgoom2                                 2k4-5                         0.21 MiB               
+core/libgpg-error                              1.61-1                        1.14 MiB               
+extra/libgphoto2                               2.5.34-1                      8.07 MiB       1.59 MiB
+extra/libgtop                                  2.41.3-2                      1.26 MiB               
+extra/libgudev                                 238-3                         0.38 MiB               
+extra/libgusb                                  0.4.9-2                       0.35 MiB               
+extra/libgxps                                  0.3.2-5                       0.58 MiB       0.10 MiB
+extra/libhandy                                 1.8.3-2                       2.42 MiB               
+extra/libheif                                  1.23.0-1                      2.73 MiB       0.84 MiB
+extra/libice                                   1.1.2-1                       0.36 MiB               
+extra/libid3tag                                0.16.4-1                      0.10 MiB       0.04 MiB
+extra/libidn                                   1.43-1                        0.85 MiB               
+core/libidn2                                   2.3.8-1                       0.37 MiB               
+extra/libiec61883                              1.2.0-9                       0.12 MiB               
+extra/libieee1284                              0.2.11-19                     0.12 MiB       0.06 MiB
+extra/libimagequant                            4.4.1-2                       0.60 MiB               
+extra/libimobiledevice                         1.4.0-2                       6.19 MiB               
+extra/libimobiledevice-glue                    1.3.2-1                       0.10 MiB               
+core/libinih                                   62-2                          0.06 MiB               
+extra/libinput                                 1.31.3-1                      0.79 MiB               
+core/libisl                                    0.27-1                        5.75 MiB               
+extra/libisofs                                 1.5.8.2-1                     0.85 MiB               
+extra/libjpeg-turbo                            3.1.4.1-1                     2.43 MiB               
+extra/libjxl                                   0.11.2-2                      9.65 MiB               
+extra/libkate                                  0.4.3-4                       0.52 MiB               
+extra/libkeybinder3                            0.3.2-5                       0.07 MiB               
+core/libksba                                   1.8.0-1                       0.34 MiB               
+extra/liblc3                                   1.1.3-2                       0.28 MiB               
+extra/libldac                                  2.0.2.3-3                     0.10 MiB               
+core/libldap                                   2.6.13-1                      0.66 MiB               
+extra/libliftoff                               0.5.0-1                       0.04 MiB       0.02 MiB
+extra/liblqr                                   0.4.3-1                       0.08 MiB               
+extra/liblrdf                                  0.6.1-5                       0.05 MiB               
+core/liblsan                                   16.1.1+r12+g301eb08fa2c5-1    0.55 MiB               
+extra/libltc                                   1.3.2-2                       0.74 MiB               
+extra/libmad                                   0.15.1b-10                    0.16 MiB               
+core/libmakepkg-dropins                        20-1                          0.01 MiB               
+extra/libmanette                               0.2.13-2                      0.40 MiB               
+extra/libmatroska                              1.7.1-2                       0.70 MiB               
+extra/libmaxminddb                             1.13.3-1                      0.04 MiB               
+extra/libmbim                                  1.34.0-1                      3.62 MiB               
+extra/libmd                                    1.2.0-1                       0.13 MiB               
+extra/libmicrodns                              0.2.0-2                       0.04 MiB               
+extra/libmm-glib                               1.24.2-1                      7.42 MiB               
+core/libmnl                                    1.0.5-2                       0.03 MiB               
+extra/libmodplug                               0.8.9.0-7                     0.37 MiB               
+core/libmpc                                    1.4.1-1                       0.19 MiB               
+extra/libmpcdec                                1:0.1+r475-6                  0.09 MiB               
+extra/libmpd                                   11.8.17-7                     0.18 MiB               
+extra/libmpeg2                                 0.5.1-11                      0.23 MiB               
+extra/libmspack                                1:1.11-2                      0.17 MiB       0.06 MiB
+extra/libmysofa                                1.3.4-1                       1.26 MiB               
+extra/libnautilus-extension                    50.2.2-1                      0.21 MiB       0.03 MiB
+extra/libndp                                   1.9-1                         0.06 MiB               
+core/libnetfilter_conntrack                    1.1.1-1                       0.16 MiB               
+extra/libnewt                                  0.52.25-2                     0.28 MiB               
+core/libnfnetlink                              1.0.2-2                       0.05 MiB               
+extra/libnfs                                   6.0.2-5                       0.86 MiB               
+core/libnftnl                                  1.3.1-1                       0.25 MiB               
+core/libnghttp2                                1.69.0-1                      0.39 MiB               
+core/libnghttp3                                1.16.0-1                      0.27 MiB               
+core/libngtcp2                                 1.23.0-1                      0.74 MiB               
+extra/libnice                                  0.1.23-1                      1.81 MiB               
+core/libnl                                     3.12.0-1                      2.12 MiB               
+extra/libnm                                    1.56.1-1                      6.39 MiB               
+extra/libnma                                   1.10.6-3                      0.48 MiB       0.11 MiB
+extra/libnma-common                            1.10.6-3                      1.07 MiB               
+extra/libnma-gtk4                              1.10.6-3                      0.46 MiB               
+extra/libnotify                                0.8.8-1                       0.17 MiB               
+core/libnsl                                    2.0.1-2                       0.07 MiB               
+extra/libntfs-3g                               2026.2.25-1                   0.60 MiB               
+extra/libnvme                                  1.16.1-3                      1.73 MiB               
+core/libobjc                                   16.1.1+r12+g301eb08fa2c5-1    0.09 MiB               
+extra/libogg                                   1.3.6-1                       0.44 MiB               
+extra/libopenmpt                               0.8.7-1                       2.53 MiB               
+core/libp11-kit                                0.26.2-1                      3.21 MiB               
+nemesis_repo/libpamac-aur                      11.7.4-2                      4.12 MiB               
+extra/libpaper                                 2.2.8-1                       0.16 MiB               
+core/libpcap                                   1.10.6-1                      0.65 MiB               
+extra/libpciaccess                             0.19-1                        0.06 MiB               
+extra/libpfm                                   4.13.0+r83+g91970fe-1         2.49 MiB       0.38 MiB
+extra/libpgm                                   5.3.128-4                     0.35 MiB               
+core/libpipeline                               1.5.8-1                       0.09 MiB               
+extra/libpipewire                              1:1.6.6-1                     2.00 MiB               
+extra/libplacebo                               7.360.1-2                     1.61 MiB               
+extra/libplist                                 2.7.0-3                       0.52 MiB               
+extra/libpng                                   1.6.58-1                      0.58 MiB               
+extra/libportal                                0.9.1-3                       0.58 MiB       0.10 MiB
+extra/libportal-gtk3                           0.9.1-3                       0.03 MiB       0.01 MiB
+extra/libppd                                   2.1.1-2                       0.96 MiB       0.31 MiB
+extra/libproxy                                 0.5.12-1                      0.10 MiB               
+core/libpsl                                    0.21.5-2                      0.22 MiB               
+extra/libpulse                                 17.0+r98+gb096704c0-1         1.46 MiB               
+extra/libpwquality                             1.4.5-7                       0.43 MiB               
+extra/libqmi                                   1.38.0-1                     21.52 MiB               
+extra/libqrtr-glib                             1.4.0-1                       0.13 MiB               
+core/libquadmath                               16.1.1+r12+g301eb08fa2c5-1    0.30 MiB               
+extra/libraqm                                  0.10.5-1                      0.18 MiB               
+extra/libraw                                   0.22.1-1                      2.67 MiB               
+extra/libraw1394                               2.1.2-4                       0.16 MiB               
+extra/librsvg                                  2:2.62.3-1                   10.26 MiB               
+extra/libsamplerate                            0.2.2-3                       1.55 MiB               
+core/libsasl                                   2.1.28-5                      0.50 MiB               
+core/libseccomp                                2.6.0-1                       0.31 MiB               
+core/libsecret                                 0.21.7-1                      1.16 MiB               
+extra/libshout                                 1:2.4.6-5                     0.20 MiB               
+extra/libshumate                               1.6.1-1                       1.36 MiB       0.38 MiB
+extra/libsigc++                                2.12.2-1                      1.14 MiB               
+extra/libsigc++-3.0                            3.8.1-1                       0.25 MiB               
+extra/libsm                                    1.2.6-1                       0.26 MiB               
+extra/libsndfile                               1.2.2-4                       0.93 MiB               
+extra/libsodium                                1.0.22-1                      0.64 MiB               
+extra/libsoup3                                 3.6.6-2                       1.96 MiB               
+extra/libsoxr                                  0.1.3-4                       0.20 MiB               
+extra/libspectre                               0.2.12-2                      0.08 MiB       0.03 MiB
+extra/libsrtp                                  1:2.8.0-1                     0.17 MiB               
+extra/libssh                                   0.12.0-1                      0.71 MiB               
+core/libssh2                                   1.11.1-1                      0.48 MiB               
+core/libstdc++                                 16.1.1+r12+g301eb08fa2c5-1    2.81 MiB               
+extra/libstemmer                               3.1.1-1                       0.64 MiB               
+extra/libsynctex                               2026.0-2                      0.14 MiB       0.05 MiB
+extra/libsysprof-capture                       50.0-2                        0.27 MiB               
+core/libtasn1                                  4.21.0-1                      0.27 MiB               
+extra/libtatsu                                 1.0.5-1                       0.05 MiB               
+extra/libteam                                  1.32-3                        0.33 MiB               
+extra/libthai                                  0.1.30-1                      1.24 MiB               
+extra/libtheora                                1.2.0-1                       2.34 MiB               
+extra/libtiff                                  4.7.1-2                       1.26 MiB               
+extra/libtiger                                 0.3.4-8                       0.06 MiB               
+core/libtirpc                                  1.3.7-1                       0.42 MiB               
+core/libtool                                   2.6.1-1                       2.34 MiB               
+extra/libtraceevent                            1:1.9.0-1                     0.42 MiB       0.17 MiB
+core/libtsan                                   16.1.1+r12+g301eb08fa2c5-1    1.45 MiB               
+core/libubsan                                  16.1.1+r12+g301eb08fa2c5-1    0.50 MiB               
+extra/libunibreak                              7.0-1                         0.15 MiB               
+core/libunistring                              1.4.2-1                       2.73 MiB               
+extra/libunwind                                1.8.2-1                       0.29 MiB               
+extra/libupnp                                  1.14.31-1                     0.94 MiB               
+extra/liburcu                                  0.15.6-1                      0.73 MiB               
+extra/liburing                                 2.14-1                        0.45 MiB               
+core/libusb                                    1.0.30-1                      0.23 MiB               
+extra/libusbmuxd                               2.1.1-2                       0.08 MiB               
+extra/libutempter                              1.2.3-1                       0.03 MiB               
+extra/libutf8proc                              2.11.3-1                      0.38 MiB       0.07 MiB
+extra/libuv                                    1.52.1-1                      0.64 MiB               
+extra/libva                                    2.23.0-1                      0.98 MiB               
+extra/libvdpau                                 1.5-4                         0.28 MiB               
+core/libverto                                  0.3.2-6                       0.07 MiB               
+extra/libvlc                                   3.0.23_2-6                    2.21 MiB               
+extra/libvorbis                                1.3.7-4                       0.83 MiB               
+extra/libvpl                                   2.16.0-2                      0.97 MiB               
+extra/libvpx                                   1.16.0-3                      3.68 MiB               
+extra/libwacom                                 2.19.0-1                      1.60 MiB               
+extra/libwbclient                              2:4.24.3-1                    0.12 MiB               
+extra/libwebp                                  1.6.0-2                       1.04 MiB               
+extra/libwireplumber                           0.5.14-1                      1.59 MiB               
+extra/libwnck3                                 43.3-1                        3.14 MiB               
+extra/libx11                                   1.8.13-1                      9.78 MiB               
+extra/libx86emu                                3.7-2                         0.16 MiB               
+extra/libxau                                   1.0.12-1                      0.02 MiB               
+extra/libxaw                                   1.0.16-2                      1.65 MiB               
+extra/libxcb                                   1.17.0-1                      3.87 MiB               
+extra/libxcomposite                            0.4.7-1                       0.02 MiB               
+core/libxcrypt                                 4.5.2-1                       0.19 MiB               
+extra/libxcursor                               1.2.3-1                       0.07 MiB               
+extra/libxcvt                                  0.1.3-1                       0.04 MiB               
+extra/libxdamage                               1.1.7-1                       0.02 MiB               
+extra/libxdmcp                                 1.1.5-2                       0.13 MiB               
+extra/libxext                                  1.3.7-1                       0.30 MiB               
+extra/libxfce4ui                               4.20.2-1                      2.21 MiB               
+extra/libxfce4util                             4.20.1-1                      1.06 MiB               
+extra/libxfce4windowing                        4.20.6-1                      1.26 MiB               
+extra/libxfixes                                6.0.2-1                       0.04 MiB               
+extra/libxfont2                                2.0.7-1                       0.23 MiB               
+extra/libxft                                   2.3.9-1                       0.13 MiB               
+extra/libxi                                    1.8.3-1                       0.49 MiB               
+extra/libxinerama                              1.1.6-1                       0.02 MiB               
+extra/libxkbcommon                             1.13.2-1                      1.05 MiB               
+extra/libxkbcommon-x11                         1.13.2-1                      0.10 MiB               
+extra/libxkbfile                               1.2.0-1                       0.19 MiB               
+extra/libxklavier                              5.4-7                         0.35 MiB               
+core/libxml2                                   2.15.3-1                      3.00 MiB               
+extra/libxmlb                                  0.3.27-1                      1.21 MiB               
+extra/libxmu                                   1.3.1-1                       0.34 MiB               
+chaotic-aur/libxnvctrl-580xx                   580.159.04-1                  0.45 MiB       0.09 MiB
+extra/libxpm                                   3.5.19-1                      0.16 MiB               
+extra/libxpresent                              1.0.2-1                       0.03 MiB               
+extra/libxrandr                                1.5.5-1                       0.07 MiB               
+extra/libxrender                               0.9.12-1                      0.09 MiB               
+extra/libxres                                  1.2.3-1                       0.02 MiB               
+extra/libxshmfence                             1.3.3-1                       0.02 MiB               
+extra/libxslt                                  1.1.45-2                      0.78 MiB               
+extra/libxss                                   1.2.5-1                       0.03 MiB               
+extra/libxt                                    1.3.1-1                       2.02 MiB               
+extra/libxtst                                  1.2.5-1                       0.11 MiB               
+extra/libxv                                    1.0.13-1                      0.06 MiB               
+extra/libxxf86vm                               1.1.7-1                       0.03 MiB               
+extra/libyaml                                  0.2.5-3                       0.18 MiB               
+extra/libyuv                                   r2426+464c51a03-1             1.82 MiB               
+core/licenses                                  20240728-1                    1.54 MiB               
+extra/lilv                                     0.26.4-1                      0.28 MiB               
+core/linux-api-headers                         7.0-1                         6.92 MiB               
+core/linux-firmware-amdgpu                     20260519-1                   26.17 MiB               
+core/linux-firmware-atheros                    20260519-1                   51.13 MiB               
+core/linux-firmware-broadcom                   20260519-1                   12.94 MiB               
+core/linux-firmware-cirrus                     20260519-1                    2.77 MiB               
+core/linux-firmware-intel                      20260519-1                  128.79 MiB               
+core/linux-firmware-liquidio                   20260519-1                    1.58 MiB       1.53 MiB
+core/linux-firmware-mediatek                   20260519-1                   28.26 MiB               
+core/linux-firmware-mellanox                   20260519-1                  101.62 MiB     101.54 MiB
+core/linux-firmware-nfp                        20260519-1                    5.42 MiB       4.52 MiB
+core/linux-firmware-nvidia                     20260519-1                  103.55 MiB               
+core/linux-firmware-other                      20260519-1                   29.74 MiB               
+core/linux-firmware-qlogic                     20260519-1                   11.43 MiB      11.38 MiB
+core/linux-firmware-radeon                     20260519-1                    2.30 MiB               
+core/linux-firmware-realtek                    20260519-1                    6.82 MiB               
+core/linux-firmware-whence                     20260519-1                    0.42 MiB               
+extra/lirc                                     1:0.10.2-6                    3.70 MiB               
+extra/live-media                               2025.05.24-1                  2.51 MiB               
+extra/lksctp-tools                             1.0.21-1                      0.31 MiB               
+extra/lld                                      22.1.6-1                      7.14 MiB               
+extra/llhttp                                   9.3.1-1                       0.11 MiB               
+extra/llvm                                     22.1.6-1                    130.94 MiB               
+extra/llvm-libs                                22.1.6-1                    163.72 MiB               
+extra/llvm21-libs                              21.1.8-1                    149.92 MiB               
+extra/lmdb                                     0.9.35-1                      0.40 MiB               
+extra/lrzip                                    0.660-1                       0.39 MiB       0.17 MiB
+extra/lua                                      5.5.0-2                       1.57 MiB               
+extra/lua-lpeg                                 1.1.0-5                       0.06 MiB       0.03 MiB
+extra/lua51                                    5.1.5-13                      0.87 MiB               
+extra/lua54                                    5.4.8-6                       1.50 MiB               
+extra/luajit                                   2.1.1780076327+b925b3e-1      0.82 MiB               
+extra/lv2                                      1.18.10-2                     0.98 MiB               
+core/lz4                                       1:1.10.0-2                    0.44 MiB               
+core/lzo                                       2.10-5                        0.38 MiB               
+extra/lzop                                     1.04-4                        0.19 MiB       0.06 MiB
+core/m4                                        1.4.21-2                      0.71 MiB               
+extra/mailcap                                  2.1.54-2                      0.11 MiB               
+extra/mariadb-libs                             12.3.2-2                     23.65 MiB               
+extra/md4c                                     0.5.3-1                       0.20 MiB               
+extra/media-player-info                        26-1                          0.18 MiB               
+extra/mercurial                                7.2.2-1                      36.46 MiB       6.34 MiB
+extra/mesa-utils                               9.0.0-7                       0.76 MiB               
+extra/mjpegtools                               2.2.1-4                       2.21 MiB               
+core/mkinitcpio-busybox                        1.36.1-1                      0.51 MiB               
+core/mpdecimal                                 4.0.1-3                       0.32 MiB               
+core/mpfr                                      4.2.2-1                       1.01 MiB               
+extra/mpg123                                   1.33.5-1                      1.18 MiB               
+extra/mtdev                                    1.1.7-1                       0.05 MiB               
+core/ncurses                                   6.6-2                         4.09 MiB               
+extra/neon                                     0.37.1-1                      0.78 MiB               
+extra/net-snmp                                 5.9.5.2-1                     8.56 MiB       2.03 MiB
+core/net-tools                                 2.10-3                        0.48 MiB               
+core/nettle                                    4.0-1                         1.03 MiB               
+extra/networkmanager-vpn-plugin-openconnect    1.2.10-4                      0.07 MiB       0.02 MiB
+extra/networkmanager-vpn-plugin-openvpn        1.12.5-1                      0.16 MiB               
+extra/networkmanager-vpn-plugin-pptp           1.2.12-7                      0.10 MiB       0.03 MiB
+extra/networkmanager-vpn-plugin-vpnc           1.4.0-2                       0.10 MiB       0.03 MiB
+core/nfsidmap                                  2.9.1-1                       0.17 MiB               
+extra/nftables                                 1:1.1.6-3                     1.11 MiB               
+extra/nm-connection-editor                     1.36.0-2                      4.46 MiB       0.76 MiB
+core/npth                                      1.8-1                         0.08 MiB               
+core/nspr                                      4.39-1                        0.71 MiB               
+core/nss                                       3.124-1                       5.24 MiB               
+extra/ntfsprogs                                2026.2.25-1                   0.82 MiB       0.28 MiB
+extra/numactl                                  2.0.19-1                      0.24 MiB               
+extra/oath-toolkit                             2.6.14-3                      1.11 MiB       0.24 MiB
+extra/ocl-icd                                  2.3.4-1                       0.48 MiB               
+extra/onetbb                                   2023.0.0-1                    1.98 MiB               
+extra/oniguruma                                6.9.10-1                      0.88 MiB               
+extra/open-isns                                0.103-1                       0.63 MiB       0.13 MiB
+extra/openal                                   1.25.2-1                      2.77 MiB               
+extra/opencore-amr                             0.1.6-2                       0.29 MiB               
+extra/opencv                                   4.13.0-9                    105.12 MiB               
+extra/openexr                                  3.4.12-2                      4.49 MiB       1.18 MiB
+extra/openh264                                 2.6.0-2                       2.22 MiB               
+extra/openjpeg2                                2.5.4-1                      13.37 MiB               
+extra/openjph                                  0.28.1-1                      0.68 MiB       0.22 MiB
+core/openssl                                   3.6.3-1                      12.24 MiB               
+extra/opus                                     1.6.1-1                       4.16 MiB               
+extra/orc                                      0.4.42-1                      1.36 MiB               
+core/p11-kit                                   0.26.2-1                      1.10 MiB               
+core/pacman                                    7.1.0.r9.g54d9411-2           5.04 MiB               
+extra/pacman-contrib                           1.13.1-1                      0.13 MiB               
+core/pacman-mirrorlist                         20260610-1                    0.03 MiB               
+extra/pahole                                   1:1.31-2                      0.93 MiB               
+core/pam                                       1.7.2-2                       2.92 MiB               
+core/pambase                                   20250719-1                    0.00 MiB               
+extra/pango                                    1:1.57.1-1                    2.33 MiB               
+extra/pangomm                                  2.46.4-3                      0.49 MiB               
+extra/pangomm-2.48                             2.56.1-2                      0.58 MiB               
+extra/parallel                                 20260522-1                    0.96 MiB               
+core/patch                                     2.8-1                         0.17 MiB               
+extra/pbzip2                                   1.1.13-5                      0.08 MiB       0.03 MiB
+core/pcre                                      8.45-4                        3.50 MiB               
+core/pcre2                                     10.47-1                       7.00 MiB               
+extra/perf                                     7.0.10-1                     24.06 MiB       3.16 MiB
+core/perl                                      5.42.2-1                     70.11 MiB               
+extra/perl-class-inspector                     1.36-10                       0.03 MiB               
+extra/perl-clone                               0.50-1                        0.03 MiB               
+extra/perl-encode-locale                       1.05-15                       0.02 MiB               
+extra/perl-error                               0.17030-3                     0.04 MiB               
+extra/perl-file-listing                        6.16-6                        0.02 MiB               
+extra/perl-file-sharedir                       1.118-8                       0.02 MiB               
+extra/perl-html-parser                         3.85-1                        0.33 MiB               
+extra/perl-html-tagset                         3.24-4                        0.02 MiB               
+extra/perl-http-cookiejar                      0.014-5                       0.03 MiB               
+extra/perl-http-cookies                        6.11-4                        0.04 MiB               
+extra/perl-http-daemon                         6.17-1                        0.04 MiB               
+extra/perl-http-date                           6.06-5                        0.01 MiB               
+extra/perl-http-message                        7.02-1                        0.16 MiB               
+extra/perl-http-negotiate                      6.01-16                       0.02 MiB               
+extra/perl-io-html                             1.004-8                       0.02 MiB               
+extra/perl-libwww                              6.83-1                        0.29 MiB               
+extra/perl-lwp-mediatypes                      6.04-8                        0.06 MiB               
+extra/perl-mailtools                           2.22-3                        0.10 MiB               
+extra/perl-net-http                            6.24-2                        0.04 MiB               
+extra/perl-timedate                            2.35-1                        0.15 MiB               
+extra/perl-try-tiny                            0.32-4                        0.03 MiB               
+extra/perl-uri                                 5.34-2                        0.21 MiB               
+extra/perl-www-robotrules                      6.03-1                        0.02 MiB               
+extra/perl-xml-parser                          2.59-1                        0.68 MiB               
+extra/perl-xml-writer                          0.900-6                       0.05 MiB               
+extra/pigz                                     2.8-2                         0.17 MiB       0.09 MiB
+core/pinentry                                  1.3.2-2                       0.75 MiB               
+extra/pixman                                   0.46.4-1                      0.74 MiB               
+extra/pixz                                     1.0.7-5                       0.04 MiB       0.02 MiB
+extra/pkcs11-helper                            1.31.0-1                      0.31 MiB               
+core/pkgconf                                   2.5.1-1                       0.20 MiB               
+extra/plymouth                                 26.134.222-2                  2.19 MiB               
+extra/polkit-qt6                               0.201.1-1                     0.35 MiB               
+extra/poppler                                  26.05.0-1                     6.75 MiB               
+extra/poppler-data                             0.4.12-2                     12.34 MiB               
+core/popt                                      1.19-2                        0.23 MiB               
+extra/portaudio                                1:19.7.0-4                    0.33 MiB               
+extra/postgresql-libs                          18.4-1                       10.71 MiB               
+core/procps-ng                                 4.0.6-1                       2.54 MiB               
+extra/projectm                                 3.1.12-5                     25.94 MiB               
+extra/protobuf                                 35.0-1                       18.73 MiB               
+extra/protobuf-c                               1.5.2-10                      0.42 MiB               
+core/psmisc                                    23.7-2                        0.76 MiB               
+extra/pyalpm                                   0.11.1-1                      0.23 MiB               
+extra/pyside6                                  6.11.1-1                     51.47 MiB       9.12 MiB
+core/python                                    3.14.5-1                     73.34 MiB               
+extra/python-annotated-types                   0.7.0-3                       0.12 MiB               
+extra/python-attrs                             26.1.0-1                      0.63 MiB       0.12 MiB
+extra/python-autocommand                       2.2.2-9                       0.08 MiB       0.02 MiB
+extra/python-beautifulsoup4                    4.15.0-1                      1.22 MiB               
+extra/python-binaryornot                       0.6.0-1                       0.10 MiB       0.03 MiB
+extra/python-boolean.py                        5.0-2                         0.36 MiB       0.06 MiB
+extra/python-cairo                             1.29.0-2                      0.43 MiB               
+extra/python-cairocffi                         1.7.1-2                       1.03 MiB       0.13 MiB
+core/python-capng                              0.9.3-1                       0.10 MiB       0.03 MiB
+extra/python-certifi                           2026.05.20-1                  0.02 MiB               
+extra/python-cffi                              2.0.0-2                       1.38 MiB       0.28 MiB
+extra/python-charset-normalizer                3.4.7-1                       0.96 MiB               
+extra/python-click                             8.3.3-1                       1.38 MiB       0.23 MiB
+extra/python-colorama                          0.4.6-6                       0.25 MiB       0.05 MiB
+extra/python-configobj                         5.0.9-6                       0.40 MiB               
+extra/python-dateutil                          2.9.0-8                       1.03 MiB               
+extra/python-dbus                              1.4.0-2                       0.62 MiB               
+extra/python-debian                            1.1.1-1                       1.72 MiB       0.27 MiB
+extra/python-defusedxml                        0.7.1-8                       0.14 MiB               
+extra/python-distro                            1.9.0-4                       0.20 MiB               
+extra/python-docopt                            0.6.2-15                      0.10 MiB       0.03 MiB
+extra/python-dulwich                           1.1.0-1                      10.81 MiB       1.64 MiB
+extra/python-fastbencode                       0.3.10-1                      0.54 MiB       0.21 MiB
+extra/python-firewall                          2.4.1-1                       4.16 MiB       0.46 MiB
+extra/python-gobject                           3.56.3-1                      1.51 MiB               
+extra/python-httplib2                          0.31.2-1                      0.25 MiB               
+extra/python-idna                              3.18-1                        0.64 MiB               
+extra/python-jaraco.collections                5.1.0-3                       0.11 MiB       0.02 MiB
+extra/python-jaraco.context                    6.1.2-1                       0.06 MiB       0.02 MiB
+extra/python-jaraco.functools                  4.1.0-3                       0.07 MiB       0.02 MiB
+extra/python-jaraco.text                       4.0.0-4                       0.08 MiB       0.02 MiB
+extra/python-jinja                             1:3.1.6-3                     2.04 MiB               
+extra/python-keyutils                          0.6-12                        0.10 MiB       0.03 MiB
+extra/python-license-expression                30.4.4-2                      1.24 MiB       0.12 MiB
+extra/python-linux-procfs                      0.7.4-2                       0.14 MiB       0.03 MiB
+extra/python-lxml                              6.1.1-1                       5.91 MiB               
+extra/python-markupsafe                        3.0.3-1                       0.09 MiB               
+extra/python-merge3                            0.0.16-2                      0.10 MiB       0.03 MiB
+extra/python-more-itertools                    11.1.0-1                      0.77 MiB       0.13 MiB
+extra/python-orjson                            3.11.9-1                      0.87 MiB               
+extra/python-packaging                         26.2-1                        1.23 MiB               
+extra/python-patiencediff                      0.2.18-2                      0.67 MiB       0.24 MiB
+extra/python-pexpect                           4.9.0-7                       0.61 MiB       0.10 MiB
+extra/python-pillow                            12.2.0-1                      4.84 MiB               
+extra/python-pkg_resources                     81.0.0-1                      0.50 MiB       0.09 MiB
+extra/python-platformdirs                      4.10.0-1                      0.45 MiB       0.05 MiB
+extra/python-ptyprocess                        0.7.0-9                       0.12 MiB       0.03 MiB
+chaotic-aur/python-pulsectl                    1:24.12.0-1.1                 0.45 MiB       0.10 MiB
+extra/python-pycparser                         3.00-1                        0.71 MiB       0.11 MiB
+extra/python-pycups                            2.0.4-4                       0.18 MiB       0.06 MiB
+extra/python-pycurl                            7.46.0-1                      0.47 MiB               
+extra/python-pydantic                          2.13.4-1                      6.04 MiB               
+extra/python-pydantic-core                     3:2.46.4-1                    5.47 MiB               
+extra/python-pyelftools                        0.33-1                        2.57 MiB       0.40 MiB
+extra/python-pyinotify                         0.9.6-16                      0.29 MiB       0.05 MiB
+extra/python-pyparsing                         3.3.2-1                       1.55 MiB               
+extra/python-pyudev                            0.24.4-1                      1.06 MiB       0.14 MiB
+extra/python-pyxdg                             0.28-7                        0.58 MiB       0.10 MiB
+extra/python-requests                          2.34.2-1                      0.76 MiB               
+extra/python-setproctitle                      1.3.7-2                       0.04 MiB       0.01 MiB
+extra/python-shtab                             1.8.0-2                       0.14 MiB               
+extra/python-six                               1.17.0-3                      0.12 MiB               
+extra/python-soupsieve                         2.8.4-1                       0.51 MiB               
+extra/python-termcolor                         3.3.0-1                       0.04 MiB       0.01 MiB
+extra/python-tomlkit                           0.15.0-1                      0.78 MiB               
+extra/python-typing-inspection                 0.4.2-2                       0.12 MiB               
+extra/python-typing_extensions                 4.15.0-3                      0.52 MiB               
+extra/python-unidecode                         1.4.0-3                       1.42 MiB       0.24 MiB
+extra/python-urllib3                           2.7.0-1                       1.43 MiB               
+extra/python-wheel                             0.47.0-1                      0.33 MiB       0.07 MiB
+extra/python-xapp                              3.0.3-1                       0.38 MiB       0.07 MiB
+extra/python-xcffib                            1.6.1-3                       4.01 MiB       0.28 MiB
+extra/python-yaml                              6.0.3-2                       0.96 MiB               
+extra/qca-qt6                                  2.3.10-7                      3.44 MiB               
+extra/qpdf                                     12.3.2-2                      3.37 MiB       1.03 MiB
+extra/qrencode                                 4.1.1-4                       0.11 MiB               
+extra/qt5-base                                 5.15.19+kde+r96-1            63.71 MiB               
+extra/qt5-declarative                          5.15.19+kde+r23-1            23.65 MiB               
+extra/qt5-quickcontrols                        5.15.19-1                     4.74 MiB       0.90 MiB
+extra/qt5-quickcontrols2                       5.15.19+kde+r5-1              8.67 MiB       1.51 MiB
+extra/qt5-svg                                  5.15.19+kde+r5-1              0.49 MiB               
+extra/qt5-translations                         5.15.19-1                    14.71 MiB               
+extra/qt5-wayland                              5.15.19+kde+r55-1             6.09 MiB               
+extra/qt5-x11extras                            5.15.19-1                     0.04 MiB               
+extra/qt6-5compat                              6.11.1-1                      2.17 MiB               
+extra/qt6-base                                 6.11.1-1                     66.63 MiB               
+extra/qt6-declarative                          6.11.1-3                    119.84 MiB               
+extra/qt6-shadertools                          6.11.1-1                      5.68 MiB               
+extra/qt6-svg                                  6.11.1-1                      1.03 MiB               
+extra/qt6-translations                         6.11.1-1                     15.36 MiB               
+extra/quazip-qt6                               1.7.1-1                       0.46 MiB       0.14 MiB
+extra/raptor                                   2.0.16-9                      1.99 MiB               
+extra/rav1e                                    0.8.1-2                       7.61 MiB               
+core/readline                                  8.3.003-1                     1.50 MiB               
+extra/reuse                                    6.2.0-2                       1.80 MiB       0.31 MiB
+core/rpcbind                                   1.2.9-1                       0.10 MiB               
+extra/rtmpdump                                 1:2.6-2                       0.26 MiB               
+extra/rubberband                               4.0.0-2                       1.52 MiB               
+extra/ruby                                     3.4.8-2                      16.84 MiB               
+extra/ruby-erb                                 4.0.4-9                       0.09 MiB               
+extra/ruby-manpages                            0.6.1-8                       0.05 MiB               
+extra/ruby-optimist                            3.2.1-1                       0.15 MiB               
+extra/ruby-paint                               2.3.0-6                       0.07 MiB               
+extra/ruby-rdoc                                6.14.0-1                      3.17 MiB               
+extra/rubygems                                 3.6.9-1                       2.73 MiB               
+extra/run-parts                                5.23.2-1                      0.05 MiB       0.03 MiB
+extra/sane                                     1.4.0-4                      18.74 MiB       3.76 MiB
+extra/sbc                                      2.2-1                         0.21 MiB               
+extra/scx-scheds                               1.1.1-1                     156.78 MiB               
+extra/scx-tools                                1.1.1-1                       7.43 MiB               
+extra/sd                                       1.1.0-1                       2.44 MiB               
+extra/sdl12-compat                             1.2.68-2                      0.64 MiB               
+cachyos/sdl2                                   2.32.10-1                     4.52 MiB       1.03 MiB
+extra/sdl3                                     3.4.10-1                      6.95 MiB               
+extra/sdl_image                                1.2.12-9                      0.06 MiB               
+extra/seatd                                    0.9.3-1                       0.11 MiB               
+core/sed                                       4.10-1                        0.78 MiB               
+extra/serd                                     0.32.10-1                     0.17 MiB               
+extra/serf                                     1.3.10-2                      0.17 MiB       0.06 MiB
+extra/shaderc                                  2026.2-1                      0.68 MiB               
+core/shadow                                    4.18.0-1                      3.91 MiB               
+extra/shared-mime-info                         2.4-3                         4.58 MiB               
+extra/shiboken6                                6.11.1-1                      3.69 MiB       1.37 MiB
+extra/slang                                    2.3.3-4                       3.36 MiB               
+extra/smbclient                                2:4.24.3-1                   28.99 MiB               
+extra/snappy                                   1.2.2-3                       0.09 MiB               
+extra/sndio                                    1.10.0-1                      0.28 MiB               
+extra/solid                                    6.26.0-1                      2.07 MiB               
+extra/sord                                     0.16.22-1                     0.12 MiB               
+extra/sound-theme-freedesktop                  0.8-6                         0.45 MiB               
+extra/soundtouch                               2.4.1-1                       0.20 MiB               
+extra/source-highlight                         3.1.9-18                      3.24 MiB               
+extra/spandsp                                  0.0.6-7                       1.59 MiB               
+extra/spdlog                                   1.17.0-2                      0.69 MiB               
+extra/speex                                    1.2.1-2                       0.62 MiB               
+extra/speexdsp                                 1.2.1-2                       0.54 MiB               
+extra/spirv-tools                              1:1.4.350.0-1                 7.94 MiB               
+core/sqlite                                    3.53.2-1                     16.78 MiB               
+extra/sratom                                   0.6.22-1                      0.05 MiB               
+extra/srt                                      1.5.5-1                       1.56 MiB               
+extra/sshfs                                    3.7.6-1                       0.09 MiB       0.04 MiB
+extra/startup-notification                     0.12-9                        0.06 MiB               
+extra/stoken                                   0.92-6                        0.17 MiB       0.06 MiB
+extra/subversion                               1.14.5-5                     35.78 MiB       8.11 MiB
+extra/svt-av1                                  4.1.0-1                       5.24 MiB               
+extra/svt-hevc                                 1.5.1-4                       2.24 MiB               
+extra/sysbench                                 1.0.20-2                      0.51 MiB               
+extra/sysfsutils                               2.1.1-2                       0.09 MiB               
+core/systemd                                   260.2-2                      37.39 MiB               
+core/systemd-libs                              260.2-2                       3.48 MiB               
+core/systemd-sysvcompat                        260.2-2                       0.00 MiB               
+extra/taglib                                   2.3-1                         2.34 MiB               
+extra/talloc                                   2.4.4-1                       0.17 MiB               
+core/tar                                       1.35-2                        2.80 MiB               
+extra/tcl                                      8.6.16-1                     13.60 MiB               
+extra/tdb                                      1.4.15-1                      0.23 MiB               
+extra/tevent                                   1:0.17.1-2                    0.21 MiB               
+core/texinfo                                   7.3-1                        12.67 MiB               
+core/thin-provisioning-tools                   1.3.2-1                       3.07 MiB               
+extra/tinysparql                               3.11.1-1                      3.88 MiB               
+extra/tslib                                    1.24-1                        0.47 MiB               
+extra/twolame                                  0.4.0-4                       0.24 MiB               
+core/tzdata                                    2026b-1                       1.64 MiB               
+extra/uriparser                                1.0.2-1                       0.28 MiB       0.07 MiB
+core/util-linux                                2.42.1-1                     19.70 MiB               
+core/util-linux-libs                           2.42.1-1                      1.39 MiB               
+extra/v4l-utils                                1.32.0-2                     11.31 MiB               
+extra/vapoursynth                              76-1                          3.23 MiB               
+extra/verdict                                  1.4.5-2                       0.26 MiB               
+extra/vid.stab                                 1.1.1-2                       0.14 MiB               
+extra/vim-runtime                              9.2.0623-1                   38.43 MiB       7.60 MiB
+extra/vlc-cli                                  3.0.23_2-6                    0.03 MiB               
+extra/vlc-gui-qt                               3.0.23_2-6                    3.19 MiB               
+extra/vlc-plugin-a52dec                        3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-aalib                         3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-alsa                          3.0.23_2-6                    0.05 MiB               
+extra/vlc-plugin-aom                           3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-archive                       3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-aribb24                       3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-aribb25                       3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-ass                           3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-avahi                         3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-bluray                        3.0.23_2-6                    0.07 MiB               
+extra/vlc-plugin-caca                          3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-cddb                          3.0.23_2-6                    0.06 MiB               
+extra/vlc-plugin-chromecast                    3.0.23_2-6                    0.14 MiB               
+extra/vlc-plugin-dav1d                         3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-dbus                          3.0.23_2-6                    0.09 MiB               
+extra/vlc-plugin-dbus-screensaver              3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-dca                           3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-dvb                           3.0.23_2-6                    0.44 MiB               
+extra/vlc-plugin-dvd                           3.0.23_2-6                    0.09 MiB               
+extra/vlc-plugin-faad2                         3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-ffmpeg                        3.0.23_2-6                    0.24 MiB               
+extra/vlc-plugin-firewire                      3.0.23_2-6                    0.04 MiB               
+extra/vlc-plugin-flac                          3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-fluidsynth                    3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-freetype                      3.0.23_2-6                    0.08 MiB               
+extra/vlc-plugin-gme                           3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-gnutls                        3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-gstreamer                     3.0.23_2-6                    0.04 MiB               
+extra/vlc-plugin-inflate                       3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-jack                          3.0.23_2-6                    0.04 MiB               
+extra/vlc-plugin-journal                       3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-jpeg                          3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-kate                          3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-libsecret                     3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-lirc                          3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-live555                       3.0.23_2-6                    0.06 MiB               
+extra/vlc-plugin-lua                           3.0.23_2-6                    1.07 MiB               
+extra/vlc-plugin-mad                           3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-matroska                      3.0.23_2-6                    0.49 MiB               
+extra/vlc-plugin-mdns                          3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-modplug                       3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-mpeg2                         3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-mpg123                        3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-mtp                           3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-musepack                      3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-nfs                           3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-notify                        3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-ogg                           3.0.23_2-6                    0.13 MiB               
+extra/vlc-plugin-opus                          3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-png                           3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-pulse                         3.0.23_2-6                    0.08 MiB               
+extra/vlc-plugin-samplerate                    3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-sdl                           3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-sftp                          3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-shout                         3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-smb                           3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-soxr                          3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-speex                         3.0.23_2-6                    0.04 MiB               
+extra/vlc-plugin-srt                           3.0.23_2-6                    0.04 MiB               
+extra/vlc-plugin-svg                           3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-tag                           3.0.23_2-6                    0.10 MiB               
+extra/vlc-plugin-theora                        3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-twolame                       3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-udev                          3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-upnp                          3.0.23_2-6                    0.06 MiB               
+extra/vlc-plugin-vorbis                        3.0.23_2-6                    0.03 MiB               
+extra/vlc-plugin-vpx                           3.0.23_2-6                    0.02 MiB               
+extra/vlc-plugin-x264                          3.0.23_2-6                    0.09 MiB               
+extra/vlc-plugin-x265                          3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-xml                           3.0.23_2-6                    0.01 MiB               
+extra/vlc-plugin-zvbi                          3.0.23_2-6                    0.12 MiB               
+extra/vlc-plugins-base                         3.0.23_2-6                    7.76 MiB               
+extra/vlc-plugins-extra                        3.0.23_2-6                    0.05 MiB               
+extra/vlc-plugins-video-output                 3.0.23_2-6                    0.65 MiB               
+extra/vlc-plugins-visualization                3.0.23_2-6                    0.12 MiB               
+extra/vmaf                                     3.1.0-1                       6.53 MiB               
+extra/volume_key                               0.3.12-12                     0.68 MiB               
+extra/vte-common                               0.84.0-1                      0.19 MiB               
+extra/vte3                                     0.84.0-1                      1.70 MiB               
+extra/vulkan-icd-loader                        1.4.350.0-1                   0.61 MiB               
+extra/vulkan-tools                             1.4.350.0-1                   1.89 MiB               
+extra/wavpack                                  5.9.0-1                       0.90 MiB               
+extra/wayland                                  1.25.0-1                      0.84 MiB               
+extra/webkit2gtk-4.1                           2.52.4-1                    133.08 MiB               
+extra/webkitgtk-6.0                            2.52.4-1                    130.33 MiB      35.81 MiB
+extra/webrtc-audio-processing-1                1.3-5                         1.46 MiB               
+core/which                                     2.25-1                        0.03 MiB               
+extra/wildmidi                                 0.4.6-1                       0.17 MiB               
+extra/wlroots0.19                              0.19.3-1                      1.58 MiB       0.48 MiB
+extra/woff2                                    1.0.2-6                       0.17 MiB               
+extra/wvstreams                                4.6.1-21                      7.98 MiB       1.31 MiB
+extra/x264                                     3:0.165.r3222.b35605a-2       3.79 MiB               
+extra/x265                                     4.1-1                        20.84 MiB               
+extra/xapp-symbolic-icons                      1.1.0-1                       0.95 MiB       0.16 MiB
+extra/xcb-imdkit                               1.0.9-1                       0.60 MiB               
+extra/xcb-proto                                1.17.0-4                      1.03 MiB               
+extra/xcb-util                                 0.4.1-2                       0.03 MiB               
+extra/xcb-util-cursor                          0.1.6-1                       0.03 MiB               
+extra/xcb-util-errors                          1.0.1-2                       0.04 MiB               
+extra/xcb-util-image                           0.4.1-3                       0.05 MiB               
+extra/xcb-util-keysyms                         0.4.1-5                       0.02 MiB               
+extra/xcb-util-renderutil                      0.3.10-2                      0.03 MiB               
+extra/xcb-util-wm                              0.4.2-2                       0.21 MiB               
+extra/xcb-util-xrm                             1.3-4                         0.04 MiB       0.01 MiB
+extra/xdg-dbus-proxy                           0.1.7-1                       0.06 MiB               
+extra/xdg-desktop-portal                       1.22.0-1                      1.83 MiB               
+extra/xdotool                                  4.20260303.1-1                0.18 MiB       0.07 MiB
+extra/xkeyboard-config                         2.47-1                       10.23 MiB               
+extra/xmlsec                                   1.3.11-1                      3.57 MiB       0.67 MiB
+extra/xorg-fonts-encodings                     1.1.0-2                       0.61 MiB               
+extra/xorg-server-common                       21.1.23-1                     0.12 MiB               
+extra/xorgproto                                2025.1-1                      1.47 MiB               
+extra/xvidcore                                 1.3.7-3                       0.67 MiB               
+extra/xxhash                                   0.8.3-1                       0.39 MiB               
+core/xz                                        5.8.3-1                       2.97 MiB               
+extra/yaml-cpp                                 0.9.0-1                       0.46 MiB       0.15 MiB
+extra/yt-dlp-ejs                               0.8.0-1                       0.16 MiB       0.05 MiB
+extra/yyjson                                   0.12.0-1                      0.65 MiB               
+extra/zbar                                     0.23.93-5                     0.76 MiB               
+extra/zeromq                                   4.3.5-3                       3.03 MiB               
+extra/zimg                                     3.0.6-1                       0.67 MiB               
+extra/zint                                     2.16.0-2                      0.94 MiB               
+extra/zix                                      0.8.0-1                       0.13 MiB               
+core/zlib                                      1:1.3.2-3                     0.22 MiB       0.08 MiB
+extra/zlib-ng                                  2.3.3-1                       0.28 MiB               
+core/zstd                                      1.5.7-3                       1.54 MiB               
+extra/zvbi                                     0.2.44-1                      1.07 MiB               
+extra/zxing-cpp                                3.0.2-1                       1.68 MiB               
+extra/7zip                                     26.01-1                       6.27 MiB               
+extra/accountsservice                          26.13.3-1                     0.94 MiB               
+extra/adobe-source-han-sans-cn-fonts           2.005-2                      55.96 MiB      42.00 MiB
+extra/adobe-source-han-sans-jp-fonts           2.005-2                      30.53 MiB      22.97 MiB
+extra/adobe-source-han-sans-kr-fonts           2.005-2                      31.04 MiB      21.82 MiB
+extra/adobe-source-sans-fonts                  3.052-2                       8.17 MiB       2.72 MiB
+chaotic-aur/aic94xx-firmware                   30-10.1                       0.03 MiB       0.02 MiB
+extra/alacritty                                0.17.0-1                      8.30 MiB               
+nemesis_repo/alacritty-tweak-tool              26.06-03                      0.31 MiB       0.10 MiB
+extra/alsa-firmware                            1.2.4-4                      14.12 MiB               
+extra/alsa-lib                                 1.2.16-1                      1.75 MiB               
+extra/alsa-plugins                             1:1.2.12-5                    0.38 MiB               
+extra/alsa-utils                               1.2.16-1                      2.47 MiB               
+core/amd-ucode                                 20260519-1                    0.59 MiB       0.24 MiB
+extra/ananicy-cpp                              1.2.0-1                       0.51 MiB               
+extra/appstream                                1.1.2-1                      17.13 MiB               
+extra/arandr                                   0.1.11-6                      0.44 MiB       0.10 MiB
+nemesis_repo/arc-gtk-theme                     20221218-2                    7.39 MiB       0.67 MiB
+extra/arch-install-scripts                     31-1                          0.04 MiB               
+extra/arch-rebuild-order                       0.4.5-1                       0.72 MiB       0.30 MiB
+extra/arch-repro-status                        1.4.3-3                       4.44 MiB       1.80 MiB
+extra/arch-signoff                             0.5.2-7                       0.06 MiB       0.02 MiB
+nemesis_repo/archlinux-logout-gtk4             26.06-03                     24.90 MiB      21.78 MiB
+nemesis_repo/archlinux-tweak-tool-gtk4         26.06-51                     60.62 MiB               
+extra/avahi                                    1:0.9rc4-1                    2.00 MiB               
+extra/awesome-terminal-fonts                   1.1.0-5                       0.37 MiB               
+core/b43-fwcutter                              019-6                         0.04 MiB       0.02 MiB
+core/base                                      3-3                           0.00 MiB               
+core/base-devel                                1-2                           0.00 MiB               
+extra/bash-completion                          2.17.0-3                      1.01 MiB               
+extra/bat                                      0.26.1-2                      5.65 MiB               
+chaotic-aur/beautyline                         2:3.0.3-1                    16.54 MiB       5.42 MiB
+chaotic-aur/bibata-cursor-theme                2.0.7-1.1                   321.65 MiB      34.83 MiB
+extra/bind                                     9.20.23-1                     7.13 MiB               
+nemesis_repo/blueberry                         1.4.8-2                       1.74 MiB       1.19 MiB
+extra/bluez                                    5.86-6                        1.62 MiB               
+extra/bluez-libs                               5.86-6                        0.31 MiB               
+extra/bluez-utils                              5.86-6                        3.57 MiB               
+chaotic-aur/brave-bin                          1:1.91.172-1                432.01 MiB     176.70 MiB
+extra/broadcom-wl-dkms                         6.30.223.271-47               7.59 MiB       1.64 MiB
+extra/btop                                     1.4.7-1                       1.70 MiB               
+core/btrfs-progs                               7.0-1                         6.73 MiB               
+chaotic-aur/cachyos-ananicy-rules-git          20260612.r2523.g9476cfd8-1    1.66 MiB       0.36 MiB
+cachyos/cachyos-keyring                        20240331-1                    0.00 MiB               
+cachyos/cachyos-mirrorlist                     27-1                          0.00 MiB               
+kiro_repo/calamares                            3.4.2.r4.g841b478-14         10.30 MiB       4.98 MiB
+chaotic-aur/candy-icons-git                    r1369.83512fb-1               5.75 MiB       2.08 MiB
+extra/capitaine-cursors                        4-3                          40.73 MiB               
+nemesis_repo/chaotic-keyring                   20251028-1                    0.02 MiB               
+nemesis_repo/chaotic-mirrorlist                20260428-1                    0.01 MiB               
+nemesis_repo/chwd                              1.21.0-4                      3.55 MiB               
+chaotic-aur/claude-code                        2.1.175-1                   238.01 MiB      67.02 MiB
+extra/clonezilla                               5.15.33-1                     3.36 MiB       0.90 MiB
+nemesis_repo/cpuid                             20260220-1                    0.41 MiB       0.14 MiB
+extra/cronie                                   1.7.2-2                       0.22 MiB       0.09 MiB
+core/cryptsetup                                2.8.6-1                       3.29 MiB               
+extra/cups                                     2:2.4.19-1                   12.78 MiB       5.18 MiB
+extra/cups-filters                             2.0.1-2                       1.18 MiB       0.19 MiB
+extra/cups-pdf                                 3.0.3-1                       0.19 MiB       0.02 MiB

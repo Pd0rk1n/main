@@ -1,0 +1,282 @@
+
+############################################################################
+Phase 1 — Preflight checks (disk space + connectivity)
+############################################################################
+
+[ OK ]  Disk space OK — 167G free (need 15G)
+[ OK ]  Reachable: https://archlinux.org
+[ OK ]  Reachable: https://github.com
+
+############################################################################
+Checking host Arch mirrors (the user's PC settings)
+############################################################################
+
+[ OK ]  Host Arch mirrors reachable — using the user's PC mirrorlist
+
+############################################################################
+Refreshing pacman databases
+############################################################################
+
+
+:: Synchronizing package databases...
+ cachyos-v3
+ cachyos-core-v3
+ cachyos-extra-v3
+ cachyos
+ core
+ extra
+ multilib
+ nemesis_repo
+ chaotic-aur
+
+############################################################################
+Chaotic keyring and mirrorlist are both installed
+############################################################################
+
+
+############################################################################
+Checking host Chaotic-AUR mirrors
+############################################################################
+
+[ OK ]  Host Chaotic-AUR mirrors reachable — using the user's PC mirrorlist
+
+############################################################################
+CachyOS keyring and mirrorlist are both installed
+############################################################################
+
+
+############################################################################
+Mirror health check — all repos must be green before building
+############################################################################
+
+[ OK ]  Arch  (build/host)   : https://archlinux.cachyos.org/repo/$repo/os/$arch
+[ OK ]  Chaotic (build/host) : https://geo-mirror.chaotic.cx/$repo/$arch
+[ OK ]  Arch  (shipped curated): https://geo.mirror.pkgbuild.com/$repo/os/$arch
+[ OK ]  Chaotic (shipped)    : https://geo-mirror.chaotic.cx/$repo/$arch
+[ OK ]  nemesis_repo         : https://erikdubois.github.io
+[ OK ]  kiro_repo            : https://kirodubes.github.io
+
+############################################################################
+All repositories green
+############################################################################
+
+
+############################################################################
+Phase 2 — Bumping version to v26.06.10
+############################################################################
+
+Updating /home/pd0rk1n/kiro-iso/build-scripts/../archiso/airootfs/etc/dev-rel
+Updating /home/pd0rk1n/kiro-iso/build-scripts/build-the-iso.sh
+Updating iso_label in /home/pd0rk1n/kiro-iso/build-scripts/../archiso/profiledef.sh
+Updating iso_version in /home/pd0rk1n/kiro-iso/build-scripts/../archiso/profiledef.sh
+
+############################################################################
+Version bump summary:
+  dev-rel     : ISO_RELEASE=v26.06.10
+  build-iso   : kiroVersion='v26.06.10'
+  profiledef  : iso_label="kiro-v26.06.10" / iso_version="v26.06.10"
+############################################################################
+
+
+############################################################################
+Phase 3 — Verifying version files are in sync
+############################################################################
+
+
+############################################################################
+Version files in sync: v26.06.10
+############################################################################
+
+
+############################################################################
+Phase 4 — Checking required packages
+############################################################################
+
+
+############################################################################
+Selecting kernel(s)
+############################################################################
+
+
+############################################################################
+Kernel(s) from config: linux-cachyos linux-cachyos-lts (live boot: linux-cachyos)
+############################################################################
+
+
+############################################################################
+Build overview
+############################################################################
+
+  Desktop      : xfce4/ohmychadwm
+  Editions     : qtile xfce
+  Version      : v26.06.10
+  ISO label    : kiro-v26.06.10-x86_64.iso
+  NVIDIA driver: open
+  Kernel(s)    : linux-cachyos linux-cachyos-lts (live boot: linux-cachyos)
+  Build folder : /home/pd0rk1n/kiro-build
+  Out folder   : /home/pd0rk1n/kiro-Out
+
+############################################################################
+Phase 5 — Preparing build tree
+############################################################################
+
+[ OK ]  Build folder present — proceeding to delete
+
+############################################################################
+Deleting build folder: /home/pd0rk1n/kiro-build
+############################################################################
+
+
+############################################################################
+ParallelDownloads already 15 (>= 10) — leaving it unchanged
+############################################################################
+
+
+############################################################################
+Phase 6 — Refreshing skel and package list
+############################################################################
+
+Clearing skel...
+Fetching latest .bashrc...
+Refreshing packages.x86_64...
+
+############################################################################
+Package selection: applied package-selection.conf (10 TIER 3 package(s) excluded)
+############################################################################
+
+
+############################################################################
+Added extra app: obsidian
+############################################################################
+
+
+############################################################################
+Added extra app: thunderbird
+############################################################################
+
+
+############################################################################
+Package additions: applied package-additions.conf (2 extra app(s) added)
+############################################################################
+
+
+############################################################################
+Phase 7 — Prepopulating pacman keyring
+############################################################################
+
+gpg: /home/pd0rk1n/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/trustdb.gpg: trustdb created
+gpg: no ultimately trusted keys found
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/home/pd0rk1n/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+gpg: migration succeeded
+==> Generating pacman master key. This may take some time.
+gpg: Generating pacman keyring master key...
+gpg: directory '/home/pd0rk1n/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/home/pd0rk1n/kiro-build/archiso/airootfs/etc/pacman.d/gnupg/openpgp-revocs.d/C0BB76DF4D3A4C6D242E4F07238087C199A68AD6.rev'
+gpg: Done
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+==> Appending keys from archlinux.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 5 keys.
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+gpg: setting ownertrust to 4
+==> Disabling revoked keys in keyring...
+  -> Disabled 38 keys.
+==> Updating trust database...
+gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+gpg: (use option "--allow-weak-key-signatures" to override)
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   5  signed:  86  trust: 0-, 0q, 0n, 5m, 0f, 0u
+gpg: depth: 2  valid:  74  signed:  18  trust: 74-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2026-10-21
+==> Appending keys from chaotic.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 2 keys.
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+==> Disabling revoked keys in keyring...
+  -> Disabled 3 keys.
+==> Updating trust database...
+gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+gpg: (use option "--allow-weak-key-signatures" to override)
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   7  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   7  signed:  86  trust: 0-, 0q, 0n, 7m, 0f, 0u
+gpg: depth: 2  valid:  74  signed:  18  trust: 74-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2026-10-21
+==> Appending keys from cachyos.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signed 1 key.
+==> Importing owner trust values...
+gpg: inserting ownertrust of 4
+==> Updating trust database...
+gpg: Note: third-party key signatures using the SHA1 algorithm are rejected
+gpg: (use option "--allow-weak-key-signatures" to override)
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   8  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   8  signed:  86  trust: 0-, 0q, 0n, 8m, 0f, 0u
+gpg: depth: 2  valid:  74  signed:  18  trust: 74-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2026-10-21
+
+############################################################################
+Keyring prepopulation complete
+############################################################################
+
+
+############################################################################
+Phase 8 — Injecting NVIDIA driver: open
+############################################################################
+
+
+############################################################################
+Desktop / WM editions — qtile xfce  (login session: xfce)
+############################################################################
+
+
+############################################################################
+Enabled edition: qtile
+############################################################################
+
+
+############################################################################
+Enabled edition: xfce
+############################################################################
+
+
+############################################################################
+Phase 9 — Applying kernel(s): linux-cachyos linux-cachyos-lts (live boot: linux-cachyos)
+############################################################################
+
+
+############################################################################
+linux-zen not selected — stripping zen fallback entries from boot configs
+############################################################################
+
+
+############################################################################
+Phase 10 — Stamping build date
+############################################################################
+
+ISO build on: Wed 10 Jun 2026 10:06:17 PM EDT
+
+############################################################################
+Cleaning pacman package cache
+############################################################################
+
+
+Cache directory: /var/cache/pacman/pkg/
+:: Do you want to remove ALL files from cache? [y/N] y
+removing all files from cache...
+
+Database directory: /var/lib/pacman/
+:: Do you want to remove unused repositories? [Y/n] y
+removing unused sync repositories...
+

@@ -1,3 +1,6 @@
-2026/05/14-21:17:13.382 4a41 Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2026/05/14-21:17:13.383 4a41 Recovering log #197
-2026/05/14-21:17:13.393 4a41 Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000197.log 
+2026/07/02-22:00:52.029 164f Reusing MANIFEST /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/02-22:00:52.030 164f Recovering log #252
+2026/07/02-22:00:52.050 164f Reusing old log /home/pd0rk1n/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000252.log 
+2026/07/02-22:02:30.473 164f Level-0 table #257: started
+2026/07/02-22:02:30.482 164f Level-0 table #257: 1914247 bytes OK
+2026/07/02-22:02:30.484 164f Delete type=0 #252

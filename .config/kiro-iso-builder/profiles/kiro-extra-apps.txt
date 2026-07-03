@@ -1,0 +1,9 @@
+# EXTRA APPS to ADD to the ISO (kiro-iso-builder "Add apps" page).
+#
+# build-the-iso.sh's apply_package_additions() uncomments the matching EXTRA-APP
+# block in packages.x86_64. One app KEY per line (e.g. wps, ollama); lines starting
+# with # are ignored. An empty list adds nothing — the standard ISO.
+
+kate
+obsidian
+thunderbird

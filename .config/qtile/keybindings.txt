@@ -1,0 +1,147 @@
+###############################################################################
+#  KEYBINDINGS — qtile
+#  Source: etc/skel/.config/qtile/config.py + etc/skel/.config/qtile/sxhkd/sxhkdrc
+#  Generated: 2026.06.03 by /kiro-create-keybindings — DO NOT EDIT BY HAND
+###############################################################################
+
+── 1. Applications & Launchers ───────────────────────────────────────────────
+  super + Return            alacritty (terminal)
+  super + t                 alacritty (terminal)
+  super + KP_Enter          alacritty (terminal)
+  ctrl + alt + Return       alacritty (terminal)
+  ctrl + alt + t            alacritty (terminal)
+  F12                       alacritty (terminal)
+  super + shift + Return    thunar (file manager)
+  super + F8                thunar (file manager)
+  super + r                 rofi drun (themed launcher)
+  super + d                 rofi drun (themed launcher)
+  super + F12               rofi drun
+  super + F11               rofi drun (fullscreen)
+  super + shift + d         dmenu_run
+  super + e                 code (VS Code)
+  super + F1                vivaldi (browser)
+  super + F2                code (VS Code)
+  super + F3                inkscape
+  super + F4                gimp
+  super + F5                meld
+  super + F6                vlc
+  super + F7                virtualbox
+  super + F9                lollypop (audio player)
+  super + F10               spotify
+  super + v                 pavucontrol (audio mixer)
+  ctrl + alt + e            archlinux-tweak-tool
+  ctrl + alt + a            alacritty-tweak-tool
+  ctrl + alt + q            alacritty-tweak-tool
+  ctrl + alt + d            obs
+  ctrl + alt + o            opera
+  ctrl + alt + b            brave (browser)
+  ctrl + alt + c            chromium
+  ctrl + alt + g            chromium
+  ctrl + alt + f            firefox
+  ctrl + alt + v            vivaldi (browser)
+  ctrl + alt + p            pamac-manager
+  ctrl + alt + s            spotify
+  ctrl + alt + u            pavucontrol (audio mixer)
+  ctrl + alt + ,            mintstick (USB image writer)
+  ctrl + alt + m            mintstick (USB image writer)
+  alt + r                   rofi-theme-selector
+  alt + F2                  xfce4-appfinder (collapsed)
+  alt + F3                  xfce4-appfinder
+  super + ctrl + s          kiro-keybindings (cheatsheet)
+
+── 2. Window Management ───────────────────────────────────────────────────────
+  super + f                 toggle fullscreen
+  super + q                 close focused window
+  super + shift + q         close focused window
+  super + shift + f         toggle maximize (bar stays)
+  super + Up                focus window up
+  super + Down              focus window down
+  super + Left              focus window left
+  super + Right             focus window right
+  super + k                 focus window up
+  super + j                 focus window down
+  super + h                 focus window left
+  super + l                 focus window right
+  super + shift + k         move window up
+  super + shift + j         move window down
+  super + shift + h         move window left
+  super + shift + l         move window right
+  super + shift + Up        move window up
+  super + shift + Down      move window down
+  super + shift + space     toggle floating
+
+── 3. Workspaces / Tags / Groups ──────────────────────────────────────────────
+  super + 1..0              switch to workspace 1..0
+  super + shift + 1..0      send window to workspace 1..0 & follow
+  super + Tab               next group
+  super + shift + Tab       previous group
+  alt + Tab                 next group
+  alt + shift + Tab         previous group
+
+── 4. Layout & Tiling ─────────────────────────────────────────────────────────
+  super + space             next layout
+  super + n                 normalize (reset window sizes)
+  super + ctrl + l          grow window right
+  super + ctrl + Right      grow window right
+  super + ctrl + h          grow window left
+  super + ctrl + Left       grow window left
+  super + ctrl + k          grow window up
+  super + ctrl + Up         grow window up
+  super + ctrl + j          grow window down
+  super + ctrl + Down       grow window down
+  super + alt + k           flip layout up
+  super + alt + j           flip layout down
+  super + alt + l           flip layout right
+  super + alt + h           flip layout left
+
+── 5. Multi-monitor ───────────────────────────────────────────────────────────
+  super + shift + Right     move window to next screen
+  super + shift + Left      move window to previous screen
+
+── 6. Multimedia & Hardware ───────────────────────────────────────────────────
+  XF86AudioRaiseVolume      volume +10% (amixer)
+  XF86AudioLowerVolume      volume -10% (amixer)
+  XF86AudioMute             toggle mute
+  XF86AudioPlay             play / pause (playerctl)
+  XF86AudioNext             next track
+  XF86AudioPrev             previous track
+  XF86AudioStop             stop playback
+  XF86MonBrightnessUp       brightness +10 (xbacklight)
+  XF86MonBrightnessDown     brightness -10 (xbacklight)
+  alt + n                   wallpaper: next (variety)
+  alt + p                   wallpaper: previous
+  alt + f                   wallpaper: favorite
+  alt + t                   wallpaper: trash
+  alt + Left                wallpaper: previous
+  alt + Right               wallpaper: next
+  alt + Up                  wallpaper: pause rotation
+  alt + Down                wallpaper: resume rotation
+  super + ctrl + space      wallpaper: selector
+  alt + shift + n           wallpaper: next + pywal recolor
+  alt + shift + p           wallpaper: previous + pywal recolor
+  alt + shift + f           wallpaper: favorite + pywal recolor
+  alt + shift + t           wallpaper: trash + pywal recolor
+  alt + shift + u           pywal: recolor from current wallpaper
+
+── 7. Screenshots ─────────────────────────────────────────────────────────────
+  Print                     scrot — full screen, saved to Pictures
+  ctrl + Print              xfce4-screenshooter
+  ctrl + shift + Print      gnome-screenshot (interactive)
+  super + ctrl + Print      flameshot gui (region)
+
+── 8. System & Session ────────────────────────────────────────────────────────
+  super + shift + r         restart qtile
+  super + shift + t         theme switcher — rofi colour palette picker
+  alt + shift + r           reload qtile config (lightweight)
+  super + shift + s         reload sxhkd
+  super + x                 archlinux-logout
+  ctrl + alt + k            archlinux-logout
+  ctrl + alt + l            archlinux-logout
+  super + shift + x         edu-powermenu
+  super + Escape            xkill (click a window to force-kill)
+  ctrl + shift + Escape     xfce4-taskmanager
+  ctrl + alt + End          btop (in alacritty)
+  super + g                 toggle compositor (fastcompmgr)
+  super + p                 toggle compositor (picom)
+  ctrl + alt + shift + F1   update-system
+  super + ctrl + shift + F1 update-system

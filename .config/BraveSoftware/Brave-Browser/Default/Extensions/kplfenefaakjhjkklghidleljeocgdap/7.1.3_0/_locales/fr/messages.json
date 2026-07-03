@@ -1,0 +1,11 @@
+{
+   "description": {
+      "message": "Qwant devient votre moteur de recherche par défaut ! Démarrez votre nouvelle expérience avec l’intelligence artificielle de Qwant."
+   },
+   "name": {
+      "message": "Qwant - Moteur de recherche"
+   },
+   "short_name": {
+      "message": "Qwant"
+   }
+}
