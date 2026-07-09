@@ -1,0 +1,3 @@
+function work --wraps='firejail --private=~/work_sandbox --net=filter --noprofile --caps.drop=all firefox --no-remote outlook.com' --wraps='firejail --noprofile --private=~/work_sandbox --caps.drop=all --seccomp firefox --no-remote outlook.com' --wraps='firejail --noprofile --private=~/work_sandbox --caps.drop=all --seccomp=!chroot firefox --no-remote outlook.com' --description 'alias work=firejail --noprofile --private=~/work_sandbox --caps.drop=all --seccomp=!chroot firefox --no-remote outlook.com'
+    firejail --noprofile --private=~/work_sandbox --caps.drop=all --seccomp=!chroot firefox --no-remote outlook.com $argv
+end
