@@ -6,11 +6,52 @@
 	<submenu></submenu>
 	<unique-id>open-terminal</unique-id>
 	<command>xfce4-terminal</command>
-	<description>Example for a custom action</description>
+	<description>Open a terminal in this folder</description>
 	<range></range>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
+</action>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Claude Here</name>
+	<submenu></submenu>
+	<unique-id>open-claude</unique-id>
+	<command>xfce4-terminal --working-directory %f -e claude</command>
+	<description>Open Claude Code in a terminal in this folder</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>com.visualstudio.code</icon>
+	<name>Open in VSCode</name>
+	<submenu></submenu>
+	<unique-id>1748160100000000-1</unique-id>
+	<command>code %F</command>
+	<description>Open the selection in Visual Studio Code</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>com.visualstudio.code</icon>
+	<name>Open as root in VSCode</name>
+	<submenu></submenu>
+	<unique-id>1748160100000000-2</unique-id>
+	<command>sh -c 'pkexec env DISPLAY=&quot;$DISPLAY&quot; XAUTHORITY=&quot;$XAUTHORITY&quot; code --no-sandbox --user-data-dir=/root/.vscode-root &quot;$@&quot;' _ %F</command>
+	<description>Open the selection in Visual Studio Code as root</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
 </action>
 <action>
 	<icon>meld</icon>
@@ -37,23 +78,12 @@
 	<directories/>
 </action>
 <action>
-	<icon>gitahead</icon>
-	<name>Open with gitahead</name>
+	<icon>gittyup</icon>
+	<name>Open with gittyup</name>
 	<submenu></submenu>
 	<unique-id>1587287434852027-1</unique-id>
-	<command>gitahead %F</command>
-	<description>Open with gitahead</description>
-	<range></range>
-	<patterns>*</patterns>
-	<directories/>
-</action>
-<action>
-	<icon>gitfiend</icon>
-	<name>Open with gitfiend</name>
-	<submenu></submenu>
-	<unique-id>1587287435012027-1</unique-id>
-	<command>gitfiend %F</command>
-	<description>Open with gitfiend</description>
+	<command>gittyup %F</command>
+	<description>Open with gittyup</description>
 	<range></range>
 	<patterns>*</patterns>
 	<directories/>
@@ -66,7 +96,7 @@
 	<command>zenity --info --title=&quot;Check sha1 for %n&quot; --text=&quot;$(sha1sum %f)&quot;</command>
 	<description>Check sha1sum</description>
 	<range></range>
-	<patterns>*.iso;*.ISO</patterns>
+	<patterns>*.iso;*.ISO;*.tar.gz;*.TAR.GZ;*.zip;*.ZIP</patterns>
 	<other-files/>
 </action>
 <action>
@@ -77,7 +107,7 @@
 	<command>zenity --info --title=&quot;Check sha256 for %n&quot; --text=&quot;$(sha256sum %f)&quot;</command>
 	<description>Check sha256sum</description>
 	<range></range>
-	<patterns>*.iso;*.ISO</patterns>
+	<patterns>*.iso;*.ISO;*.tar.gz;*.TAR.GZ;*.zip;*.ZIP</patterns>
 	<other-files/>
 </action>
 <action>
@@ -90,6 +120,17 @@
 	<range></range>
 	<patterns>*.iso;*.ISO;*.tar.gz;*.TAR.GZ;*.zip;*.ZIP</patterns>
 	<other-files/>
+</action>
+<action>
+	<icon>baobab</icon>
+	<name>Analyze disk usage</name>
+	<submenu></submenu>
+	<unique-id>1748160000000000-1</unique-id>
+	<command>baobab %f</command>
+	<description>Analyze disk usage with Disk Usage Analyzer</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
 </action>
 <action>
 	<icon>catfish</icon>
@@ -107,44 +148,56 @@
 	<name>Extract here</name>
 	<submenu></submenu>
 	<unique-id>1489091300385082-4</unique-id>
-	<command>tar xjf %n</command>
+	<command>sh -c 'case &quot;$1&quot; in *.zip|*.ZIP) unzip &quot;$1&quot; ;; *) tar xf &quot;$1&quot; ;; esac' _ %f</command>
 	<description></description>
 	<range></range>
-	<patterns>*.tar.bz2;*.tbz2</patterns>
+	<patterns>*.tar;*.tar.gz;*.tgz;*.tar.bz2;*.tbz2;*.tar.xz;*.txz;*.tar.zst;*.zip;*.ZIP</patterns>
 	<other-files/>
 </action>
 <action>
-	<icon>cs-startup-programs</icon>
-	<name>Run</name>
+	<icon>archive-insert</icon>
+	<name>Compress here (.tar.gz)</name>
 	<submenu></submenu>
-	<unique-id>1526630606202525-4</unique-id>
-	<command>urxvt -e %f</command>
-	<description></description>
+	<unique-id>1748160100000000-4</unique-id>
+	<command>sh -c 'cd &quot;$(dirname &quot;$1&quot;)&quot; || exit; b=&quot;$(basename &quot;$1&quot;)&quot;; tar czf &quot;$b.tar.gz&quot; &quot;$b&quot;' _ %f</command>
+	<description>Compress the selection into a .tar.gz archive</description>
 	<range></range>
 	<patterns>*</patterns>
+	<directories/>
 	<other-files/>
 	<text-files/>
 </action>
 <action>
-	<icon>system-reboot</icon>
+	<icon>applications-graphics</icon>
 	<name>Convert png to jpg</name>
 	<submenu></submenu>
 	<unique-id>1510662686010963-1</unique-id>
-	<command>convert %f -quality 90 `basename %f .png`.jpg</command>
+	<command>magick %f -background white -flatten -quality 90 &quot;$(basename %f | sed 's/\.[^.]*$/.jpg/')&quot;</command>
 	<description>Convert png to jpg</description>
 	<range></range>
 	<patterns>*.png</patterns>
 	<image-files/>
 </action>
 <action>
-	<icon>system-reboot</icon>
+	<icon>applications-graphics</icon>
 	<name>Convert webp to jpg</name>
 	<submenu></submenu>
 	<unique-id>1510662686010963-2</unique-id>
-	<command>convert %f -quality 90 `basename %f .webp`.jpg</command>
+	<command>magick %f -background white -flatten -quality 90 &quot;$(basename %f | sed 's/\.[^.]*$/.jpg/')&quot;</command>
 	<description>Convert webp to jpg</description>
 	<range></range>
 	<patterns>*.webp</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>applications-graphics</icon>
+	<name>Convert jpg/png to webp</name>
+	<submenu></submenu>
+	<unique-id>1510662686010963-3</unique-id>
+	<command>magick %f -quality 90 &quot;$(basename %f | sed 's/\.[^.]*$/.webp/')&quot;</command>
+	<description>Convert jpg/png to webp</description>
+	<range></range>
+	<patterns>*.jpg;*.jpeg;*.JPG;*.JPEG;*.png;*.PNG</patterns>
 	<image-files/>
 </action>
 <action>
@@ -158,22 +211,6 @@
 	<patterns>*</patterns>
 	<other-files/>
 	<text-files/>
-</action>
-<action>
-	<icon>conky-manager</icon>
-	<name>Conkyzen</name>
-	<submenu></submenu>
-	<unique-id>1510943357717982-3</unique-id>
-	<command>am-conkyzen</command>
-	<description>conkyzen</description>
-	<range></range>
-	<patterns>*</patterns>
-	<directories/>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
 </action>
 <action>
 	<icon>com.deepin.ScreenShot</icon>
@@ -198,11 +235,27 @@
 	<image-files/>
 </action>
 <action>
+	<icon>edit-copy</icon>
+	<name>Copy full path</name>
+	<submenu></submenu>
+	<unique-id>1748160100000000-3</unique-id>
+	<command>sh -c 'out=$(for f in &quot;$@&quot;; do echo &quot;$f&quot;; done); echo -n &quot;$out&quot; | xclip -selection clipboard' _ %F</command>
+	<description>Copy the full path of the selection to the clipboard</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
 	<icon>insert-link-symbolic</icon>
 	<name>Create symlink</name>
 	<submenu></submenu>
 	<unique-id>1526631663081446-14</unique-id>
-	<command>ln -s  %f &quot;%n&quot;</command>
+	<command>sh -c 'ln -s &quot;$1&quot; &quot;$1-link&quot;' _ %f</command>
 	<description>Softlink between two files or directories</description>
 	<range></range>
 	<patterns>*</patterns>
